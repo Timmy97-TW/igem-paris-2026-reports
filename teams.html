@@ -53,5 +53,7 @@ description: Every accepted iGEM 2026 team, searchable by name, project or villa
 </main>
 
 <script>
-  filterList({input:'q', count:'count', rows:'#teams .team', empty:'empty', seg:'seg', noun:'team'});
+  addEventListener('DOMContentLoaded', function () {
+    filterList({input:'q', count:'count', rows:'#teams .team', empty:'empty', seg:'seg', noun:'team'});
+  });
 </script>

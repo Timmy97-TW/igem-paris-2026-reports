@@ -58,5 +58,7 @@ description: The assigned priority targets for Paris, split between Gabriel, Cha
 </main>
 
 <script>
-  filterList({input:'q', count:'count', rows:'#targets .row', empty:'empty', seg:'seg', noun:'target'});
+  addEventListener('DOMContentLoaded', function () {
+    filterList({input:'q', count:'count', rows:'#targets .row', empty:'empty', seg:'seg', noun:'target'});
+  });
 </script>
