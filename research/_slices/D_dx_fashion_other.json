@@ -1,0 +1,732 @@
+[
+{
+"id": 6557,
+"name": "Aptalxero",
+"village": "Diagnostics",
+"country": "IND",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6372,
+"name": "ASU",
+"village": "Diagnostics",
+"country": "USA",
+"section": "undergrad",
+"title": "BaylyEYE: A Portable Whole-Cell Biosensor for Tuberculosis and Drug Resistance",
+"abstract": "Tuberculosis (TB) is treatable, yet barriers to diagnosis and detection of drug resistance continue to delay effective care (WHO). In response, our team developed BaylyEYE, a whole-cell biosensor platform designed to detect TB DNA and identify a mutation linked to rifampicin resistance. BaylyEYE uses the natural ability of Acinetobacter baylyi to take up DNA: matching TB rpoB DNA repairs an interrupted sensing region, restoring antibiotic resistance as an initial detection readout. We plan to add a CRISPR interference module targeting D435V to distinguish this mutation from the wild-type sequence. We also designed bioluminescent reporters to explore distinguishable optical outputs for future multiplexed detection. A portable kit combines incubation controls, optical sensing, and software to measure reporter signals. By connecting biological sensing with portable instrumentation, BaylyEYE aims to provide an accessible foundation for TB DNA detection that future teams can adapt to additional resistance mutations and other pathogens.",
+"wiki": "https://2026.igem.wiki/asu"
+},
+{
+"id": 6089,
+"name": "BAID-China",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "high-school",
+"title": "Neurofilux: Early screening of neurodegenerative diseases based on a sandwich antibody assay for NfL protein",
+"abstract": "Neurodegenerative diseases cause irreversible neuronal damage several years before the symptoms appear. Neurofilament light chain (NfL) is a promising blood biomarker, but existing detection methods are either costly or have low sensitivity, making large-scale screening difficult. Therefore, we developed Neurofilux, a low-cost and highly sensitive NfL blood testing system. We identified NfL antigen fragments, designed and screened antibodies using RF antibody, and identified two pairs of highly sensitive antibodies using the sandwich ELISA method. Further, we optimized the design of nanobodies to improve stability and reduce costs. Our future work will iteratively optimize antibody sensitivity through in vitro experiments and adopt digital ELISA technology to achieve a detection sensitivity of up to fg/mL. This detection platform provides an economical and non-invasive solution for the early screening of neurodegenerative diseases.",
+"wiki": "https://2026.igem.wiki/baid-china"
+},
+{
+"id": 6360,
+"name": "BIT",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "undergrad",
+"title": "SENSE-CE: Synthetic Biology-Enabled Non-invasive Screening for Endometriosis",
+"abstract": "SENSE-CE explores menstrual effluent to study endometriosis-associated inflammation, aiming to develop an accessible testing approach. We are developing a paper-based aptamer sensor integrated into menstrual products for earlier clinical assessment. The sensing panel targets IL-6, IL-10, and TNF-α. Our design combines TAMRA-labelled aptamers with TCPP-loaded UiO-66, where target binding induces conformational changes to restore quenched fluorescence. Computational tools (NucleoLoop, molecular docking, GROMACS) guide aptamer ranking and structural analysis. Experimental work includes material quenching studies, paper-chip testing, and a custom reader with FluoroCheck software for image analysis. Human Practices address public needs. Next steps involve establishing repeatable measurements and evaluating performance in real menstrual samples.",
+"wiki": "https://2026.igem.wiki/bit"
+},
+{
+"id": 6364,
+"name": "BK-Denmark",
+"village": "Diagnostics",
+"country": "DNK",
+"section": "high-school",
+"title": "Cocktail Control – An Investigation into the Design of a Methanol Biosensor",
+"abstract": "Methanol poisonings occur as a result of the adulteration of alcoholic beverages, in which methanol is added for profit or during illicit alcohol production. A simple, inexpensive methanol detection test offers a prevention strategy against methanol poisoning. We present two biosensor systems with colorimetric outputs and a hardware sensor design. The systems rely on alcohol oxidase from Phanerochaete chrysosporium (PcAOX) to selectively detect methanol. PcAOX was genetically engineered to enhance its selectivity towards methanol, resulting in seven variants. Molecular simulations showed that four variants exhibited increased selectivity towards methanol relative to WT selectivity. The variants were expressed in Escherichia coli, and the presence of purified proteins was confirmed with Western blotting, although enzymatic activity could not be detected in kinetic assays. An investigation into the reduction of food colorants in a beverage sample using ultrafiltration was conducted. The results suggest that ultrafiltration could be incorporated into the hardware design.",
+"wiki": "https://2026.igem.wiki/bk-denmark"
+},
+{
+"id": 6421,
+"name": "BYU-Provo",
+"village": "Diagnostics",
+"country": "USA",
+"section": "overgrad",
+"title": "ChompSafe – Fostering Independence for Children with Oral Food Allergies",
+"abstract": "Children with oral food allergies experience increased stress and anxiety as they navigate what to eat each day. The burden extends not only to kids, but also to their caregivers. ChompSafe serves to reduce the mental health burden for both children and their parents. The solution is a dinosaur-shaped device that a child can carry like a toy, to play and to school. The dinosaur detects the presence of food allergens using aptamer technology via an automated extraction, detection, and cleaning process. The device is paired with the caregiver’s phone to relay device information in real time, allowing trusted adults to stay aware of their children. Each action taken allows both children and caregivers to feel safe, secure, and in control of their well-being.",
+"wiki": "https://2026.igem.wiki/byu-provo"
+},
+{
+"id": 6442,
+"name": "Charlotte-HS",
+"village": "Diagnostics",
+"country": "USA",
+"section": "high-school",
+"title": "PanCrisp - A Non-Invasive Cas13a Diagnostic for Early Detection of Pancreatic Cancer",
+"abstract": "Pancreatic ductal adenocarcinoma (PDAC) ranks 11th in incidence but 6th in cancer mortality, a gap driven almost entirely by late diagnosis. Current diagnostics are confirmatory rather than preventive, and no routine screening protocol exists even for high-risk patients. PanCrisp is a non-invasive CRISPR diagnostic that detects salivary miRNA biomarkers of early pancreatic tumorigenesis using LwaCas13a. We designed and validated crRNAs against a five-miRNA panel, contributing 19 parts to the Registry. Each target runs in a separate reaction, so a positive signal identifies the specific miRNA despite Cas13a’s collateral cleavage. Target recognition triggers cleavage of a fluorescent reporter, quantified by plate reader, and our wet lab confirmed Cas13a-mediated cleavage using miR-216a. We built three open software tools for crRNA design, plate reader analysis, and kinetic modeling, and published a synthetic biology book and learning platform to broaden access to the field.",
+"wiki": "https://2026.igem.wiki/charlotte-hs"
+},
+{
+"id": 6227,
+"name": "DelNorte-SD",
+"village": "Diagnostics",
+"country": "USA",
+"section": "high-school",
+"title": "Intracellular Delivery of Catalytic Hairpin Assembly and Broccoli Aptamers for Biosensing of Aberrant Exon Splicing",
+"abstract": "Monitoring pre-mRNA splicing dynamics in live mammalian cells requires non-invasive, high-sensitivity RNA biosensors. Here, we present the adaptation of CHARGE, a catalytic RNA hairpin assembly system originally validated in E. Coli BL21 cells, for the targeted detection of a specific splice junction in human embryonic kidney (HEK293) cells. Re-engineering this platform for eukaryotic culture required iterative engineering optimization to overcome intracellular delivery and RNA stability constraints. We established optimal transfection parameters and constrained post-transfection imaging to a 4–6 hour window to account for cytosolic single-stranded RNA degradation. Live-cell fluorescence microscopy confirmed fluorescence upon fluorophore binding, validating target-driven intracellular Broccoli aptamer reconstitution at elevated hairpin doses. This experimental workflow was complemented by two custom computational tools (Strand Analyzer and Cell Analyzer) for thermodynamic sequence optimization and automated image quantification, establishing an adaptable framework for mammalian RNA biosensing.",
+"wiki": "https://2026.igem.wiki/delnorte-sd"
+},
+{
+"id": 6534,
+"name": "DETEX",
+"village": "Diagnostics",
+"country": "GHA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6407,
+"name": "Edinburgh",
+"village": "Diagnostics",
+"country": "GBR",
+"section": "undergrad",
+"title": "CondenSense: A Modular LLPS Biosensor for Early Drug Toxicity Detection",
+"abstract": "Standard drug toxicity assays (MTT, LDH, Annexin V) detect metabolic failure and cell death, but miss the earlier window when cells are already stressed and mounting damage responses — a gap linked to the ~30% of late-stage drug failures caused by unexpected organ toxicity. CondenSense detects this earlier signal using liquid-liquid phase separation. Our engineered protein couples an OxyR stress sensor to a FUS disordered region and sfGFP; under sub-lethal stress it condenses into fluorescent puncta within minutes before metabolic output changes. The readout is post-translational, so no new gene expression is needed. The design is modular: swap the sensor domain to target a different stress, keep the same fluorescent readout. We validate in E. coli, then translate to human liver and heart cell lines. All parts go to the iGEM Registry as reusable components.",
+"wiki": "https://2026.igem.wiki/edinburgh"
+},
+{
+"id": 6462,
+"name": "Eton-College-UK",
+"village": "Diagnostics",
+"country": "GBR",
+"section": "high-school",
+"title": "ProteaSign: A Multiplexed Electrochemical Assay of Wound Protease Activity",
+"abstract": "Chronic wounds are cuts, sores and ulcers that fail to heal within four to twelve weeks, costing the NHS £8.3 billion annually and sometimes leading to amputation. Early diagnosis and close monitoring would significantly improve outcomes, but current methods are subjective and slow, and no test measures the biochemistry driving delayed healing. ProteaSign quantifies the activities of individual proteases in wound exudate, specifically MMP-9, which degrades the extracellular matrix, and neutrophil serine proteases, which degrade the growth factors needed for repair. Resolving both separately distinguishes the causes of non-healing, indicating relevant treatments. The device is electrochemical, using computationally modelled protease-cleavable peptides that release a redox reporter when protease activity is elevated. To confirm these peptides' per-enzyme specificity, we built recombinant sfGFP reporter proteins, quantified by Ni-NTA depletion and fluorescence. Delivered as a disposable cartridge for community wound care, ProteaSign turns wound assessment from a visual judgement into a measurement.",
+"wiki": "https://2026.igem.wiki/eton-college-uk"
+},
+{
+"id": 6568,
+"name": "ExPrimary",
+"village": "Diagnostics",
+"country": "USA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6553,
+"name": "GaitMate",
+"village": "Diagnostics",
+"country": "USA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6535,
+"name": "Gallisa",
+"village": "Diagnostics",
+"country": "CHE",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6242,
+"name": "GCGS",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "high-school",
+"title": "Dual-Response EcN: An Adjunct Therapy for Pseudomonas Infections in cystic fibrosis Patients",
+"abstract": "Patients with cystic fibrosis frequently experience recurrent drug-resistant infections due to chronic biofilm infections caused by Pseudomonas aeruginosa in the lungs, and there is a lack of effective targeted clinical treatments. We designed an EcN strain carrying a coupled Fur and RhlR sensing circuit to enable dual-specific recognition. The Fur system is only de-repressed in iron-deprived mucus at the site of infection, thereby enabling spatial localization; meanwhile, RhlR detects the AHL quorum sensing signals released by Pseudomonas aeruginosa. Only when both a low-iron environment and high AHL levels are simultaneously detected is the expression of alginate lyase and lysis E triggered. Lysis E cleaves E. coli, releasing alginate lyase that degrades the biofilm matrix of Pseudomonas aeruginosa, thereby enhancing the efficacy of antibiotics. This synthetic biology design integrates environmental and pathogen sensing functions, establishing a strategy to achieve targeted localization and in situ clearance of biofilms in chronic respiratory infections.",
+"wiki": "https://2026.igem.wiki/gcgs"
+},
+{
+"id": 6324,
+"name": "Hamburg",
+"village": "Diagnostics",
+"country": "DEU",
+"section": "overgrad",
+"title": "CasSTAR - Cas-based Specific Testing for Antimicrobial Resistances",
+"abstract": "Antimicrobial resistances (AMRs) are a prominent threat to modern medicine. Diagnosing them is important, both to enable the choice of a fitting antibiotic and to isolate people where necessary.  Currently, this is a lengthy and resource intensive process.  \n We developed a point of care test using LB-Cas12a to identify specific DNA sequences and gold nanoparticles combined with ssDNA based reporters for a visual output. We validated the target specificity, as well as the cis and trans cleavage of the LB-Cas12a and the minimal target concentration for detection. Additionally, we ran successful tests of the optical sensing hardware and obtained promising results for the Recombinant Polymerase Amplification. Besides the hardware design, which was heavily influenced by human practices, our dry lab work focused on research regarding available AMR sequence information. Outside of the lab we took part in numerous events to bring scientific education to interested people of all ages.",
+"wiki": "https://2026.igem.wiki/hamburg"
+},
+{
+"id": 6214,
+"name": "HongKong-HS",
+"village": "Diagnostics",
+"country": "HKG",
+"section": "high-school",
+"title": "AmpliRen - An at-home urine test for earliest molecular warnings of chronic kidney disease",
+"abstract": "Chronic Kidney Disease (CKD) affects approximately 10% of Hong Kong's population, with cases rising and driving high mortality and healthcare burdens. Conventional diagnostic methods like eGFR and uACR often fail to detect early-stage structural kidney damage. To enable accessible early intervention, our project introduces a non-invasive, home-based detection kit, AmpliRen, that targets microRNA (miRNA) biomarkers in urine. \n\nWhile initial designs utilized toehold switches with cell-free expression kit for precise sequence recognition, detecting low-abundance miRNAs required enhanced signal amplification. Addressing these limitations, we explored an enzyme-free Hybridization Chain Reaction (HCR). \n\nFurther optimization replaced the initial G-quadruplex (G4)-ThT assay with a hemin-G4/TMB assay to enable colorimetric detection of the target miRNAs. Future work aims to eliminate false-positive background signals caused by spontaneous hairpin opening and non-specific G4 formation. \n\nThis low-cost, enzyme-free kit is designed to achieve high sensitivity with minimal crosstalk, offering a reliable at-home diagnostic tool to improve early CKD management.",
+"wiki": "https://2026.igem.wiki/hongkong-hs"
+},
+{
+"id": 6386,
+"name": "ICT-Mumbai",
+"village": "Diagnostics",
+"country": "IND",
+"section": "undergrad",
+"title": "SWASTh TB- Synthetic Whole-cell Antigen Sensing Test for Tuberculosis",
+"abstract": "Tuberculosis, a disease that has plagued the planet for centuries, today stands as the world's biggest infectious killer, causing more deaths than malaria or HIV. Present diagnosis methods of TB are time-consuming, costly, and inaccessible to individuals in developing countries. Further, traditional treatment time ranging from 6-7 months and drugs with potential side effects, reduce the patient compliance, causing TB to develop resistance. It is imperative to develop faster, more efficient diagnostics. We strive to develop a whole-cell biosensor based on Escherichia coli to detect the Pst-S1 protein, an important phosphate-binding protein and a popular biomarker for tuberculosis. The genetically engineered E.coli cells shall detect the biomarker and through a curated two component system, release the enzyme β-Galactosidase. This will hydrolyze a common substrate X-gal to give a blue color for quick detection.",
+"wiki": "https://2026.igem.wiki/ict-mumbai"
+},
+{
+"id": 6075,
+"name": "IIT-Madras",
+"village": "Diagnostics",
+"country": "IND",
+"section": "undergrad",
+"title": "Mycoflip: A Protease-Based Luminescent Biosensor for Intestinal Tuberculosis",
+"abstract": "Intestinal tuberculosis is hard to diagnose because its symptoms overlap with those of other gut diseases. Current tests are invasive or slow, and the faster ones need equipment that rural clinics lack. Mycoflip is a protease-based detection system. An engineered probiotic E. coli expresses FlipNanoLuc, a split-luciferase reporter that an E5–K5 coiled coil holds inactive. In the gut, the engineered bacteria interact with *Mycobacterium tuberculosis*, whose surface proteases Hip1 cleave a site within the coil, allowing the reporter to assemble into active NanoLuc. Luminescence is read in stool after adding furimazine, using a low-cost hand-held silicon photomultiplier luminometer that we designed. Cleavage-site linkers were designed with a multi-objective genetic algorithm. The design was supported by constant-pH molecular dynamics and a reaction–diffusion model of intestinal transport. *M. smegmatis* serves as a BSL-1 surrogate for the target proteases.",
+"wiki": "https://2026.igem.wiki/iit-madras"
+},
+{
+"id": 6248,
+"name": "IOANNINA",
+"village": "Diagnostics",
+"country": "GRC",
+"section": "undergrad",
+"title": "LEDA",
+"abstract": "Ionizing radiation damages DNA, directly and through the reactive species it creates, whether in one high dose during a radiological incident or in small amounts over years of medical and occupational exposure. The damage is invisible. Dosimeters record the dose that reached the badge, not what it did to the person, and that answer still takes a laboratory.\n\nLEDA (Living Engineered Diagnostic Assay) reads it from a urine sample, using engineered cells and two biomarkers. 8-oxoguanine shows the injury to the DNA itself, detected by an RNA riboswitch that fluoresces red. Cell-free DNA shows the consequence, the cells that died, detected by receptors carrying human Ku70 and Ku80 that fluoresce green. Either alone is ambiguous, together they separate injury from cell death.\n\nA small reader lets a smartphone photograph both, and the app returns a risk level.",
+"wiki": "https://2026.igem.wiki/ioannina"
+},
+{
+"id": 6074,
+"name": "JLU-SPH",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "undergrad",
+"title": "Byegerm: A Rapid CRISPR-Cas12a-Based Detection Platform for Upper Respiratory Pathogens",
+"abstract": "Respiratory infections can be caused by many different pathogens, but conventional diagnostic methods are often time-consuming, equipment-dependent, or difficult to apply outside well-equipped laboratories. Our project aims to develop Byegerm, a rapid and accessible detection platform for major upper respiratory pathogens. By combining recombinase polymerase amplification (RPA) with CRISPR-Cas12a-based nucleic acid detection, Byegerm is designed to identify pathogens such as Streptococcus pneumoniae, Bordetella pertussis, Haemophilus influenzae, respiratory syncytial virus, and human metapneumovirus with high specificity and sensitivity. We hope this system can support earlier diagnosis, more timely treatment decisions, and improved respiratory infection surveillance in clinical and resource-limited settings.",
+"wiki": "https://2026.igem.wiki/jlu-sph"
+},
+{
+"id": 6511,
+"name": "Labi-Taiwan",
+"village": "Diagnostics",
+"country": "TWN",
+"section": "high-school",
+"title": "BlueCatcher: An Integrated Cell-Free Biosensing Platform for Molecular Monitoring of Major Depressive Disorder",
+"abstract": "Major Depressive Disorder (MDD) affects millions worldwide, yet its assessment still relies largely on clinical interviews and symptom reporting. BlueCatcher aims to complement these approaches with a portable, cell-free biosensor for detecting MDD-associated circulating microRNAs (miRNAs). We developed an integrated biomarker selection pipeline combining differential expression , miRNA-mRNA interactions, pathway and co-expression analysis, and literature evidence, narrowing transcriptome-wide signals to five miRNA candidates. For detection, target miRNAs bind to a Three-Way Junction (TWJ), releasing a trigger that activates a cell-free toehold switch (THS). This produces a nuclease that cleaves a reporter, converting miRNA recognition into a measurable electrochemical signal. We further developed machine-learning workflows to guide TWJ and THS designs and prioritize candidates to experimental testing. By integrating biomarker discovery, programmable nucleic acids, cell-free amplification, and portable electrochemical sensing, BlueCatcher provides a detection platform for future MDD screening, longitudinal monitoring, and treatment-response assessment alongside existing clinical evaluation.",
+"wiki": "https://2026.igem.wiki/labi-taiwan"
+},
+{
+"id": 6417,
+"name": "Lorraine University",
+"village": "Diagnostics",
+"country": "FRA",
+"section": "overgrad",
+"title": "EndoLore : Challenging diagnostic delay",
+"abstract": "Endometriosis often remains undiagnosed for years, highlighting the need for earlier and more accessible screening methods. \n\nEndoLore is a saliva-based biosensor using engineered E. coli, miRNA-responsive toehold switches, genetic signal amplification, and a visual readout. The molecular sensor is complemented by a symptom-based machine learning pipeline. Together, these approaches explore how molecular detection and patient-reported symptoms could support earlier and more reliable endometriosis screening.",
+"wiki": "https://2026.igem.wiki/lorraine-university"
+},
+{
+"id": 6556,
+"name": "MolVerse",
+"village": "Diagnostics",
+"country": "IND",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6555,
+"name": "NeuroXense",
+"village": "Diagnostics",
+"country": "ARG",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6493,
+"name": "NIS-Kazakhstan",
+"village": "Diagnostics",
+"country": "KAZ",
+"section": "high-school",
+"title": "ChemoGuard: A Toolkit for Pre-Treatment DPYD Genotyping to Prevent Severe Fluoropyrimidine Toxicity",
+"abstract": "Fluoropyrimidines are the cornerstone of treatment for colorectal, gastric and breast cancer. In patients with low dihydropyrimidine dehydrogenase (DPD) activity, caused by inherited DPYD variants, standard doses become toxic and can be fatal. International guidelines and regulators now recommend DPYD genotyping before treatment, yet routine testing has entered practice only recently even in high-income health systems, and remains unavailable in Kazakhstan. We therefore developed a modular qPCR system for screening seven AMP Tier 1 DPYD variants. Seven locus-specific assays use allele-specific TaqMan hydrolysis probes labelled with FAM, HEX, ROX or Cy5. Thirty-six oligonucleotides were designed and synthesised: 14 primers, 14 core probes and 8 exploratory probes. Each assay was tested on pooled synthetic allele templates in three technical replicates at 63 °C, alongside a no-template control. All 66 expected probe signals were detected across the seven assays, with no signal in any NTC, establishing a functional prototype for clinical validation.",
+"wiki": "https://2026.igem.wiki/nis-kazakhstan"
+},
+{
+"id": 6298,
+"name": "NotreDame",
+"village": "Diagnostics",
+"country": "USA",
+"section": "undergrad",
+"title": "VeraDose: Preventing Ethylene Glycol and Diethylene Glycol Contamination in Pediatric Medicines",
+"abstract": "Pediatric medicines contain sugar syrups that help mask the bitter taste for children. In the process of generating these sugar syrups, toxic byproducts such as ethylene glycol and diethylene glycol can be generated. These byproducts have been the cause of accidental poisoning events in several LMICs due to lack of affordable detection metrics for manufacturers. VeraDose aims to use synthetic biology to identify the presence of these compounds with heightened sensitivity at a low cost, reducing the global risk of these accidental poisoning events.",
+"wiki": "https://2026.igem.wiki/notredame"
+},
+{
+"id": 6476,
+"name": "NU-Kazakhstan",
+"village": "Diagnostics",
+"country": "KAZ",
+"section": "undergrad",
+"title": "LUMEN",
+"abstract": "Our team built one pathway from three parts: a urine test, a measuring instrument, and software. A person gives a urine sample. DAScovery, an engineered Escherichia coli biosensor, turns N1,N12-diacetylspermine, a metabolite found at raised levels in the urine of patients with colorectal cancer, into green fluorescence. G-lighten, our 3D-printed reader, measures that fluorescence with the camera of an ordinary smartphone and reports a concentration. Below the threshold, the person goes home and comes back for routine monitoring. Above it, they are referred to a physician for colonoscopy. There ColoRisk reviews the recording of that examination a second time, so that fewer lesions are missed.",
+"wiki": "https://2026.igem.wiki/nu-kazakhstan"
+},
+{
+"id": 6206,
+"name": "Oneonta",
+"village": "Diagnostics",
+"country": "USA",
+"section": "undergrad",
+"title": "OneHEART",
+"abstract": "Heart attack outcomes depend on timely diagnosis and response. Rural communities like ours in Otsego County, located in Central New York State, face barriers to accessing cardiac care. Our project, OneHEART, seeks to reduce barriers to timely, accurate heart attack diagnosis and improve outcomes in our community. Our strategy focuses on immediate-impact actions and long-term tool development to strengthen readiness for cardiac emergencies in New York State. Using synthetic biology, we worked on developing an affordable, portable lateral flow assay that detects cardiac troponin I (cTnI) and heart-type fatty acid-binding protein (h-FABP) using nanobody-based detection elements. Alongside diagnostic development, our Human Practices efforts promoted cardiac preparedness through CPR training, community education, and evaluation of cardiac emergency readiness in New York State schools.",
+"wiki": "https://2026.igem.wiki/oneonta"
+},
+{
+"id": 6265,
+"name": "Puebla",
+"village": "Diagnostics",
+"country": "MEX",
+"section": "undergrad",
+"title": "NEUMA: amplification-free detection of lung cancer mutations with dCas9 on a phase-sensitive SPR biosensor",
+"abstract": "In Puebla’s public hospitals, most patients with advanced lung cancer never receive the molecular result that would decide their treatment. NEUMA is a biosensor that reads three actionable variants (EGFR exon 19 deletion, EGFR L858R and KRAS G12C) directly from plasma, using catalytically dead Cas9 on a phase-sensitive SPR chip, with no thermal amplification. We designed the recognition complex, validated its geometry against independent structural criteria and simulated it for one microsecond. A Quality-by-Design model carried the chain from plasmid to detection limit and ranked which measurement to make first. Whole-plasmid sequencing then showed that our bicistronic cassette had lost dCas9 through a 52 bp direct repeat, and the model established that mutation alone cannot account for the loss, so we redesigned with separate vectors and in vitro biotinylation. Twenty-five clinicians and three focus groups shaped the output format and the device’s placement in care.",
+"wiki": "https://2026.igem.wiki/puebla"
+},
+{
+"id": 6561,
+"name": "SenseBio",
+"village": "Diagnostics",
+"country": "SAU",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6383,
+"name": "SRE-China",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "high-school",
+"title": "Prometheus Fire: A One-Pot Cancer Detection System via Sequential Thermal Activation",
+"abstract": "Current cancer diagnostics, such as qPCR, are costly, time-consuming, and complex, restricting their use in resource-limited settings. To detect ultra-low abundance biomarkers like miR-21, we introduce Prometheus Fire: A One-Pot Cancer Detection System via Sequential Thermal Activation. This portable platform seamlessly integrates Exponential Rolling Circle Amplification (E-RCA) and CRISPR-Cas12a within a single tube. Lysed clinical samples are added directly without purification. At 30 ℃, phi29 polymerase and a Zn2+-dependent DNAzyme drive exponential target amplification. Heating to 60 ℃ then dissociates a custom ssRNA blocker, precisely activating the Cas12a complex to cleave reporters and generate a robust visual signal. Achieving a limit of detection below 1 pM, this rapid, cross-contamination-free system provides a highly cost-effective solution for early cancer screening in primary healthcare facilities.",
+"wiki": "https://2026.igem.wiki/sre-china"
+},
+{
+"id": 6540,
+"name": "SynFRET",
+"village": "Diagnostics",
+"country": "BRA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6373,
+"name": "SZPU-CHINA",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "undergrad",
+"title": "Engineering a Yeast Biosensor for Influenza A HA Recognition and Environmental Risk Screening",
+"abstract": "We aim to engineer Saccharomyces cerevisiae to detect influenza A hemagglutinin (HA), targeting future public-space environmental monitoring. Inspired by antigen-gated GPCRs, our design connects HA recognition to yeast MAPK signaling and FUS1-driven reporters.\n\nThrough iterative Design–Build–Test–Learn cycles, we developed four modules: reporters, FAR1/SST2 chassis modifications, humanized Gpa1, and antigen gating. Reporter and chassis-engineering modules were constructed and functionally characterized. Computational modeling prioritized nanobody R1a-B6 and proposed interaction-optimization hypotheses.\n\nWe tested hM1Dq- and Ste2-based gating designs. Ste2-based constructs retained α-factor-responsive fluorescence, but neither design demonstrated HA-dependent activation, highlighting gating and coupling challenges. We also developed a temperature-controlled optical-readout prototype and incorporated stakeholder feedback to refine application requirements.\n\nOur contributions include reusable genetic parts, characterized engineering resources, and documented design iterations. HA-dependent sensing and air-sampling integration remain unvalidated; this work provides an experimental foundation rather than a deployment-ready detector.",
+"wiki": "https://2026.igem.wiki/szpu-china"
+},
+{
+"id": 6279,
+"name": "UBC-Vancouver",
+"village": "Diagnostics",
+"country": "CAN",
+"section": "undergrad",
+"title": "FAST - Fluorescent Antibiotic Susceptibility Test",
+"abstract": "Antimicrobial resistance is a major and growing public health threat, so clinicians need faster ways to identify which antibiotics will actually work for a given infection. Unfortunately, conventional antibiotic susceptibility testing can take 24-72 hours, too slow for many time-sensitive treatment decisions, so a rapid, bedside-friendly alternative is needed. To address this gap, we propose a point-of-care antibiotic susceptibility test that employs biosensors on a chip to rapidly determine antibiotic resistance or susceptibility via fluorescent reporter signals.",
+"wiki": "https://2026.igem.wiki/ubc-vancouver"
+},
+{
+"id": 6286,
+"name": "UBrawijaya Indonesia",
+"village": "Diagnostics",
+"country": "IDN",
+"section": "undergrad",
+"title": "Surface-Displayed De Novo Nanobodies for Bacterial Diagnostics via Cell-Cell Adhesion",
+"abstract": "Bacteria are an integral part of our lives, playing roles that can be beneficial or harmful to human health. Among them, Enterococcus faecalis is a bacterium associated with opportunistic infections and possesses adhesion mechanisms that enables to bind with various bacteria. One of its adhesion-associated proteins, ACE, facilitates binding to host extracellular matrix components. Therefore, we designed a nanobody with the aim of achieving high affinity and specificity toward a selected target through computational de novo protein design. The design was evaluated through protein characterization and aggregation assays to assess the interaction between the engineered construct and the bacterial target. The results showed that the nanobody was successfully expressed in the transmembrane region when fused with intimin, a membrane-anchoring protein. Furthermore, microscopic analysis indicated an interaction between the engineered construct and the E. faecalis. These findings highlight the potential of computationally designed nanobodies for future applications in diagnostics.",
+"wiki": "https://2026.igem.wiki/ubrawijaya-indonesia"
+},
+{
+"id": 6389,
+"name": "UFABC-Brazil",
+"village": "Diagnostics",
+"country": "BRA",
+"section": "overgrad",
+"title": "Patchlepsy: Biosensor for detecting synthetic tRNA-derived fragments (tRFs) related to epileptic seizures",
+"abstract": "Epilepsy is one of the most common neurological disorders in the world, affecting almost 1% of the global population, mostly in low- and middle-income countries, such as Brazil. Patchlepsy emerges in this context as a tool to predict seizures in Temporal Lobe Epilepsy using a toehold switch-based biosensor that, when specific biomarkers are detected, changes its structural conformation and produces a colorimetric response. To our knowledge, Patchlepsy introduces the first toehold switches designed for tRNA-derived fragments recognition. The methodology followed the Design-Build-Test-Learn cycle: in Design, the toehold switches were designed in silico with NUPACK; in Build, the plasmids containing the toehold modules were commercially synthetized and Escherichia coli TOP10 and BL21(DE03) were transformed. The circuits were tested in a cell-free TX-TL system and as a whole-cell systems, and the fluorescence/absorbance were quantified. The whole-cell platform expected as idealize, being a initial proof of concept.",
+"wiki": "https://2026.igem.wiki/ufabc-brazil"
+},
+{
+"id": 6119,
+"name": "UMA Malaga",
+"village": "Diagnostics",
+"country": "ESP",
+"section": "undergrad",
+"title": "Frida: Fast Rare Disease Identification via Detection Amplification",
+"abstract": "Newborn rare disease diagnosis currently faces significant geographical disparities, meaning that early detection is often \"a question of postcode, not biology\". Acknowledging the profound impact of diagnostic delays on patients and families, our team introduces Frida: a scalable, exploratory platform designed to tackle the challenges of early detection and expand the scope of neonatal screening panels.\nTo systematically address this problem, the project is structured around three core pillars:\nNeith (Weaving the platform): The physical diagnostic assay utilising SHERLOCK  and CRISPR-Cas13 technology to reliably detect target genetic sequences.\nDiana (Designing the threads): The computational and bioinformatics foundation, this tool automates the diagnostic pipeline by analysing clinical mutation inputs to generate and rank optimised guide RNA candidate sequences for the CRISPR assay.\nAthena (Understanding whom we protect): The human-centric approach that ensures our science is woven around a human need, evaluating the societal impact and engaging directly with stakeholders.",
+"wiki": "https://2026.igem.wiki/uma-malaga"
+},
+{
+"id": 6255,
+"name": "UofGlasgow",
+"village": "Diagnostics",
+"country": "GBR",
+"section": "overgrad",
+"title": "Synwave: The Gut-Brain Axis Redefines Alzheimer's Biosensing",
+"abstract": "Dementia is projected to affect 1 in 3 people born in Scotland today, yet Alzheimer’s is often diagnosed too late for disease-modifying drugs to work. The Synwave Screening Test targets detection up to 15 years before symptoms emerge. Leveraging the gut-brain axis, we developed a non-invasive biosensor from Lactobacillus gasseri, which adhered to Caco-2 intestinal epithelial cells with a mean adhesion of 1.7%. We modified a modular receptor platform using the transcription factor CadC, devising an scFv-IC16 receptor that binds Amyloid-β, an Alzheimer’s biomarker, coupling its detection to an amplified reporter signal (BBa_26453DYU). Amyloid-β was expressed in E. coli BL21(DE3) for in vitro testing. A nisin-inducible lysis device (BBa_265W9ZUC) doubles as signal release and biocontainment, ensuring a standardized screening period after which modified bacteria are cleared from the gut. Synwave offers a self-administered, non-invasive and quantitative test read from a stool sample, with potential to enable earlier intervention.",
+"wiki": "https://2026.igem.wiki/uofglasgow"
+},
+{
+"id": 6062,
+"name": "WIST",
+"village": "Diagnostics",
+"country": "TWN",
+"section": "high-school",
+"title": "Acoustic Probiotics: a two-input AND gate reporting colorectal cancer by ultrasound",
+"abstract": "Colorectal cancer is rising in people under 50, below the age at which screening begins. Taiwan's FIT programme starts at 45, so the fastest-growing group of patients sits outside it. We asked whether an engineered probiotic could report a tumour niche without a sample or a colonoscopy. Our E. coli fires only where lactate and nitrate occur together. Default-OFF sensors feed a σ54 HrpR/HrpS AND gate driving gas vesicles that scatter ultrasound, so the readout is a scan. The nitrate arm is characterised and clears an acceptance gate of ON/OFF ≥ 3×, fixed in writing two weeks before the ladder ran. Every construct we ordered was designed through Katana, our fail-closed build engine. With both inputs off the reporter sat at 76% and 59% of its both-on level, capping the fold at 1.31× and 1.69×. The circuit is bounded by its OFF state, where the next build starts.",
+"wiki": "https://2026.igem.wiki/wist"
+},
+{
+"id": 6485,
+"name": "WUXI-DSAS",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "high-school",
+"title": "Whole-Cell Gentisic Acid Biosensor with Chemical Creatinine Assay for RCC",
+"abstract": "Renal cell carcinoma (RCC) is a common and aggressive urogenital cancer often diagnosed late due to a lack of early symptoms. Recent studies have identified gentisic acid, a phenolic acid elevated in the urine of RCC patients, as a potential non-invasive biomarker. Our project aims to develop a low-cost, easy-to-use early screening method by combining two parallel measurements: (1) a whole-cell bacterial biosensor for gentisic acid detection, based on the CnGtdRAT/PgtdA inducible system from Cupriavidus necator, which converts gentisic acid into the inducer 3-maleylpyruvic acid and triggers fluorescent protein expression; and (2) a chemical colorimetric assay for creatinine to normalize urine concentration. By measuring the gentisic acid-to-creatinine ratio, we can achieve reliable, rapid, and affordable RCC risk assessment using urine samples, suitable for routine screening in low-resource settings.",
+"wiki": "https://2026.igem.wiki/wuxi-dsas"
+},
+{
+"id": 6533,
+"name": "XMars",
+"village": "Diagnostics",
+"country": "USA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6139,
+"name": "YiYe",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "high-school",
+"title": "MirUro: Non-Invasive  Bladder Cancer Diagnosis via miRNA Detection in Urine Using Toehold Switch Biosensors",
+"abstract": "Bladder carcinoma is a common malignancy worldwide, causing around 220,596 deaths annually. Cystoscopy, the gold standard for diagnosis, is invasive, costly and not applicable for routine surveillance. Therefore, it is urgent to develop sensitive, convenient techniques for regular monitoring. Urinary miRNAs serve as stable, accessible biomarkers for bladder cancer. They show better sensitivity and specificity than urinary cytology for early detection, and are ideal for non-invasive screening and routine surveillance. Here, we establish a cell-free synthetic biology platform for non-invasive bladder cancer detection based on urinary miRNAs. Using custom-designed toehold switch RNA biosensors, the platform targets three cancer-specific miRNAs that are abnormally expressed and highly enriched in the urine of bladder cancer patients. Binding of target miRNAs activates the toehold switch and induces EGFP expression, generating quantifiable fluorescence signals. This system allows convenient non-invasive quantification of urinary miRNAs in clinical samples.",
+"wiki": "https://2026.igem.wiki/yiye"
+},
+{
+"id": 6382,
+"name": "ZJUT-China",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "undergrad",
+"title": "G-SCOUT （Gut-specific Synthetic Cellular Optimized Unit for Tumor-detection）",
+"abstract": "CRC is a high incidence of malignant tumors in the world. It has been a severe pubic health issues that patients in the middle or late stage do not recover well after surgery, and the cost of treatment has risen sharply.Conducting early diagnosis and risk warning of diseases are key measures to improve the survival rate of patients, lower the social medical burden and promote the pattern of disease treatment.Currently, the mainstream clinical screening methods have defects such as strong invasiveness and low compliance of the population.Our project is based on synthetic biology technology to transform engineering probiotics, integrates functional modules such as colonization, signal perception, report color development, and build a novel non-invasive screening system.Aiming to develop a convenient and budget-saving early tumor detection technology, providing a brand-new plan for clinical diagnosis for early CRC.",
+"wiki": "https://2026.igem.wiki/zjut-china"
+},
+{
+"id": 6217,
+"name": "ZZU",
+"village": "Diagnostics",
+"country": "CHN",
+"section": "undergrad",
+"title": "ARGO-ZZU: PfAgo Dual-Target Magnetic Bead-Aptamer Displacement Platform for AD Early Screening",
+"abstract": "ARGO-ZZU is a dual-mode AD early screening platform that integrates magnetic bead-aptamer displacement with PfAgo signal amplification for ultrasensitive detection of p-tau181 and p-tau231. It provides fluorescence assays for hospital settings and lateral flow strips for community-based screening. Designed to address the three barriers of invasiveness, high cost, and limited reach, the platform is developed in collaboration with clinicians, patients, and industry partners, and is cost-effective, accessible, and deployable in resource-limited settings.",
+"wiki": "https://2026.igem.wiki/zzu"
+},
+{
+"id": 6329,
+"name": "Baltimore",
+"village": "Fashion & Cosmetics",
+"country": "USA",
+"section": "high-school",
+"title": "KeraTINT: The colorful cure to hair damage",
+"abstract": "Most hair dyes are harmful for both hair and skin. These toxic chemicals are environmentally damaging and include oxidative chemicals that remove the hair’s cuticle layer. KeraTINT is a safer, environmentally friendly hair dye that both dye and repair hair. KeraTINT uses highly specific keratin-binding peptides (KBP) fused to chromoproteins and expresses the fusion in bacteria. While other hair dyes harm hair structure, KeraTINT actually restores damaged hair because the KBP penetrates into the hair structure, binds keratin, and repairs the damaged inner layers. To provide a wide range of colors, Escherichia coli were engineered to produce various colors, such as blue (aeblue and amilCP chromoproteins), pink (anm2CP), magenta (mScarlet-i), red (mkate), yellow (amilGFP), and green (sfgfp). The proteins were successfully expressed and purified and can be used to treat hair samples. We developed unique assays to test our dye and its ability to color a range of hair types.",
+"wiki": "https://2026.igem.wiki/baltimore"
+},
+{
+"id": 6209,
+"name": "CAFA-LZU",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "PHOTOSYNTHETIC FRAGRANCE: A Light-Controlled Yeast Fragrance Synthesis System",
+"abstract": "To bridge the gap between bio-art and laboratory biological research, we launched the PHOTOSYNTHETIC FRAGRANCE project this year. In this project, we designed and developed an engineered yeast strain capable of synthesizing linalool and limonene under the induction of red and blue light, respectively. Additionally, through our unique \"Articulation\" initiative, we connected scientific research with artistic expression, curating a series of bio-art exhibitions and works.",
+"wiki": "https://2026.igem.wiki/cafa-lzu"
+},
+{
+"id": 6181,
+"name": "Cataverse-Union",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "A Multicolor Cultural Relic In Situ Restoration System Based on CBM Fusion Enzyme Technology",
+"abstract": "Polychrome artifacts, such as those found in the Beijing Forbidden City, represent an important cultural heritage of human civilization. However, prolonged exposure to environmental factors such as light causes these binding materials to gradually age, leading to pigment fading, powdering, or flaking and detachment.We heterologously expressed key enzymes involved in the biosynthesis of different pigments in Escherichia coli, and employed in vitro enzymatic catalysis to convert cheap and readily available precursors into high-value biopigments. To address the issue of poor photostability, we innovatively fused a cellulose-binding module with the pigment synthases, enabling the produced pigments to be directionally deposited and stably bound to the surface of paper or silk fibers through the anchoring function of the enzymes. This project not only revives ancient colors but also breathes new life into traditional pigments through engineering approaches.",
+"wiki": "https://2026.igem.wiki/cataverse-union"
+},
+{
+"id": 6050,
+"name": "China-HUBU-Wuhan",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "overgrad",
+"title": "Green Biosynthesis of Fragrance Isoambrettolide by Candida tropicalis",
+"abstract": "Isoambrettolide is a valuable macrocyclic musk fragrance widely used in high‑end perfume and personal‑care products. Conventional plant extraction suffers from unstable supply, while chemical synthesis involves complicated procedures, massive solvent consumption and heavy environmental burdens. In this project, we constructed a Candida tropicalis cell factory with palm oil as renewable feedstock for isoambrettolide production, adopting an intracellular‑in vitro decoupled modular strategy. Competing metabolic pathways were knocked out to redirect carbon flux. Functional genetic elements were screened and fermentation conditions optimized for intracellular precursor accumulation. The challenging macrolactonization step was completed by lipase‑mediated in‑vitro catalysis to reduce host metabolic burden. This biomanufacturing route offers a green alternative for macrocyclic musk fragrances. Furthermore, the chassis can be extended to produce other macrocyclic‑lactone aroma chemicals. Further process optimization will be performed to enhance production performance.",
+"wiki": "https://2026.igem.wiki/china-hubu-wuhan"
+},
+{
+"id": 6361,
+"name": "Concordia-Shanghai",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "SCOPE - Sustainable Cellulose: Optimizing Products for Everyone",
+"abstract": "Our project rests on two pillars: sustainability for the planet and accessibility in the lab. Bacterial cellulose (BC) is prized for its strength, purity and biocompatibility; environmental economists we consulted identified BC-based beauty masks as a near immediate commercial application. Life cycle analysis against four substrates found BC used the least water (6.3 mL per functional unit) but had higher carbon impacts. Upscaling BC therefore rests on yield per unit energy and feedstock - allowing us to set engineering goals. Native Komagataeibacter strains grow slowly and mutate into non-producers, so we pursued E. coli recombinant synthesis: overexpressing phosphoglucomutase and UDP-glucose pyrophosphorylase across constitutive, inducible and cold-inducible promoters to relieve the precursor bottleneck, and modeling alanine substitutions at BcsA’s Glu370–Arg583 salt bridge to predict a c-di-GMP-independent synthase. In parallel we built HALO, a wheelchair-mounted modular lab organizer co-designed with wheelchair-using scientists, removing a physical barrier to participation in synthetic biology.",
+"wiki": "https://2026.igem.wiki/concordia-shanghai"
+},
+{
+"id": 6122,
+"name": "Cornell",
+"village": "Fashion & Cosmetics",
+"country": "USA",
+"section": "undergrad",
+"title": "Klothos: Engineering Anti-Fibrotic Wound Healing through Electrospinning with Arachne",
+"abstract": "Skin is central to our story and self-expression. However, after injury, the body often fails to restore its original appearance, as overexpressed repair pathways can end in permanent fibrotic scarring. This excessive accumulation of scar tissue impacts skin texture, self-esteem, and mobility for over 100 million people each year. Team Cornell proposes Klothos, a novel platform to divert pathways from fibrosis while ensuring sustainable and accessible delivery. We developed a gated probiotic system that releases anti-fibrotic peptides when wound-site molecules indicate unchecked remodeling. Engineered probiotics are spun into an alginate nanofiber matrix with our novel coaxial electrospinner, enabling localized, sustained peptide delivery in a smart bandage. Klothos is a scalable platform for adaptive wound care that redefines the cosmeceutical market with clinical-grade scar care at a consumer-friendly price point. We hope to advance cosmetics towards a future where uncontrolled scarring is no longer an outcome of skin injury.",
+"wiki": "https://2026.igem.wiki/cornell"
+},
+{
+"id": 6133,
+"name": "GreatBay-SCIE",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "Expelliodor: Protein-based Targeted Deodorant",
+"abstract": "Axillary odor is a common concern influenced by genetic variations. People with certain variants of ABCC11 gene express a transporter that carries the odor precursor into the axilla, where Staphylococcus hominis metabolizes this odorless precursor Cys-Gly-3M3SH to release 3M3SH, the major contributor to axillary odor. To reduce precursor availability of uptake without broadly supressing skin microbiota, we developed three complementary solutions: a de novo small-molecule-binding protein to sequester the precursor, a de novo protein-binding protein designed to inhibit conformational changes in the transporter PepTSh, and an enzyme to modify the precursor and reduce its recognition by the transporter. Beyond the engineering, Human Practices led us to recognize that underarm odor is a natural physiological variation, yet often burdened by social stigma. While science can offer ways to manage it, we believe the decision should remain a matter of personal choice, rather than be dictated by social expectations.",
+"wiki": "https://2026.igem.wiki/greatbay-scie"
+},
+{
+"id": 6143,
+"name": "HKUST-GZ",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "BioWipe: Engineered Bacillus subtilis for Rinse-Free Scalp Care and Hair Conditioning",
+"abstract": "Scalp discomfort makes washing difficult for postoperative, postpartum, traveling, and bedridden users. BioWipe is a waterless finger-sleeve applicator with separate dry and wet components. It uses engineered *Bacillus subtilis* to rebalance the scalp microbiome. Stored dry and activated upon use, it uses an LCFA-responsive sensor to detect excess sebum and trigger Penetratin-mediated antifungal activity, while constitutive K31-PepG supports hair repair. A xylose- and population-density-responsive biosafety switch limits bacterial survival after the product leaves the scalp. User interviews and industry research led us to replace a wipe with a finger sleeve for better access through hair and helped define regulatory boundaries for live products. Dry Lab promoter prediction, protein structural analysis, and population and storage modeling inform the design. GEMR Studio supports collaboration among iGEM teams. We propose phased commercialization through Basic (non-viable), Advanced (postbiotic), and LivePlatform (self-limiting live) products for care between washes.",
+"wiki": "https://2026.igem.wiki/hkust-gz"
+},
+{
+"id": 6241,
+"name": "HongKong-UCCKE",
+"village": "Fashion & Cosmetics",
+"country": "HKG",
+"section": "high-school",
+"title": "Phoeniveil",
+"abstract": "Post-inflammatory hyperpigmentation (PIH) triggered by UV exposure affects over 70% of second-degree burn patients and over 60% report suffering from permanent scars, leaving a lasting mark that can negatively affect their emotional well-being.\nPhoeniveil proposes a solution which eliminates the need for expensive and painful treatments by utilizing the UV absorbing property of Mycosporine-like Amino Acids (MAAs) to prevent UV exposure to wounds. We devised a cheaper alternative to extracting and chemically synthesizing MAA, by using synthetic biology to synthesize them using enzymes native in corals. To optimize the yield of MAA, we overexpressed the transketolase-encoding gene in E. coli to increase the availability of sedoheptulose-7-phosphate (S7P), a key precursor of MAA. The biologically synthesized MAA, encapsulated in chitosan nanoparticles prepared by ionic gelation, are then applied to the first layer of the three-layered bandage system of burn wound patients.",
+"wiki": "https://2026.igem.wiki/hongkong-uccke"
+},
+{
+"id": 6284,
+"name": "HUST-China",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "IRIS",
+"abstract": "Dian Cui, a traditional Chinese art renowned for its brilliant lake blue structural color, has historically relied on kingfisher hunting. Ethical and ecological concerns surrounding feather sourcing call for animal-friendly substitution of this cultural art.\nThus, IRIS was born. We established an integrated biofabrication pipeline transforming fashion waste into optical materials. Structural color was achieved through the self-assembly of cellulose nanocrystals (CNCs). By combining redundance recycling, bacterial cellulose production, and structural-color film fabrication, IRIS explores how waste can become a valuable resource for fashion innovation.\nMeanwhile, a controlled-atmosphere spin-coating system was developed to improve fabrication consistency and parameter controls.\nSo far, IRIS has developed a sustainable alternative to kingfisher-feather-based ornamentation. Beyond reproducing the visual appeal of Dian Cui, IRIS envisions a future in which fashion waste becomes a resource for innovative materials, and traditional craftsmanship inspires more ethical, sustainable, and meaningful design.",
+"wiki": "https://2026.igem.wiki/hust-china"
+},
+{
+"id": 6159,
+"name": "IITDelhi",
+"village": "Fashion & Cosmetics",
+"country": "IND",
+"section": "undergrad",
+"title": "DermaSense:A living, air pollution-responsive moisturiser",
+"abstract": "Delhi’s annual PM2.5 has hovered near 100 µg/m³ since 2021, about twenty times the WHO guideline. Particulates and ozone drive reactive oxygen species that harm the skin. Conventional moisturisers use one fixed dose. DermaSense is a living alternative. We are engineering Staphylococcus epidermidis, a skin-commensal, so that a redox-sensitive regulator opens a synthetic operon under oxidative stress. The operon makes pulcherrimin, an antioxidant that also absorbs UV, together with xylolipid and lyso-ornithine lipid, biosurfactants that emulsify and hydrate at the barrier. We established proof of concept for lyso-ornithine lipid biosynthesis in E. coli, paving the way for its potential integration into a skin-associated microbial chassis. Our software integrates live air-quality data across the globe to estimate pollution-induced damage and potential protection offered by these molecules. Our vision is skincare that no longer sits on the skin but lives within it: responsive, self-regulating, and sustained by microbiome itself.",
+"wiki": "https://2026.igem.wiki/iitdelhi"
+},
+{
+"id": 6073,
+"name": "JLU-NBBMS",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "TetraxSkin:DNA Tetrahedra-Mediated High-Value Utilization of Ginseng By-products via S.cerevisiae toward Multidimensional Skincare Products",
+"abstract": "To address the high costs, low utilization, and resource waste of traditional ginseng-derived cosmetic ingredients, this project utilizes synthetic biology to engineer Saccharomyces cerevisiae as a sustainable platform for producing Compound K (CK)—a highly bioactive ginsenoside with anti-inflammatory, antioxidant, and anti-aging properties. Concurrently, ginseng polysaccharides are enzymatically broken down into low-molecular-weight oligosaccharides to act as efficient moisturizing agents. To optimize skin delivery and stability, CK is loaded onto DNA tetrahedral nanostructures (tFNA). The ultimate goal is to formulate a high-performance facial mask combining tFNA-CK for advanced skin barrier repair and ginseng oligosaccharides for deep hydration. By integrating synthetic biology, nanotechnology, and green biomanufacturing, this project delivers a sustainable, highly efficient approach to producing high-value skincare ingredients, showcasing the potential of advanced biotechnology in next-generation cosmetics.",
+"wiki": "https://2026.igem.wiki/jlu-nbbms"
+},
+{
+"id": 6145,
+"name": "MIT-MAHE",
+"village": "Fashion & Cosmetics",
+"country": "IND",
+"section": "undergrad",
+"title": "MAHEK",
+"abstract": "Aromatic compounds are used in a diverse range of personal care and household products, yet awareness regarding their unsustainable production is lacking. Cuminaldehyde, responsible for cumin’s warm and spicy signature fragrance, is a high-value compound across perfumery and cosmetic formulations. Conventionally, it is obtained either by extracting essential oils from cumin seeds, generating substantial biomass waste, or by energy-intensive petrochemical synthesis, which contributes to greenhouse gas emissions. MAHEK provides a sustainable, bio-based alternative for synthesising cuminaldehyde using Pseudomonas putida, a bacterium that naturally produces the compound as a metabolic intermediate in its native p-cymene degradation pathway. Through targeted CRISPR-Cas9 gene editing, the cymC gene will be knocked out to arrest the further metabolism of cuminaldehyde, creating an engineered strain optimised to synthesise the compound as the primary end product. MAHEK aims to deliver an industrially relevant fragrance ingredient while curbing greenhouse gas emissions and promoting sustainable manufacturing using synthetic biology.",
+"wiki": "https://2026.igem.wiki/mit-mahe"
+},
+{
+"id": 6458,
+"name": "NENU-China",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "CottonStatic",
+"abstract": "Static electricity poses fatal fire risks in low-humidity environments like gas stations and operating rooms, yet 83% of people wrongly believe cotton is reliably antistatic. In reality, below 30% humidity, cotton charges like polyester. Current solutions fail: chemical finishes wash out, and conductive fibers sacrifice comfort and breathability.\nTo address this, NENU-China 2026 developed CottonStatic, a bio-based treatment using a CBM3a-Linker-PaPilA fusion protein. CBM3a anchors to cotton, while PaPilA self-assembles into a humidity-independent conductive nanowire network. Through three DBTL cycles, computational and wet-lab validations optimized the design, achieving reproducible conductivity while preserving cotton's softness and breathability.\nBy embedding safety into natural fibers, CottonStatic provides a sustainable, durable antistatic solution for skin-contact garments, transforming a widespread misconception into a concrete, market-ready application.",
+"wiki": "https://2026.igem.wiki/nenu-china"
+},
+{
+"id": 6406,
+"name": "PROFUTURE-CHINA",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "Furflouris: Engineering Purine Metabolism for Sustainable Allantoin Production in Pet Skin and Coat Care。",
+"abstract": "Growing demand for multifunctional pet grooming products highlights the importance of skin health, coat maintenance, and animal comfort. However, conventional chemical synthesis and plant extraction of functional ingredients face challenges in waste management, raw material variability, and production efficiency.\n\nFurflouris employs synthetic biology to integrate skin care, hair repair, and fragrance into a unified system. Using engineered Escherichia coli BL21, we constructed an allantoin biosynthesis pathway by extending endogenous purine metabolism with XdhABC and PucLM modules. Through promoter optimization, molybdate supplementation, and temperature adjustment, allantoin production reached 68.14 ± 4.06 mg/L. Additionally, we designed a PepG–EGF fusion module to explore hair-fiber and epidermal repair, alongside a vanillin biosynthesis pathway involving QuiC, OMT, CAR, and Sfp for fragrance applications.\n\nBy combining microbial biosynthesis with specialized functional modules, Furflouris establishes a bio-based ingredient production framework for integrated pet skin and coat care.",
+"wiki": "https://2026.igem.wiki/profuture-china"
+},
+{
+"id": 6230,
+"name": "Qingdao-China",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "Yeauty: Engineering a Common Yeast for Endotoxin-Free Hyaluronic Acid Production",
+"abstract": "Hyaluronic acid (HA) is widely used in cosmetic and biomedical applications, with different molecular weights exhibiting distinct biological properties. However, conventional bacterial fermentation faces challenges including endotoxin contamination, costly purification, and difficulties in controlling HA molecular weight. Yeauty aims to develop a safer and more efficient HA production platform using the yeast Komagataella pastoris. We engineered K. pastoris to produce HA by introducing a heterologous hyaluronic acid synthase (HAS) and key enzymes involved in precursor biosynthesis. Through Design–Build–Test–Learn cycles, we integrated genome-scale metabolic modeling with experimental validation to identify metabolic bottlenecks and guide pathway optimization. Our modeling highlighted the importance of balancing two precursor-synthesis enzymes, leading us to develop a P2A peptide-based co-expression strategy that increased HA production. By integrating synthetic biology, metabolic engineering, and computational modeling, Yeauty offers a yeast-based strategy for safer, more efficient, and potentially more sustainable HA production while avoiding bacterial endotoxin contamination.",
+"wiki": "https://2026.igem.wiki/qingdao-china"
+},
+{
+"id": 6244,
+"name": "QingdaoAcademy",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "UPkeep: Sustainable Cosmetic Production via Upcycling of Ulva prolifera",
+"abstract": "Ulva prolifera blooms cause green tides, leaving biomass that can harm coastal environments when allowed to accumulate. This biomass also offers a source of valuable products. UPKeep aims to convert it into ulvan-derived oligosaccharides as potential cosmetic ingredients through a two-stage enzymatic process. First, a designer cellulosome uses a cellulose-binding module and configurable enzyme assembly to promote cooperative cell-wall degradation and release ulvan. An INPNC-displayed ulvan lyase then breaks down ulvan into oligosaccharides. Inspired by consolidated bio-saccharification (CBS), we plan to use biomass hydrolysates to support microbial growth and enzyme production, and recover cellulosomes with residual solids for reuse. Oligosaccharides were selected for potential solubility and bioavailability advantages. Stakeholder input helped shape the design. Ultimately, our project is expected to transform green tide \"waste\" into a sustainable resource, mitigating the ecological hazards while generating commercial revenues that can offset the financial losses caused by green tides.",
+"wiki": "https://2026.igem.wiki/qingdaoacademy"
+},
+{
+"id": 6104,
+"name": "SPC",
+"village": "Fashion & Cosmetics",
+"country": "HKG",
+"section": "high-school",
+"title": "BioScyde",
+"abstract": "Chemical sunscreen runoff accelerates coral bleaching, driving an urgent need for reef-safe alternatives. BioScyde addresses this crisis by engineering Escherichia coli as a sustainable production chassis for scytonemin, a cyanobacterial pigment with potent UV-absorbent and antioxidant properties. \n\nIn wet lab, we attempted the synthesis of scytonemin monomer and extensively modified the periplasmic dimerization enzyme ScyE, integrating computational modeling to optimize its translocation, folding, and structural stability. \n\nAlong the way, we built two software tools, the DNA Design Suite to eliminate greedy codon repeats and a protocol safety module.  We also made custom hardware for downstream pigment extraction. \n\nIntegrated Human Practices informed our engineering through stakeholder and sustainability analyses to satisfy environmental standards. These outcomes were taken into account in an entrepreneurial strategy evaluating technoeconomic feasibility, accompanied by educational initiatives promoting synthetic biology and marine conservation.",
+"wiki": "https://2026.igem.wiki/spc"
+},
+{
+"id": 6126,
+"name": "Squirrel-Shanghai",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "Sustainable biosynthesis of cis-abienol as an alternative for ambergris.",
+"abstract": "Cis - abienol is a crucial precursor for ambrox, a key ingredient in fragrances and pharmaceuticals. As traditional ambergris from sperm whales is scarce and raises conservation issues, developing sustainable synthesis routes is vital. Currently, cis - abienol is obtained via plant extraction or chemical synthesis, which are complex, low - yielding, and environmentally burdensome. In this study, Escherichia coli was chosen as the host. By optimizing the isopentenol utilization pathway (IUP), an efficient and cost - effective microbial production system for cis - abienol was built.",
+"wiki": "https://2026.igem.wiki/squirrel-shanghai"
+},
+{
+"id": 6414,
+"name": "SSES",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "Temperature-Controlled Smart Odor-Degradation System Based on Engineered Microorganisms",
+"abstract": "Odor pollution is prevalent in daily life. Foot odor, pet waste, and garbage piles release volatile short-chain fatty acids, with isovaleric acid as the core sour and rancid odor substance—even trace amounts cause strong unpleasant smells. We constructed basic and composite genetic parts in Escherichia coli and built recombinant plasmids. Complete isovaleric acid degradation requires four key proteins—FadL, FadD, AidB, and MccAB—since partial expression may cause insufficient substrate activation or toxic intermediate accumulation; we thus designed a degradation module with three plasmids requiring co-expression of all four genes. To prevent ecological risks from strain escape, we introduced the pTRIP temperature-dependent quorum-sensing dual-regulation system and a lethal module (three plasmids). The suicide pathway stays off at 37 °C fermentation but triggers lysis and lethality via AHL signaling at low temperatures. This project assembles a degradation pathway and temperature-controlled suicide module into E. coli, creating safe, efficient odor-removing engineered bacteria.",
+"wiki": "https://2026.igem.wiki/sses"
+},
+{
+"id": 6358,
+"name": "TecCEM",
+"village": "Fashion & Cosmetics",
+"country": "MEX",
+"section": "undergrad",
+"title": "MONARCH: A SynBio approach to the future of skincare",
+"abstract": "Skin inflammation, whether driven by chronic conditions or by daily stressors, affects both physical health and psychological well-being, and in Mexico, high solar exposure and urban stress intensify this burden. MONARCH by iGEM Tec CEM, is a serum based on multifunctional peptides designed to reduce inflammation at the molecular level while addressing the barriers that limit peptides in skincare: stability, targeted delivery, and skin penetration. The multipeptides were designed and studied in silico, whilst the serum formulation was capable of maintaining BSA stability as a preliminary test of its peptide-preservation capabilities\n\nThe team proposes the GRAS organism Lactococcus lactis as a production chassis, since its safety status and secretion capacity simplify purification; however, its lactic acid bacteria metabolism poses specific challenges, which the team addressed by building a metabolic model of its network. Throughout the project, interviews with multidisciplinary stakeholders guided its development and shaped our initial business proposal.",
+"wiki": "https://2026.igem.wiki/teccem"
+},
+{
+"id": 6308,
+"name": "Tsinghua-T",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "Glabridin biosynthesis via AI-designed LLPS Architecture with Temporospatial-controlled Enzyme Assembly",
+"abstract": "Glabridin is a high-value plant-derived skincare ingredient, yet its microbial biosynthesis suffers from severe bottlenecks: premature off-pathway demethylation diverts intermediates and lowers yield. Instead of altering intrinsic enzyme catalytic properties, GALATEA tackles this issue by spatially reorganizing two key enzymes, OC and DMT, inside an engineered liquid-liquid phase-separated (LLPS) condensate. This design enforces ordered reactions: OC catalyzes ring-closure first, followed by terminal demethylation by DMT, suppressing intermediate leakage.\nOur dry-lab pipeline combines structural compatibility, phase-separation characteristics and pathway kinetics to guide wet-lab iteration, generalized into a software platform with an adaptive AI agent and a literature retrieval algorithm. In wet-lab experiments, we truncated OC's ER anchor, equipped enzymes with recruitment tags, and constructed the FUSN-SH3-PDZ-FTH1 scaffold as reusable composite parts, testing both cytosolic and ER-anchored LLPS architectures. We established an evidence-driven evaluation framework aligned with SDG 3, 9 and 12, covering safety profiling and resource-balance modeling, enabling sustainable glabridin biomanufacturing.",
+"wiki": "https://2026.igem.wiki/tsinghua-t"
+},
+{
+"id": 6190,
+"name": "Tsinglan",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "you NAILed it",
+"abstract": "The global nail art market is projected to reach 4.034 billion USD by 2034. Traditional nail products cause health risks and plastic pollution. Our team developed a synthetic biology system with three modules: biodegradable artificial nail tips, biological adhesive, and nail polishes fabricated by fluorescent protein and chromoprotein.  We mutated gfasPurple chromoprotein, expressed it in pET-28α, and verified its good thermostability. We also screened more proteins for diverse colours. Our nail patches use hydroxyapatite-reinforced alginate crosslinked by calcium chloride. The bio-glue combines mussel foot proteins and spider silk proteins.  This fully biodegradable alternative protects users and reduces environmental burdens, proving synthetic biology enables safe, high-performance sustainable cosmetics.",
+"wiki": "https://2026.igem.wiki/tsinglan"
+},
+{
+"id": 6356,
+"name": "TU Darmstadt",
+"village": "Fashion & Cosmetics",
+"country": "DEU",
+"section": "overgrad",
+"title": "UNRAVEL- Unlocking New Resources And Value from End-of-Life textiles",
+"abstract": "The fashion industry generates 6,900,000 tons of waste every year in the EU alone. Blended fabrics remain especially difficult to recycle using conventional methods, which is why our team aims to UNRAVEL the potential of thermophilic bacteria for the degradation of mixed textile waste. We have investigated five different enzymes for degrading PET and nylon and attempted to make them more thermostable through engineering to reach higher conversion rates. Integrating these into an organism that can already degrade cotton would enable the degradation of mixed textiles without the need to laboriously separate the various materials found in common textiles. This led us on a journey discovering how to handle thermophilic, anaerobic organisms as potential chassis, building our own equipment and modelling biological systems. With our research we work towards turning the waste of today into the resource of tomorrow.",
+"wiki": "https://2026.igem.wiki/tu-darmstadt"
+},
+{
+"id": 6262,
+"name": "Usherbrooke",
+"village": "Fashion & Cosmetics",
+"country": "CAN",
+"section": "overgrad",
+"title": "Bioproduction of poly glutamic acid",
+"abstract": "Our 2026 project develops an alternative to hyaluronic acid, widely used in cosmetics and biomedicine: the microbial production of poly-γ-glutamic acid (γ-PGA), a biopolymer with excellent moisturizing properties, biocompatibility, and biodegradability. Produced by several Bacillus species, γ-PGA is highly versatile thanks to its wide polydispersity.\n\nDespite a growing market, industrial production remains concentrated in Asia, raising concerns about availability, reliability, and environmental impact for North American manufacturers that depend on imports. iGEM UdeS aims to develop a sustainable, local production process for Canada.\n\nWe selected Bacillus subtilis var. natto for its native γ-PGA biosynthesis, its safety profile, and its accessibility. Our strategy targets a single gene in the γ-PGA pathway, either overexpressing a promoter of production or knocking out a limiting one, to outproduce the wild type.",
+"wiki": "https://2026.igem.wiki/usherbrooke"
+},
+{
+"id": 6498,
+"name": "Westlake",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "undergrad",
+"title": "AI-Powered Personalized Fragrance via Synthetic Biology",
+"abstract": "The traditional fragrance industry relies on environmentally damaging plant and animal extraction methods or polluting chemical synthesis, while consumers constantly face a frustrating trial-and-error process to find their perfect scent. To solve this, we are developing a closed-loop, personalized fragrance platform that combines artificial intelligence with synthetic biology. First, our AI algorithm analyzes a user's specific preferences to design a unique, digitized scent recipe. Next, we introduce plant and bacteria genes into engineered yeast to build our \"green factories\", regulate MVA pathways and produce terpenoid fragrant molecules, which is a more sustainable and environment-friendly strategy. Finally, our custom-built automated hardware precisely blends these bio-manufactured ingredients, delivering a fully customized, eco-friendly perfume directly to the consumer.",
+"wiki": "https://2026.igem.wiki/westlake"
+},
+{
+"id": 6496,
+"name": "Worldshaper-HZ",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "BlackNova: A Safe and Sustainable Polydopamine Bio-Hair Dye",
+"abstract": "Hair graying often causes appearance anxiety, yet conventional chemical dyes rely on harsh ingredients like p-phenylenediamine that can cause severe scalp allergies. To solve this, we created a safe, eco-friendly hair dye kit based on polydopamine, a natural dark pigment with excellent body compatibility. Using engineered harmless bacteria as green factories, we biologically produce dopamine from simple amino acids under mild conditions. We also designed a special bio-peptide that acts like glue, helping the natural pigment stick firmly to hair proteins for long-lasting color. Packaged as a practical, easy-to-use kit, our product replaces toxic chemical treatments with a gentle bio-cleansing routine, offering a healthy and commercial solution to graying hair.",
+"wiki": "https://2026.igem.wiki/worldshaper-hz"
+},
+{
+"id": 6236,
+"name": "ZQT-Nanjing",
+"village": "Fashion & Cosmetics",
+"country": "CHN",
+"section": "high-school",
+"title": "EctoBloom: Green Biomanufacturing of Ectoine for Sensitive Skin Repair and Facial Mask Application",
+"abstract": "Our project focuses on the sustainable biomanufacturing of an Ectoine–Bacterial Cellulose (BC) facial mask, integrating synthetic biology with bio-based materials for greener skincare solutions.\n\nEctoine is a natural compound with moisturizing and cell-protective properties. However, conventional production relies on high-salinity fermentation, causing equipment corrosion and wastewater challenges. To address these issues, we engineered Escherichia coli with the EctABC biosynthetic pathway, optimized carbon and nitrogen sources, and introduced the LysC T352I mutation to enhance ectoine production. We also explored wheat straw hydrolysate as a renewable fermentation substrate.\n\nFor product development, we investigated bacterial cellulose as a biodegradable facial mask substrate, combining it with silk fibroin and purified ectoine to improve moisturizing performance.\n\nBy integrating metabolic engineering, renewable resources, and material design, we aim to develop sustainable skincare products.",
+"wiki": "https://2026.igem.wiki/zqt-nanjing"
+}
+]

@@ -1,0 +1,5 @@
+.DS_Store
+_site/
+photos/raw/
+*.heic
+*.HEIC

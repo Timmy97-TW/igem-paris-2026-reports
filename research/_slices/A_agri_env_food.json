@@ -1,0 +1,1462 @@
+[
+ {
+  "id": 6239,
+  "name": "Aiglon College",
+  "village": "Agriculture",
+  "country": "CHE",
+  "section": "high-school",
+  "title": "UVitis: Improving the Vitality of Grapes",
+  "abstract": "In Vaud, high-altitude vineyards face UV indices reaching 9, causing heat damage, altered sugar and acid ratios, and undesirable aromas that threaten wine quality. While kaolin clay particle films reflect sunlight to reduce heat stress, it is easily washed off by rain. \n\nProject UVitis engineers a fusion protein that functions as biological double-sided tape, anchoring kaolin particles to grape waxy cuticles. The construct joins a silica/kaolin-binding peptide (Car9, SB7, or R5), a flexible linker, an sfGFP fluorescent reporter, and MacHis, a plant-wax-binding peptide. Expressed in non-pathogenic E. coli, the presence of the fusion proteins were evaluated through fluorescence. \n\nTherefore, through enhancing kaolin retention, UVitis offers a more sustainable bio-shield to protect viticulture against climate stressors.",
+  "wiki": "https://2026.igem.wiki/aiglon-college"
+ },
+ {
+  "id": 6397,
+  "name": "Alicante University",
+  "village": "Agriculture",
+  "country": "ESP",
+  "section": "overgrad",
+  "title": "1,3-Dimethoxybenzene: An insight on fungal compounds against nematodes",
+  "abstract": "Plant-parasitic nematodes cause major crop losses worldwide. The fungus Pochonia chlamydosporia naturally produces 1,3-dimethoxybenzene (C5), a volatile compound with nematicidal activity, but its biosynthetic pathway remains uncharacterised. NemaVOC aims to reconstruct and optimise this pathway in Escherichia coli using genes from other organisms encoding a polyketide synthase (PKS), a decarboxylase and an O-methyltransferase (OMT). Plasmid constructs with codon-optimised sequences under constitutive promoters will be assembled following a modular approach: each enzyme is first tested individually, then combined to rebuild the full pathway, aiming for a strain that produces C5 from simple precursors and ultimately from glucose. We will assess C5 toxicity on E. coli, study C5 production by P. chlamydosporia strain Pc123 under different culture conditions including resorcinol supplementation, and begin with heterologous OMT expression using resorcinol as substrate. Molecular modelling and docking will explore C5 interactions with nematode target proteins.",
+  "wiki": "https://2026.igem.wiki/alicante-university"
+ },
+ {
+  "id": 6368,
+  "name": "BIT-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "HERBAL——Herb Evaluation via Rapid Bacterial Assay for Licorice",
+  "abstract": "Herbal materials can look similar yet differ substantially in their bioactive constituents. HERBAL aims to make compositional screening more accessible, using licorice as its first application. Our design combines enzymatic pretreatment with engineered yeast and Escherichia coli to sense glycyrrhetinic acid, liquiritigenin, and selected phenolic acids. We investigate two routes: direct fluorescence readout for practical screening and molecular communication with the computing strain to explore biological information processing. A compact reader integrates mixing, temperature control, and optical detection, while calibration and modeling connect fluorescence to concentration estimates.  We also developed BIO-NET, an open-source platform for biological network design and simulation. Guided by growers, traders, and testing specialists, HERBAL prioritizes batch comparison during purchasing, aiming to support better-informed decisions and future applications in other herbal materials.",
+  "wiki": "https://2026.igem.wiki/bit-china"
+ },
+ {
+  "id": 6346,
+  "name": "BJWZ-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Tree Guard: Engineered Bacillus subtilis with LysM₃‑ChiA and RNAi Against Peach Gummosis",
+  "abstract": "To address the challenge that Botryosphaeria dothidea conceals chitin via the LysM domain of its BdLM1 protein to evade peach PTI (PAMP‑Triggered Immunity), we constructed a dual‑action biocontrol system using engineered Bacillus subtilis. The engineered strain continuously secretes the LysM₃‑Cat fusion protein, which competitively masks pathogen cell‑wall chitin through high‑affinity multivalent LysM binding, thereby blocking immune evasion. Concurrently, the GH18 catalytic domain specifically hydrolyzes chitin at hyphal tips, releasing chitin oligosaccharides (DAMPs) that activate plant PTI immunity. Furthermore, we designed siRNA targeting the BdLM1 gene to silence its expression, abolishing the pathogen's immune‑suppressive strategy and restoring the tree's defense. Upon colonization in peach trees, this system achieves triple synergy: direct antifungal killing, immunity activation, and immune restoration. Laboratory validation confirms that this strategy efficiently inhibits hyphal growth and substantially reduces reliance on chemical pesticides, providing a green, long‑lasting synthetic‑biology solution for peach gummosis management.",
+  "wiki": "https://2026.igem.wiki/bjwz-china"
+ },
+ {
+  "id": 6441,
+  "name": "BWYA",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Flowever",
+  "abstract": "Cut flowers have a limited vase life, leading to premature disposal and resource waste. Flowever aims to develop a sustainable flower preservative using melatonin produced through synthetic biology. We engineered Escherichia coli with an optimized nine-gene biosynthetic pathway, achieving a melatonin concentration of 159.02 mg/L after 96 hours. To reduce purification costs and improve stability, we developed a preservative combining filtered fermentation supernatant with citric acid. In laboratory trials, our formulation delayed visual deterioration in carnations. In one experiment, all treated carnations retained ornamental value on Day 6, while none in the water control did. Guided by stakeholder interviews and consumer research, we explored commercial applications in hotels and commercial complexes. Flowever connects synthetic biology with practical flower preservation, aiming to extend flower longevity and reduce waste.",
+  "wiki": "https://2026.igem.wiki/bwya"
+ },
+ {
+  "id": 6069,
+  "name": "CCA-SanDiego",
+  "village": "Agriculture",
+  "country": "USA",
+  "section": "high-school",
+  "title": "PestiSense",
+  "abstract": "Pesticide contamination threatens public health through potential neurotoxicity and associations with neurodegenerative diseases. However, conventional detection requires expensive equipment and time-consuming procedures, limiting on-site testing. Our project developed and experimentally evaluated a cell-free fluorescence resonance energy transfer (FRET)-based aptasensor for detecting rotenone and malathion. The system comprises a fluorophore-labeled DNA aptamer (FDNA) and a complementary quencher-labeled strand (QDNA). In the absence of pesticide, hybridization suppresses fluorescence. Target binding is expected to separate the fluorophore and quencher, restoring fluorescence. Two aptamer candidates, AX12 targeting rotenone and MalR targeting malathion, were designed and evaluated alongside existing candidates. Quenching assays showed reduced fluorescence with increasing QDNA concentrations, supporting proper quenching. Pesticide-response experiments demonstrated generally increasing fluorescence across the tested concentration ranges, indicating promising pesticide targeting despite some experimental variability. These preliminary findings establish a foundation for further development. Future work will validate binding independently, improve reproducibility, assess selectivity, and determine detection limits.",
+  "wiki": "https://2026.igem.wiki/cca-sandiego"
+ },
+ {
+  "id": 6408,
+  "name": "CCU-Taiwan",
+  "village": "Agriculture",
+  "country": "TWN",
+  "section": "undergrad",
+  "title": "NoFold: Engineering E. coli to Produce L-Limonene Against the Rice Leafroller",
+  "abstract": "The rice leafroller (Cnaphalocrocis medinalis) is a migratory pest that damages rice across East Asia, and farmers rely heavily on chemical pesticides to control it. NoFold engineers Escherichia coli to produce L-limonene, a plant terpene reported to repel the rice leafroller and reduce its egg-laying. The limonene is extracted from the culture and applied as a spray, so no engineered cells are released into the field. Our strain expresses a geranyl diphosphate synthase and a limonene synthase, and we pursue two strategies to raise yield: overexpressing DXS and IDI to increase precursor supply through the native MEP pathway, and fusing the two final enzymes to bring their active sites closer together. We complemented the wet-lab design with metabolic and molecular modeling, consulted agricultural stakeholders, and ran outreach on sustainable farming. NoFold aims to give rice farmers a bio-based alternative to chemical pesticides.",
+  "wiki": "https://2026.igem.wiki/ccu-taiwan"
+ },
+ {
+  "id": 6116,
+  "name": "City-of-London-UK",
+  "village": "Agriculture",
+  "country": "GBR",
+  "section": "high-school",
+  "title": "Vinalysis - A Rapid Test for Smoke-tainted Grapes",
+  "abstract": "As climate change increases the occurrence and scale of wildfires, smoke taint is costing the global wine industry hundreds of millions every year. Volatile phenols are carried vast distances by wildfire smoke and bind to sugars in grapes undetectably. Fermentation of tainted grapes to produce wine releases these phenols, which have a strong smoky and medicinal flavour, rendering the wine unsellable. Current lab tests for smoke taint are expensive and take weeks, leaving a costly waiting period right before harvest. \n\nVinalysis is an affordable, rapid triage test for use in the vineyard, which quantifies the concentrations of two common phenols: guaiacol and syringol. After enzymatic cleavage frees these compounds, guaiacol will bind to a guaiacol-binding aptamer in an RNA riboswitch, and syringol will cause the transcription factor DesX to undergo a shape change. This will result in the production of fluorescence via GFP, indicating the degree of smoke taint.",
+  "wiki": "https://2026.igem.wiki/city-of-london-uk"
+ },
+ {
+  "id": 6355,
+  "name": "CUHK-Shenzhen",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Plant SOS: A plant hormone biosensor complex for early warning of biotic and abiotic stresses",
+  "abstract": "3 critical hormones SA, JA, ABA play important roles in regulating plant growth and coping with biotic and abiotic stress. We design a stress onset sensor complex called Plant SOS. We aim to realize an detection system including SA, JA, ABA sensors and estimate the amount of different plant hormones via luminescence intensity. And we will also construct a model for interactive analysis of fluctuations across three hormones. Through this biosensor complex we can evaluate the state of plants more efficiently, economically, comprehensively than traditional methods, and give valuable advises in early disease prevention.",
+  "wiki": "https://2026.igem.wiki/cuhk-shenzhen"
+ },
+ {
+  "id": 6447,
+  "name": "ECUST",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "The Great Wall: Engineering Light-Programmable Living Microrobots for Precision Mucosal Vaccination in Aquaculture",
+  "abstract": "Immersion vaccination offers scalable protection for juvenile fish, yet the mucosal barrier limits antigen delivery. Building on our previous Wukong project, The Great Wall shifts to LOV–CheZ fusions designed for direct, protein-level regulation of bacterial motility. Through iterative DBTL cycles, we constructed three variants; the best candidate produced larger swimming halos under blue light than in darkness in soft-agar assays. To quantify motility and explore delivery, we developed bacterial tracking software and an agent-based model. Model simulations predicted 42.7% greater antigen transport across the mucosal barrier within five minutes under pulsed illumination than without illumination. We also developed a biomimetic microfluidic chip and integrated an illuminated screw immersion device with a smart vaccine workstation, achieving 95% vaccine utilization in controlled recirculation. Guided by stakeholder input and adhering to approved animal-use and biosafety protocols, this contained platform advances light-controlled mucosal delivery toward practical, environmentally responsible aquaculture vaccination.",
+  "wiki": "https://2026.igem.wiki/ecust"
+ },
+ {
+  "id": 6275,
+  "name": "GeorgiaState",
+  "village": "Agriculture",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "REDAlert: Engineering an Early Visual Warning System for Rice Blast Disease",
+  "abstract": "Rice blast, caused by Magnaporthe oryzae, is among the most destructive rice diseases, yet farmers usually notice symptoms only after preventive fungicide is no longer effective. REDAlert (Riceblast Early Detection Alert) is a synthetic biology system designed to make rice visibly signal infection before symptoms appear, giving smallholder farmers time to act. A chimeric receptor fusing the OsTPR1 ectodomain to OsCERK1 transmembrane and kinase domains detects MoChia1, an effector the fungus secretes to mask its chitin. Binding prompts the 14-3-3 adapter OsGF14f to recruit split-TEV protease, releasing GAL4-VP16 to drive RUBY betalain production, a red pigment readable without lab equipment. This season we validated protoplast isolation and are testing the circuit by PEG-mediated transfection of rice protoplasts, supported by structural modeling and design decisions shaped by regulators, industry scientists, researchers, ethicists, and farmers.",
+  "wiki": "https://2026.igem.wiki/georgiastate"
+ },
+ {
+  "id": 6068,
+  "name": "Guelph",
+  "village": "Agriculture",
+  "country": "CAN",
+  "section": "undergrad",
+  "title": "Lumifert",
+  "abstract": "Conventional synthetic fertilizers are unsustainable due to energy-intensive production, supply chain volatility, and ineffective nutrient release, resulting in financial losses for farmers and environmental destruction. The objective of this research is to develop a bioengineered slow-release fertilizer with tunable nutrient content that can be produced onsite at farming operations. The fertilizer biomass is composed of a consortium of duckweed (Lemna minor) and bacteria (Gluconacetobacter diazotrophicus) genetically engineered to accumulate phosphorous and nitrogen under optogenetic regulation. This work establishes a proof-of-concept for an optogenetically regulated plant-microbe fertilizer platform that could reduce reliance on conventional synthetic fertilizers and achieve comparable macronutrient delivery while reducing greenhouse gas emissions and runoff. This project is informed by ongoing consultations with stakeholders, academics, and industry professionals to ensure it is technically and commercially viable. Commercialization of the developed fertilizer would support the sustainable intensification of agriculture in alignment with global food security and climate mitigation goals.",
+  "wiki": "https://2026.igem.wiki/guelph"
+ },
+ {
+  "id": 6129,
+  "name": "HainanU-YZ-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "GreenShield MicroControl · miRNA Biopesticide",
+  "abstract": "Gray mold seriously reduces tomato yield and quality in protected cultivation. Conventional chemical pesticides cause pesticide residues and pathogen resistance, while traditional dsRNA agents are costly, single-functional and easily degraded, limiting field application. We adopt tomato endogenous miR393 as the core factor to develop eco-friendly biopesticides.\n \nmiR393 exhibits dual functions: it enters Botrytis cinerea cells to inhibit cell wall synthesis and block infection; meanwhile, it triggers tomato PTI basal defense via JA/SA pathways to strengthen plant immunity. We use E. coli HT115 for prokaryotic expression and construct SPc and low-cost quaternized chitosan delivery systems. Seedling tests confirm good biosafety. We build an induction kinetic model for our fermentation optimization and a Hill‑XGBoost model offering universal references for global researchers. This work provides a green strategy for gray mold control and advances endogenous small RNA biopesticides.",
+  "wiki": "https://2026.igem.wiki/hainanu-yz-china"
+ },
+ {
+  "id": 6156,
+  "name": "HIA-Taiwan",
+  "village": "Agriculture",
+  "country": "TWN",
+  "section": "high-school",
+  "title": "AiyUReady: A Methanol-Based Biosensor for Aiyu Ripeness and Gel Quality",
+  "abstract": "Taiwan produces approximately 700 metric tons of Aiyu annually, yet harvest decisions rely largely on farmers’ visual judgment and experience. Premature harvesting can compromise gel formation and product quality. AiyUReady investigates methanol, released during pectin demethylation, as a potential indicator of Aiyu quality.\nWe designed a two-plasmid biosensor in Escherichia coli K-12 MG1655. The upstream module expresses methanol dehydrogenase to convert methanol into formaldehyde, while the downstream module uses a formaldehyde-responsive promoter to drive AmilCP expression, producing a blue-purple signal. Mathematical modeling connects enzyme expression, formaldehyde production, cellular detoxification, and reporter output to guide construct design.\nFarmer consultations informed our proposed application, emphasizing affordability, clear interpretation, and compatibility with farming experience. Educational outreach connected synthetic biology with local agriculture and Taiwanese food culture.\nFurther calibration against methanol concentration and gel performance, followed by field validation, is needed to determine whether AiyUReady can provide a reliable additional reference for harvest decisions.",
+  "wiki": "https://2026.igem.wiki/hia-taiwan"
+ },
+ {
+  "id": 6158,
+  "name": "HongKong-JSS",
+  "village": "Agriculture",
+  "country": "HKG",
+  "section": "high-school",
+  "title": "MerMAID: MerR-based Mercury Assay for In-field Detection",
+  "abstract": "Mercury is a potent, bioaccumulative neurotoxin that threatens Hong Kong's agriculture on two fronts. In local farmland, the historical use of mercury-containing agrochemicals has left elevated mercury in agricultural soils. In mariculture, mercury bioaccumulates up the food chain into farmed fish—a dietary staple—raising the burden on local consumers. Yet on-site monitoring stays costly and lab-dependent. We present a MerR-based biosensor for in-field detection, coupling the mercury-responsive merR/pMer element to the reporter mRFP1e for dual readouts: visible colour for equipment-free early warning, and fluorescence for precise quantification. After screening over ten protein-based variants, we optimised one construct showing a reliable dose-response, broad dynamic range, and a detection limit below WHO standards. We validated it in mercury-spiked garden-soil matrices and showed that alginate-bead encapsulation preserves function—enhancing field use and biosafety.",
+  "wiki": "https://2026.igem.wiki/hongkong-jss"
+ },
+ {
+  "id": 6501,
+  "name": "HSET-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Silicon Shield: A synthetic biology platform that enhances crop stress resistance using plant silicon transporters",
+  "abstract": "This project uses Nicotiana benthamiana as a model plant for verification and constructs an efficient artificial gene pathway for silicon absorption, transport, and deposition based on the standardized approach of synthetic biology. By heterologously expressing highly active silicon transporter proteins from plants, the project enhances tobacco's ability to enrich silicon in soil/water and deposit it in cell walls. Utilizing the physical reinforcement, antioxidant, and osmotic stress resistance properties of silicon, the project aims to achieve multi-dimensional enhancement of crop resistance to drought, salt, high temperatures, and diseases.",
+  "wiki": "https://2026.igem.wiki/hset-china"
+ },
+ {
+  "id": 6477,
+  "name": "INHA-U Korea",
+  "village": "Agriculture",
+  "country": "KOR",
+  "section": "overgrad",
+  "title": "SA-Responsive Genetic Circuit Dual-Targeting Microbial Control SDual Biocontrol of Bradysia agrestis and Rhizosphere Fungi",
+  "abstract": "Larvae of Bradysia agrestis damage crops and create wounds that facilitate infection by soilborne pathogens such as Fusarium oxysporum. Backyard Guardian addresses both threats using Pseudomonas putida KT2440 engineered with a salicylic acid responsive NahR–XylS2 cascade regulating two defensive modules. We quantify SA in rhizosphere soil to determine whether naturally occurring concentrations fall within the circuit’s operating range and support reliable activation. We also evaluated designed Type VI secretion system to deliver the antifungal effector Tfe2 against F. oxysporum and Type I secretion system designed to export insecticidal proteins targeting B. agrestis larvae. Expanding the platform, we are engineering SA-responsive cascade for greater sensitivity to environmentally relevant SA concentrations and exchanging the T1SS toxin to assess modularity. By integrating environmental quantification, functional validation, and modular engineering, Backyard Guardian aims to establish a versatile microbial platform for targeted root protection while reducing reliance on conventional pesticides and supporting sustainable crop production.",
+  "wiki": "https://2026.igem.wiki/inha-u-korea"
+ },
+ {
+  "id": 6290,
+  "name": "Institut-Le-Rosey-CH",
+  "village": "Agriculture",
+  "country": "CHE",
+  "section": "high-school",
+  "title": "AURA",
+  "abstract": "AURA is developing an easy-to-use inline biosensor for early detection of subclinical mastitis in dairy cattle. Integrated into milking machines, it aims to support targeted treatment, reduce antibiotic use and veterinary costs, and improve animal welfare.\n\nThe sensor uses Field-Effect Transistor (FET) technology to detect bta-miR223, a milk microRNA associated with inflammation and subclinical mastitis. Its surface carries a DNA “catapult” designed to bind this target. Binding changes the DNA’s shape, altering the local electrical field and producing a measurable change in current. Reference electrodes help calibrate readings for differences between milk samples.\n\nBy monitoring each cow multiple times daily, AURA aims to identify infection before visible symptoms appear. The system is designed for straightforward integration into milking equipment, with minimal maintenance and technical expertise required.",
+  "wiki": "https://2026.igem.wiki/institut-le-rosey-ch"
+ },
+ {
+  "id": 6161,
+  "name": "Ionis-Paris",
+  "village": "Agriculture",
+  "country": "FRA",
+  "section": "undergrad",
+  "title": "NEWT - Next-generation Enzymatic Waterborne-pathogen Treatment",
+  "abstract": "Driven by climate crisis, hydroponics is emerging as an alternative to soil farming, offering higher yield and resource efficiency. However, closed-loop systems remain vulnerable to waterborne pathogens. Pythium causes root rot, weakening or killing leafy greens and herbs. Countermeasures are energy-intensive and environmentally damaging, causing toxic runoff, disrupting root microbiota, and driving resistance.\n\nNEWT (Next-generation Enzymatic Waterborne-pathogen Treatment) is a biocontrol agent detecting and treating infection in real time. We engineer Pseudomonas putida, a rhizobacterium mutualistic with plants, to release lytic enzymes only upon recognition of Pythium cell wall biomarkers via a Two-Component System with a Biomarker-Binding Module. Bacteria act against pathogens only when detected, while promoting plant growth. We assess the transformation of P. putida KT2440 and whether the enzyme can be expressed successfully while maintaining bioactivity. Replacing unsustainable countermeasures with an autonomous, bio-based solution, NEWT aims to protect roots and support sustainable agriculture.",
+  "wiki": "https://2026.igem.wiki/ionis-paris"
+ },
+ {
+  "id": 6246,
+  "name": "MammothEdu-East",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "BioCall: Calling Nature Back to the City",
+  "abstract": "A sticky bicycle seat, a car coated in sugary droplets, a pavement beneath a tree that never seems clean—these everyday nuisances can share one source: aphid honeydew. Managing aphids on urban street trees requires balancing pest control with the protection of surrounding ecosystems. BioCall combines synthetic biology and chemical ecology to explore a different approach: communicating through nature’s own chemical signals. Using engineered yeast, we develop biosynthetic modules for five volatile semiochemicals: (E)-β-farnesene, methyl salicylate, β-caryophyllene, linalool, and limonene. Through enzyme-source comparison, promoter tuning, and multigene assembly attempts, we work toward a modular platform for producing and combining these signals. Our goal is to influence aphid behavior and recruit natural enemies such as ladybirds, helping reduce honeydew pollution and pesticide dependence. BioCall envisions urban pest management that works with ecological relationships to make greener cities more livable.",
+  "wiki": "https://2026.igem.wiki/mammothedu-east"
+ },
+ {
+  "id": 6339,
+  "name": "Muenster-University",
+  "village": "Agriculture",
+  "country": "DEU",
+  "section": "overgrad",
+  "title": "P.A.C. Immunity -Protect And Capture-",
+  "abstract": "Plant diseases cause significant crop losses worldwide. To induce pathogen resistance, the current approach demands actively searching for natural occuring resistance genes in a wide range of organisms. Sadly, this approach is highly time-consuming and resource-intensive. Further, pathogens have shown a remarkable ability to adapt to newfound resistances, rendering them useless. Our project aims to transform plant immunity into a programmable system by engineering natural immune receptors, which recognize conserved pathogen proteases and trigger a direct and holistic defense response. Our projects goal is to develop an open-source modular platform that enables the rapid, precise design of tailored disease resistance for a wide range of crops. -We skip blindly searching for resistance, we design them.-",
+  "wiki": "https://2026.igem.wiki/muenster-university"
+ },
+ {
+  "id": 6400,
+  "name": "NACIS SHANGHAI",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "MelanoShield: Melanin-Protected Bt Cry1Ac for Sustainable Control of Lepidopteran Pests",
+  "abstract": "The diamondback moth (Plutella xylostella), a major cruciferous pest, causes USD 4–5 billion in annual global losses. While Bt biopesticides are environmentally friendly alternatives to chemical pesticides, their broad use is constrained by unstable efficacy under UV irradiation and total field usage costs. To tackle these constraints, we developed MelanoShield, integrating UV shielding for Bt Cry1Ac and toxin-delivery engineering, together with two hardware prototypes to increase field application efficiency. Using E. coli W3110(DE3), we built a melanin–Cry1Ac co-production system yielding 1.80 g/L melanin with tyrosine feeding; 0.05 g/L melanin blocked 95.4% of UV light. We engineered an SmChiA–Cry1Ac fusion construct to facilitate toxin penetration through the insect peritrophic matrix via linker optimization (expression optimization ongoing). Separately, we designed an ESM-2 protein engineering workflow that identified MelA W144K, which increased the titer by 14.5% over wild type (from 0.55 ± 0.04 g/L to 0.63 ± 0.03 g/L).",
+  "wiki": "https://2026.igem.wiki/nacis-shanghai"
+ },
+ {
+  "id": 6149,
+  "name": "NEFU-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "AAAgri——an AAA-grade（Accurate、Alternative、AI-assisted） pest control strategy via sustainable biomanufacturing",
+  "abstract": "AAAgri develops an AAA-grade pest control strategy via sustainable biomanufacturing, producing chrysanthemic acid in engineered Yarrowia lipolytica. Our approach centers on three \"A\" pillars:\n \nAccurate: Green, relatively specific pyrethrins from chrysanthemic acid enable eco-friendly pest management, block vector-borne disease transmission, and serve as high-demand precursors for public health drugs.\nAlternative: We upcycle low-value waste lipids as the sole carbon source, converting waste into high-value green pest control compounds.\nAI-assisted: AI-assisted protein engineering optimizes rate-limiting enzymes in the MVA pathway, boosting pathway efficiency and chrysanthemic acid titers.\n \nLong-term, we aim to establish a robust \"waste-lipid-to-chrysanthemic-acid\" platform for agriculture and public health, while developing a transferable high-DMAPP precursor module for universal isoprenoid biosynthesis.",
+  "wiki": "https://2026.igem.wiki/nefu-china"
+ },
+ {
+  "id": 6042,
+  "name": "NJTECH-CHINA-A",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Engineering and Immobilization of NJF26: Exploring Its Application in Zearalenone (ZEN) Detoxification",
+  "abstract": "Zearalenone (ZEN) contaminates maize, wheat and feed and causes reproductive and developmental toxicity in livestock. Conventional adsorption and chemical treatments lack selectivity and may damage nutrients. We built an integrated pipeline around the ZHD-family hydrolase NJF26: computational screening identified the enzyme, NJTECH-evolve and NJF-DuoStab prioritized mutants, expression optimization and site-directed mutagenesis produced improved variants, and calcium-alginate immobilization enabled reuse. NJF26 and the S33G/Y99V mutant degraded ZEN efficiently, and the immobilized beads retained activity over four uses, supporting a potential application in corn wet milling and feed detoxification.",
+  "wiki": "https://2026.igem.wiki/njtech-china-a"
+ },
+ {
+  "id": 6303,
+  "name": "NKU-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Field Detective: A Yeast Biosensor for Plant-Parasitic Nematodes",
+  "abstract": "Plant-parasitic nematodes damage crops underground; by the time growers notice the symptoms, it is often too late for effective intervention. NemaKlear aims to enable affordable risk screening using yeast engineered to convert nematode chemical signals into yellow betaxanthin. We confirmed expression and plasma-membrane localization of the fungal receptor GPR2 in yeast and constructed computationally selected variants, contributing basic parts for biosensor development. Molecular docking and dynamics guided receptor selection; signaling and dual-channel models explored target-density estimation amid background nematodes; economic modeling assessed when testing could improve treatment decisions. Surveys, expert interviews, and farm visits sharpened our focus on pre-planting screening and brought affordability, sampling quality, and soil interference into research discussions and test-strip development. By connecting receptor engineering, predictive modeling, and stakeholder feedback, NemaKlear lays the groundwork for accessible nematode detection and more informed crop protection.",
+  "wiki": "https://2026.igem.wiki/nku-china"
+ },
+ {
+  "id": 6412,
+  "name": "OTIA-Hangzhou",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Detect the Invisible",
+  "abstract": "The moldiness of stored grains is a long-standing issue in food security: changes in temperature and humidity allow Aspergillus flavus to infect corn and peanuts, and produce aflatoxin B₁ before visible mold spots appear. Traditional detection methods such as high-performance liquid chromatography (HPLC) and enzyme-linked immunosorbent assay (ELISA) are accurate, but are limited by laboratory conditions, time-consuming and costly, resulting in the lack of practical early screening methods in grassroots warehouses. Therefore, we have developed a four-promoter whole-cell biosensor, in which hipB, dkgB, evgA and elfA drive the luxCDABE genome, converting Aspergillus flavus-related volatile organic compounds (VOCs) into bioluminescent signals that do not require exogenous substrates to self-illuminate. Chemically defined VOC mixtures can simulate the characteristic markers of different infection stages, and the combined interpretation of these four reporter genes can serve as early warning and later toxin indicators.",
+  "wiki": "https://2026.igem.wiki/otia-hangzhou"
+ },
+ {
+  "id": 6391,
+  "name": "Oxford",
+  "village": "Agriculture",
+  "country": "GBR",
+  "section": "undergrad",
+  "title": "NECTAR",
+  "abstract": "NECTAR is a programmable RNAi biopesticide platform that integrates optimised strategies for the design, production, and delivery of dsRNA targeting Varroa mites. Combined with extensive in vivo testing, NECTAR has been developed as an accessible, easy-to-deploy therapeutic solution to a global threat to honeybee health.",
+  "wiki": "https://2026.igem.wiki/oxford"
+ },
+ {
+  "id": 6208,
+  "name": "Rochester",
+  "village": "Agriculture",
+  "country": "USA",
+  "section": "overgrad",
+  "title": "VERDANT (Vip3A Engineered Response for Defense Against Natural Threats)",
+  "abstract": "Millions of tons of synthetic pesticides are applied to agricultural land annually across the world. Not only does the consistent use of synthetic pesticides contribute to environmental harm by damaging surrounding ecosystems, but these chemicals can also become less effective over time due to the evolution of resistance in pest populations. Our project aims to solve this issue by engineering a bacterial chassis to produce VIP3A, a natural pesticide, in response to methyl salicylate, a volatile organic compound that plants produce under pest-related stress. By producing a natural pesticide only when it is needed, we can reduce the amount of synthetic pesticides that are used on plants while slowing the development of insect resistance.",
+  "wiki": "https://2026.igem.wiki/rochester"
+ },
+ {
+  "id": 6266,
+  "name": "SHSD",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "BnDREB1C Overexpression in Arabidopsis: Toward Shorter-Season Rapeseed",
+  "abstract": "Rapeseed (Brassica napus) has a relatively long growth period, limiting its integration into crop rotation and multiple-cropping systems and the use of winter-fallow farmland. To explore a genetic approach to shortening this period, we overexpressed BnDREB1C, a rapeseed CBF/DREB1-family transcription factor, in Arabidopsis thaliana.\nWe constructed an overexpression vector and performed Agrobacterium-mediated floral dipping. Following antibiotic screening and molecular identification, RT-qPCR showed 4.4–11.9-fold higher relative BnDREB1C expression in five overexpression plants than in wild-type controls. These plants flowered earlier and matured sooner, suggesting that BnDREB1C can influence plant developmental timing.\nEngagement with farmers, researchers, and other stakeholders helped us understand practical needs and challenges. Although further validation in rapeseed is needed, our results support BnDREB1C as a promising candidate for developing shorter-season rapeseed, with potential benefits for cropping flexibility and farmland utilization.",
+  "wiki": "https://2026.igem.wiki/shsd"
+ },
+ {
+  "id": 6170,
+  "name": "SHSID",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "PlantGuard: Based on a Synthetic Biology Dual-Module System for Coordinated Drought Management in Plants",
+  "abstract": "To address global water scarcity and frequent droughts—where conventional irrigation relies on human experience and often leads to over- or delayed watering—we present  PlantGuard, a synthetic-biology-based dual-module drought management system using Saccharomyces cerevisiae as the chassis. The alert module drives expression of the blue chromoprotein amilCP under drought-inducible promoters, turning gel beads from white to blue upon water deficit as an intuitive visual warning. The soil-improvement module expresses dcsA and hasA-hasB to synthesize biodegradable cellulose and hyaluronic acid polymers in situ, enhancing rhizosphere water retention. Together, the two modules achieve \"water retention + alerting.\" An accompanying ADRS hardware integrates in-situ sensing, ESP32 edge computing, wireless networking, and a mobile app to form a closed \"sense–decide–respond\" loop, offering a precise, autonomous, and sustainable water-management solution for both home gardening and large-scale agriculture.",
+  "wiki": "https://2026.igem.wiki/shsid"
+ },
+ {
+  "id": 6093,
+  "name": "Sorbonne University",
+  "village": "Agriculture",
+  "country": "FRA",
+  "section": "overgrad",
+  "title": "PureGrain-Zen",
+  "abstract": "PureGrain is a modular cell-free biosensing platform that turns molecular recognition into a nucleic-acid signal and a fluorescent read-out. Our proof of concept targets zearalenone, a mycotoxin found in cereals and feed. We combine an aptamer, a DNA trigger and a toehold switch, supported by structural modelling and the Apta2Switch-Studio design software. Interviews with experts, regulators and feed producers shaped our requirements. Experimental validation of the full ZEN-to-fluorescence pathway is still ongoing.",
+  "wiki": "https://2026.igem.wiki/sorbonne-university"
+ },
+ {
+  "id": 6384,
+  "name": "SRE-Shanghai",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Fishfriend",
+  "abstract": "Bacterial fish diseases are a major challenge to the sustainable development of aquaculture, causing significant economic losses worldwide. Conventional control strategies rely heavily on antibiotics, which contribute to antimicrobial resistance, environmental contamination, and drug residues in aquatic products. To address these issues, our project employs synthetic biology to engineer Saccharomyces cerevisiae as a microbial cell factory for the biosynthesis of 1,8-cineole, a naturally occurring monoterpene with broad-spectrum antibacterial activity. The produced 1,8-cineole is expected to inhibit or eliminate pathogenic bacteria responsible for bacterial fish diseases, providing an environmentally friendly alternative to conventional antibiotics. As a biodegradable natural compound with low toxicity to humans and minimal environmental impact, 1,8-cineole offers significant advantages in terms of biosafety and sustainability. By combining renewable microbial production with natural antimicrobial compounds, our approach aims to reduce antibiotic dependence while promoting healthier aquaculture practices.",
+  "wiki": "https://2026.igem.wiki/sre-shanghai"
+ },
+ {
+  "id": 6369,
+  "name": "SZ-SHD",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "S.A.F.E. Crops: Smart Anti-Freeze Endophytes for Crops",
+  "abstract": "Unpredictable frost events remain a severe natural disaster that drastically limits agricultural crop yields. To address this vulnerability, we are engineering the Bacillus subtilis 168Δ4 strain to function as a frost-resilient endophyte capable of producing anti-freeze proteins or protective simple sugars. A low-temperature-responsive gene circuit will autonomously control the synthesis and release of these frost-resistance substances when the plant is exposed to freezing stress. We will establish this beneficial endophytic relationship by inoculating the plants through seed soaking or direct foliar spraying.",
+  "wiki": "https://2026.igem.wiki/sz-shd"
+ },
+ {
+  "id": 6076,
+  "name": "SZU-China",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Ciricide: Multitarget cirRNA Pesticide Platform Integrating Circular RNA, with Minicell Based Production and Smart Release",
+  "abstract": "Rapeseed, one of the world’s three major oil crops, suffers severe yield and quality losses caused by Sclerotinia stem rot. Team SZU-China develops an RNAi biopesticide built around innovatively structured dumbbell\u001eshaped cirRNA. We target three key virulence genes of S. sclerotiorum. With no free termini, this topologically stabilized cirRNA withstands nuclease digestion and achieves much higher environmental stability than linear dsRNA. Engineered E. coli minicells act as smart delivery carriers: they autonomously enrich and encapsulate cirRNA during biosynthesis, protect the payload from enzymatic degradation, and lyse to release cirRNA under the acidic microenvironment secreted by the pathogen. We also develop dedicated cirRNA intelligent design software and promote its industrial application. This reusable platform integrates computational design, molecular engineering, experimental validation and iterative optimization, providing the iGEM community with a reusable cirRNA toolkit and establishing a complete systematic workflow for developing multi-target cirRNA biopesticides.",
+  "wiki": "https://2026.igem.wiki/szu-china"
+ },
+ {
+  "id": 6114,
+  "name": "TUS-Japan",
+  "village": "Agriculture",
+  "country": "JPN",
+  "section": "undergrad",
+  "title": "Soilmate",
+  "abstract": "Over one billion hectares of agricultural land worldwide are affected by soil salinization — a crisis driven by climate change, rising sea levels, and unsustainable irrigation practices. As arable land shrinks, ensuring stable food production for a growing global population becomes increasingly urgent. At the heart of this problem is salt-induced ethylene accumulation in plants, which stunts growth and devastates crop yields. Our team is engineering Bacillus subtilis to display ACC deaminase — an enzyme that degrades the ethylene precursor ACC — directly on its cell surface. Using a novel combination of the Twin-arginine translocation (Tat) secretion pathway and a LysM domain anchor, we aim to deliver a stable, active enzyme to the plant root environment without genetically modifying crops themselves. Our approach offers a scalable, plant-safe biological solution to one of agriculture's most pressing threats.",
+  "wiki": "https://2026.igem.wiki/tus-japan"
+ },
+ {
+  "id": 6078,
+  "name": "UPF-Barcelona",
+  "village": "Agriculture",
+  "country": "ESP",
+  "section": "undergrad",
+  "title": "Vinesys",
+  "abstract": "In 2024, Catalan reservoirs fell to 14.3% of capacity and vineyards could no longer count on the water they need. Vinesys engineers Bacillus subtilis to colonise the vine’s roots and overexpress γ-PGA, a biopolymer that retains water, and ACC deaminase, which degrades the precursor of the plant’s stress hormone ethylene. Since both molecules are counterproductive when there's no drought, their production must be conditional. We conceptualized a double authentication factor: an osmotic stress promoter and a salt-dependent intein inside the proteins of interest that splices only when intracellular K⁺ rises. Proteins become functional only when both agree. Our candidate intein HutMCM2 activates at 1.5 M salt, well above the 600-725 mM our chassis reaches, so we tried to lower its threshold in silico. This same approach is not limited to vineyards. Agriculture takes around 70% of the world’s freshwater and our design could be adapted to other crops.",
+  "wiki": "https://2026.igem.wiki/upf-barcelona"
+ },
+ {
+  "id": 6136,
+  "name": "URV-Tarragona",
+  "village": "Agriculture",
+  "country": "ESP",
+  "section": "undergrad",
+  "title": "SCENTINEL: A Cell-Free OBP-Based Biosensor for Early Detection of Grapevine Fungal Infections",
+  "abstract": "Powdery mildew (Erysiphe necator) threatens global viticulture, driving routine chemical treatments like copper and sulfur that severely contaminate soils. Early detection remains critical, as initial infections are visually undetectable.   SCENTINEL is a cell-free, non-GMO biosensing platform designed for early detection of defense-related plant volatile organic compounds (VOCs), primarily methyl salicylate (MeSA). Using our custom Python framework, SCENTINEL CODE, candidate Odorant-Binding Proteins (OBPs) were selected by scoring binding affinity, selectivity, and mixture discrimination. Optimized OBPs were expressed in Escherichia coli, purified via Strep-tag, and immobilized onto nanoporous anodic alumina (NAA) chips. Exposure to MeSA induced a measurable optical shift, providing solid proof of concept for volatile detection. Tailored for winegrower accessibility, SCENTINEL advances precision viticulture to significantly minimize preventative fungicide applications.",
+  "wiki": "https://2026.igem.wiki/urv-tarragona"
+ },
+ {
+  "id": 6504,
+  "name": "UW-Poland",
+  "village": "Agriculture",
+  "country": "POL",
+  "section": "overgrad",
+  "title": "HYPPE: a foundation model for fungal promoters and a toolkit designed to test it",
+  "abstract": "Filamentous fungi produce antibiotics, enzymes and antifungal metabolites, yet remain almost unengineered: they transform at low efficiency, grow slowly, and have almost no characterised regulatory parts. For Trichoderma there is no measured promoter library and no model mapping promoter sequence to expression. HYPPE is a foundation model of fungal promoters trained from scratch on a corpus we assembled: 2,702 deposited RNA-seq runs requantified into 2,332 comparable samples across twenty genomes, every growth condition annotated by hand. It encodes a promoter as discrete hierarchical symbols rather than a dense vector, so sequences can be read, edited and decoded back to DNA, and reaches a rank correlation of 0.689 on a test split opened once. For the bench we measured a transformation protocol for T. atroviride, and built pHYPPE, which reports promoter strength as a ratio of two reporters, cancelling copy number and nuclear context.",
+  "wiki": "https://2026.igem.wiki/uw-poland"
+ },
+ {
+  "id": 6425,
+  "name": "VUB-Brussels",
+  "village": "Agriculture",
+  "country": "BEL",
+  "section": "overgrad",
+  "title": "VUBzzz – AI-Guided Biocontrol of Vespa velutina Using A-ENA Nanofibers",
+  "abstract": "The rapid spread of the Asian hornet (Vespa velutina) across Europe threatens native biodiversity and pollination-dependent agriculture. Existing control methods, such as manual trapping, have proven largely insufficient. VUBzzz proposes a targeted biocontrol strategy combining engineered nanofibers with computer vision-based species verification. Our approach centers on A-ENA nanofibers, derived from Bacillus thuringiensis and developed at our host lab (VIB-VUB Centre for Structural Biology), which naturally cluster spores and other biomolecules. We have functionalized these fibers to improve adhesion to insect cuticle, loading them with Beauveria bassiana spores as the active biocontrol agent. Because fiber-based targeting alone cannot achieve species-level specificity, we integrate a YOLO-based AI detection system into a custom box trap. The system confirms the presence of V. velutina before allowing entry into a secondary chamber where the hornet contacts the fiber-spore payload, maximizing specificity while minimizing non-target impact.",
+  "wiki": "https://2026.igem.wiki/vub-brussels"
+ },
+ {
+  "id": 6497,
+  "name": "Worldshaper-Shanghai",
+  "village": "Agriculture",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "SweetCycle: Enzyme Engineering of Steviol Glycosyltransferases for Enhanced Rebaudioside M Production",
+  "abstract": "Reducing sugar without compromising taste demands better sweeteners. Rebaudioside M (Reb M) offers a clean, sucrose-like taste, but its low natural abundance and costly purification limit wider use. SweetCycle combines glycosyltransferase engineering with Stevia hairy-root screening to address this challenge. We constructed eight variants of SrUGT91D2 and SrUGT76G1 and evaluated them through tobacco transient expression followed by screening in Stevia rebaudiana hairy roots. In this preliminary screen, SrUGT76G1 T284I showed approximately 42% higher estimated Reb M content than wild type, identifying a promising candidate for further validation. Guided by stakeholder engagement and techno-economic modeling, we envision applying these candidates to enzymatic conversion and using hairy-root screening to support future crop improvement. Our work connects enzyme design with evaluation in the source plant, laying the groundwork for more accessible, better-tasting stevia ingredients.",
+  "wiki": "https://2026.igem.wiki/worldshaper-shanghai"
+ },
+ {
+  "id": 6440,
+  "name": "Aix-Marseille",
+  "village": "Bioremediation",
+  "country": "FRA",
+  "section": "overgrad",
+  "title": "Antibio Wars",
+  "abstract": "Nowadays, antibiotics usage is increasing worldwide, and these end up in the environment. Indeed, multiple antibiotics are found in surface and underground waters. The presence of antibiotics in the environment increases the risk of a global bacterial antibiotic resistance threat. Sulfonamides are antibiotics well known to be disseminated in the environment when rejected after being used to treat humans or by the pharmaceutical industries.\nWe wants to address that problem by providing an enzyme-based solution. We Transformed Bl21 and C41 strain of E.coli to produce 5 different laccases.\nLaccases are oxydases that catalyze the oxidation of phenolic compounds. It has been proved that several laccases have the capacity to degrade sulfonamides. \nWe purified these laccases, characterized and attached them on a surface, first via a 6His-tag and then via a cellulose binding module to test their ability to act as a filter able to degrade sulfonamides",
+  "wiki": "https://2026.igem.wiki/aix-marseille"
+ },
+ {
+  "id": 6385,
+  "name": "Beijing-HS",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "A Uric Acid Degradation Scheme for Aquaculture Wastewater Based on Synthetic Biology",
+  "abstract": "Uric acid is a typical high-risk nitrogenous pollutant in livestock and aquaculture wastewater. When discharged into water bodies, it can easily cause environmental problems such as water acidification and eutrophication. Current traditional physical, chemical, and single-microorganism degradation methods suffer from limitations including low efficiency, incomplete substrate coverage, and a tendency to cause secondary pollution. This project aims to construct a dual-functional cascade system for both uric acid detection and degradation, converting uric acid in poultry manure wastewater into allantoin. Directly used for crop irrigation, the harmful effects on crop root growth are mitigated, as allantoin actually benefits plant growth. When discharged into water bodies, this approach avoids causing water acidification and eutrophication. The engineered bacteria will ultimately be prepared into sodium alginate-immobilized beads suitable for fluidized bed reactors, providing a green, non-polluting, low-cost, and recyclable remediation solution for the bioremediation of contaminated water from aquaculture.",
+  "wiki": "https://2026.igem.wiki/beijing-hs"
+ },
+ {
+  "id": 6327,
+  "name": "Benenden",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "AQUA SHIELD",
+  "abstract": "Heavy metal contamination poses a severe public health threat, but current detection methods fall short. Laboratory instruments are accurate but slow and expensive, while portable chemical kits cannot distinguish between specific metals, leading to false positives, a flaw our team experienced firsthand.\n\nTo address this, we engineered AQUA SHIELD: two specific, whole-cell bacterial biosensors in E. coli TOP10. Our mercury biosensor uses the MerR–PmerT circuit with GFP. To guide future optimization, we employed ESM-2 AI models to computationally screen over 2,700 protein substitutions and prioritize MerR mutants for enhanced sensitivity. Our lead biosensor is a novel composite part using the PbrR–PpbrA system to control mCherry. Experimental results validated both baseline systems, demonstrating strong, target-specific fluorescence with no cross-reactivity to other metals.\n\nPaired with a custom 3D-printed drone for safe, remote water sampling, our platform transforms heavy metal detection into an accessible, field-deployable tool.",
+  "wiki": "https://2026.igem.wiki/benenden"
+ },
+ {
+  "id": 6152,
+  "name": "Berlin",
+  "village": "Bioremediation",
+  "country": "DEU",
+  "section": "overgrad",
+  "title": "Sense PFASt - Yeast-Based Biosensor for PFAS Detection",
+  "abstract": "‘Forever chemicals’ are everywhere. Per- and polyfluoroalkyl substances (PFAS) are toxic, persistent, and pervasive chemicals that accumulate silently in ecosystems and the human body. In response, the European Union is aggressively tightening regulations on permissible PFAS levels in drinking water, forcing industries to find immediate solutions. However, standard quantitative methods are too costly and slow for routine adoption. To overcome this limitation, we are developing a yeast-based biosensor to screen for PFAS in less than an hour and at a fraction of the cost. Rather than relying on a single mechanism, our architecture integrates three distinct strategies: a synthetic transcriptional reporter, a binding-induced conformational sensor, and an inducible bacterial promoter layer for amplified signal detection. This parallel profiling builds a comprehensive library to optimize the sensor’s sensitivity and specificity without compromising the response time. Ultimately, expanding this framework links on-site detection with tailored enzymatic degradation for complete aquatic remediation.",
+  "wiki": "https://2026.igem.wiki/berlin"
+ },
+ {
+  "id": 6435,
+  "name": "BYHS-CHN",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "BioShield: Biology for Controlled Surface Treatment",
+  "abstract": "BioShield explores how synthetic biology could support controlled surface treatment of asbestos-relevant materials. We studied three complementary modules: oxalic-acid production, metal-responsive circuits, and a candidate MgFP/VsTyr protein material. In a seven-condition copper reporter comparison, the ZupT-containing PFL design produced higher output than the NR design, alongside higher baseline expression. Separate assays examined metal readouts, oxalic-acid signals and recovered magnesium-silicate solids. Protein-material observations guided a revision of the MgFP construct. Clinicians, researchers, construction professionals and communities helped frame research priorities around exposure prevention, containment and responsible material management. Our education work combined completed classroom dialogue, visual storytelling and a documented bilingual game prototype for future testing. We share construct references, measurement calculations and experimental lessons for future teams. These component-level and proxy-material studies establish a basis for further testing; integrated treatment performance and asbestos-specific risk reduction remain to be demonstrated.",
+  "wiki": "https://2026.igem.wiki/byhs-chn"
+ },
+ {
+  "id": 6060,
+  "name": "DTU-Denmark",
+  "village": "Bioremediation",
+  "country": "DNK",
+  "section": "overgrad",
+  "title": "ByeByeBlade: A SynBio approach to Wind Turbine Blade Waste",
+  "abstract": "Current end-of-life wind turbine blade treatment routes often recycle the mineral fraction but not  organic products from the resin. ByeByeBlade investigated the enzymatic degradation of thermoset resin to explore an alternative valorisation route. We identified relevant laccases and unspecific peroxygenases (UPO). Developed a drylab pipeline to identify homologs and design mutants with truncations, wider channels and higher solvent tolerances. We worked with 37 enzymes in Escherichia coli and Komagataella phaffii, including literature enzymes, previously unexpressed homologs, and our own designs. Four purified laccases and three UPOs showed activity on our substrate N,N-Bis(2-hydroxypropyl)-p-toluidine, a model compound of an epoxy thermoset resin. MALDI-TOF suggests substrate depletion and new product formation. On an extract from cured epoxy resin, active ItL-03 removed a peak that persisted in all controls. Results for other homologs and mutants remain inconclusive. We also conducted a life cycle assessment of the process.",
+  "wiki": "https://2026.igem.wiki/dtu-denmark"
+ },
+ {
+  "id": 6070,
+  "name": "GeorgetownPrep",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "SENTINEL-LOOP: Detecting, Removing, and Verifying Lead and Cadmium in Water",
+  "abstract": "Finding lead or cadmium in water is only the first step; a practical system should also remove the metals and confirm that treatment worked. SENTINEL-LOOP connects these tasks in one modular framework. We designed two engineered whole-cell biosensors: CadR/PcadA-lacZ for cadmium and PbrR/PpbrA-amilCP for lead. We paired them with a removal module displaying the metal-binding domains PbBD and EC20 on bacterial surfaces. For independent verification, we developed a bismuth-film screen-printed-electrode workflow using square-wave anodic stripping voltammetry to measure remaining Cd(II) and Pb(II). We also built mechanistic models and an open-source analysis pipeline for sensor response, adsorption, column breakthrough, and electrochemical peak analysis, with provenance labels separating simulations from experimental evidence. Full wet-lab and electrochemical validation was not completed before the Wiki Freeze; we plan to complete the remaining experiments before our judging session. The completed work provides a transparent, modular foundation for a self-verifying water-treatment system.",
+  "wiki": "https://2026.igem.wiki/georgetownprep"
+ },
+ {
+  "id": 6472,
+  "name": "Harvard",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "MlrAcle on the Charles",
+  "abstract": "Algal blooms in the Charles River are a significant environmental and public health issue within the Greater Boston area. Overgrowth of cyanobacteria can lead to the production and release of algal toxins such as microcystins which can cause liver damage in humans. We aim to reduce microcystin levels by engineering bacteria to produce encapsulins, self-assembling protein components designed to carry a bacterial enzyme called MlrA to degrade microcystins. By linking encapsulin production to the detection of cyanobacterial overgrowth, this system is intended to eliminate microcystins specifically during bloom conditions, providing a targeted strategy to reduce toxin levels and improve the safety of the Charles River for surrounding communities and ecosystems",
+  "wiki": "https://2026.igem.wiki/harvard"
+ },
+ {
+  "id": 6461,
+  "name": "HK League",
+  "village": "Bioremediation",
+  "country": "HKG",
+  "section": "high-school",
+  "title": "Bioprinted ElectroMining: Engineering Microbes and Hydrogel Devices for Battery Metal Recovery",
+  "abstract": "Electric vehicle growth is increasing the need to recover nickel, cobalt and lithium from spent batteries. Bioprinted ElectroMining explores a biological recovery stage intended to complement upstream recycling. We designed six candidate metal-binding proteins and twelve plasmid constructs, immobilised construct-bearing Escherichia coli in calcium alginate, and performed preliminary metal assays. A modular six-stage bead cartridge was operated with laboratory-prepared mixed-metal solution through loading, washing and separate elution of cartridge pairs. In parallel, we developed a syringe-based bioprinter and BioPrintCAD to explore printed hydrogel geometries for future cartridge designs. This laboratory proof-of-concept study connects protein design, cell immobilisation, measurement and device engineering. The operated bead cartridge and proposed bioprinted cartridge are distinct development stages. Further work will test protein-specific capture, selective separation, product purity, reuse and performance with real battery leachate. Our goal is to establish a practical research platform for evaluating biological approaches to battery-metal recovery.",
+  "wiki": "https://2026.igem.wiki/hk-league"
+ },
+ {
+  "id": 6057,
+  "name": "HK-PLKNPLC",
+  "village": "Bioremediation",
+  "country": "HKG",
+  "section": "high-school",
+  "title": "Engineered Lanmodulin Variants for Selective Recovery of Terbium from Fluorescent Lamp E-Waste Leachate",
+  "abstract": "Terbium (Tb³⁺) is concentrated at 3.4 wt% in fluorescent lamp phosphor powder yet less than 1% is currently recovered, because dissolved phosphor leachate contains large molar excesses of yttrium (Y³⁺), lanthanum (La³⁺), europium (Eu³⁺), and cerium (Ce³⁺) alongside major non-REE impurities, and no low-cost selective capture platform exists. This project engineers lanmodulin (LanM) from Methylorubrum extorquens AM1 to selectively capture Tb³⁺ from this matrix. Three variants — T90Y, E95D, and D43N — are designed to shift LanM's EF-hand coordination geometry toward the smaller Tb³⁺ ionic radius (9-coordinate: 1.095 Å), based on crystallographic distances measured directly from the 1.01 Å X-ray structure PDB 8FNS. All constructs are expressed as His₆-LanM-GS-CBDcex fusions in E. coli NiCo21(DE3) and immobilised on microcrystalline cellulose. T90Y introduces a Tyr antenna providing built-in Tb³⁺ luminescence at 545 nm without additional reagents. Wild-type LanM serves as a benchmark.",
+  "wiki": "https://2026.igem.wiki/hk-plknplc"
+ },
+ {
+  "id": 6164,
+  "name": "HS-Kentucky",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "A Dual Approach to PFAS Detection: Transcriptomic and Cell-Free Biosensors for Environmental Monitoring",
+  "abstract": "PFAS are persistent “forever chemicals” that contaminate water and soil and pose health risks. Current detection methods are costly and inaccessible, so we aim to engineer a low-cost biosensor with a visible fluorescent signal. We pursued two approaches. In the cell-based approach, we exposed E. coli BL21(DE3) to two PFOA concentrations at three time points and profiled transcriptome-wide changes. Genes including glpA, gadE, cadA, and cadB were significantly up-regulated across all six conditions, making them promoter candidates. In the cell-free approach, we mutated the maltose-binding protein to enhance FRET signals and PFAS specificity. Using LigandMPNN, AlphaFold3, Gromacs, and OpenMM, they generated and validated over 50 mutant structures. A final mutant increased docking scores by 2.7 to 3.4 kcal/mol and was analyzed with FPMOD to simulate a FRET sensor environment. The results provide promoter shortlists for cloning and validation, plus protein targets, advancing a field-deployable PFOA biosensor for testing.",
+  "wiki": "https://2026.igem.wiki/hs-kentucky"
+ },
+ {
+  "id": 6049,
+  "name": "HUBU-WUHAN",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Engineering a Two-Strain System for Naphthalene Degradation and Salicylic Acid-Based Biosensing",
+  "abstract": "Polycyclic aromatic hydrocarbons (PAHs) are widespread, persistent pollutants; global emissions of 16 priority PAHs reached higher recent years. Naphthalene, a frequently detected PAH in urban soils and its Group 2B IARC classified. Conventional detection is costly and laboratory-bound. We developed a two-strain E. coli system: a degrader strain carrying the nah cluster from Pseudomonas putida G7 converts naphthalene to salicylic acid, which a sensor strain detects via a bidirectional NahR–Psal/Pr-driven eGFP reporter, i.e. NahR-salicylic acid complex activates Psal-driven eGFP. Through multi-layer engineering—promoter optimization (100 to 20 μM), NahR saturation mutagenesis (20 to 0.2 μM), and ARTP evolution (0.2 to 0.05 μM), achieved lowest detection limit of 0.05 μM, the lowest reported to date. Promoter replacement, and Fe²⁺ tuning lead to near-complete naphthalene degradation within 4 h at low concentrations (20–100 μM). Integrated portable device with mobile App, enables on-site PAH screening, leading to future field deployment.",
+  "wiki": "https://2026.igem.wiki/hubu-wuhan"
+ },
+ {
+  "id": 6340,
+  "name": "IISER-TVM",
+  "village": "Bioremediation",
+  "country": "IND",
+  "section": "undergrad",
+  "title": "SANJEEVANI",
+  "abstract": "India’s mines leave behind tailings, the waste left once ore is processed. Heavy metals seep from these dumps into soil and groundwater, surfacing years later as chronic illness in nearby villages, most of them tribal. Today such land is dug out and dumped elsewhere, washed with acid, or capped over. These traditional Bioremeditation methods are slow, costly.\n\nSanjeevani is a living alternative. We are engineering the moss Physcomitrium patens to pull these metals into its tissue. We would spray it onto contaminated rock and tailings by hydroseeding, then harvest it with the metals still inside.\n\nThe moss is mostly haploid and recombines readily, so edits land where we put them and show at once. We are strengthening how much metal it takes up and how much it can safely hold, to further improve this bio-engineered design to tackle this problem in an environment friendly way",
+  "wiki": "https://2026.igem.wiki/iiser-tvm"
+ },
+ {
+  "id": 6376,
+  "name": "KCIS",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "ReBile: Reprogramming Waste Bile Acids into Therapeutic UDCA",
+  "abstract": "Ursodeoxycholic acid (UDCA) is an important therapeutic agent widely used for the treatment of liver and biliary diseases and remains the only FDA-approved drug for primary biliary cholangitis. However, current production methods face significant challenges, including low efficiency, complex chemical synthesis, and ethical concerns associated with traditional bear bile extraction. To address these limitations, we developed a sustainable biosynthesis platform that converts poultry bile waste into high-value UDCA. Using Escherichia coli as a microbial chassis, we engineered a biocatalytic pathway by introducing and optimizing 7α- and 7β-hydroxysteroid dehydrogenases, while enhancing cofactor regeneration to improve conversion efficiency. Computational protein engineering was further applied to optimize key enzymes and maximize production performance. By transforming agricultural by-products into valuable pharmaceuticals, our project combines synthetic biology, enzyme engineering, and circular bioeconomy principles to enable greener UDCA production and promote sustainable waste utilization.",
+  "wiki": "https://2026.igem.wiki/kcis"
+ },
+ {
+  "id": 6194,
+  "name": "Keystone",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Cracking the Code of Coffee Wastewater — Engineered Microflora \"Dismantle\" Organic Pollution",
+  "abstract": "Yunnan is China's primary coffee-producing region. However, the direct discharge of untreated coffee wastewater from small-scale processing facilities has led to severe water pollution and ecological damage. Conventional treatment methods are limited by high costs, high energy consumption, and low removal efficiency, which hinder their practical application. To address these challenges, this project adopts a synthetic biology approach to construct two engineered yeast strains with a coordinated division of labor, each designed to target and degrade specific components of coffee wastewater—pectin and lactic acid, respectively. These strains will be co-immobilized using a sodium alginate-chitosan matrix to achieve efficient and stable degradation performance. Additionally, a kill switch will be introduced to ensure biosafety by preventing environmental release. Collectively, this work aims to provide a safe, efficient, and low-cost synthetic biology-based solution for the treatment of high-strength acidic organic wastewater, offering significant scientific value for ecological protection.",
+  "wiki": "https://2026.igem.wiki/keystone"
+ },
+ {
+  "id": 6280,
+  "name": "LYON",
+  "village": "Bioremediation",
+  "country": "FRA",
+  "section": "undergrad",
+  "title": "BioThetis- binding TFA, the smallest forever chemical: protein design for cleaner water, shaped by society",
+  "abstract": "PFAS, known as “forever chemicals”, persist in the environment and accumulate in water, soil and living organisms. Trifluoroacetic acid (TFA), the smallest PFAS, is found in tap water across Europe and is difficult to remove with usual treatments. BioThetis proposes to capture TFA with protein binders anchored on cellulose and to release it by heating, with the aim of reusing the material. This year we designed and produced binders, from a natural enzyme scaffold and from de novo design, showed that they interact with TFA, and built cellulose-anchored versions. We also explored enzymatic degradation. The scaffold defluorinated difluoroacetate (DFA), a related compound, but not TFA, which led us to focus on capture. The project was shaped from the start by researchers, water professionals, associations, elected officials and the public, and we shared it through games, a short film, a video game, and school and public events.",
+  "wiki": "https://2026.igem.wiki/lyon"
+ },
+ {
+  "id": 6323,
+  "name": "Macquarie-Australia",
+  "village": "Bioremediation",
+  "country": "AUS",
+  "section": "overgrad",
+  "title": "MagniMO: Engineering Magnetic Microbes for 1,4-Dioxane Bioremediation and Recoverable Synthetic Biology Solutions",
+  "abstract": "MagniMO aims to address the persistent environmental challenge of 1,4-dioxane contamination in groundwater and wastewater through an innovative synthetic biology approach. 1,4-Dioxane is highly water-soluble, resistant to conventional treatment, and a potential human carcinogen. \n\nOur project investigates the use of a soluble di-iron monooxygenase (SDIMO) to support 1,4-dioxane degradation, alongside magnetite biomineralisation to enable magnetic cell recovery. By combining bioremediation with magnetic recovery, MagniMO explores a potential pathway towards more efficient and sustainable water treatment, with biocontainment and environmental safety central to future implementation. \n\nBeyond the laboratory, human practices shaped MagniMO through expert consultation, stakeholder engagement, and engineering design reviews. These practices guided the development of a safe and practical treatment approach. Our education and outreach programmes engaged diverse audiences through interactive workshops, school activities, university presentations, and community events. These initiatives made synthetic biology accessible while highlighting its potential to address environmental challenges and protect water resources.",
+  "wiki": "https://2026.igem.wiki/macquarie-australia"
+ },
+ {
+  "id": 6124,
+  "name": "Madrid-UCM",
+  "village": "Bioremediation",
+  "country": "ESP",
+  "section": "undergrad",
+  "title": "Encapsulated engineered microorganisms for phosphorus removal and revalorisation from wastewater",
+  "abstract": "Phosphorus pollution from industrial wastewater is a major contributor to eutrophication, causing algal blooms, oxygen depletion, and damage to aquatic ecosystems. At the same time, phosphorus is a finite and strategically important resource. Our project, rePhlow aims to recover this phosphorus using biodegradable alginate capsules that combine microorganisms and enzymes to capture and process phosphorus from wastewater. These capsules would be used in a modular bioreactor to treat wastewater safely, prevent the release of engineered organisms, and allow the recovered phosphorus to be transformed into useful high-value products. By turning a pollutant into a resource, rePhlow connects wastewater treatment with circular economy principles.",
+  "wiki": "https://2026.igem.wiki/madrid-ucm"
+ },
+ {
+  "id": 6413,
+  "name": "MCA-SWIS",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Pesticide Cleanup: Broad-Spectrum Degradation and Real-Time Monitoring of Organophosphate Pesticides",
+  "abstract": "Widespread use of organophosphorus pesticides, glyphosate and other agrochemicals in modern agriculture creates severe co contamination in soil and water, endangering ecological health and food safety. Conventional remediation techniques are hampered by high expenses and the risk of secondary pollution. With synthetic biology approaches, we built engineered Escherichia coli strains for colorimetric detection and substrate biotransformation, aiming project provides a low cost, efficient and sustainable bioremediation alternative.\nWe selected Escherichia coli DH5α as the cloning host and Escherichia coli BL21(DE3) as the expression host, and completed the construction of recombinant plasmids. For the sensing module, we constructed pETDuet-1-chpR-eforRed and pETDuet-1-phnF-AmilCP. For the biotransformation module, we constructed pET28a-OPD and pET28a-pelB-gat.",
+  "wiki": "https://2026.igem.wiki/mca-swis"
+ },
+ {
+  "id": 6189,
+  "name": "Missouri-Rolla",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "overgrad",
+  "title": "Metlock: A Modular, Reproducible Biomining Platform",
+  "abstract": "Growing demand for critical minerals has increased the need for sustainable metal recovery technologies. Metlock develops a modular synthetic biology platform using engineered *Escherichia coli* to investigate controlled zinc uptake, capture, and retention.\n\nThe platform integrates three interconnected modules: ZnuABC-mediated zinc uptake, AHL–LuxR-regulated gene expression, and an Ag43–SmtA fusion protein designed for zinc binding and surface display. Together, these modules aim to establish a tunable and reproducible system for biological metal recovery.\n\nExperimental work demonstrated AHL-responsive fluorescence using a dual-plasmid LuxR/pLuxR-sfGFP reporter system. Subsequent engineering cycles focused on characterizing gene expression, refining experimental methods, and improving zinc uptake strategies. Parallel protein modeling efforts supported the development and optimization of the surface-display construct.\n\nBy combining genetic engineering, experimental characterization, and iterative design, Metlock aims to establish a versatile biomining platform that can be adapted for the recovery of zinc and other valuable metals.",
+  "wiki": "https://2026.igem.wiki/missouri-rolla"
+ },
+ {
+  "id": 6507,
+  "name": "MPAYF-USA",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "Environd ：Detection and remediation of 2,4-DNT",
+  "abstract": "2,4-Dinitrotoluene (2,4-DNT) is an important pollutant in the polyurethane foam industry chain and is characterized by high toxicity, carcinogenicity, and environmental persistence.\nThis project employs synthetic biology to construct an engineered microbial system that integrates “pollutant detection–signal response–pollutant degradation.” A YhaJ–PyqjF biosensor is utilized to enable rapid detection of 2,4-DNT, while the degradation pathway is reconstructed to achieve its efficient mineralization.\nThis system combines real-time monitoring, green remediation, and low cost advantages, providing an innovative solution for pollution control around furniture manufacturing and polyurethane material production industries.",
+  "wiki": "https://2026.igem.wiki/mpayf-usa"
+ },
+ {
+  "id": 6416,
+  "name": "NTHU Taiwan",
+  "village": "Bioremediation",
+  "country": "TWN",
+  "section": "undergrad",
+  "title": "CatharSys: Engineered Bacillus subtilis for TMAH Treatment in MBBR",
+  "abstract": "Tetramethylammonium hydroxide (TMAH) is a highly toxic chemical used in semiconductor photolithography. Its use in Hsinchu, a major semiconductor hub in Taiwan, highlights the need for safer wastewater treatment. Conventional biological treatment takes weeks or months to prepare microbial communities and consumes large amounts of electricity for aeration. It also produces excess sludge that requires further treatment. \nTo address these problems, CatharSys introduces seven genes (Msil_3603–3609) from Methylocella silvestris BL2 into industrial Bacillus subtilis to enable the degradation of trimethylamine (TMA). We also promote biofilm growth on moving bed biofilm reactor (MBBR) carriers to improve bacterial retention. In addition, we developed CathaBench, a three-tank laboratory reactor with automated sensing and control, to test our system. Together with three layers of biosafety measures, CatharSys aims to reduce energy use and sludge production and support more sustainable semiconductor wastewater treatment.",
+  "wiki": "https://2026.igem.wiki/nthu-taiwan"
+ },
+ {
+  "id": 6362,
+  "name": "NWU-CHINA",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "HYDRA: Engineering a Modular Aspergillus niger Platform for Complex Wastewater Remediation",
+  "abstract": "Water pollution often involves mixtures of nutrients, heavy metals, and persistent organic contaminants, sometimes under saline conditions. Northwestern China illustrates this challenge: it contains headwaters of major river systems and extensive mining activity. Motivated by this regional context, we developed HYDRA, a modular wastewater remediation platform based on Aspergillus niger. At its core, we engineered seven specialized fungal strains, each designed to target a different organic pollutant or pollutant class. This division of labor is intended to enable flexible treatment configurations. Representative assays using real wastewater demonstrated 31.5% benzene removal and 44.9% styrene removal by engineered strains. The fungal chassis also tolerated 5% NaCl and achieved 63.3% phosphate removal and 57.2% Cd removal in separate assays. These findings lay a foundation for a configurable fungal consortium. HYDRA connects local water challenges with adaptable bioremediation, while future work will assess strain compatibility, pollutant fate, and long-term treatment performance.",
+  "wiki": "https://2026.igem.wiki/nwu-china"
+ },
+ {
+  "id": 6086,
+  "name": "NYU-Abu-Dhabi",
+  "village": "Bioremediation",
+  "country": "ARE",
+  "section": "undergrad",
+  "title": "DuneLock: Sand Stabilization through Gene Overexpression and Transgenesis",
+  "abstract": "Sandy deserts, such as the Arabian Desert, are historically, culturally, and economically significant. However, for cities rising around them, sandy deserts are a hub for loose sediments that are continuously being re-suspended by winds, which then travel short and far distances, degrading air quality, decreasing visibility, coating solar panels, and jeopardizing daily life - with 800 million people affected globally. Dunelock focuses on sand stabilization by engineering a microbially-produced adhesive material. Gene overexpression of γ-PGA is used to enhance the stickiness of biofilms while exogenous gene expression of Carbonic Anhydrase is used to precipitate stabilizing crystals between sand grains, all whilst sequestering carbon dioxide and avoiding toxic gas release. With clearer air, Dunelock is a step towards a healthier outdoors.",
+  "wiki": "https://2026.igem.wiki/nyu-abu-dhabi"
+ },
+ {
+  "id": 6365,
+  "name": "NYU-New-York",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "PeBet: Plastic Degradation via Bacteria Consortium",
+  "abstract": "Our project aims to solve the escalating issue of plastic pollution. As of currently, the amount of plastic that pollutes cities, oceans, and environments is exponential but the efforts put into reducing the amount of plastic on our earth is minimal. Current conventional means of recycling and degrading plastic are inefficient as they take years for only a small percentage of the plastic to be degraded. Our goal is to degrade the most common type of plastic, PET. In naturally occurring I. Sakainesis bacteria, there exists enzymes, PETase and MHETase, that degrade PET thoroughly and much more efficiently than conventional ways (mechanical and chemical). By creating an optimal environment via a tabletop bioreactor, we can control the conditions where our I. Sakainesis can degrade PET at its optimal rate.",
+  "wiki": "https://2026.igem.wiki/nyu-new-york"
+ },
+ {
+  "id": 6503,
+  "name": "Oakridge-HYD",
+  "village": "Bioremediation",
+  "country": "IND",
+  "section": "high-school",
+  "title": "BioChronos: A DNA-Based Environmental Memory System in E. coli",
+  "abstract": "Transient contamination can escape periodic sampling. BioChronos explores a DNA-based exposure recorder in Escherichia coli through a copper-responsive sfGFP sensor (M1) and separate arabinose-controlled Bxb1 inversion modules. Four linked computational models guided architecture choices; simulation checks and an independent implementation assessed numerical robustness. Our preliminary M1 assay used three independently picked DH5alpha colonies: raw fluorescence at nominal 1000 micromolar copper was approximately 2.08-fold the zero-copper condition, while 1–200 micromolar showed no clear increase. This mismatch prompted model revision. Clone sequences remain unverified, controls are incomplete, and neither the memory modules nor the integrated recorder is experimentally validated. Stakeholder engagement informed proposed containment, retrieval and communication requirements. Our distributed high-school team addressed financial and geographical participation barriers while documenting unresolved inequities. We release Registry designs, reproducible models and experimental records to support future teams and scrutiny of both our findings and limitations.",
+  "wiki": "https://2026.igem.wiki/oakridge-hyd"
+ },
+ {
+  "id": 6282,
+  "name": "RUM-UPRM",
+  "village": "Bioremediation",
+  "country": "PRI",
+  "section": "undergrad",
+  "title": "R-DetoX 2.5: Engineering Escherichia coli for RDX Bioremediation within a Serial Bioreactor System",
+  "abstract": "RDX contamination threatens the environment and motivates the development of biological remediation strategies. R-DetoX 2.5 engineers Escherichia coli with the XplA/XplB enzyme system to target RDX, incorporating inducible and riboswitch-regulated genetic devices. In batch assays monitored by HPLC, the IPTG-inducible construct reduced extracellular RDX concentration by 85% within 20 hours, while abiotic controls remained unchanged. To translate this biological approach into a treatment process, we designed SeBiS 2.0, a proposed serial bioreactor system integrating bacterial growth, continuous treatment, biomass recirculation, and byproduct mitigation. Expert consultations informed process design and safety considerations, while educational activities engaged students and communities with synthetic biology and environmental remediation. By connecting biological engineering, process design, education, and stakeholder perspectives, R-DetoX 2.5 advances a research foundation for contained RDX bioremediation, with further validation needed to establish degradation pathways and treatment performance.",
+  "wiki": "https://2026.igem.wiki/rum-uprm"
+ },
+ {
+  "id": 6311,
+  "name": "Saarland",
+  "village": "Bioremediation",
+  "country": "DEU",
+  "section": "overgrad",
+  "title": "OWLET: On Board Water Logger For Environmental Tracking",
+  "abstract": "Industrial pollutants such as polycyclic aromatic hydrocarbons (PAHs) and cadmium enter rivers like the Saar, reducing water quality. Monitoring relies on a few fixed stations and lab analyses that take days. OWLET brings biosensing to the water. It is a hybrid platform that combines encapsulated whole-cell biosensors and a field hardware design for continuous biosensing, mapping and tracking of water pollutants.  The biosensors detect PAHs and heavy metals like cadmium. To read them in the field, we built a low-cost, 3D-printed fluorescence reader that pumps water into a six-well strip, measures fluorescence and converts it into fluorescein-equivalent units, validated with fluorescein standards and GFP-expressing E. coli. The reader is designed to ride on our boat, which samples, steers toward rising signals and tags each reading with its position, while a live dashboard shows the readings and the track. OWLET is a monitoring system that identifies hotspots for in-depth lab analysis.",
+  "wiki": "https://2026.igem.wiki/saarland"
+ },
+ {
+  "id": 6510,
+  "name": "SCAU-China",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "CyanoGuard",
+  "abstract": "Microcystin-LR threatens freshwater safety during cyanobacterial blooms. CyanoGuard investigates an integrated approach to toxin monitoring and remediation using engineered bacteria, computational models and modular devices. We constructed START (Synthetic Trans-Acting Riboswitch with Triggering RNA) RNA-sensing circuits with LuxI/LuxR amplification and sfGFP/TurboRFP readout, compared circuit variants, and tested light-dependent growth control in a DAP-auxotrophic chassis. Structure-guided Trigger design and a focused RNA library support sensor development. A model using the previous seven days of environmental observations estimates total-microcystin exceedance risk; fluorescence calibration and literature-based degradation modelling support concentration mapping and treatment design. Our monitoring boat and detachable drone release module have documented prototype tests, design files and controller software. Stakeholder input shaped the project's screening role and need for laboratory confirmation, while outreach addressed toxin risks and protective actions. We share parts, methods and reusable resources to support further development.",
+  "wiki": "https://2026.igem.wiki/scau-china"
+ },
+ {
+  "id": 6165,
+  "name": "SMS-Shenzhen",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "kisMET: A Biosorption Platform for Low-Concentration Metal Recovery from End-of-Pipe Battery Wastewater",
+  "abstract": "Lithium-ion battery recycling retains low-concentration residual metal ions in end-of-pipe wastewater, causing resource loss and environmental burden with conventional chemical treatment. We present kisMET, a biosorption platform built on engineered Komagataeibacter rhaeticus that produces bacterial cellulose microspheres displaying metal-binding peptides to selectively capture Li⁺, Co²⁺, Ni²⁺ and Mn²⁺. Our chassis secretes cellulose and functional peptides synchronously in fermentation, forming reusable adsorbent microspheres. Through multi-stakeholder interviews with battery enterprises, regulatory experts and iGEM peers, we iteratively defined kisMET as a supplementary end-of-pipe treatment unit rather than a full replacement for existing processes. We performed TEA and LCA analysis to evaluate cost and carbon footprint, alongside public science outreach. This modular system provides a mild, low-reagent route for metal ion circularity, aligning with multiple UN SDGs, though scale-up and real wastewater validation remain ongoing.",
+  "wiki": "https://2026.igem.wiki/sms-shenzhen"
+ },
+ {
+  "id": 6125,
+  "name": "Squirrel-Beijing",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "pNProbe: A Whole-Cell Biosensor for Bioavailable p-Nitrophenol Monitoring in Soil",
+  "abstract": "p - Nitrophenol (pNP), a hazardous pollutant from pesticide, industrial and chemical processes, is common in agricultural soils, posing ecological and health risks. Conventional methods can't well reflect its bioavailable fraction. We developed pNProbe, a whole - cell biosensor. It screens and optimizes pNP - responsive elements, using fluorescent and chromoprotein reporters to convert pNP exposure into interpretable outputs. This enables easy, in - situ monitoring in various soils. pNProbe offers an accessible tool for soil pollution assessment, showing synthetic biology's role in sustainable agriculture.",
+  "wiki": "https://2026.igem.wiki/squirrel-beijing"
+ },
+ {
+  "id": 6292,
+  "name": "Stockholm",
+  "village": "Bioremediation",
+  "country": "SWE",
+  "section": "overgrad",
+  "title": "T.I.D.E - Targeted Interception and Degradation of Endocrine disruptors",
+  "abstract": "Bisphenol A and its alternatives (BPA+) are widely used monomers in polycarbonate plastics and epoxy resins. BPA+ are endocrine-disrupting chemicals, they interfere with hormone-mediated pathways. Culminating in widespread dysregulation of reproductive, metabolic, and developmental processes, and in growth and developmental defects. Their ubiquitous presence has significant health risks to humans and aquatic animals, posing an environmental threat to population stability that is under researched and poorly understood. \n\nOur project, TIDE, is a modular 3-vector platform that integrates sensing, reporting, and bioremediation for BPA+. These modules permit specific targeting with broad-spectrum degradation. In parallel, we worked to redesign a receptor with BPA-alternative specificity. Due to the poorly understood risks of BPA alternatives, our team worked to educate and engage the public through multiple initiatives and to integrate the outcomes into our project design. These initiatives raised awareness of bisphenol risks and sustainable development, the role biotechnology could play in both.",
+  "wiki": "https://2026.igem.wiki/stockholm"
+ },
+ {
+  "id": 6240,
+  "name": "THIS-China",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "ArtemiSilence: MSN-Mediated RNAi Delivery to Reduce Mugwort Pollen Allergens",
+  "abstract": "Mugwort (Artemisia) pollen is a major trigger of fall seasonal allergies in Beijing and many other regions. Current control methods, such as large-scale plant removal and herbicide application, are non-specific and may damage urban ecosystems. ArtemiSilence aims to develop a plant-targeted strategy using mesoporous silica nanoparticles (MSNs) as carriers to deliver RNA interference (RNAi) molecules into mugwort plants. The delivered RNAi is designed to silence selected genes associated with pollen-allergen expression, thereby reducing allergen levels during flowering without eliminating the plants. We will identify candidate allergen-related genes, design RNAi molecules, optimize RNAi loading into MSNs and delivery to plant tissues, quantify gene-silencing efficiency and changes in allergen levels, and evaluate specificity, persistence, biosafety, and environmental feasibility. Our goal is to develop a precise and environmentally responsible approach to reducing exposure to airborne mugwort pollen allergens.",
+  "wiki": "https://2026.igem.wiki/this-china"
+ },
+ {
+  "id": 6310,
+  "name": "TJI-Seoul",
+  "village": "Bioremediation",
+  "country": "KOR",
+  "section": "high-school",
+  "title": "CPS Cycle: Integrating Citrus Waste, Protein (Laccase(CotA)), and Soil for Post-Fire Restoration",
+  "abstract": "Wildfires can leave soils chemically and biologically impaired, while citrus-processing waste remains an underused biomass resource. We developed the CPS Cycle, a synthetic biology platform combining processed citrus waste, recombinant CotA laccase, and soil for post-fire restoration research. CotA from Bacillus subtilis was expressed in Escherichia coli, optimized for soluble production, and validated using ABTS and guaiacol activity assays. Citrus waste was washed, dried, pulverized, and incorporated into soil to improve plant compatibility. The optimized CotA preparation was then integrated with processed citrus soil to create the final CPS material. In a simplified burned-biomass model, CotA treatment reduced detectable phenolic signal, while lettuce assays showed improved growth performance under selected CPS conditions. CotA-associated activity also remained detectable after incorporation into the citrus-soil matrix. Our work establishes a proof-of-concept for a non-living, recombinant-protein-based approach linking waste valorization, enzyme biotechnology, and environmental restoration.",
+  "wiki": "https://2026.igem.wiki/tji-seoul"
+ },
+ {
+  "id": 6121,
+  "name": "TJUSLS-China",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "PUReCycle——Discovery and Engineering of PURases",
+  "abstract": "Polyurethane waste creates serious plastic-pollution challenges. MDI-based polyether polyurethane, occupying ~75% foam-market share, is hard to degrade naturally, and effective urethanases for its biorecycling are limited.\nFollowing the DBTL cycle, our project integrated metagenomic mining and semi-rational enzyme engineering. From ~30 million metagenomic sequences in SoilMicrobeDB, GTDB and JGI, we performed multi-layer computational screening and selected 19 PUC urethanase candidates for wet-lab tests. We also engineered seed enzyme AbPURase through docking, MD simulation and site-directed mutagenesis. The double-point mutant AbPURase_DM2 exhibited high activity at both 50 °C and 60 °C. Using MDC as model substrate, we built a standardized UPLC activity-quantification system. This study enriches urethanase resources and supports future biological recycling of PU waste.",
+  "wiki": "https://2026.igem.wiki/tjusls-china"
+ },
+ {
+  "id": 6187,
+  "name": "Toronto",
+  "village": "Bioremediation",
+  "country": "CAN",
+  "section": "overgrad",
+  "title": "PetaBite: Mapping Earth's Biodiversity to Discover Room-Temperature Plastic-Degrading Enzymes",
+  "abstract": "Plastic has become so abundant that its carbon content now exceeds that of all animals on Earth. Fortunately, nature offers an ecological solution with PETases, enzymes capable of degrading polyethylene terephthalate (PET). Previously, fewer than 500 validated sequences had been characterized, limiting humanity’s ability to discover variants suitable for industrial deployment. \n\nIn response, we created the PETadex, the largest open-source database of plastic-degrading enzymes, by searching 27.3 million public sequencing datasets. This expanded the catalogue from 495 sequences to over 300 million naturally occurring homologs, unlocking unprecedented scale and diversity.\n\nPetaBite creates an integrated workflow to leverage the database. We rank candidates with a protein language model trained on the PETadex, screen them with a high-throughput copper-release assay in E. coli, and further test them in our low-cost open-source bioreactors. Our goal: to discover and validate room-temperature PETases that surpass current benchmarks and enable scalable microplastic degradation.",
+  "wiki": "https://2026.igem.wiki/toronto"
+ },
+ {
+  "id": 6381,
+  "name": "UCL",
+  "village": "Bioremediation",
+  "country": "GBR",
+  "section": "undergrad",
+  "title": "SHELLter: A purification system valorising shellfish waste to filter platinum-based chemotherapy residues in hospital wastewater",
+  "abstract": "Platinum-based chemotherapy drugs such as cisplatin are life-saving, but their environmental impact has received far less attention than their clinical importance. Up to 90% of these cytotoxic drugs are excreted by chemotherapy patients unmetabolised, with 59% of this load persisting in surface water discharge. Meanwhile, around 2 million of the 16.9 million tonnes of seafood waste landfilled each year is chitin-rich shellfish waste, an abundant and underused resource. SHELLter links these two problems with a single solution. Our team proposes a sustainable enzymatic strategy to convert chitin from shellfish waste into chito-oligosaccharides, a heavy metal chelating agent. Using recombinantly produced novel enzymes such as a ChitinaseA-Chitin Deacetylase fusion, these chito-oligosaccharides are produced and incorporated into an adsorption cartridge for toilets, enabling cisplatin capture at the point of excretion. Ultimately, this system can transform into a platform technology, offering a sustainable bioremediation strategy to tackle heavy metal water contamination.",
+  "wiki": "https://2026.igem.wiki/ucl"
+ },
+ {
+  "id": 6146,
+  "name": "UMaryland",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "AEGIS (Aquatic E. coli Guard and Interception using Sinorhizobium)",
+  "abstract": "In specific areas, the E. coli spikes are much higher due to combined sewer systems. These systems, unlike the standard sewer system, have connected storm water and sewage pipes, which can lead to an overflow of combined sewage and storm water beyond the flow regulator and into the local waterways. Inspired by the recent Potomac River sewage overflow in Maryland, AEGIS addresses the local issue of combined sewage systems, which often overflow into streams, by killing diarrheagenic E. coli in water contaminated by sewage. This will help countless organisms and can prevent water-borne infections.",
+  "wiki": "https://2026.igem.wiki/umaryland"
+ },
+ {
+  "id": 6320,
+  "name": "UNIMI-IT",
+  "village": "Bioremediation",
+  "country": "ITA",
+  "section": "undergrad",
+  "title": "M.A.N.Z.O.N.I. — Microbial Approaches for Nanoparticles Zeroing and Optimizing Natural Integrity",
+  "abstract": "99% of people breathe polluted air. A large share of it is particulate matter, which is not one pollutant but a mixture of many. We engineer Escherichia coli MG1655 to absorb and process three of them: sulfate, nitrate and heavy metals. To overexpress whole pathways without plasmid burden, we built an integrative overexpressor: a λ-Red cassette combining a translation-enhancing MlcR 5′ UTR, an FRT-flanked kanamycin marker and one to five tandem Tac promoters, retargetable to any locus through 40 bp homology arms. With it we boosted the assimilatory sulfate pathway (cysNDC, cysJIH, plus cysZ, cysQ, trxA, cysG), nitrate uptake and reduction to ammonia (narU, narGHI, nirBD), and heavy-metal tolerance and bioaccumulation (sodA, zupT, and a synthetic operon pairing metallothionein ShMT3 with a periplasm-targeted OmpA–lead-binding peptide). Removal is quantified spectrophotometrically against wild type, supported by a model linking particle capture to metabolic kinetics.",
+  "wiki": "https://2026.igem.wiki/unimi-it"
+ },
+ {
+  "id": 6041,
+  "name": "UOregon",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "overgrad",
+  "title": "AquaFlock",
+  "abstract": "Nitrogen fertilizers are an essential component of modern agriculture. Roughly half of applied nitrogen fertilizer is absorbed by plants; the rest gets converted into nitrate and leaches through the soil into ground and surface water. Elevated nitrate levels can harm ecosystems, contributing to eutrophication, and humans when nitrate-contaminated water is consumed. To address this issue, we engineered E. coli to sequester and store excess environmental nitrate within the cell. Nitrate gets converted into the nitrogen storage polymer cyanophycin; the bacteria start expressing flocculation proteins when a high concentration of cyanophycin is reached. The resulting flocs can be collected and used as fertilizer, recapturing the lost nutrients. We hope that this project will improve sustainability of nitrogen fertilization and reduce nitrogen pollution.",
+  "wiki": "https://2026.igem.wiki/uoregon"
+ },
+ {
+  "id": 6077,
+  "name": "UOttawa",
+  "village": "Bioremediation",
+  "country": "CAN",
+  "section": "undergrad",
+  "title": "Nulfur: Sustainable Crude Oil Processing Through Engineered Biodesulfurization",
+  "abstract": "70% of crude oil is sour, rich in toxic sulfur compounds such as dibenzothiophene. Refineries remove these by hydrodesulfurization, an energy- and hydrogen-intensive process leaving spent catalyst as hazardous waste. Our project, Nulfur, develops a biodesulfurization alternative using the 4S pathway in engineered Pseudomonas putida. We developed Cofactor, an agentic AI tool guiding mutagenesis of bottleneck enzymes DszB and DszC. We sanitized broad-host-range plasmid pBBR1mcs-2 for Golden Gate assembly and confirmed expression in E. coli and P. putida. To optimize activity, we built and characterized modular Golden Gate-compatible promoter blocks spanning a graded expression range, designed a 24-member library tuning dszA–dszD, assembled eight, and detected desulfurization activity from one. Because metabolic burden caps single-strain throughput, we modelled a consortium where partner strains supply rhamnolipid and formate, relieving identified substrate-availability and NADH limits. Ultimately, Nulfur delivers cleaner oil processing while providing a framework for designing synthetic consortia for future applications.",
+  "wiki": "https://2026.igem.wiki/uottawa"
+ },
+ {
+  "id": 6392,
+  "name": "UTArlington-TexasUSA",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "ForNever Chemicals: Bioelimination of Environmental Per- and Polyfluoroalkyl Substances (PFAS)",
+  "abstract": "Per- and polyfluoroalkyl substances (PFAS) persist in the environment and accumulate in organisms and food webs, raising concerns about ecological and human health. Unfortunately, the PFAS persistence is attributed to a number of highly stable Carbon-Fluorine bonds that hinder normal biological degradation of the PFA backbone. Rather than relying on effective but potentially harmful byproduct producing radical processes, our design involves the use of heterolytic enzymatic processes to safely ensure PFA bioremediation. \nThrough the use of F19 vector ligated with 4 DNA fragments, crcB, dhaA, ssuE and fluoroacetate dehalogenase(FAcD), we aim to combine complementary enzymatic functions: breaking down carbon halogen bonds using FAcD, ssuE, and dhaA and removing toxic intracellular fluoride ion degradation products with crcB. Hence, this approach's goal is to understand whether this combination of DNA fragments can cause the defluorination and more complete degradation of PFAS within cells without generating unwanted partial breakdown products.",
+  "wiki": "https://2026.igem.wiki/utarlington-texasusa"
+ },
+ {
+  "id": 6137,
+  "name": "UVU-Utah",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "overgrad",
+  "title": "GreenARC: Atrazine Remediation by Chlamydomonas reinhardtii",
+  "abstract": "Atrazine, a widely used herbicide, poses severe ecological threats. It exhibits high toxicity to aquatic life and amphibians and is recognized as an endocrine disruptor by the US EPA. Even though it is banned in over 60 nations, Atrazine remains widely used in other countries including the US, Canada, and Australia. Atrazine persists in soil for months or even years and eventually runs off into groundwater where it degrades at an even slower rate. The enzyme pathway AtzA-F has shown the ability to degrade atrazine into less harmful compounds. We aim to express these enzymes in the microalgae Chlamydomonas reinhardtii, utilizing its ability to handle large genetic constructs and its resilience in aquatic and soil environments.",
+  "wiki": "https://2026.igem.wiki/uvu-utah"
+ },
+ {
+  "id": 6423,
+  "name": "VIS",
+  "village": "Bioremediation",
+  "country": "TWN",
+  "section": "high-school",
+  "title": "Cadture",
+  "abstract": "Cadmium pollution is an environmental concern because of its harmful effects on human health and ecosystems. Detecting and removing cadmium requires expensive equipment or chemical treatments. In Project Cadture (Cadmium capture), we are developing an engineered Escherichia coli system that can both detect and capture cadmium. We built on a green fluorescent protein (GFP)-based cadmium detection system by introducing four metallothioneins (MTs). If any of the engineered MTs can capture cadmium, the GFP signal will decrease in comparison to the detection system, pMH45. When we monitored the bacterial culture in real time, we observed GFP intensity decrease compared to the sensor system, suggesting a decrease in cadmium concentration. We then expressed MTs in the cytoplasm. Bacteria with cytoplasmic MTs expressed very little GFP, suggesting that most cadmium was captured by MTs before activating GFP expression. Through this project, we demonstrate the potential of using MT-expressing bacteria to remove cadmium.",
+  "wiki": "https://2026.igem.wiki/vis"
+ },
+ {
+  "id": 6322,
+  "name": "VIT-Vellore",
+  "village": "Bioremediation",
+  "country": "IND",
+  "section": "undergrad",
+  "title": "Ammonia Capture Using a Glutamine Synthetase–PPK2 Coupled Cyclic Reaction System for Poultry Air Quality Management",
+  "abstract": "Ammonia emissions arising from the microbial breakdown of uric acid and undigested proteins in poultry litter threaten poultry health, productivity, and air quality, causing respiratory damage and increasing disease susceptibility when concentrations exceed 20–25 ppm. To address this, the iGEM team of VIT-Vellore aims to develop a biosynthetic system that converts harmful gaseous ammonia into value-added glutamine. Using a feedback-resistant Bacillus subtilis glutamine synthetase coupled with a Sulfurovum lithotrophicum PPK2-mediated ATP regeneration cycle, ammonia is assimilated with glutamate (MSG), while MgCl₂, sodium polyphosphate, and ADP sustain a continuous ATP supply. This bio-based approach fixes ammonia into non-volatile glutamine, providing a sustainable alternative to chemical scrubbers and passive absorbents. Aligned with UN SDGs 8, 11, 12, 13, 15, and 17, Team VIT-Vellore promotes ethical, collaborative, and environmentally responsible biotechnology for sustainable poultry farming and improved environmental health.",
+  "wiki": "https://2026.igem.wiki/vit-vellore"
+ },
+ {
+  "id": 6222,
+  "name": "WageningenUR",
+  "village": "Bioremediation",
+  "country": "NLD",
+  "section": "overgrad",
+  "title": "Triton: How to make the forever chemical forever no more!",
+  "abstract": "Trifluoroacetate (TFA) is the shortest PFAS molecule, and the most overlooked. It circulates through our rivers, drinking water, and bodies. Long dismissed as harmless, there is now growing evidence for its hazardous effects on the environment and humans. Through feedback from our amazing stakeholders, we have identified how to tackle the root cause of the problem. Currently used techniques filter, but do not destroy TFA. That is why we have developed Triton. Triton is a holistic system that first concentrates TFA by binding it to a de novo TFA-binding protein attached to bacterial cellulose beads. Next, TFA flows into our bioreactor, where it is defluorinated by our evolved TFA dehalogenase. Here the TFA is broken down into harmless oxalate. Finally, to monitor the reduction in TFA concentration, we have designed a biosensor using a de novo TFA riboswitch. Together, these components combine to make the forever chemical forever no more!",
+  "wiki": "https://2026.igem.wiki/wageningenur"
+ },
+ {
+  "id": 6257,
+  "name": "WestviewHS SanDiego",
+  "village": "Bioremediation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "Project PEARL: Protein Enabled Absorption and Recovery of rare earth eLements",
+  "abstract": "Rare earth elements (REEs) are critical for most modern technologies ranging from smartphones to wind turbines, yet the current extraction process often leaves behind contaminated water that conventional methods struggle to address. Metal-binding proteins from certain bacterial strains are candidates for a more environmentally-friendly possibility. In this project, we engineered Escherichia Coli to display metal binding proteins pedA1, mshA, and etfB on its outer surface to hopefully create a biological system that can capture REEs from contaminated water. Plasmids encoding these proteins were constructed with loop assembly and transformed into the E. Coli and were eventually tested using an Alizarin-based colorimetric assay to determine the efficiency of the proteins. Using this data, we wanted to see whether or not these proteins could possibly be utilized for the bioremediation of REEs.",
+  "wiki": "https://2026.igem.wiki/westviewhs-sandiego"
+ },
+ {
+  "id": 6087,
+  "name": "WLSA-ShanghaiAcademy",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "ReLeaf: Converting Agricultural and Garden Waste into Bioethanol with Five Engineered Pichia pastoris Strains",
+  "abstract": "Garden waste, including leaves and branches, and agricultural residues, such as straw, corn cobs, and wheat stalks, are often burned or landfilled, causing air pollution, land consumption, and resource loss. ReLeaf aims to convert this lignocellulosic biomass into renewable bioethanol.\n\nUsing Pichia pastoris GS115 and the pPIC9K expression system, we produced five lignocellulose-degrading enzymes: laccase, endoglucanase, cellobiohydrolase, β-glucosidase, and xylanase. Measured activities included 1.66 U/mL for laccase, 2.58 U/mL for xylanase, and 0.283 U/mL total cellulase activity on Avicel. We also explored magnetic-bead-based enzyme recovery for potential reuse.\n\nOur design combines enzymatic hydrolysis with yeast fermentation, using Saccharomyces cerevisiae to ferment glucose and engineered P. pastoris to utilize xylose. Across three Design–Build–Test–Learn cycles, we investigated enzyme production, biomass hydrolysis, and fermentation, assessing the feasibility of lignocellulosic waste valorization while emphasizing biosafety through cell-free enzyme preparations.",
+  "wiki": "https://2026.igem.wiki/wlsa-shanghaiacademy"
+ },
+ {
+  "id": 6495,
+  "name": "Worldshaper-Hangzhou",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "AirNova: An Enzyme-Powered Odor-Control Spray for Enclosed Public Spaces",
+  "abstract": "Odor control is a critical challenge in crowded public spaces. Conventional methods, such as fragrance masking or chemical sprays, are often irritating and only temporary. To solve this, we engineered a bacterial system to produce a mix of natural enzymes that destroy bad smells at the molecular level. These enzymes break down foul-smelling compounds into completely odorless, non-volatile substances. Applied as a textile spray, the product remains on surfaces and is activated by ambient humidity to lock in and continuously degrade odors. This provides a safe, long-lasting, and sustainable biopurification solution for transit systems and shared indoor spaces.",
+  "wiki": "https://2026.igem.wiki/worldshaper-hangzhou"
+ },
+ {
+  "id": 6183,
+  "name": "YK Pao",
+  "village": "Bioremediation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "The Golden Cicada’s Escape: A Smart-Sensing, Self-Floating Harvester for Heavy Metal Ions in Water",
+  "abstract": "Heavy metal pollution in water, including lead, cadmium, and mercury, threatens ecosystems and human health. This project proposes a synthetic biology-based “capture-and-recovery” system using engineered E. coli BL21(DE3). A surface-display module, Lpp–OmpA–SmtA, is designed to bind extracellular metal ions, enhancing adsorption while reducing intracellular toxicity. Metal-responsive ZntR and PzntA regulation activates downstream functions in the presence of Zn²⁺, Cd²⁺, or Pb²⁺. Upon metal detection, the bacteria express antigen 43 (Ag43) to promote self-aggregation and gas-vesicle proteins (GVPs) to generate buoyancy. The cells are expected to form visible floating biorafts that can be collected with simple floating barriers or filters. By integrating sensing, adsorption, aggregation, and flotation, this system aims to enable low-cost, recoverable remediation of contaminated water while reducing secondary-pollution risks.",
+  "wiki": "https://2026.igem.wiki/yk-pao"
+ },
+ {
+  "id": 6566,
+  "name": "Cela",
+  "village": "Climate Crisis",
+  "country": "JPN",
+  "section": null,
+  "title": "",
+  "abstract": "",
+  "wiki": null
+ },
+ {
+  "id": 6245,
+  "name": "ABOA",
+  "village": "Conservation",
+  "country": "FIN",
+  "section": "overgrad",
+  "title": "Benzophe-none",
+  "abstract": "Benzophenone-3 is an aromatic compound that has been commonly used in cosmetics, sunscreen and other items such as plastic as an UV filter. It is harmful to aquatic animals and coral because it is an endocrine disruptor. This has led to its use being reduced, but it is still used in controlled amounts in Asia, America and Europe. Since it is commonly used, harmful to the environment and current waste water treatment plants can’t remove it completely, we decided on a biological approach. Normal biological waste water treatment is inconsistent so our goal is to investigate a new proposed benzophenone breakdown pathway from Rhodococcus Oxybenzonivorans and try to incorporate it into current wastewater treatment plants. The pathway is new and experimental data is very limited. We chose to test two of the breakdown steps in E.coli to figure out how it could be used to remove benzophenone from waste water.",
+  "wiki": "https://2026.igem.wiki/aboa"
+ },
+ {
+  "id": 6261,
+  "name": "Alma",
+  "village": "Conservation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "Com-BAT-ing White Nose Syndrome",
+  "abstract": "Pseudogymnoascus destructans (Pd) is a pathogenic fungus responsible for White‑nose syndrome (WNS). Since its emergence, WNS has caused catastrophic declines in bat populations across North America. WNS develops during the bat hibernation period, when proteolytic enzymes produced by Pd degrade collagen in the nose, ears, and wings. This tissue damage forces bats to arouse prematurely from hibernation, triggering abnormal winter activity, rapid energy depletion, and ultimately death by starvation due to the absence of seasonal food resources. Despite the severity of this crisis, no effective large‑scale treatment currently exists. Our project proposes engineering Escherichia coli to secrete serine protease inhibitor(s) that target the key virulence factor (destructin-1) driving tissue degradation. By blocking collagen breakdown, these inhibitors would help bats maintain uninterrupted hibernation, improving survival outcomes and offering a promising biological strategy to protect one of our most essential ecological allies.",
+  "wiki": "https://2026.igem.wiki/alma"
+ },
+ {
+  "id": 6478,
+  "name": "Athens",
+  "village": "Conservation",
+  "country": "GRC",
+  "section": "overgrad",
+  "title": "ApiconIASIS",
+  "abstract": "European Foulbrood is a bacterial disease of honeybee brood caused by Melissococcus plutonius. Infected larvae die before pupation, weakening or collapsing the colony. Across Europe control rests on destruction: past a defined level of infection the colony is destroyed and its frames burned. Antibiotics are unauthorised in the EU, no residue limit exists for honey, resistant strains are documented, and broad-spectrum treatment depletes the gut community that suppresses it.\nApiconIASIS is a targeted enzyme therapy from the pathogen’s own genome. Phages infecting M. plutonius encode endolysins, peptidoglycan hydrolases that evolved to lyse it. We screened published genomes for dormant prophages, ranked their lytic enzymes, and carried two forward. Both were expressed in Escherichia coli, purified, and assayed against a strain of reduced virulence; optical density fell. Neither acted on two honeybee gut commensals of the same order. The agent is a purified, non-replicating protein; the production strain stays contained.",
+  "wiki": "https://2026.igem.wiki/athens"
+ },
+ {
+  "id": 6336,
+  "name": "BNUZH-China",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "PineProtector: An Engineered Bacillus subtilis Platform for Dual Control of Pine Wilt Disease",
+  "abstract": "Pine wilt disease (PWD), caused by the pine-wood nematode (Bursaphelenchus xylophilus) and transmitted mainly by the Japanese pine sawyer (Monochamus alternatus), is a devastating forest disease; infected pines can wilt and die within 40 days. We propose PineProtector, a synthetic-biology-based platform that engineers Bacillus subtilis to colonize pine trunks and express two proteins with nematicidal and insecticidal activity against B. xylophilus and M. alternatus. Specifically, the engineered strain expresses the alkaline serine protease BLG4 under phenolic acid induced system to target nematodes and the Bacillus thuringiensis toxin Cry3Aa to target the vector insect. To ensure biosafety, a KillerRed-based suicide switch is incorporated: when the bacteria leave the pine interior and are exposed to sunlight, KillerRed produces ROS, which in turn trigger bacterial suicide. PineProtector is expected to provide a green, low-cost, and durable new strategy for the control of pine wilt disease, with the ultimate goal of protecting pine forests.",
+  "wiki": "https://2026.igem.wiki/bnuzh-china"
+ },
+ {
+  "id": 6188,
+  "name": "DNHS-SanDiego-Ca",
+  "village": "Conservation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "Limiting Coral Bleaching By Targeting Pathogenic V. Coralliilyticus Using Engineered Bacterial Secretion of Phage-Derived Endolysin",
+  "abstract": "Increased ocean temperatures are rapidly accelerating the severity of coral bleaching events worldwide. Thermal stress weakens coral immune defenses, triggers production of toxic reactive oxygen species (ROS), and above 27°C, activates virulence in the pathogen Vibrio coralliilyticus, further harming the coral host. Current treatments struggle to target this pathogen without disrupting the coral holobiont. To address this, our team engineered coral symbiont Bacillus subtilis to secrete Lysdvp001, a phage-derived endolysin that lyses V. coralliilyticus, under a promoter activated by high concentrations of ROS, matching the conditions when the risk of virulence is the highest. Experimental validation demonstrated that our engineered coral probiotic remains comparable to a wild-type environment under low-stress conditions and inhibits V. coralliiyticus when exposed to ROS. Thus, we have created a proactive, biosensing intervention strategy that protects vulnerable coral ecosystems from pathogen-driven bleaching while preserving the natural balance of the coral holobiont.",
+  "wiki": "https://2026.igem.wiki/dnhs-sandiego-ca"
+ },
+ {
+  "id": 6166,
+  "name": "GHCIS",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "ToeholdX: From AMR Detection to a Universal RNA Sensing Platform",
+  "abstract": "Antimicrobial resistance (AMR) is rapidly emerging as one of the greatest threats to global health. Resistance genes such as MCR-1, NDM-1, and KPC-2, which undermine last-resort antibiotics including colistin and carbapenems, are increasingly spreading through environmental pathways such as agricultural water systems. However, current detection methods rely on expensive instruments and specialized laboratories, making large-scale field surveillance difficult. To tackle this challenge, we developed a portable, low-cost diagnostic platform based on synthetic biology. Our system employs computationally designed RNA Toehold Switches to specifically recognize multiple antimicrobial resistance genes and generate distinct colorimetric outputs in a cell-free expression system. Coupled with RPA isothermal amplification and paper-based detection, the platform enables rapid, user-friendly, and equipment-free testing. By bringing AMR monitoring out of the laboratory and into the field, our project aims to support early warning, environmental surveillance, and more accessible public health protection.",
+  "wiki": "https://2026.igem.wiki/ghcis"
+ },
+ {
+  "id": 6283,
+  "name": "GYHS",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "ReefBond: A Bifunctional Bioinspired Adhesive for Coral Reef Restoration",
+  "abstract": "Secure attachment of coral fragments to the reef substrate remains a critical bottleneck in coral reef restoration. Conventional fixation strategies—cement, epoxy resins, and mechanical fasteners—face substantial limitations in underwater settings, including poor handling, long curing times, and the release of non-biodegradable materials into the marine environment. Inspired by mussel adhesion, the ReefBond project has designed and expressed a bifunctional fusion protein comprising mussel adhesive protein domains coupled to a mineralization-inducing peptide. Preliminary characterization demonstrates strong underwater adhesion and mineralization-promoting activity. Ongoing and future work will assess its adhesion performance and stability under marine conditions, its biodegradation profile, and its biocompatibility with coral tissue and other reef-associated organisms. By offering a biodegradable, bio-derived alternative to synthetic adhesives, ReefBond aims to provide a safer and more sustainable tool for coral outplanting and reef restoration, contributing to the protection of marine ecosystems.",
+  "wiki": "https://2026.igem.wiki/gyhs"
+ },
+ {
+  "id": 6352,
+  "name": "HG-Tokyo",
+  "village": "Conservation",
+  "country": "JPN",
+  "section": "high-school",
+  "title": "Recombinant Endolysin-royalisin for Invasive Gram-positive Neutralization (R.E.I.G.N.) - A Sustainable Strategy Against American Foulbrood",
+  "abstract": "Honeybees are essential to the agricultural, food, and cosmetic industries, but their populations are increasingly threatened by American foulbrood (AFB), a highly contagious bacterial disease caused by Paenibacillus larvae. Current strategies require the destruction of infected hives, often through burning. To tackle this problem, we are leveraging royalisin, a natural antimicrobial peptide found in royal jelly. While royalisin exhibits activity against Gram-positive bacteria, P. larvae’s protective cell envelope and distinctive surface structures may hinder its effectiveness. To overcome this, we engineered a genetic construct in E. coli that produces genetically fused royalisin and P. larvae phage endolysin PlyPl23, creating a synergistic system that attacks the bacterium through complementary mechanisms. We envision application via a spray containing purified endolysin-royalisin together with uric acid and L-tyrosine, targeting both vegetative P. larvae cells and dormant endospores. By eliminating the pathogen without destroying colonies, we provide beekeepers a sustainable alternative to current control methods.",
+  "wiki": "https://2026.igem.wiki/hg-tokyo"
+ },
+ {
+  "id": 6171,
+  "name": "Hong Kong-CUHK",
+  "village": "Conservation",
+  "country": "HKG",
+  "section": "undergrad",
+  "title": "BeeTrix: A Self‑Sustaining Biocontrol System Against Varroa Mites",
+  "abstract": "We are developing BeeTrix, a biological control system that leverages engineered Pseudomonas putida to continuously produce hop beta acids (lupulone) directly inside honeybee hives for sustainable Varroa mite management. Our biological system mimics a contact‑based killing mechanism, disrupting mite cellular ion balance and inducing oxidative stress with lupulone, without harming bees or contaminating honey. By using living bacteria as self‑renewing factories, BeeTrix overcomes the short half‑life of pure lupulone and eliminates the need for repeated chemical applications. Our aim is to create a single‑application, season‑long Varroa control solution that is safe, effective, and easily adopted by beekeepers worldwide.",
+  "wiki": "https://2026.igem.wiki/hong-kong-cuhk"
+ },
+ {
+  "id": 6450,
+  "name": "IISER-Kolkata",
+  "village": "Conservation",
+  "country": "IND",
+  "section": "undergrad",
+  "title": "FINS - Fish Intersex Neutralization Strategy",
+  "abstract": "Estrogenic pollutants like estrone (E1) and 17β-estradiol (E2) enter waterways through wastewater, causing feminization, intersex conditions and fish population collapse. Our engineered E. coli carries two modules. The sensing and degradation module uses the EdcR repressor and its Pb promoter to detect estrogens, triggering a T7 RNA polymerase cascade that secretes BPUL laccase, which inactivates them by oligomer formation. The kill switch module expresses λ-phage Holin and T4 Endolysin to lyse the bacteria after treatment, preventing environmental release. We modelled the circuit deterministically and stochastically, and studied estrogen diffusion to test feasibility. Constants come from literature or multi-paper estimates, and sensitivity and error analyses support real-world use. For deployment, we designed tanks, columns and UV treatment tanks to neutralise runaway bacteria. Calculations, simulations and wet-lab experiments complemented one another, revealing the circuit's true behaviour.",
+  "wiki": "https://2026.igem.wiki/iiser-kolkata"
+ },
+ {
+  "id": 6469,
+  "name": "IL Tech Chicago",
+  "village": "Conservation",
+  "country": "USA",
+  "section": "overgrad",
+  "title": "SynBeeGee",
+  "abstract": "Honeybees are essential to agriculture and ecosystem health, yet pesticide exposure threatens their survival. Organophosphate pesticides can disrupt neurological function and contribute to declining colony health. SynBeeGee, developed by the Illinois Institute of Technology iGEM team, investigates a synthetic biology strategy to protect honey bees by engineering their native gut microbiome.\nOur project focuses on Snodgrassella alvi, a bacterium naturally associated with the honey bee gut. By introducing genetic machinery for organophosphate degradation, we aim to enable this microorganism to break down harmful compounds and reduce pesticide exposure within its host. This approach could complement existing pollinator protection strategies without requiring farmers to abandon pest management practices.\nSynBeeGee combines genetic engineering, laboratory experimentation, computational design, and stakeholder engagement to assess technical feasibility, biosafety, and practical implementation. Through collaboration with beekeepers, researchers, and agricultural stakeholders, the project explores how engineered microbial partnerships might support healthier colonies and more sustainable agricultural systems.",
+  "wiki": "https://2026.igem.wiki/il-tech-chicago"
+ },
+ {
+  "id": 6185,
+  "name": "Lambert-GA",
+  "village": "Conservation",
+  "country": "USA",
+  "section": "high-school",
+  "title": "SWARM: Protecting the Hive",
+  "abstract": "Honeybee populations face a growing threat from Varroa destructor mites, which spread deformed wing virus (DWV), a major driver of colony losses worldwide. Between April 2024 and April 2025, U.S. beekeepers lost 55.6% of managed colonies, threatening pollinators essential to global agriculture.\nLambert iGEM developed SWARM, a two-step approach targeting both the virus and its vector. The first component is a de novo minibinder designed to neutralize DWV, the first experimentally validated binder against an iflavirus, designed at less than 1% of typical industry costs. The second is an RNA interference system targeting three genes critical to mite survival.\nSupporting this work, we built PRINCE, a software for identifying favorable protein-binding regions, and Vapor-X, a low-cost hardware for vacuum-drying reagents. Through inclusive outreach and education, SWARM advances the United Nations Sustainable Development Goals and supports a sustainable future for global pollinators.",
+  "wiki": "https://2026.igem.wiki/lambert-ga"
+ },
+ {
+  "id": 6083,
+  "name": "Nanjing-China",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "PhosArmor",
+  "abstract": "Metal corrosion reduces the service life of equipment, generates solid waste, and necessitates frequent anti-corrosion treatments for metallic components. However, traditional metal anti-corrosion methods often cause environmental pollution.  PhosArmor explores a synthetic biology approach to corrosion protection that prioritizes environmental health. We engineered *Shewanella oneidensis* MR-1 to overexpress *phoU*, a gene encoding a regulator of phosphate homeostasis, to promote protective mineralization on metal surfaces. Comparative strain testing, electrochemical characterization, and mineral analysis support its potential for corrosion protection under laboratory conditions. We also designed a light-controlled kill switch intended to enable strain elimination after mineralization, pending functional validation. \nBy combining biologically driven surface protection with biocontainment design, PhosArmor aims to reduce corrosion-related material waste and dependence on chemically intensive maintenance. The project provides a foundation for developing more sustainable wastewater infrastructure management.",
+  "wiki": "https://2026.igem.wiki/nanjing-china"
+ },
+ {
+  "id": 6300,
+  "name": "NU Boston",
+  "village": "Conservation",
+  "country": "USA",
+  "section": "undergrad",
+  "title": "Soil Shield",
+  "abstract": "Polycyclic aromatic hydrocarbons (PAHs) persist in soil and can bioaccumulate, posing risks to agricultural, environmental, and urban systems. To solve this problem, we developed a bacterial bioremediation system by engineering Pseudomonas Putida KT2440 to degrade naphthalene, a representative PAH, in dry, post-wildfire soil conditions, where analogous soil bacteria die. We investigated a salicylate-dependent kill-switch with flow cytometry methods and assessed salicylate degradation and the effectiveness of hydroxyectoine as an osmoprotectant with plate-reader assays and a purpose-built soil chamber. We also designed biodegradable alginate beads for bacterial delivery into soil and created an application to define environmental conditions and map pollution to optimize deployment of our bacteria.",
+  "wiki": "https://2026.igem.wiki/nu-boston"
+ },
+ {
+  "id": 6084,
+  "name": "NWAFU-China",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "AMPlify: AI-Designed Antimicrobial Peptides for Animal Health and Conservation",
+  "abstract": "Antimicrobial resistance demands new approaches that balance antibacterial activity, host compatibility, and environmental responsibility. Inspired by dairy-goat mastitis management, AMPlify integrates AI-guided antimicrobial peptide design with experimental validation and a One Health perspective. Our generative model, TAM-Flow, generated 10,000 sequences, from which seven candidates underwent molecular dynamics simulations and in vitro evaluation. Three candidates exhibited relatively broad antibacterial activity within the tested strain panel, while hemolysis and cytotoxicity assays informed iterative refinement. Recombinant production yielded a fraction with antibacterial activity. Complementary software evaluates peptide properties and explores degradation, environmental fate, and resistance pressure. Stakeholder engagement shaped research priorities, while multilingual materials and interactive games supported public education. Together, AMPlify connects computational discovery, experimental evidence, production research, and societal needs to support responsible development of antimicrobial peptides for animal health.",
+  "wiki": "https://2026.igem.wiki/nwafu-china"
+ },
+ {
+  "id": 6366,
+  "name": "Peking",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "TermiTox: Engineered Yeast for Targeted Biocontrol of Termites in Wooden Heritage Conservation",
+  "abstract": "Historic timber structures across China—palaces, temples, and old residences—are threatened by termites which cause hidden damage that undermines their preservation. Current control relies on chemical pesticides, which persist and harm non-target organisms. In our iGEM project, we engineered Saccharomyces cerevisiae as a bait-based delivery chassis; termites acquire it from a contained station and spread it via trophallaxis. Guided by termite life history—wood digestion relies on the termite and its gut protists—we designed two complementary modules: a pH-sensitive H311A LLO variant that targets gut protists, and an RNAi module with two single-hairpin constructs targeting RsEG (cellulase) and Hexamerin-1 (caste regulation). A glucanase-assisted release module aids payload escape. Biosafety is enforced by hypoxia- and acetate-responsive promoters, sequence specificity, and physical containment. Overall, TermiTox aims to provide targeted, modular, and environmentally responsible termite control for wooden heritage and forest ecosystems.",
+  "wiki": "https://2026.igem.wiki/peking"
+ },
+ {
+  "id": 6409,
+  "name": "RDFZ-China",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "GlacierGuard: Engineering a biodegradable bacterial cellulose material for glacier protection via water retention",
+  "abstract": "Glacier retreat is accelerating under global climate change, threatening ecosystems and water resources. Existing glacier-covering materials are mainly made from plastics or synthetic fibers, which may cause secondary pollution after long-term use.\nOur project aims to develop a biodegradable glacier-protection material based on bacterial cellulose (BC). Owing to its high water-retention capacity, BC can absorb and retain meltwater during the daytime. Under low nighttime temperatures, the retained water can refreeze, reducing net ice loss and helping preserve glacier mass. Produced by engineered microorganisms, BC is renewable, environmentally friendly, and biodegradable.\nBy utilizing the natural water-holding properties of bacterial cellulose, this project seeks to provide a sustainable bio-based strategy for mitigating glacier melting and protecting vulnerable glacier ecosystems.",
+  "wiki": "https://2026.igem.wiki/rdfz-china"
+ },
+ {
+  "id": 6153,
+  "name": "REC-CHENNAI",
+  "village": "Conservation",
+  "country": "IND",
+  "section": "undergrad",
+  "title": "THULIR – Technology for Harnessing Unique stress-responsive proteins for Long-term Integrated conservation of Recalcitrant seeds",
+  "abstract": "Seeds are the lifeline of plants, facilitating their propagation and conservation. Orthodox seeds, such as rice, beans can withstand conventional seed banking methods, remain viable for extended periods. In contrast, recalcitrant seeds are highly sensitive to dehydration and freezing, making their long-term preservation challenging, endangering the conservation of ecologically important plant species. This is due to high expression of Late Embryogenesis-Abundant (LEA) proteins in orthodox seeds where it protects the seeds from stress. THULIR provides a solution by engineering the LEA domains with metal ion binding motif and a cell-penetrating peptide, that facilitates their delivery into the embryonic axis of the Artocarpus heterophyllus seeds. LEA proteins are engineered with pET (blank) vector and expressed in E. coli BL21, purified through His-tag/Ni-NTA column chromatography. Once delivered, the engineered LEA proteins enhance the cryo-stress tolerance and improve their survival without modifying the plant genome, facilitating a sustainable strategy for long-term cryopreservation.",
+  "wiki": "https://2026.igem.wiki/rec-chennai"
+ },
+ {
+  "id": 6550,
+  "name": "SarvBiome",
+  "village": "Conservation",
+  "country": "CAN",
+  "section": null,
+  "title": "",
+  "abstract": "",
+  "wiki": null
+ },
+ {
+  "id": 6481,
+  "name": "Shanghai-city",
+  "village": "Conservation",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Sentinel of Light Pollution: Fluorescent Biosensors for Sensing Light Pollution",
+  "abstract": "Light pollution is an increasingly severe global environmental problem, disrupting circadian rhythms of organisms and destabilizing ecosystems. Traditional light detectors rely on electronic hardware, which are costly and lack biological relevance to reflect how living organisms perceive light signals. Our project develops fluorescent biosensors as biological sentinels to detect light pollution.",
+  "wiki": "https://2026.igem.wiki/shanghai-city"
+ },
+ {
+  "id": 6045,
+  "name": "UNILausanne",
+  "village": "Conservation",
+  "country": "CHE",
+  "section": "overgrad",
+  "title": "Detect, Disarm, Defend: A Multi-Layered Strategy Against the Crayfish Plague",
+  "abstract": "Crayfish plague, caused by Aphanomyces astaci, has pushed native European crayfish toward extinction. Invasive North American crayfish spread the pathogen while remaining resistant. Guided by discussions with experts and stakeholders, we developed a multi-layered strategy. Detect: We developed a LAMP (loop-mediated isothermal amplification) assay for in-field monitoring, validated for specificity, sensitivity, and robustness, and built a portable incubator to run LAMP in the field. Disarm: We propose RNA interference to silence genes encoding KPI2 and KPILA, which confer resistance in the invasive host. We engineered the necessary double-stranded RNA-producing plasmids and showed that four terminators on either side of the gene significantly increased dsRNA yield. Defend: We cloned, expressed, and purified KPI2 and KPILA, hypothesizing that exogenous delivery could improve native crayfish survival. We adapted a water-in-oil-in-water emulsion into alginate-chitosan feed beads for oral delivery. Together, this multi-layered strategy equips us to preserve native crayfish in Swiss rivers and lakes.",
+  "wiki": "https://2026.igem.wiki/unilausanne"
+ },
+ {
+  "id": 6269,
+  "name": "UZurich",
+  "village": "Conservation",
+  "country": "CHE",
+  "section": "overgrad",
+  "title": "SeisMIC - UZurich 2026: Stabilizing the soil ahead of us",
+  "abstract": "Shallow landslides threaten settlements, infrastructure, and ecosystems in the Swiss Alps. SeisMIC investigates microbially induced calcite precipitation (MICP) as a potential approach to stabilising shallow alpine soils. Our project addresses three main challenges: bacterial activity at low temperatures, controlled calcium carbonate precipitation, and environmental impacts.\n\nIn the wet lab, we investigated directed evolution of Sporosarcina pasteurii (S. pasteurii) for cold adaptation and strategies to regulate urease expression and carbonate formation. Cold-adapted populations showed shorter lag phases under cold conditions and retained qualitative precipitation ability. Engineered Escherichia coli strains exhibited induction-associated urease responses, while carbonic anhydrase results remained open. \n\nComplementary models explored slope stability and treatment feasibility, while Human Practices integrated stakeholder perspectives. SeisMIC establishes a foundation for further research, highlighting the need to validate treatment efficacy, environmental safety, and practical applicability before real-world deployment.",
+  "wiki": "https://2026.igem.wiki/uzurich"
+ },
+ {
+  "id": 6201,
+  "name": "Aalto-Helsinki",
+  "village": "Food & Nutrition",
+  "country": "FIN",
+  "section": "overgrad",
+  "title": "DAHLIA: Making Food Safety Visible",
+  "abstract": "Is your food safe to eat? Earlier this year, Finnish broadcasters exposed issues with the storage of meat and fish in supermarkets. The Aalto-Helsinki iGEM team presents DAHLIA, a test strip that detects the histamine emitted by foods like meat and fish as they spoil. In our biosensor, Diamine Oxidase (DAO) reacts with histamine, producing H2O2, and Horseradish Peroxidase (HRP) reacts with H2O2 and changes the color of a substrate. DAO and HRP are each joined to a cellulose-binding module (CBM) to adhere to the cellulose-based test strip. Our team successfully designed, transformed and expressed both fusion proteins and developed assays for prototype testing. To ensure the positive impact of the product on our community, we interacted with consumers, food vendors, and experts from different fields. We especially strived to educate the community about food safety and histamine - for a future with less food waste and more food safety.",
+  "wiki": "https://2026.igem.wiki/aalto-helsinki"
+ },
+ {
+  "id": 6210,
+  "name": "Anatolia College-GR",
+  "village": "Food & Nutrition",
+  "country": "GRC",
+  "section": "high-school",
+  "title": "Engineering Chlorella Vulgaris to Enhance Non-Heme Iron Bioavailability",
+  "abstract": "Iron deficiency continues to be one of the most prevalent nutritional concerns worldwide, particularly impacting populations that depend on plant-based diets abundant in non-heme iron, which has low bioavailability. Our initiative, Engineering Chlorella vulgaris to Enhance Non-Heme Iron Bioavailability, tackles this issue through the application of synthetic biology by genetically modifying the microalgae Chlorella Vulgaris to overexpress the VTC2/GGP gene, a crucial enzyme in the L-ascorbic acid biosynthesis pathway. By significantly increasing the production of vitamin C within the organism, we seek to naturally improve iron absorption in the same context. Transgenic strains will be created using electroporation, and their effectiveness will be assessed through in-vitro digestion models. Ultimately, our aim is to develop an affordable and sustainable algae-based capsule supplement, bridging the divide between metabolic engineering and global nutritional security.",
+  "wiki": "https://2026.igem.wiki/anatolia-college-gr"
+ },
+ {
+  "id": 6090,
+  "name": "BOKU-Vienna",
+  "village": "Food & Nutrition",
+  "country": "AUT",
+  "section": "overgrad",
+  "title": "Algaeneering",
+  "abstract": "Micronutrient deficiencies affect billions worldwide. Our project aimed to establish a proof of concept for vitamin overproduction in microalgae by engineering Chlamydomonas reinhardtii to increase vitamin C and folate production through overexpression of GGP, GTPCHI, and ADCS.\nThrough expert and stakeholder interviews, we questioned our approach, its potential benefits, and the challenges of genetically modified foods. They also highlighted that technology can only deliver real impact when paired with trust and public acceptance. This strengthened our focus on education and public engagement.\nComputational models complemented our laboratory work by exploring biological processes relevant to vitamin production. Experimentally, we confirmed reporter expression and obtained promising preliminary results for transformation with our GGP construct, while successful transformation of the folate constructs remains unconfirmed.\nAlthough further research is needed, our project provides a starting point for developing vitamin-enriched microalgae and demonstrates the importance of combining experimental research, computational modeling, and public engagement.",
+  "wiki": "https://2026.igem.wiki/boku-vienna"
+ },
+ {
+  "id": 6455,
+  "name": "Bonn",
+  "village": "Food & Nutrition",
+  "country": "DEU",
+  "section": "overgrad",
+  "title": "PotyGuard⁺ - A bodyguard for your vegetable yard",
+  "abstract": "PotyGuard⁺ is a modular, protease-responsive biosensor designed to detect viral infection in plant cells and convert viral protease activity into a programmable cellular response. The system combines split proteins, Npu DnaE inteins, and inhibitory peptide cages that prevent spontaneous reconstitution. Protease-mediated cage removal enables the split components to reassemble and restore protein function.\n\nWe demonstrated the functionality of this architecture using split eGFP as a fluorescent proof of concept in Nicotiana benthamiana. The same principle can be transferred to functional effectors, such as split Cre recombinase, linking protease activity to downstream cellular responses.\n\nBy separating sensing from output, PotyGuard⁺ can be adapted to different proteases and effectors. This enables applications ranging from fluorescence and recombinase activity to transcriptional or signaling responses. Such outputs could conditionally constitute a defense against viral replication or restrict viral spread in plants, while the underlying architecture provides a broadly applicable platform for protease-responsive synthetic biology.",
+  "wiki": "https://2026.igem.wiki/bonn"
+ },
+ {
+  "id": 6180,
+  "name": "Cataverse-Beijing",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "A Portable Rapid Bacterial Detection System Mediated by Cerium-Based MOF Nanozymes",
+  "abstract": "Foodborne pathogens can be transmitted through contaminated media such as vegetables, causing a range of illnesses from mild diarrhea, abdominal pain, and vomiting to severe fever and even hemolytic uremic syndrome. These pathogens pose a persistent threat to public health security. Therefore, the development of rapid and sensitive detection methods for foodborne pathogens is of great practical significance for early warning and effective prevention of foodborne diseases. To address this need, we have developed a novel rapid bacterial detection platform based on magnetic bead–phage receptor-binding protein coupling technology, a cerium-based MOF nanozyme (Ce-UiO-66) with alkaline phosphatase-like activity, and a smartphone application. This platform provides promising technical support for food safety monitoring, primary-level public health protection, and on-site rapid diagnosis.",
+  "wiki": "https://2026.igem.wiki/cataverse-beijing"
+ },
+ {
+  "id": 6134,
+  "name": "Cataverse-Shanghai",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Reshaping the Future of Food: Unlocking the Nutritional Secrets of Novel Plant Proteins",
+  "abstract": "With the growth of the global population, rising health awareness and increasing demand for sustainable development, plant proteins have become a key development direction in the food industry due to their advantages of abundant resources, environmental friendliness and balanced nutrition. In the field of plant based meat products, plant proteins can mimic the texture, mouthfeel and flavor of animal meat through protein modification, compounding technologies and processing process optimization, meeting consumers’ demands for health, environmental protection and diversification. This project selects potato glycoprotein Patatin, hemp seed protein Edestin 1 and cassava 11S globulin as core raw materials for improving the mouthfeel of plant based meat. Heterologous expression is performed using the Pichia pastoris platform, aiming to provide safe and controllable high quality protein raw materials and replicable synthetic biology solutions for sustainable food systems.",
+  "wiki": "https://2026.igem.wiki/cataverse-shanghai"
+ },
+ {
+  "id": 6426,
+  "name": "CAU-China",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Fungal Sentinel",
+  "abstract": "Globally, approximately 3% of grain is lost to mold annually, with China losing 42 billion kg in storage. Since visual inspection and laboratory tests typically detect contamination only after fungal growth has occurred, CAU-China 2026 introduces Fungal Sentinel, a yeast-based platform designed to sense fungal volatile organic compounds (VOCs) —specifically 1-octen-3-ol, a key biomarker of mold—before visible contamination appears.\nOur sensor rewires the yeast mating pathway: an olfactory receptor (OR) binds the VOC, a Gpa1–Gαolf chimera relays the signal, and the FUS1 promoter drives ymStayGold, converting ligand binding into a measurable green fluorescence output.\nFor readout, OptiX, a phone-based fluorimeter costing about $15 in materials, resolves the reporter spectrum from RAW images down to nanomolar levels. Together, the living sensor and the pocket reader transform invisible, early-stage contamination into a measurable signal long before mold becomes visible.",
+  "wiki": "https://2026.igem.wiki/cau-china"
+ },
+ {
+  "id": 6471,
+  "name": "Chalmers-Gothenburg",
+  "village": "Food & Nutrition",
+  "country": "SWE",
+  "section": "overgrad",
+  "title": "CHYMERA: Cell-Based Hybrid Yeast system for Multi-analyte Engineered Receptor Assays",
+  "abstract": "Biogenic amines such as histamine and tyramine accumulate during microbial food spoilage and represent important indicators for example scombroid poisoning. The aim of this project was to create a yeast-based biosensor, detecting histamine and tyramine, in order to facilitate the detection of spoiled fish prior to consumption. The human GPCRs, H3HR and TAAR1 as well as the honeybee (Apis mellifera) orthologues amTAR1 and amTAR2 were cloned using MoClo assembly and expressed in S. cerevisiae. The receptor genes were introduced into Ste2/Ste3 (-mating factor receptor) knockout strains. The strains contained a modified MAPK cascade together with Gαi3/Gpa1 chimeric G protein α -subunit and Ste12LexA chimeric transcription factor with a GFP reporter gene coupled to the LexO6xLEU2 promoter. Membrane localization of BFP-fused receptors was studied using fluorescence microscopy indicating secondary vacuolar and ER localization. Functional analysis of ligand interaction indicated that the biosensor was non-functional under the tested conditions.",
+  "wiki": "https://2026.igem.wiki/chalmers-gothenburg"
+ },
+ {
+  "id": 6411,
+  "name": "China SUIS GB",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Fish Spoilage Biosensor",
+  "abstract": "Seafood spoilage generates significant global food waste, primarily driven by fish degrading into volatile organic compounds like trimethylamine (TMA). To combat this, we developed a biosensor engineered for cold-chain environments (0–4°C) that detects gaseous TMA.\nOur system utilizes a two-strain Shewanella oneidensis MR-1 co-culture. Strain 1 contains a cold-inducible promoter PcspA, expressing periplasmic TMM, converting incoming gaseous TMA to TMAO. Strain 2 senses extracellular TMAO through its native periplasmic TorT/TorS machinery, initiating a phosphorylation cascade that activates the Ptor promoter to express the blue chromoprotein AmilCP.\nAcross two engineering cycles, we conducted double digestion (PstI/SacI) and ligation molar ratios (5:1 insert-to-vector) using plasmids pDSK519 and pBBR1MCS-1. PCR cross-validation confirmed successful strain construction and plasmid maintenance under selective antibiotics. Finally, we integrated this co-culture into a dual-layer product featuring an outer gas-permeable cellulose acetate shell and inner porous agarose microbeads for bacterial immobilization.",
+  "wiki": "https://2026.igem.wiki/china-suis-gb"
+ },
+ {
+  "id": 6451,
+  "name": "DEPU",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Degradation of Acrylamide in High-Temperature-Processed Foods Using Immobilized Dual-Enzyme Systems",
+  "abstract": "Acrylamide, a probable human carcinogen, is widely produced in thermally processed foods via the Maillard reaction between asparagine and reducing sugars. Natural enzymes suffer from low thermostability and fail to work efficiently under high-temperature food processing conditions. To solve this and the limitations of single-enzyme approaches and high costs, we build an immobilized dual-enzyme system of L-asparaginase and glucose oxidase. LEA peptides are applied to greatly boost enzyme thermostability, and food-grade crosslinkers enable co-immobilization to remove two key precursors. This eco-friendly, recyclable solution effectively reduces acrylamide in fried and baked foods and improves public food safety.",
+  "wiki": "https://2026.igem.wiki/depu"
+ },
+ {
+  "id": 6053,
+  "name": "HKSSC",
+  "village": "Food & Nutrition",
+  "country": "HKG",
+  "section": "high-school",
+  "title": "Waste-to-watt: Engineering PrbA for Enhanced Food Waste Bioenergy Production",
+  "abstract": "While industrial anaerobic digestion converts tonnes of global food waste into renewable bioenergy, a critical hidden bottleneck lowers efficiency: synthetic preservatives like parabens accumulate in waste streams, paralyze functional microbes. So we, HKSSC introduces Waste-to-Watt, a targeted solution designed to overcome this industrial crisis. By engineering E. coli to express the paraben-degrading enzyme prbA, our system neutralizes chemical inhibitors to accelerate microbial digestion. Grounded in rigorous engineering design, modeling, and wet-lab validation, Waste-to-Watt bridges molecular innovation with municipal green infrastructure, maximizing renewable energy yields and establishing scalable blueprint for sustainable global waste valorization. We have charactereized 16 new parts, including 14 new basic parts and 2 new composite parts. Furthermore, through our structured iCycle Integrated Human Practices framework and extensive community outreach in all age groups, including school workshops, interactive games, and public surveys, we engaged diverse stakeholders to guide project optimization while inspiring the next generation of synthetic biologists.",
+  "wiki": "https://2026.igem.wiki/hkssc"
+ },
+ {
+  "id": 6174,
+  "name": "Hongwen School",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "BrewXOS: A Solution for Transforming Brewer's Spent Grain into High-Value Prebiotics",
+  "abstract": "Brewing generates approximately 38 million tonnes of brewer’s spent grain (BSG) annually, largely used as low-value animal feed. Converting its fibre into potential prebiotic ingredients could create greater economic value through functional food applications. However, complex fibre structures and separate enzyme-production steps complicate conversion.\nBrewXOS engineers Bacillus subtilis with three complementary enzymes to combine enzyme production and BSG conversion in one fermentation process, without adding purified enzymes. After 12 hours, our best strain achieved a control-adjusted sugar yield of 107.9 mg xylose equivalents per gram of dry BSG, with further evidence of oligosaccharide-like products. We also built a compact fermentation-monitoring prototype and incorporated stakeholder feedback into ingredient development.\nFuture work will identify and recover the products, validate safety and prebiotic function, and evaluate food compatibility and production economics—advancing spent grain toward ingredients with nutritional and economic potential.",
+  "wiki": "https://2026.igem.wiki/hongwen-school"
+ },
+ {
+  "id": 6456,
+  "name": "Jilin-China",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "NutriTrace: A Living DNA Recorder for Fermentation",
+  "abstract": "Fermented products including beer, wine, soy sauce, cheese and many yeast-derived ingredients are manufactured in large stirred tanks. Poor mixing and uneven mass transfer form gradients of nutrients, oxygen and metabolites, generating local microenvironmental stresses that reduce yield. Conventional detection averages tank conditions into one value and fails to capture these stresses. We constructed a living DNA recorder in Komagataella phaffii. Cells permanently record their experienced stresses into DNA, and this stress history can be read out by fluorescence after fermentation. Each recording channel combines a stress-responsive promoter and a site-specific recombinase; the target stress is defined by the promoter, making the recorder adaptable to different industrial processes. Encapsulated in calcium-cross-linked alginate beads, engineered cells are recoverable for post-run readout. Unlike real-time probes showing instant fermenter status, our recorder records each cell’s past exposure, providing engineers with information for process adjustment.",
+  "wiki": "https://2026.igem.wiki/jilin-china"
+ },
+ {
+  "id": 6198,
+  "name": "JZIB-QDHS",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "A New Herbal Approach to Weight Loss: Functional Foods Targeting SULT Enzymes",
+  "abstract": "This project targets human sulfotransferases (SULT2B1, SULT1E1, SULT2A1) involved in metabolic regulation. Using a fluorescence-based high-throughput screening platform, natural compounds are screened via molecular docking and validated for SULT inhibition. Synergistic inhibitor combinations are identified using Chou-Talalay analysis. A dual-enzyme biosynthesis system (UGT88D4 + UGD) is engineered in E. coli to produce bioactive flavonoid glycosides. The final formulation is tested in 3T3-L1 adipocyte differentiation models for reduced lipid accumulation and adipogenic gene expression. This work provides a functional food strategy for weight management.",
+  "wiki": "https://2026.igem.wiki/jzib-qdhs"
+ },
+ {
+  "id": 6103,
+  "name": "KCIS-Xiugang-Taipei",
+  "village": "Food & Nutrition",
+  "country": "TWN",
+  "section": "high-school",
+  "title": "Herculyeast",
+  "abstract": "Taiwan is ending food waste pig feeding due to African Swine Fever policies, with a final transition deadline in December, 2026, leaving stored waste that can clog plumbing, produce odors, and contribute to climate change through methane release. To address this, we engineered Saccharomyces cerevisiae to secrete two digestive enzymes: Proteinase A (PEP4) for protein degradation and sterol esterase (TGL1) for lipid degradation. Fusion to the MFα1 prepro-leader sequence is intended to redirect both enzymes into the culture medium, under inducible and constitutive promoters. Enzymes collected from the medium are intended to power two products: a two-chamber reactor that sequentially degrades lipids and proteins and an enzyme-based drain unblocker that targets grease buildup. Because both products use enzyme preparations rather than live engineered yeast, they are intended to treat food waste at its source as pretreatment before conventional treatment. We hope this pretreatment reduces storage needs and eases environmental impacts.",
+  "wiki": "https://2026.igem.wiki/kcis-xiugang-taipei"
+ },
+ {
+  "id": 6080,
+  "name": "KhanLab-BayArea",
+  "village": "Food & Nutrition",
+  "country": "USA",
+  "section": "high-school",
+  "title": "The Cluck is Ticking",
+  "abstract": "Globally, meat waste accounts for approximately 100 billion USD of lost value annually. A major driver of this waste is the reliance on static expiration dates, which disregard real-world variability during storage and handling. Consequently, meat is often disposed of prematurely at every level of the supply chain. More importantly, spoiled meat is consumed unintentionally posing serious individual and public health risks. \n\nTo address this issue, we are engineering an E. coli based biosensor to detect cadaverine, a metabolic byproduct of bacteria that accumulates in meat over time. Our biosensor will produce more chromoprotein in response to increased concentrations of cadaverine. In parallel, we will develop a mathematical model to predict live-response meat expiration dates, allowing consumers, producers, and sellers to make clear choices about food conservation and consumption.",
+  "wiki": "https://2026.igem.wiki/khanlab-bayarea"
+ },
+ {
+  "id": 6399,
+  "name": "Kyoto",
+  "village": "Food & Nutrition",
+  "country": "JPN",
+  "section": "undergrad",
+  "title": "OiLipase",
+  "abstract": "Rice bran rapidly degrades after milling due to lipase-driven free fatty acid (FFA) production. We developed OiLipase, a two-part system to combat this: KANNAME, a spatiotemporally controlled protease system that selectively degrades the lipase at the oil-water interface and self-inactivates via a timed split-protease mechanism; and NIINAME, a cell-free FFA biosensor adapted from the ROSALIND platform. Together, they enable heat-free control and monitoring of rice bran rancidity.",
+  "wiki": "https://2026.igem.wiki/kyoto"
+ },
+ {
+  "id": 6431,
+  "name": "Latvia-Riga",
+  "village": "Food & Nutrition",
+  "country": "LVA",
+  "section": "undergrad",
+  "title": "TRACE – Trichinella Rapid Assay for Capture-to-Consumption Evaluation.",
+  "abstract": "Trichinellosis persists as a zoonotic barrier at the intersection of wildlife ecology and human food safety. The standard regulatory method, artificial pepsin digestion, is tethered to centralized laboratories, requiring specialized equipment and extensive processing. This dependency creates a diagnostic void for remote populations and hunters consuming wild game without veterinary oversight. Project TRACE bridges this gap with a decentralized, field-ready screening platform. Its architecture leverages Bacillus subtilis spore display, fusing passenger proteins and biotin acceptor-peptides to native CotB, CotC and CotG coat proteins, with sfGFP as a size placeholder for VHH-nanobodies against the T. spiralis serine protease. This yields a durable, shelf-stable bioreagent, while an Fe-EDTA-ethanol protocol renders spores non-viable before release. Bypassing hazardous acids, sample preparation uses a detergent-buffer and mechanical maceration to isolate antigens into a liquid exudate. Detection is via lateral flow assay, visualizing spore-antigen complexes with streptavidin-coated carbon nanoparticles.",
+  "wiki": "https://2026.igem.wiki/latvia-riga"
+ },
+ {
+  "id": 6094,
+  "name": "NPSI Singapore",
+  "village": "Food & Nutrition",
+  "country": "SGP",
+  "section": "high-school",
+  "title": "ProbioRegulon",
+  "abstract": "As diabetes becomes one of the world’s largest health challenges, interest has grown in food-based approaches to managing blood glucose. Bitter gourd (Momordica charantia) has long been used for this purpose, and contains mcIRBP-19, a peptide reported to act at the insulin receptor. But the amount present in the plant varies with variety, ripeness and preparation, and the natural sequence is under patent. In our project, we redesigned the peptide and had the coding sequences synthesised, then verified the resulting constructs in bacteria, working toward secretion from Lactobacillus paracasei, a food-grade probiotic. Delivering the peptide from bacteria living in the gut avoids the main obstacle facing peptides taken by mouth, which are largely broken down before they can act. Computational modelling guided every design decision. In the future, Mordilac could become a palatable probiotic drink, offering a familiar food format for people managing or at risk of type 2 diabetes.",
+  "wiki": "https://2026.igem.wiki/npsi-singapore"
+ },
+ {
+  "id": 6460,
+  "name": "NTHU",
+  "village": "Food & Nutrition",
+  "country": "TWN",
+  "section": "overgrad",
+  "title": "AeroSense: A Modular Biohybrid Olfactory Platform for Agricultural Screening",
+  "abstract": "Fungal deterioration causes substantial crop losses, highlighting the need for accessible tools for early, on-site detection. Our project, AeroSense, is a modular biohybrid olfactory platform designed for agricultural screening, with banana production as its intended first application. The platform brings together a cell-based sensing array expressing Drosophila odorant receptors and ORCO in HEK293 cells, GCaMP6f fluorescence reporting, a four-channel optical reader, and a fly-inspired neural network for odor-pattern decoding. We documented reporter expression and conducted exploratory measurements of fluorescence kinetics. We built and tested the optical reader using fluorescent standards, with transport and optical modeling informing its design. Computational studies evaluated odor-pattern decoding on external sensor datasets. Discussions with agricultural researchers and potential users shaped the proposed screening workflow and a shared-access deployment strategy. With reusable analysis code, hardware documentation, and educational resources, this work lays the groundwork for an accessible screening tool to guide follow-up inspection and confirmatory testing.",
+  "wiki": "https://2026.igem.wiki/nthu"
+ },
+ {
+  "id": 6306,
+  "name": "NYCU-Taiwan",
+  "village": "Food & Nutrition",
+  "country": "TWN",
+  "section": "undergrad",
+  "title": "BITE: Biosensing for Instant Target Pathogen Evaluation",
+  "abstract": "Foodborne pathogens threaten public health, yet conventional detection often requires specialized equipment, trained personnel, and time-consuming procedures. To make preliminary food safety screening more accessible, we developed BITE (Biosensing for Instant Target Pathogen Evaluation), a synthetic biology-based platform designed for intuitive visual detection.\n\nUsing Salmonella invA DNA as a proof-of-concept target, BITE combines magnetic bead-based DNA enrichment, CRISPR-Cas12a molecular recognition, and G-quadruplex–hemin (G4–hemin) DNAzyme colorimetric readout. Magnetic beads capture and concentrate target DNA, Cas12a provides sequence-specific recognition, and the G4–hemin system generates a visible blue signal through TMB oxidation.\n\nWe investigated these modules experimentally and used mathematical modelling to study detection processes. Industry consultations provided technical and product-development perspectives, while educational outreach promoted synthetic biology. By integrating molecular recognition with a simple visual readout, BITE explores a portable approach to preliminary foodborne pathogen screening.",
+  "wiki": "https://2026.igem.wiki/nycu-taiwan"
+ },
+ {
+  "id": 6155,
+  "name": "Okinawa",
+  "village": "Food & Nutrition",
+  "country": "JPN",
+  "section": "overgrad",
+  "title": "pHlex",
+  "abstract": "Antimicrobial resistance (AMR) is a critical problem in human and veterinary medicine, driven largely by antibiotic overuse. We focused on two bacteria for which resistance is becoming serious. Brachyspira hyodysenteriae, the agent of swine dysentery, is endemic in Okinawa, Japan, where pigs are often given multiple antibiotics over long periods, disrupting the gut microbiota and weakening immunity; simple antibiotic-free control measures are therefore needed on farms. Helicobacter pylori infects 4.4 billion people and causes gastric cancer, with high-risk strains common in Japan, China, and South Korea, and resistant strains are emerging.\n\nWe aim to develop phage therapy against these gastrointestinal pathogens. Because phages are inactivated by gastric acid after oral administration, we constructed an original AI platform to predict genetic sequences conferring acid resistance. Guided by these predictions, acid-resistant phage strains will be engineered into new preparations effective against B. hyodysenteriae and H. pylori.",
+  "wiki": "https://2026.igem.wiki/okinawa"
+ },
+ {
+  "id": 6179,
+  "name": "OUC-China",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "Pro-TPSP : Engineering a Programmable and Tunable Platform for Tailored Pullulan",
+  "abstract": "Pullulan is a biodegradable microbial polysaccharide with potential applications in edible films, food packaging, nutritional products, and animal-free capsule shells. These applications require different film-forming properties and viscosities, both closely related to molecular weight.\nPro-TPSP aims to develop a programmable platform for tailoring pullulan properties in Aureobasidium melanogenum P16. We target AmyR, a shared regulator of three hydrolase genes, through two complementary approaches: a Tet-On system enabling externally induced transcriptional control, and uORF-mediated translational regulation guided by sequence-based models and evaluated through two rounds of GFP reporter assays. These approaches explore control over pullulan molecular weight and viscosity. Preliminary results showed that combining the selected A1444 uORF with amyR increased pullulan molecular weight relative to parental P16. By connecting expression regulation with material requirements, our project offers a strategy for developing customized biomaterials for future food and nutrition applications.",
+  "wiki": "https://2026.igem.wiki/ouc-china"
+ },
+ {
+  "id": 6051,
+  "name": "RooseveltSATX",
+  "village": "Food & Nutrition",
+  "country": "USA",
+  "section": "high-school",
+  "title": "Amisense",
+  "abstract": "One of the challenges in preventing food-related illnesses from fish stems from their rapid decomposition—which can occur before there are any sensory cues such as unpleasant odors and visual changes. Microbial degradation and autolysis starts on the molecular level with the production of compounds through chemical reactions—such as the bioamine 'histamine'. Our team seeks to address this global food safety issue by creating an accessible and authentic product that detects contamination before reaching the consumer. By engineering DNA, our team has created a color changing biosensor that detects rising histamine levels before any physical manifestations show.",
+  "wiki": "https://2026.igem.wiki/rooseveltsatx"
+ },
+ {
+  "id": 6212,
+  "name": "SCU-China",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "undergrad",
+  "title": "DunaTerp:  A Programmable Carotenoid Metabolic Platform",
+  "abstract": "Terpenoids supply most natural food pigments and flavors, yet plant extraction suffers from low yield and high cost, while synthetic alternatives raise safety concerns. We developed DunaTerp, a food-grade terpenoid platform using Dunaliella salina — the only industrially cultivated microalga for natural β-carotene. D. salina already possesses a complete endogenous MEP pathway and efficiently expresses LCYB, natively accumulating β-carotene up to 14% of dry weight and bypassing costly precursor engineering.\nWe introduce CPP transcription factors that simultaneously activate β-carotene synthesis and suppress competing branches, redirecting flux toward a shared β-carotene hub. Building on this hub, modular pipelines produce astaxanthin (BKT), β-ionone (CCD1), crocetin (GjCCD4a/GjALDH2C3), and β-citraurin (CitCCD4). For biocontainment, a salt-dependent mazE-mazF switch triggers cell death upon escape into low-salt environments. Interchangeable enzyme cassettes allow flexible adaptation to diverse terpenoid products, making DunaTerp a generalizable chassis for sustainable terpenoid supply.",
+  "wiki": "https://2026.igem.wiki/scu-china"
+ },
+ {
+  "id": 6387,
+  "name": "SHSBNU-China",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "BLISS: Bioengineered Low-calorie Innovative Sweetener Synthesis",
+  "abstract": "Current sugar substitutes often compromise taste and deprive people joy of eating. The sweet protein Brazzein, from Pentadiplandra brazzeana, combines a clean, sugar-like taste with promising stability during processing. However, difficulties with protein folding and purification in recombinant microbial expressions limit its production for broader commercial use. BLISS addresses these challenges through a novel active inclusion body strategy in Escherichia coli. Using the SAP peptide (L6KD) and partner adapter tags (Sumo and MtuI), we demonstrated improved Brazzein production and simplified its recovery. With AI-assisted protein engineering, we identified variants with potentially better stability and sweetness. We also evaluated expression in yeast for scalable, food-grade production. Through iterative engineering, we develop PrintScope, a figure-sized miniature microscope, to promote accessible biology education. Ultimately, BLISS seeks to create a sweet future without the associated health burden.",
+  "wiki": "https://2026.igem.wiki/shsbnu-china"
+ },
+ {
+  "id": 6192,
+  "name": "SSBS",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Enabling “Slow Absorption” of Starch: Reconstructing Low-Glycemic Index (GI) Resistant Starch via a Multi-Enzyme System",
+  "abstract": "With the widespread prevalence of metabolic diseases such as type 2 diabetes and obesity worldwide, their rapid digestion and high glycemic index (GI)—have become increasingly prominent. Resistant starch (RS), as a food ingredient that combines the benefits of a low GI with dietary fiber, has emerged as a key focus in healthy dietary interventions. Based on the principles of synthetic biology and multi-enzyme synergistic catalysis, this study established a three-enzyme synergistic modification system comprising hydrolysis, chain elongation, and debranching (α-amylase, 4-α-glucan transferase, and pullulanase). to specifically reconfigure the molecular structure and crystalline properties of starch. The modification effects were evaluated through experiments such as SEM analysis and resistant starch (RS) content determination. Ultimately, a low-GI resistant starch preparation process suitable for daily staple foods such as noodles and bread was developed, providing a feasible dietary intervention strategy for patients with metabolic diseases and individuals seeking weight management.",
+  "wiki": "https://2026.igem.wiki/ssbs"
+ },
+ {
+  "id": 6344,
+  "name": "Tec-Chihuahua",
+  "village": "Food & Nutrition",
+  "country": "MEX",
+  "section": "undergrad",
+  "title": "BruSafe: mRNA platform for bovine brucellosis prevention",
+  "abstract": "Bovine brucellosis, caused mainly by Brucella abortus, remains one of the most widespread neglected zoonoses, endemic in Mexico, where 57.4% of national territory is still in the control phase. Current vaccines rely on live attenuated strains: S19 interferes with serological diagnosis, while RB51 is abortifacient, shed in milk, virulent and rifampicin-resistant in humans, and less protective than claimed. We present BruSafe, a non-replicating vaccine platform in which an mRNA encoding a multiepitope antigen derived from conserved Brucella outer membrane proteins (OMP10, OMP25, OMP25b) is packaged into a 27 nm self-assembling MS2 bacteriophage virus-like particle produced in Escherichia coli BL21(DE3). The particle contains no live organism, no smooth lipopolysaccharide and no antibiotic-resistance marker, making it DIVA-compatible, safe in pregnant cattle and cold-chain tolerant. Subcutaneously delivered, it targets dendritic cells to elicit the CD4⁺ Th1/IFN-γ response required for protection, and its modular cassette is retargetable to other pathogens.",
+  "wiki": "https://2026.igem.wiki/tec-chihuahua"
+ },
+ {
+  "id": 6231,
+  "name": "Texas",
+  "village": "Food & Nutrition",
+  "country": "USA",
+  "section": "high-school",
+  "title": "Engineering Probiotics to Combat Malnutrition",
+  "abstract": "Malnutrition affects millions worldwide, and a subset of children fail to respond to microbiota-directed complementary foods (MDCFs). Recent work links this to absence of Faecalibacterium prausnitzii, whose FAAH enzyme hydrolyzes oleoylethanolamide (OEA), a lipid messenger signaling satiety and suppressing food intake. We engineered Escherichia coli Nissle 1917 to express a transmembrane-domain-deleted FAAH fused to YebF. Unexpectedly, YebF localized it to the bacterial membrane instead of secreting, reconstituting FAAH to it’s native compartment. We confirmed membrane localization and demonstrated OEA hydrolysis by the engineered strain. In parallel, MICOM community metabolic modeling reproduced the gut’s known cross-feeding network from genome content alone and found OEA absent from shared bacterial metabolism, consistent with a host-derived signal. Integrated human practices with researchers, clinicians, NGOs and community leaders, plus webinars, $3 meal plans and a gated deployment route, grounded the work. This offers a route to relieving premature satiation, an under-addressed barrier to nutritional recovery.",
+  "wiki": "https://2026.igem.wiki/texas"
+ },
+ {
+  "id": 6099,
+  "name": "Thailand-RIS",
+  "village": "Food & Nutrition",
+  "country": "THA",
+  "section": "high-school",
+  "title": "BetterSweet: Reimagining Sweeteners through Mogroside Pathway Reconstruction",
+  "abstract": "Novel low-calorie and high-intensity natural sweeteners are needed to address the global overconsumption of sugar that leads to severe health consequences. Monk fruit, or Siraitia grosvenorii, belongs to the cucumber family (Cucurbitaceae), which is native to southern China. It has a special metabolic pathway that produces Mogrosides, a group of triterpene glycosides. The final product of this pathway is Mogroside V, a compound 200-400 times sweeter than table sugar with no calories. However, the production of Monk Fruit remains limited by slow growth and restricted cultivation. Our project aims to reconstruct key steps of the Mogroside biosynthetic pathway in Nicotiana benthamiana, a fast-growing and easily engineered plant host. By establishing an alternative plant-based production system, we hope to make natural sweeteners more accessible, scalable, and environmentally sustainable.",
+  "wiki": "https://2026.igem.wiki/thailand-ris"
+ },
+ {
+  "id": 6130,
+  "name": "UFRGS-Brazil",
+  "village": "Food & Nutrition",
+  "country": "BRA",
+  "section": "overgrad",
+  "title": "2,4-Detector: development of a fluorescent biosensor for detecting 2,4-D herbicide in agricultural systems",
+  "abstract": "The widespread use of 2,4-D in soybean farms causes herbicide drift, threatening neighboring crops. In southern Brazil’s Campanha Gaúcha, this drift devastates viticulture. Containing the issue requires proving contamination, currently a major bottleneck since existing tests demand expensive HPLC equipment, trained personnel, and long-distance sample shipping. To solve this, and guided by consultations with farmers, experts, and technicians, our project developed a portable fluorescent biosensor for 2,4-D. Utilizing the naturally occurring regulatory pair CadR/pCadA, our system recognizes the herbicide and induces an RNA aptamer to emit fluorescence. To optimize this interaction, we employed structural bioinformatics, integrating structure prediction, molecular docking, and dynamics simulations. The mechanism operates entirely within a cell-free system to ensure biosafety and containment. Paired with custom field-reading hardware and a digital reporting forum, 2,4-Detector provides a fast, cost-effective, on-site tool for immediate agricultural monitoring.",
+  "wiki": "https://2026.igem.wiki/ufrgs-brazil"
+ },
+ {
+  "id": 6101,
+  "name": "UM-Macau",
+  "village": "Food & Nutrition",
+  "country": "MAC",
+  "section": "undergrad",
+  "title": "Guarding the Fridge: A Molecular Photocontrolled Biosensing Toolkit Discriminating Viable Listeria monocytogenes",
+  "abstract": "Listeria monocytogenes is a major foodborne pathogen capable of proliferating at refrigeration temperatures, posing significant risks to food safety and public health. To enable rapid detection of viable Listeria, we developed a dual-input AND-gate biosensing platform targeting Listeriolysin O (LLO), a virulence factor secreted only by living pathogenic cells. LLO-mediated membrane disruption serves as the first input, while a blue-light-responsive LOV system provides the second input, triggering split-sfGFP complementation or TEV-dependent reporter activation for signal amplification. By integrating fluorescence-based sensing with mathematical modeling, our system enables sensitive quantification of viable bacteria while distinguishing live cells from dead contaminants. Designed with input from food safety stakeholders, the platform is modular, portable, user-friendly, and capable of delivering results within one day, offering a practical solution for real-time food safety surveillance.",
+  "wiki": "https://2026.igem.wiki/um-macau"
+ },
+ {
+  "id": 6287,
+  "name": "Zhulu-Union",
+  "village": "Food & Nutrition",
+  "country": "CHN",
+  "section": "high-school",
+  "title": "Persephone: PresERvation and Shelf-life Extension of fruits through PostHarvest Optimization by multi-eNgineered Enzymes",
+  "abstract": "Persephone is a modular postharvest fruit preservation project targeting ethylene-driven ripening, oxidative damage, and fungal infection. It integrates four modules: ACC deaminase to reduce ethylene biosynthesis, ethylene receptor inhibitory peptides to interfere with ethylene signaling, MnSOD to scavenge superoxide radicals, and chitinase to inhibit fungal growth. ACCD and MnSOD are fused with the cell-penetrating peptide BP100 to improve access to intracellular substrates.\nThrough computational screening and experimental validation, we combined functional components ACCD–BP100, MnSOD–BP100, B03, and chitinase in a chitosan matrix. Under the tested conditions, this formulation delayed banana peel yellowing by approximately three days and showed less visible mold growth than the 1-MCP treatment group.\nThe intended product is a powder containing no live microorganisms, reconstituted before use and applied as a spray within existing postharvest workflows.It complements the cold chain, particularly during long-distance fruit transportation and at stages with insufficient cold-chain coverage.",
+  "wiki": "https://2026.igem.wiki/zhulu-union"
+ }
+]

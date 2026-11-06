@@ -1,0 +1,982 @@
+[
+{
+"id": 6065,
+"name": "Aachen",
+"village": "Infectious Diseases",
+"country": "DEU",
+"section": "overgrad",
+"title": "Adesonica",
+"abstract": "Antibiotic-resistant bacteria are a leading global health crisis. To address this, we propose a novel antibiotic strategy.\nWe designed a delivery system to transport universal cargo into Gram-negative bacteria. Tobacco-mosaic-virus (TMV) coat proteins functionalized with the cell-penetrating peptide TAT were reassembled in vitro and encapsulated RNA.\nOur antibacterial mechanism targets the dynamic regulation of bacterial DNA methylation. We hypothesize that interfering with methyltransferase expression could disrupt the timing information in methylation patterns during replication. To prove our concept, we developed the Python package adesomics that uses transcriptomic data to predict growth rates, and an ML model that predicts the transcriptome from the methylome to reduce measurement costs. To automate TMV production, we engineered the bioreactor system M.A.R.M.A.L.A.D.E. (Modular Automated Reactor for Mixing And virus-Like-particle Assembly for DElivering cargo) and built software to control it. Bacteria produce coat protein subunits in the first part, and assemble TMV in the second.",
+"wiki": "https://2026.igem.wiki/aachen"
+},
+{
+"id": 6274,
+"name": "Boston-BOSLab",
+"village": "Infectious Diseases",
+"country": "USA",
+"section": "high-school",
+"title": "Epidermighty: One Mighty Commensal against Tick-Borne Diseases",
+"abstract": "Tick-borne diseases, including Lyme disease, babesiosis, anaplasmosis, and Powassan virus disease, pose a growing concern as cases rise and new pathogens emerge. Epidermighty developed two approaches using the skin bacterium Staphylococcus epidermidis: an adaptable topical vaccine displaying nonfunctional antigens to target current and emerging pathogens, and protein binders intended to inhibit Dae2, an antimicrobial tick protein. After building vaccine plasmids, we paused this approach for future work and focused on Dae2. We hypothesized Dae2 inhibition could affect tick survival and reduce transmission of multiple diseases; this remains untested. We computationally generated 90 candidate designs and tested five in bacterial and cell-free two-hybrid assays. Results guided improvements, but binder–Dae2 interaction remains unconfirmed. Interviews with 16 stakeholders across patient, clinical, laboratory, environmental, bioethics, and commercial perspectives informed project design and safety. Epidermighty is early-stage research; its safety and effectiveness have not been established.",
+"wiki": "https://2026.igem.wiki/boston-boslab"
+},
+{
+"id": 6281,
+"name": "Hopkins",
+"village": "Infectious Diseases",
+"country": "USA",
+"section": "undergrad",
+"title": "Oralis",
+"abstract": "Oralis is a needle-free, oral mucosal vaccine that delivers antigen to the junctional epithelium via a floss-like device, inducing localized immune activation at the site of pathogen entry. The platform pairs an engineered bacterial chassis with virus-like particles displayed through SpyTag/SpyCatcher conjugation. This modularity allows antigens to be swapped without redesigning the delivery system, enabling rapid extension to other norovirus strains and mucosal pathogens. Oralis' room-temperature stability removes cold-chain dependence, and self-administration removes the need for trained personnel, thus positioning it as a new class of stable, accessible vaccines that protect at the point of entry.",
+"wiki": "https://2026.igem.wiki/hopkins"
+},
+{
+"id": 6506,
+"name": "IISc-Bengaluru",
+"village": "Infectious Diseases",
+"country": "IND",
+"section": "undergrad",
+"title": "MOSKATEER",
+"abstract": "Malaria continues to impose a disproportionate burden on communities across India and Sub-Saharan Africa, and the rapid spread of insecticide resistance threatens the vector control strategies on which these regions depend. CRISPR-based gene drives offer a transformative approach to mosquito suppression, yet ecological irreversibility, regulatory uncertainty and limited public acceptance remain substantial barriers. MOSKATEER offers a paratransgenic strategy that circumvents these limitations. We engineer symbiotic bacteria to express double-stranded RNA targeting mosGILT, a gene required for Anopheles fertility. A fusion protein comprising tandem MS2 bacteriophage coat protein repeats, a (GGGGS)₄ flexible linker and a functional peptide module packages the dsRNA for stable delivery and RNAi-mediated gene silencing upon ingestion. The platform supports both horizontal spread among adults and vertical inheritance through progeny, amplifying suppression across generations without permanent genomic alteration. Bacteria are immobilised in a sugar matrix baited with acetoin, producing a low-cost, field-deployable sugar trap for resource-limited settings.",
+"wiki": "https://2026.igem.wiki/iisc-bengaluru"
+},
+{
+"id": 6379,
+"name": "NCKU-Tainan",
+"village": "Infectious Diseases",
+"country": "TWN",
+"section": "undergrad",
+"title": "Capture: A Dual-Action Biosensor and Inhibitor for Pseudomonas aeruginosa",
+"abstract": "Pseudomonas aeruginosa is one of the  leading causes of healthcare-associated infections on ventilators, catheters, and open wounds. Severe ICU infections carry 20% to 40% mortality, and comes with sever antibiotic resistance. Clinical treatments often fail because long time of designating the pathogen, imprecise treatment, which gives bacteria time to form biofilm and secret toxin via AHL.\nIn Project Capture, we engineered an Escherichia coli platform targeting AHL through two systems. First, our biosensor detects AHL when Pseudomonas aeruginosa starts to expand, generating a visible fluorescent readout for rapid, low-cost screening. Secondly, our inhibition system utilize the retron system to produces ssDNA aptamers that specifically bind the AHL of Pseudomonas aeruginosa. By intercepting bacterial communication before biofilms mature, Capture can inhibit the swarming, pyocyanin, and most importantly, biofilm formation, of Pseudomonas aeruginosa. Combining the two system, we hope Capture can provide a new solution to support the medical system.",
+"wiki": "https://2026.igem.wiki/ncku-tainan"
+},
+{
+"id": 6515,
+"name": "Ohio State",
+"village": "Infectious Diseases",
+"country": "USA",
+"section": "undergrad",
+"title": "SprayAway: Redoseable Extracellular Vesicle (EV) Gene Therapy to move towards an HIV Cure",
+"abstract": "HIV (Human Immunodeficiency Virus) persists in infected individuals despite antiretroviral therapy (ART) through latent integration into long-lived cellular reservoirs. Eliminating this reservoir is the primary barrier to functional cure. Current gene therapy approaches suffer from immunogenicity constraints that limit redosing, low target specificity, and gene cargo constraints.\n\nSprayAway addresses these limitations through a redosable reservoir depletion strategy combining extracellular vesicle (EV) delivery technology with novel eukaryotic-origin CRISPR systems completely unknown to the immune system. \n\nThe EV payload consists of a plasmid encoding a nuclease and gRNAs targeting three ultraconserved positions in the HIV long terminal repeat (LTR) that were identified via Shannon entropy. EV's will display engineered surface proteins for high tropism to CD4+, the same proteins HIV uses, and endosomal escape mechanisms for high transduction. Experimental validation will use a J-Lat disease model to demonstrate HIV silencing.",
+"wiki": "https://2026.igem.wiki/ohio-state"
+},
+{
+"id": 6545,
+"name": "PeptiForge-UDEM",
+"village": "Infectious Diseases",
+"country": "MEX",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6314,
+"name": "SUSTechOcean",
+"village": "Infectious Diseases",
+"country": "CHN",
+"section": "undergrad",
+"title": "The biosynthesis of lactosylarchaeol-based vaccine adjuvant ingredient in E. coli",
+"abstract": "Infectious diseases still threaten millions of families, yet many vaccines require cold-chain storage that is hard to maintain worldwide. Sulfated lactosyl archaeol (SLA) is a promising thermostable adjuvant that strongly boosts immune responses, but current production depends on slow-growing archaea and complex chemical steps.\nOur project, SUSTech-OCEAN, engineers Escherichia coli to biosynthesize the lactosyl-archaeol core of SLA. We establish an archaeol chassis and drive glycosylation primarily with MTH_884 from Methanothermobacter thermautotrophicus—the first successful expression and purification of this enzyme in truncated form. A light-controlled module selectively removes host phospholipids while preserving the ether-linked product. Wet-lab experiments are combined with computational enzyme mining and modeling to optimize the pathway.\nSUSTech-OCEAN aims to create a scalable, room-temperature-stable vaccine adjuvant and a modular platform for producing other archaeal lipids.",
+"wiki": "https://2026.igem.wiki/sustechocean"
+},
+{
+"id": 6120,
+"name": "UChicago",
+"village": "Infectious Diseases",
+"country": "USA",
+"section": "undergrad",
+"title": "GENELOCK: a new antibiotic mechanism based on programmable DNA sequestration",
+"abstract": "Antimicrobial resistance is an emerging threat to public health, motivating the search for novel bacterial inhibition mechanisms. Since recent work demonstrated that synthetic polymers can sequester bacterial DNA through phase separation, inhibiting transcription and inducing cell death, we investigated genetically encodable protein condensates as a programmable alternative. We computationally designed a modular condensate-forming protein with high-affinity DNA binding domain, intrinsically disordered region to drive condensation, and oligomerization domain to increase valency. To determine whether DNA sequestration interfered with gene expression, we used an in vivo ParB–parS reporter to assess localized DNA sequestration and transcriptional repression. Finally, we quantified bacterial growth and viability using optical density measurements and colony-forming unit assays to evaluate antimicrobial activity and proved protein expression via GFP-tagged protein. Together, these experiments investigated whether programmable protein condensates could compact bacterial DNA, inhibit transcription, and provide a novel antimicrobial strategy.",
+"wiki": "https://2026.igem.wiki/uchicago"
+},
+{
+"id": 6422,
+"name": "UiOslo-Norway",
+"village": "Infectious Diseases",
+"country": "NOR",
+"section": "overgrad",
+"title": "HePatch",
+"abstract": "We present HePatch, a synthetic biology project aimed at engineering thermostable variants of the hepatitis B surface antigen (HBsAg) and integrating them into dissolvable microneedle patch systems for cold-chain-free vaccine delivery. Our strategy combines rational computational protein engineering, site directed experimental mutagenesis, and advanced biomaterial formulation to produce vaccines stable at ambient temperatures exceeding 37–45°C for 28 days or longer.",
+"wiki": "https://2026.igem.wiki/uioslo-norway"
+},
+{
+"id": 6549,
+"name": "Vironics AI",
+"village": "Infectious Diseases",
+"country": "PAK",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6144,
+"name": "Waseda-Tokyo",
+"village": "Infectious Diseases",
+"country": "JPN",
+"section": "undergrad",
+"title": "SUNRISE: A New Dawn in the Fight Against Antimicrobial Resistance",
+"abstract": "Antimicrobial resistance (AMR) is one of the most urgent public health challenges facing modern medicine. As resistance spreads, effective antibiotic options continue to narrow, leaving patients with fewer treatment options. To overcome this challenge, we propose SUNRISE (Safety-enhanced UNconventional Resensitization through Injection and Selective Elimination), a system designed to restore susceptibility to existing antibiotics. This system combines a Cargo Protein Injection (CPI) module and a Targeted Protein Degradation (TPD) module. The protein-based Injector introduces the Adaptor directly into the target bacterium. Once inside the cell, the Adaptor binds to the antibiotic resistance protein through its Binder and recruits the endogenous ClpXP protease complex for degradation. Thus, this system aims to reduce resistance protein levels and restore susceptibility to existing antibiotics. By independently redesigning the Adaptor's Binder and Injector's tail fiber, SUNRISE can be rapidly adapted to diverse resistance proteins and bacteria, bringing a new dawn to the fight against AMR.",
+"wiki": "https://2026.igem.wiki/waseda-tokyo"
+},
+{
+"id": 6251,
+"name": "Waterloo",
+"village": "Infectious Diseases",
+"country": "CAN",
+"section": "undergrad",
+"title": "Biofilm Busters: Targeting Pathogenic Gut Biofilms Through Curli Inhibition",
+"abstract": "Pathogenic gut biofilms can contribute to persistent infections by protecting bacteria from antibiotics and immune defences. In many Enterobacteriaceae, curli amyloid fibres formed by CsgA and CsgB provide structural support. This project explores an engineered biotherapeutic that secretes CsgC, a natural amyloid chaperone, to inhibit curli formation without directly killing bacteria.\n\nThe initial construct uses an N-terminal YebF carrier to support CsgC secretion in E. coli DH5α. The proposed platform uses Lactococcus lactis with inducible expression and biological containment. Bioinformatics surveyed curli genes in the human gut to identify potentially affected taxa, while mathematical modelling supported investigation of biofilm formation and treatment strategies.\n\nHuman Practices helped assess clinical relevance, safety, host selection, and practical implementation through stakeholder engagement. By considering patient needs and effects on the gut microbiome alongside technical feasibility, the project aims to develop a targeted approach that could complement existing treatments while limiting disruption to beneficial bacteria.",
+"wiki": "https://2026.igem.wiki/waterloo"
+},
+{
+"id": 6263,
+"name": "Bist-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "high-school",
+"title": "PyrLac Glow: A dual-biomarker platform for early cancer screening.",
+"abstract": "Many cancers alter the body’s metabolism, changing the levels of lactate and pyruvate in the blood. Current screening methods can be invasive, expensive, or lack sensitivity. Our project aims to develop fluorescent probes that detect blood lactate and pyruvate levels quickly and accurately. By measuring the ratio of these two metabolites, we hope to provide a simple, low-cost blood test for early cancer screening. This approach could offer a non-invasive, accessible tool to flag individuals who need further diagnostic follow-up.",
+"wiki": "https://2026.igem.wiki/bist-china"
+},
+{
+"id": 6354,
+"name": "BNU-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "CABOMB: Calcium-based Acid-responsive Biodegradable Osteosarcoma-targeted MNAzyme Biocarrier",
+"abstract": "Osteosarcoma is an aggressive primary malignant bone tumor prone to metastasis that predominantly affects children and adolescents. Current treatments, mainly surgery combined with chemotherapy, offer limited selectivity, and the heterogeneity of osteosarcoma makes tumor cells difficult to target, leaving the prognosis of advanced patients unsatisfactory. To address these challenges, we propose CABOMB, a targeted therapeutic strategy integrating a delivery module and an effector module, in which nanoscale calcium carbonate serves as the delivery carrier and a multicomponent nucleic acid enzyme (MNAzyme) functions as the effector, enabling tumor-targeted delivery and selective killing. By integrating molecular recognition, conditional activation, and targeted delivery, CABOMB enables multi-site intervention, holds potential for point-mutation discrimination, and can be extended to other cancers. This innovative design is expected to break through the selectivity bottleneck of current treatments, expand the boundaries of cancer therapy, and provide a new platform for tumor-targeted therapy.",
+"wiki": "https://2026.igem.wiki/bnu-china"
+},
+{
+"id": 6211,
+"name": "Caltech",
+"village": "Oncology",
+"country": "USA",
+"section": "overgrad",
+"title": "Cervixa: A homologous recombination-mediated biosensor for cervical cancer",
+"abstract": "Cervical cancer is the leading cause of cancer-related deaths among women in over 37 countries. Paradoxically, the World Health Organization estimates that 99% of these deaths are preventable by early screening. Traditional methods, such as Pap smears, carry drawbacks: Human Papillomavirus (HPV) infection, the cause of nearly all cervical cancers, may incubate for over 15 years before Pap-smear detection is feasible. We address this gap with a homologous-recombination-based biosensor that detects HPV DNA in menstrual fluid, permitting an at-home, self-administered screen free from the sociopolitical barriers of current exams. Further, our biosensor detects infection years before tumorigenic cells appear. We also present a rate-kinetic model of the homologous-recombination-mediated genetic circuit producing our readout. Because the model is built from ordinary differential equations, it may be integrated with other genetic components to form sequence-specific DNA logic gates. In summary, we present a biosensor with socioeconomic and biomedical advantages over traditional exams.",
+"wiki": "https://2026.igem.wiki/caltech"
+},
+{
+"id": 6186,
+"name": "CSW-UD",
+"village": "Oncology",
+"country": "USA",
+"section": "high-school",
+"title": "Engineering Barley Stripe Mosaic Virus-Like Particles as Drug Delivery Vectors for Triple Negative Breast Cancer",
+"abstract": "The CSW-UD iGEM team addresses a gap in specific and effective treatments for Triple-Negative Breast Cancer (TNBC) by engineering a novel rod-shaped plant Virus-Like Particle (VLP) platform, based on the Barley Stripe Mosaic Virus (BSMV), into a biocompatible drug carrier to improve the specificity of Doxorubicin, a cancer drug known as the “red devil,” and reduce toxicity. \n\nTo address this, we modified and engineered the inner channel of BSMV using cysteine mutations to conjugate Doxorubicin with a thiol-Michael reaction, preventing it from indiscriminately attacking healthy cells throughout the body. We further modulated BSMV’s surface to display ligand receptors and endosomal escape peptides to specifically target TNBC and trigger intracellular drug release. We successfully formed a BSMV rod therapy presented with ligands and conjugated with Doxorubicin. Through these efforts, we took meaningful steps towards building a novel drug delivery platform to address the challenges and gaps of current TNBC treatment options.",
+"wiki": "https://2026.igem.wiki/csw-ud"
+},
+{
+"id": 6380,
+"name": "ECNU-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "PREVAIL: Pre-Existing Viral Immunity–Enabled Universal Bacterial Tumor Vaccine",
+"abstract": "PREVAIL (Pre-Existing Viral Immunity–Enabled Universal Bacterial Tumor Vaccine) is a broad-spectrum bacterial vaccine platform that leverages the widespread pre‑existing immunity against SARS‑CoV‑2 (from prior infection or vaccination) in the human population to activate antitumor responses. The vaccine uses engineered bacteria as carriers to present SARS‑CoV‑2 epitopes within the tumor microenvironment, thereby “hijacking” established COVID‑19‑specific memory T cells to rapidly elicit potent and durable antitumor immunity. It also overcomes inter‑individual immune heterogeneity and enables universal application across diverse tumor types.",
+"wiki": "https://2026.igem.wiki/ecnu-china"
+},
+{
+"id": 6330,
+"name": "HBUT-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "Intelligent Genetically engineered Neo-IL-2-armed oHSV-2 for Tumor microenvironment remodeling and Enhancement of antitumor immunity",
+"abstract": "MSS-type colorectal cancer (CRC) is a classic \"cold tumor\": most immunotherapies fail in this population, and systemic treatments such as chemotherapy carry severe side effects. To address this unmet need, we engineered oHSV2-Neo-IL-2 — an oncolytic herpesvirus type 2 armed with an AI-designed attenuated interleukin-2 variant. Knockout of ICP34.5 and ICP47 confers tumor-specific replication and restores MHC-I antigen presentation. Neo-IL-2 retains CD122/CD132 binding while losing CD25 affinity, activating effector T cells without expanding immunosuppressive Tregs. The project was guided by our HOPES human-practices framework, which integrates patient interviews with clinical-translation planning, and the SHIELD safety framework, spanning molecular design to cross-team biosafety resources. Combining computational screening with in vitro and in vivo validation, we aim to deliver a tolerable, effective therapy for MSS CRC patients who currently have limited treatment options.",
+"wiki": "https://2026.igem.wiki/hbut-china"
+},
+{
+"id": 6499,
+"name": "HIT-SLS",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "GLYCO‑TAM：Glycosylation‑engineered Tumor‑Associated Macrophage for Universal Cancer Immunosensitization",
+"abstract": "Despite advances in tumor immunotherapy, macrophage-driven immunosuppression and tumor immune resistance greatly limit treatment outcomes for solid tumors. Conventional immunotherapies partially suppress tumor growth yet lack universality, stable phenotypes and clinical accessibility. Our GLYCO-TAM project develops a synthetic biology strategy to remodel glycosylation of tumor-associated macrophages (TAMs). After seven DBTL cycles, MGAT5 was confirmed as the key target to construct anti-tumor macrophage phenotypes, with broad efficacy verified in liver and colorectal cancer models. We optimized an LNP-mRNA delivery system to reprogram TAMs toward the M1 phenotype and boost anti-PD-1 effects in mice. Combined with policy, safety, ethics research and bilingual science outreach, this work proposes a scalable approach to reverse tumor immunosuppression. Validated only in cell and animal models without human trials, our strategy represents a promising alternative to conventional tumor immunotherapy.",
+"wiki": "https://2026.igem.wiki/hit-sls"
+},
+{
+"id": 6226,
+"name": "HKPOLYU",
+"village": "Oncology",
+"country": "HKG",
+"section": "undergrad",
+"title": "Engineered Lactobacillus as a Novel Targeted Delivery and Therapeutic Agent for Colorectal Cancer",
+"abstract": "Our project developed a living, locally active oral biotherapeutic platform for treating colorectal cancer. Rather than infusing cytotoxic agents throughout the entire body, our system leverages an engineered, food-grade probiotic strain Lactobacillus casei ATCC 393 to produce and secrete the human cytokine IL-37. By modifying the bacterial surface with a cadherin-targeting peptide, it specifically targets colorectal cancer cells while sparing healthy tissue. Delivering therapeutics locally within the gut lumen avoids the widespread off-target tissue destruction characteristic of systemic chemotherapy, and probiotic-based delivery systems offer an inherently scalable, low-cost chassis that could eventually transition from clinic-bound infusions to accessible, shelf-stable oral formulations. Beyond delivering an engineered strain, our project provides the iGEM community with documented protein engineering protocols, functional assays, characterizations of failed constructs, and design rationales for both bacterial expression and chemical surface modification.",
+"wiki": "https://2026.igem.wiki/hkpolyu"
+},
+{
+"id": 6113,
+"name": "IZJU-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "Bifidobacterium longum elicits anti‑tumor immunity in pancreatic cancer",
+"abstract": "Impaired antigen presentation can help pancreatic cancer cells evade immune recognition. X-BAT addresses this problem through an engineered Bifidobacterium longum platform designed to display Galectin-8 (Gal8) on its surface and promote xenophagy—the selective autophagic degradation of intracellular bacteria. By enhancing bacterial processing, we aim to increase the presentation of bacterial antigens by tumour cells and support immune recognition. The design brings together tumour targeting, cellular entry, immune activation and safety control, with bacterial-antigen vaccination proposed as a complementary strategy.",
+"wiki": "https://2026.igem.wiki/izju-china"
+},
+{
+"id": 6056,
+"name": "JLU-FBH",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "CirCure: A Multi-Epitope Circular RNA Vaccine Platform for Triple-Negative Breast Cancer",
+"abstract": "Triple-negative breast cancer (TNBC) is hard to treat: its tumors are heterogeneous, recur often, and escape single-target therapies. CirCure is a modular circular RNA (circRNA) vaccine platform that broadens immune recognition beyond a single TNBC-associated antigen. A computational pipeline screens antigen fragments, or epitopes, for MHC-I binding, immunogenicity, and structural compatibility, prioritizing candidates with strong potential to activate CD8+ \"killer\" T cells. The selected epitopes are encoded into a single engineered circRNA. Inside dendritic cells, the circRNA acts as a durable instruction set, supporting antigen production and presentation so CD8+ T cells can recognize and attack tumor cells with different antigen profiles. We experimentally validate circRNA circularization, antigen expression, dendritic cell maturation, and T-cell-mediated tumor cell killing. Input from clinicians and other stakeholders guides our iterative design. CirCure offers a scalable, \"plug-and-play\" framework for RNA vaccines against cancers in which tumor diversity limits single-target treatments.",
+"wiki": "https://2026.igem.wiki/jlu-fbh"
+},
+{
+"id": 6523,
+"name": "NIS Almaty-Medeu",
+"village": "Oncology",
+"country": "KAZ",
+"section": "high-school",
+"title": "MiRVOX: Two Approaches, One Oncological Challenge",
+"abstract": "Lung cancer caused approximately 1.8 million deaths worldwide in 2022. Early detection remains limited by diagnostic uncertainty, invasive tissue sampling, and difficulties detecting low-abundance biomarkers.\nMiRVOX investigates two approaches to lung cancer sensing: Pulmora, a synthetic biology platform for microRNA detection, and OncoNose, an electronic-nose system for breath analysis. Pulmora proposes a five-miRNA panel (miR-21-5p, miR-155-5p, miR-223, let-7c-5p, and miR-486-5p) to investigate NSCLC-associated molecular signatures. Its design combines conventional and reverse-logic toehold switches to address increased and decreased biomarker expression. Using synthetic reference miRNA, we investigated stem-loop reverse transcription, PCR amplification, RNA-trigger generation, and cell-free fluorescent reporting.\nOncoNose integrates metal-oxide gas sensors with computational analysis to investigate volatile organic compound patterns in exhaled breath. Together, these approaches investigate programmable molecular detection and accessible, non-invasive breath sensing. Both remain research-stage technologies requiring further experimental and clinical validation.",
+"wiki": "https://2026.igem.wiki/nis-almaty-medeu"
+},
+{
+"id": 6315,
+"name": "Penn State",
+"village": "Oncology",
+"country": "USA",
+"section": "undergrad",
+"title": "TRIDENT: Yeast-Derived Exosomes as a Delivery System for Apoptosis-Inducing Plasmid Payloads",
+"abstract": "Advanced stage carcinomas are difficult to target for a myriad of reasons, ranging from complications in tumor identification to targetability. TROP-2, a transmembrane glycoprotein, is overexpressed in epithelial cancers with poor prognoses. Furthermore, miRNA34𝛼, a small, non-coding RNA molecule downstream of the tumor suppressor p53 pathway, shows promise as a cancer therapeutic. Our project engineered a novel delivery platform, a miR-34𝛼 payload in S. cerevisiae exosomes coated with anti-TROP-2 nanobodies, to assess the effectiveness of exosome delivery mechanisms in an in-vitro pancreatic cancer model.",
+"wiki": "https://2026.igem.wiki/penn-state"
+},
+{
+"id": 6092,
+"name": "PLKLFC",
+"village": "Oncology",
+"country": "HKG",
+"section": "high-school",
+"title": "COLOPRINT: Personalized Bioprinted Probiotic Hydrogels for Colorectal Cancer",
+"abstract": "Colorectal cancer (CRC) treatment faces three major hurdles: antigen heterogeneity, gastrointestinal physiological variation, and prohibitive costs. To address these limitations, we designed COLOPRINT: a non-invasive, localized biological delivery platform that releases therapeutic compounds directly at tumor sites while minimizing systemic side effects.By integrating patient genomic profiling, microenvironment modeling, and 3D bioprinting with engineered probiotics, COLOPRINT processes patient data via custom software to fabricate tailored alginate hydrogel pills. These shield live E. coli Nissle 1917 during gastric transit until the alkaline colon environment triggers polymer deprotonation and swelling. Released bacteria selectively bind tumor cells via an Lpp-OmpA nanobody-display module. A double-criteria biosensor system (sensing hypoxia and elevated formic acid) tightly regulates localized therapeutic payload expression, while an L-arabinose-inducible kill switch ensures strict biosafety, creating an accessible, decentralized personalized oncology platform.",
+"wiki": "https://2026.igem.wiki/plklfc"
+},
+{
+"id": 6177,
+"name": "SEHS",
+"village": "Oncology",
+"country": "CHN",
+"section": "high-school",
+"title": "FusionDrive: Engineering and Functional Evaluation of an Anti-TIGIT–IL-2 Variant Fusion Protein for Gastric Cancer Immunotherapy",
+"abstract": "Dietary habits, Helicobacter pylori infection, smoking, and alcohol exposure contribute to Shandong’s high gastric cancer burden. Treatments remain limited by chemoradiotherapy toxicity, low anti-PD-1 response rates, and IL-2-associated systemic toxicity and off-target immunosuppression. We designed FusionDrive, fusing an anti-TIGIT antibody with an engineered IL-2 variant. Across five engineering cycles, we expressed and purified proteins in CHO cells and evaluated target binding and signaling activity. The variant retained TIGIT binding (EC50: 1.155 nM). In a PHA-induced Jurkat model, it reduced pSTAT5 signaling more strongly in CD25⁺ cells than in CD25⁻ cells relative to the wild-type fusion, while retaining CD25⁻ signaling activity, supporting reduced CD25-associated response bias. Human Practices integrated stakeholder feedback into project iteration, while our business plan outlined a translation pathway guided by research milestones and industry collaboration.",
+"wiki": "https://2026.igem.wiki/sehs"
+},
+{
+"id": 6428,
+"name": "SUDA-ICPI-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "undergrad",
+"title": "FLAME: An Engineered Bacterial Platform for Precision Colorectal Cancer Therapy",
+"abstract": "Colorectal cancer therapy requires effective tumor-cell killing while limiting damage to healthy tissues. FLAME engineers the probiotic Escherichia coli Nissle 1917 to regulate GSDMD-N, a pore-forming fragment of gasdermin D. A regulatory circuit combines hypoxia and lactate sensing with LuxI/LuxR quorum sensing to favor expression under tumor-associated conditions. Reporter experiments showed the strongest response under combined low oxygen and lactate. Comparing untagged, TAT-fused, and SsrA-tagged effectors in CT26 and L929 cells revealed differences in tumor-cell and non-tumor-cell cytotoxicity, supporting the preliminary prioritization of the SsrA-tagged construct based on safety considerations. Mathematical modeling informed promoter selection and identified constraints on selectivity and lesion size. Stakeholder interviews explored acceptance, while education evolved toward age-appropriate participation and dialogue. Together, these results provide an experimental foundation for investigating controlled bacterial effector delivery.",
+"wiki": "https://2026.igem.wiki/suda-icpi-china"
+},
+{
+"id": 6118,
+"name": "Thessaloniki",
+"village": "Oncology",
+"country": "GRC",
+"section": "undergrad",
+"title": "AETh3R: A Targeted, E3 Ligase-Harnessing Therapeutic Approach for Non-Small Cell Lung Cancer",
+"abstract": "AETh3R is a novel peptide-PROTAC (PROteolysis TArgeting Chimera)-based strategy for the treatment and management of Non-Small Cell Lung Cancer (NSCLC), the most common type of lung cancer, challenged by treatment resistance and relapse. Our project targets two key oncogenic drivers: mutant KRAS, which promotes uncontrolled cell proliferation, and MDM2, a negative regulator of the tumor suppressor p53. We aim to degrade both proteins simultaneously, suppressing oncogenic signaling while restoring p53-mediated tumor suppression and apoptosis. This approach employs two heterobifunctional peptide-PROTACs, each comprising a target-binding peptide, a linker, and a von Hippel–Lindau (VHL) E3 ubiquitin ligase-recruiting ligand, triggering target ubiquitination and proteasomal degradation. A targeted lipid nanoparticle delivery system with an optimized, DOTAP-containing formulation favors lung biodistribution, while incorporated anti-Integrin αvβ6 antibody fragments enhance tumor cell-specific uptake. Through computational modeling and experimental validation, AETh3R aims to improve therapeutic targeting and offer a promising, less resistance-prone alternative to conventional inhibition-based therapies.",
+"wiki": "https://2026.igem.wiki/thessaloniki"
+},
+{
+"id": 6277,
+"name": "UNC-Chapel Hill",
+"village": "Oncology",
+"country": "USA",
+"section": "undergrad",
+"title": "CRYPTIC: Colorectal Reinforcement through a Probiotic Therapeutic for Intestinal Cancer",
+"abstract": "Colorectal cancer (CRC) is the third leading cause of cancer, and its prevalence in young adults has soared since 1990. Probiotics are widely used to enhance normal gut health. We propose an engineered probiotic therapeutic using E. coli Nissle 1917 (EcN), which localizes to hypoxic cancerous environments in the gut, to intervene during CRC development. Our hypothesis is that shifting tryptophan metabolism from the proliferative, immunosuppressive kynurenine pathway (KP) to the protective indole pathway (IP) can reduce the immunosuppressive conditions that drive healthy colon cells toward cancer. To accomplish this, we engineered EcN to convert tryptophan into indole-3-acetic acid (IAA) and indole-3-propionic acid (IPA), along with expressing enzyme KynU to break down kynurenine, the major tumorigenic KP metabolite. This work lays the foundation for a CRC-specific preventative probiotic that can be used alongside current treatments. Beyond the lab, we provide preventative measures to reduce CRC risk and promote STEM accessibility.",
+"wiki": "https://2026.igem.wiki/unc-chapel-hill"
+},
+{
+"id": 6288,
+"name": "Zhulu-China",
+"village": "Oncology",
+"country": "CHN",
+"section": "high-school",
+"title": "Acid-responsive self-assembling RGD-ES/KS peptides for tumor Invasion suppression under weak acid conditions",
+"abstract": "Lung cancer remains the leading cause of cancer death. We engineered a genetically encoded peptide that recognizes the tumor surface and assembles into a physical barrier specifically in the mildly acidic tumor microenvironment (pH ≈ 6.0) by fusing an RGD targeting motif to a pH-responsive polypeptide (ES) scaffold.\n\nThrough five DBTL cycles, we prioritized the RGD-6ES construct. It demonstrated storage stability, significantly reduced A549 cell viability and migration, reversed EMT markers, and suppressed YAP signaling, while remaining safe to normal bronchial epithelial cells at 0.5 mg/mL.\n\nOur Integrated Human Practices refined this trajectory, narrowing the application to NSCLC surgical margins and establishing a preclinical safety package. Addressing dual-use AI risks, we developed PRISM, a locally deployed screening layer. This work delivers a modular, pH-selective platform for tumor microenvironment intervention, with barrier imaging and in vivo validation as next steps.",
+"wiki": "https://2026.igem.wiki/zhulu-china"
+},
+{
+"id": 6332,
+"name": "Aarhus University",
+"village": "Therapeutics",
+"country": "DNK",
+"section": "overgrad",
+"title": "RiboLogic: Programming RNA to think before it acts",
+"abstract": "RiboLogic is an RNA-based therapeutic platform that utilizes microRNAs (miRNAs) as biomarkers for targeted treatment. A central challenge in modern therapeutics is delivering medicine exclusively where needed to increase efficacy and decrease side effects. Because miRNA expression patterns reflect specific cellular states, they serve as excellent biomarkers and combinatorial inputs for highly specific theranostics.\nRiboLogic puts this into practice by coupling therapeutic mRNA with an upstream logic domain. Under normal conditions, this RNA structure folds up and blocks translation. However, once the specific combination of target miRNAs is present, the RNA structure unfolds and allows the cell's machinery to translate the protein. Both the logic section and the output protein sequence are fully modular, making it easy to redesign the system for different miRNA targets, logic operations, or therapeutic proteins.",
+"wiki": "https://2026.igem.wiki/aarhus-university"
+},
+{
+"id": 6335,
+"name": "AFCM-Egypt",
+"village": "Therapeutics",
+"country": "EGY",
+"section": "undergrad",
+"title": "ROS-Responsive Engineered L. plantarum Delivering Silencing RNA via Membrane Vesicles for Atopic Dermatitis",
+"abstract": "Atopic dermatitis affects around 223 million people worldwide. Its symptoms often return unpredictably, while topical treatments are usually applied on a fixed schedule rather than in response to the skin's condition.\nFROST (Functional RNA-mediated Optimization of the Skin microbiome for Targeted multi-pathway conditioning) explores a different approach. It uses engineered Lactiplantibacillus plantarum in a hydrogel designed to respond to active lesions. The bacterium responds to oxidative stress and expresses CO-BERA, an RNA scaffold carrying two siRNAs designed to target STAT6 and RelA. Together, these targets address two pathways involved in inflammation.\nThe design also aims to deliver the RNA into skin cells using bacterial membrane vesicles and improve skin retention through an adhesin. Two signals have separate roles: a skin-associated fatty acid supports the survival system, while lesion-associated oxidative stress triggers therapy.\nFROST's validation is built mainly on seven models, each turning an assumption into a testable prediction.",
+"wiki": "https://2026.igem.wiki/afcm-egypt"
+},
+{
+"id": 6191,
+"name": "AIS-China",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "C.L.E.A.R., Cutibacterium Living Engineering for Acne & Homeostasis Regulation",
+"abstract": "Cutibacterium acnes, a natural skin commensal, holds promise as a chassis for microbiome-based therapeutics, yet limited genetic tools and transformation barriers hinder its engineering. AIS-China 2026 developed C.L.E.A.R. to advance C. acnes toward a programmable platform, with acne treatment as its first application.\n\nOur toolkit integrates an engineered E. coli intermediate host (EC24) for plasmid methylation, shuttle vectors, fluorescent reporters, inducible regulatory systems, computational workflows for promoter prediction and codon optimization, and biocontainment strategies. For acne intervention, we designed enhanced glycerol metabolism to improve ecological competitiveness and fatty-acid-responsive SodC expression to mitigate oxidative stress. Preliminary characterization in EC24 supported selected modules, while transformation and validation in C. acnes remain future goals.\n\nBeyond acne, C.L.E.A.R. lays the foundation for a reusable engineering platform capable of supporting diverse therapeutic applications through programmable skin commensals.",
+"wiki": "https://2026.igem.wiki/ais-china"
+},
+{
+"id": 6123,
+"name": "BASIS-China",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "HEAL (Hairball Elimination And Lysis)",
+"abstract": "China’s urban pet cat population reached 72.89 million in 2025, highlighting the importance of feline healthcare. Hair swallowed during grooming can accumulate and potentially cause gastrointestinal problems, while conventional hairball products mainly facilitate passage rather than degrade hair itself. HEAL explores a P1–Trx–TrxR enzyme system for hair degradation, alongside an exploratory α-ketoglutarate production module for potential intestinal support. Calcium alginate encapsulation and a bile-acid-responsive containment circuit address delivery and biosafety questions, complemented by a food-weighing prototype for feeding records. Separately, a bile-acid-responsive containment circuit tackles biosafety by linking bacterial growth to an bile-acid signal that is scarce in the environment. Integrating stakeholder feedback, in-vitro experiments, and modeling, HEAL advances research toward practical and responsible hairball management while identifying further validation needed before feline application.",
+"wiki": "https://2026.igem.wiki/basis-china"
+},
+{
+"id": 6552,
+"name": "Beagle Bioworks",
+"village": "Therapeutics",
+"country": "USA",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6221,
+"name": "Bielefeld-CeBiTec",
+"village": "Therapeutics",
+"country": "DEU",
+"section": "undergrad",
+"title": "α Synu-Clear: Combating Proteinopathy in Parkinson’s Disease",
+"abstract": "Like other proteinopathies, Parkinson's disease is a neurodegenerative condition triggered by the misfolding and subsequent aggregation of proteins. For those affected by such conditions, there is no cure in sight. \n\nSince aggregating proteins are causing progressive aggravation, we opted to remove the misfolded proteins to slow down or stop progression. To achieve this, we created a system covering everything from delivery to degradation. \n\nIn a final therapy, lipid nanoparticles deliver a plasmid coding for a fusion protein consisting of an α-synuclein nanobody and an LC3B. The utilization of a pipeline consisting of top-notch protein design tools enabled us to model a de novo binding protein targeting the human dopamine transporter on neurons. The expressed and post-translationally modified degrader must interact with the membrane of the autophagy system and bind to its target. The complex is then broken down via the cell's own autophagy process.",
+"wiki": "https://2026.igem.wiki/bielefeld-cebitec"
+},
+{
+"id": 6564,
+"name": "BiHealthy",
+"village": "Therapeutics",
+"country": "IDN",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6193,
+"name": "Cataverse-GreatBay",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "A New Strategy for Gout Prevention: Preparation of Oral Probiotics for Lowering Uric Acid",
+"abstract": "Residents in southern China have a dietary preference for high-purine foods such as seafood, resulting in a particularly high concentration of patients with gout and hyperuricemia. This has now become a prevalent regional health issue, and traditional treatment methods have numerous limitations. This project utilizes Escherichia coli Nissle 1917 as an engineering platform, incorporating a uric acid response system along with functional modules for uricase and catalase. This system can degrade uric acid and eliminate toxic hydrogen peroxide produced during metabolism within the gut. We have focused on modifying the uric acid transporter to enhance its transport efficiency for uric acid and its precursor, xanthine, thereby inhibiting uric acid production at the source. This oral probiotic formulation holds promise as a safe and highly effective new solution for the prevention and treatment of hyperuricemia and gout.",
+"wiki": "https://2026.igem.wiki/cataverse-greatbay"
+},
+{
+"id": 6529,
+"name": "CHINAGuangdongShimen",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "Re-CDI Alert ——A Living Alert System for CDI Recurrence",
+"abstract": "Clostridioides difficile infection (CDI) presents a major clinical challenge due to high recurrence rates and delayed post-treatment diagnostics. Current management relies on post-symptomatic reactive care, which further disrupts gut microbiota via broad-spectrum antibiotics. To address this, team China_Guangdong_Shimen developed \"Re-CDI Alert,\" a living biotherapeutic alert system for proactive CDI recurrence monitoring. We engineered probiotic Escherichia coli Nissle 1917 (EcN) incorporating the heterologous PcrSR-Pcmh two-component sensing system from Aromatoleum aromaticum EbN1. This engineered strain selectively detects p-cresol—a characteristic metabolite produced during C. difficile germination—and converts local chemical signals into quantifiable reporter outputs (sfGFP). Furthermore, the system serves as a modular chassis for on-demand therapeutic release, such as neutralizing nanobodies. Re-CDI Alert shifts the paradigm from delayed reactive treatment to continuous proactive risk sensing, providing a safer, precise diagnostic platform to safeguard gut microecosystem health.",
+"wiki": "https://2026.igem.wiki/chinaguangdongshimen"
+},
+{
+"id": 6117,
+"name": "CSU-CHINA",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "BRIDGE: Brain Repair via Injury-Induced BDNF Delivery",
+"abstract": "BRIDGE is a synNotch-based neural repair system designed to couple injury-associated sensing with localized delivery of brain-derived neurotrophic factor (BDNF). Engineered T cells express an anti-brevican (BCAN) synNotch receptor that links BCAN recognition to BDNF production. Receptor activation triggers sequential S2/S3 cleavage, releasing GAL4-VP64 to activate a 5×UAS promoter and drive BDNF expression and secretion. We integrated pathway modeling with structural analysis of the BCAN–scFv interface to characterize system behavior and guide receptor engineering. Interface-guided mutagenesis was used to refine receptor responses to BCAN stimulation. Through this design, BRIDGE aims to support neuronal survival and repair by concentrating BDNF delivery at injury sites and reducing systemic exposure.",
+"wiki": "https://2026.igem.wiki/csu-china"
+},
+{
+"id": 6309,
+"name": "CUHK-HongKong-SBS",
+"village": "Therapeutics",
+"country": "HKG",
+"section": "undergrad",
+"title": "Engineering Lactiplantibacillus plantarum for Topical Therapy in Psoriasis",
+"abstract": "Psoriasis is a chronic, immune-mediated inflammatory skin disease affecting 2–3% of the global population. At present, there is no complete cure due to its multifactorial and complex nature, with current symptom-focused treatments often limited by variable efficacy and long-term side effects. To address these challenges, we developed a topically applied live biotherapeutic product utiizing bioengineered Lactiplantibacillus plantarum as an alternative treatment option for psoriatic patients. This commensal bacterium acts as a targeted delivery vehicle for fusion peptides combining an IL-23 receptor antagonist and an immunomodulator, effectively blocking the psoriatic inflammatory cascade while regulating skin health. Our project was made possible through extensive stakeholder engagement with patients, clinicians, scientists, industry experts, ethicists, iGEM peers, and the public. Complementing our technical design, we implemented a comprehensive educational campaign aimed at advancing synthetic biology education while actively reducing the social stigma associated with psoriasis.",
+"wiki": "https://2026.igem.wiki/cuhk-hongkong-sbs"
+},
+{
+"id": 6302,
+"name": "DBHS-CA",
+"village": "Therapeutics",
+"country": "USA",
+"section": "high-school",
+"title": "FIV-UR",
+"abstract": "Nutrient-responsive pathways are an underused control layer for glycosylation. In Escherichia coli, the PhoR/PhoB two-component system senses phosphate limitation and activates Pho-regulated promoters, letting environmental conditions dictate gene expression. We apply this system to fisetin, a flavonoid whose utility is limited by properties such as low water solubility that sugar addition can improve, making glycosylation timing functionally important. We are engineering a phosphate-responsive circuit to control expression of yjiC, a glycosyltransferase that transfers glycans onto fisetin, first characterizing the promoter with GFP across phosphate conditions before swapping in yjiC. Success would establish nutrient availability as a tunable input for modifying biologically important small molecules.",
+"wiki": "https://2026.igem.wiki/dbhs-ca"
+},
+{
+"id": 6480,
+"name": "Epiphany-NYC",
+"village": "Therapeutics",
+"country": "USA",
+"section": "high-school",
+"title": "TheraNOva: Fighting Inflammation in Leaky Gut",
+"abstract": "Leveraging the ability of E. coli, a naturally occurring gut bacteria, to produce vesicles that can be modified with a nanobody to target the afflicted gut epithelial cells. Nitric oxide levels rise when inflammation causes the junctions in the cells of the gut to become leaky. We will engineer the bacteria to have a nitric oxide sensor that activates a specific promoter controlling the production of dual therapeutic molecules: an enzyme that facilitates the production of butyrate and a silencing RNA that shuts down tumor necrosis factor production.",
+"wiki": "https://2026.igem.wiki/epiphany-nyc"
+},
+{
+"id": 6081,
+"name": "FSU",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "Lilieum: an engineered Lactobacillus rhamnosus GG probiotic for capture and fecal clearance of dietary phthalates",
+"abstract": "90% of people in industrialized countries are exposed to (2-ethylhexyl) phthalate (DEHP), and prenatal exposure has been linked to roughly 56,500 preterm births and $3.84 billion in US costs in a single year. The Human Practices Team used systems thinking to identify pregnancy as the window of greatest consequence and thus, highest impact.\nThe 2026 FSU iGEM Team designed Lilieum - an engineered LGG cell that senses captured DEHP via membrane rigidity and triggers a reduction in LGG's pili expression; thus, the cell no longer adheres in the GI tract and moves out of the body. \nA DEHP-partitioning simulation of an LGG membrane proxy in GROMACS supported LGG's pre-existing capture mechanism. Through Lilieum's prioritized education programs, exposure literacy is treated as part of the intervention rather than as its dissemination.",
+"wiki": "https://2026.igem.wiki/fsu"
+},
+{
+"id": 6490,
+"name": "Gikal",
+"village": "Therapeutics",
+"country": "TUR",
+"section": "high-school",
+"title": "ZipTide: designing short peptides against zonulin-driven loss of the intestinal barrier",
+"abstract": "The intestinal barrier is one cell thick, and zonulin loosens the tight junctions that hold it shut. No approved antagonist exists. ZipTide designs short peptides against that signal. We collapsed the 25.6-billion-sequence space of 8-mers onto 2,220,075 compositions without discarding any, ranked them by physicochemical distance to larazotide, screened 1,500 for toxicity, allergenicity and haemolysis, and carried twenty to structure prediction and docking. Three were chemically synthesised and deposited in the Registry alongside the control. Caco-2 cells challenged with gliadin were read as zonulin release by ELISA, against a criterion written before any data existed. The assay worked: gliadin raised zonulin 4.8-fold and larazotide brought it down. Neither candidate tested reached the bar, though ZT-1 fell in larazotide's direction and may contribute to barrier repair; the third arrived as an empty vial. Eighteen stakeholder engagements reshaped the project's scope, read-out and language.",
+"wiki": "https://2026.igem.wiki/gikal"
+},
+{
+"id": 6108,
+"name": "GU Frankfurt",
+"village": "Therapeutics",
+"country": "DEU",
+"section": "overgrad",
+"title": "HIDE - HLA Interference via Disguise and Erasure",
+"abstract": "Transplanted organs are often rejected because the recipient's immune system recognizes specific proteins on the donor organ's surface as \"non-self\" and attacks them. To prevent this, patients currently need to take immunosuppressive drugs for the rest of their lives, which weakens their entire immune system and leaves them vulnerable to infections and other complications. Our project, HIDE, aims to solve this more precisely: instead of broadly suppressing the immune system, we are developing a therapy that locally downregulates these donor proteins directly on the transplanted organ, making it less visible to the immune system. Our long-term goal is to improve transplant outcomes without the long-term effects of conventional immunosuppression.",
+"wiki": "https://2026.igem.wiki/gu-frankfurt"
+},
+{
+"id": 6505,
+"name": "Gymnasium Leiden",
+"village": "Therapeutics",
+"country": "NLD",
+"section": "high-school",
+"title": "V.A.U.L.T",
+"abstract": "Versatile Adaptive Unified Loading Technology (V.A.U.L.T), focusses on Major Vault Proteins (MVPs) as an alternative platform for thermostable mRNA-based therapies. Our team looked at modifying naturally occurring eukaryotic Vault proteins, to produce them in Escherichia coli. Modifications include the addition of a protein A derived Z-domain, as a potential docking station for IgGs, to give MVPs a target delivery option. Furthermore we have looked at options to evade the natural phagolysosomal pathway.",
+"wiki": "https://2026.igem.wiki/gymnasium-leiden"
+},
+{
+"id": 6178,
+"name": "HFI",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "Dual EcN Probiotic Synergistic Therapy for the Rare Disease Hyperlysinemia",
+"abstract": "Hyperlysinemia is a rare amino acid metabolic disorder. Because patients are unable to metabolize lysine, they must follow a low-protein diet for life. We aim to use synthetic biology to address life-threatening conditions faced by patients with hyperlysinemia, such as delayed brain development and epilepsy, and to break them free from the “dietary prison” of having to rely on an extremely low-protein diet for life. Therefore, we will develop “smart synergistic probiotics” by constructing lysine metabolic pathways in engineered bacteria to achieve efficient lysine degradation. Furthermore, we will utilize the SpyTag/SpyCatcher system to establish physical couplings between bacteria, creating “metabolic tunnels” to resolve issues of low efficiency and secondary toxicity caused by product diffusion in cascade reactions. At the same time, we will incorporate a kill-switch to prevent biosafety risks associated with the release of engineered bacteria.",
+"wiki": "https://2026.igem.wiki/hfi"
+},
+{
+"id": 6148,
+"name": "HKBU",
+"village": "Therapeutics",
+"country": "HKG",
+"section": "undergrad",
+"title": "FibroSwitch: Reversing liver scarring with an herbal-inducible smart vector",
+"abstract": "Liver fibrosis, driven by hepatic stellate cell (HSC) activation, is a major global health burden with limited therapeutic options. To address this, we engineered FibroSwitch, a lentiviral smart vector that delivers the therapeutic transcription factor GATA4 under the control of a synthetic, Nrf2-responsive pARE promoter. We successfully established stable engineered LX-2 cell lines and verified robust GATA4 protein expression, which effectively reduced key fibrotic markers including α-SMA. Furthermore, we optimized a sequential treatment strategy that revealed the potential of a powerful dual-action synergy. Triggering the genetic circuit with the herbal compound Baicalein not only drives GATA4 expression but also leverages the compound's intrinsic anti-inflammatory properties to significantly downregulate collagen production (COL1A1). FibroSwitch represents a next-generation, finely tunable gene therapy that combines targeted cellular reprogramming with microenvironmental modulation to safely and effectively reverse liver scarring.",
+"wiki": "https://2026.igem.wiki/hkbu"
+},
+{
+"id": 6401,
+"name": "HKU-HongKong",
+"village": "Therapeutics",
+"country": "HKG",
+"section": "undergrad",
+"title": "Omni-Patch",
+"abstract": "Chronic wounds frequently become trapped in persistent inflammation, disrupting tissue repair. Omni-Patch addresses this challenge through a cell-free hydrogel dressing combining a de novo-designed peptide with the tissue repair factor FGF2. Our de novo computational pipeline integrates RFdiffusion, LigandMPNN and molecular dynamics simulations to generate and screen peptide candidates targeting the MD-2/LPS interface of the TLR4 signaling complex.\nExperimental screening identified αTi-14 as a promising lead that reduced cell-associated fluorescent LPS in human macrophage-like cells. Through iterative Design-Build-Test-Learn cycles, we refined cellular assays to investigate its anti-inflammatory potential; functional confirmation remains ongoing. In parallel, we explored recombinant peptide production and alginate delivery, with preliminary release studies using FGF2 and peptide variants. Mathematical modeling connected molecular design with delivery kinetics and downstream biological responses. Guided by stakeholder engagement and educational initiatives, these efforts establish a foundation for developing Omni-Patch to locally modulate excessive inflammation while supporting tissue repair in wounds.",
+"wiki": "https://2026.igem.wiki/hku-hongkong"
+},
+{
+"id": 6316,
+"name": "Houston-TX",
+"village": "Therapeutics",
+"country": "USA",
+"section": "overgrad",
+"title": "AKGut: Model-Guided Design of a Probiotic that Produces α-Ketoglutarate",
+"abstract": "Alpha-ketoglutarate (α-KG) extends Caenorhabditis elegans lifespan, maximally at 8 mM (Chin et al., 2014). AKGut asks whether Escherichia coli Nissle 1917, a clinically established probiotic, can be engineered to produce α-KG continuously rather than delivering it as a supplement.\n\nWe designed the strain computationally first. Flux balance analysis on the genome-scale model iHM1533 identified glutamate dehydrogenase, not α-KG dehydrogenase, as the largest α-KG drain; placed the production optimum near half-maximal oxygen; and showed that no knockout combination couples production to growth, motivating an α-KG-responsive addiction system for future development. \n\nModelling then shaped the build: it reduced the difference between two designs to a single deletion, and caught a residue-numbering error that would have placed the citrate synthase mutation one residue off target. The corrected plasmid is verified; chromosomal knockouts remain in troubleshooting.",
+"wiki": "https://2026.igem.wiki/houston-tx"
+},
+{
+"id": 6305,
+"name": "HunanU",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "NariViva: Engineered Probiotics Delivering Naringenin to Restore Vaginal Health",
+"abstract": "Genitourinary Syndrome of Menopause (GSM) is a chronic condition associated with declining estrogen levels, affecting quality of life in postmenopausal women. NariViva aims to develop a probiotic-based biomedical platform for localized, pH-responsive naringenin production as a potential strategy for GSM management. We designed a genetic circuit integrating a pH-responsive regulatory module with a naringenin biosynthetic pathway comprising tyrosine ammonia-lyase (TAL), 4-coumarate-CoA ligase (4CL), chalcone synthase (CHS), and chalcone isomerase (CHI). Using Escherichia coli as an initial chassis, we characterized pH-responsive gene expression and investigated a naringenin-responsive regulatory module. Western blot and HPLC analysis showed increased CHI abundance with rising pH in the circuit without negative feedback, whereas the negative-feedback design helped stabilize CHI abundance across the tested pH range. These findings support the feasibility of combining environmental sensing with feedback regulation. Further product-level validation, chassis optimization, and biosafety evaluation are needed before future development in vaginally compatible probiotics.",
+"wiki": "https://2026.igem.wiki/hunanu"
+},
+{
+"id": 6304,
+"name": "HUST-UEVE-UPSaclay",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "Pet Dental Guard",
+"abstract": "Pet oral inflammatory diseases arise from microbial dysbiosis, pathogenic biofilms, and persistent inflammation. Fusobacterium nucleatum (Fn), a key bridging organism in oral biofilms, contributes to biofilm formation and inflammatory responses. To address these challenges, we developed Pet Dental Guard, an integrated synthetic biology platform combining engineered M13 phages, engineered Escherichia coli Nissle 1917 (EcN), and a double-layer hydrogel. The engineered phages are designed to target Fn and deliver metronidazole for localized antibacterial activity, while engineered EcN responds to inflammatory signals by producing interleukin-10 (IL-10) to regulate inflammation. The hydrogel enhances local retention and enables sequential release of both components. By integrating targeted antibacterial intervention, inflammation regulation, and controlled delivery, Pet Dental Guard aims to provide a comprehensive strategy for managing pet oral inflammatory diseases.",
+"wiki": "https://2026.igem.wiki/hust-ueve-upsaclay"
+},
+{
+"id": 6424,
+"name": "HZAU-China",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "PurrFit",
+"abstract": "Feline obesity, driven jointly by overfeeding, limited activity, and human care routines, has become a growing “One Health” challenge among pet cats. To address this, our project PurrFit proposes a synthetic biology strategy that combines microbiome engineering with digital care. We employ MetaEdit to engineer Bacteroides thetaiotaomicron, a common gut-associated bacterium, to produce bile salt hydrolase (BSH), which will help regulate bile acid metabolism and lipid-related pathways. Meanwhile, we design an FGF21-ABD fusion protein to improve the stability of FGF21-based metabolic signals and support healthier energy use. As an auxiliary module, a Pet AI Agent could provide personalized feeding and exercise suggestions for owners. By integrating feline health, biosafe microbial engineering and owner behavioral guidance, PurrFit is expected to serve as a cat-focused but transferable framework for companion animal health.",
+"wiki": "https://2026.igem.wiki/hzau-china"
+},
+{
+"id": 6098,
+"name": "ICJFLS",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "ORA-GUARD: Engineered Oral Probiotics for Long-Term Bad Breath Solution",
+"abstract": "ORA-GUARD is a synthetic biology project aimed at developing a long-acting therapeutic product for halitosis using engineered oral probiotics. we selected Streptococcus salivarius K12, a GRAS certified oral commensal, as the chassis. Using CRISPR Cas9 mediated genome integration, the engineered strain stably expresses codon optimized multi enzyme system that efficiently secretes volatile sulfur compounds (VSC) degrading enzymes. These enzymes convert malodorous VSC (hydrogen sulfide, methanethiol, etc.) into odorless sulfate, achieving precise and sustained deodorization. A multi layered biosafety strategy, including auxotrophy and a temperature sensitive kill switch, ensures environmental containment.",
+"wiki": "https://2026.igem.wiki/icjfls"
+},
+{
+"id": 6492,
+"name": "KCSCD",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "FELIX：FIPV Extermination Lipase (Spray) & RNAi Interference eXecution Platform",
+"abstract": "Feline infectious peritonitis (FIP), caused by mutated feline coronavirus (FCoV), remains a fatal disease with no cure. Current strategies lack an integrated solution covering environmental contamination, early intestinal infection, and established FIP. We introduce FELIX — a Anticoronavirus Nanoplatform for Noninvasive, Integrated Host & Environmental Viral Lysis & Antiviral Therapy . It is a unified EcN based system designed to eliminate FCoV at every stage. Our three pronged strategy: Front 1 – Environmental disinfection: Engineered lipases EST29 and LIP29 degrade the viral lipid envelope, neutralizing viruses before host contact. Front 2 – Gut prophylaxis: EcN (E. coli Nissle 1917) continuously produces RNAi molecules targeting conserved FCoV sequences, clearing intestinal viruses before they mutate into FIPV. Front 3 – Therapeutic intervention: When FIP develops, the same EcN platform delivers RNAi therapeutics systemically to silence mutated viral genes, blocking replication and halting disease progression.",
+"wiki": "https://2026.igem.wiki/kcscd"
+},
+{
+"id": 6429,
+"name": "KFUPM-Saudi",
+"village": "Therapeutics",
+"country": "SAU",
+"section": "undergrad",
+"title": "ARMOR: Autoimmune Responsive Molecular Origami Refugee",
+"abstract": "Autoimmune diseases arise when the immune system mistakenly attacks healthy tissues, while conventional immunosuppressive therapies often compromise protective immunity. ARMOR (Autoimmune Responsive Molecular Origami Refuge) proposes a programmable DNA origami nanostructure designed for localized, conditional immunomodulation. The system features a hinged DNA origami box secured by a perforin-responsive aptamer lock. Upon detecting perforin released by cytotoxic T cells, the box is designed to open and expose PD-L1, potentially engaging PD-1 receptors to attenuate local immune activity. Our engineering approach integrates DNA nanostructure design through Cadnano, Oxview, and OxDNA molecular simulations, perforin–aptamer docking, and COMSOL-based transport modeling of a proposed needle-free transdermal delivery patch and a three-compartment analysis for drug delivery. Through iterative computational design and optimization, ARMOR explores the feasibility of coupling molecular sensing with controlled therapeutic exposure. This proof-of-concept platform presents a potential strategy for spatially and temporally regulated immune modulation.",
+"wiki": "https://2026.igem.wiki/kfupm-saudi"
+},
+{
+"id": 6299,
+"name": "KULeuven",
+"village": "Therapeutics",
+"country": "BEL",
+"section": "overgrad",
+"title": "EMPOWER - Engineering Microbes to Promote Ovarian WEllbeing and Recovery",
+"abstract": "Polyendocrine Metabolic Ovarian Syndrome (PMOS) affects 1 in 8 women of reproductive age. Despite its prevalence, no approved disease-modifying treatment exists. Emerging evidence implicates the involvement of the intestinal microbiome. We hypothesize that microbial shifts alter the bile acid pool, contributing to metabolic dysfunction, inflammation, hyperandrogenism, and reproductive complications.\nSince the gut commensal Phocaeicola vulgatus is reportedly enriched in PMOS patients, bile salt hydrolase (BSH) levels rise in parallel, resulting in alterations of bile acid composition and downstream signaling. Rather than eliminating this bacterium, we aim to engineer it to specifically modulate bile acid metabolism. To overcome the limited genetic tools available for this non-model anaerobe, we developed a synthetic biology toolkit featuring characterized promoters evaluated using four fluorescent reporters, optimized conjugation, and phenotypic characterization of potential chassis strains. Building on this, we developed EMPOWER, designed to selectively modulate BSH activity in P. vulgatus to restore beneficial bile acid signaling.",
+"wiki": "https://2026.igem.wiki/kuleuven"
+},
+{
+"id": 6066,
+"name": "LethbridgeHS",
+"village": "Therapeutics",
+"country": "CAN",
+"section": "high-school",
+"title": "Oat Shield: Sustainable cellulose bandages with integrated antimicrobial peptides for wound treatment",
+"abstract": "Oat Shield investigated the development of a biodegradable antimicrobial wound dressing using oat husk cellulose, transforming agricultural waste into a sustainable medical alternative. Conventional single-use bandages contribute to healthcare waste and may contain synthetic materials and harmful chemicals. Meanwhile, oat husks are often discarded despite being rich in renewable cellulose. Our team explored cellulose extraction methods to obtain suitable fibres for bandage production. To enhance antimicrobial properties, we investigated the expression and purification of subtilin, a natural antimicrobial peptide produced by Bacillus subtilis that targets Gram-positive bacteria, a leading cause of wound infections. Using an engineered Escherichia coli expression system with an IPTG-inducible promoter and a hexahistidine tag, we produced subtilin for antimicrobial testing. Ultimately, Oat Shield aims to combine cellulose-based materials with subtilin to create sustainable wound dressings that help prevent infections while reducing agricultural and healthcare waste, supporting UN Sustainable Development Goals 12 and 13.",
+"wiki": "https://2026.igem.wiki/lethbridgehs"
+},
+{
+"id": 6427,
+"name": "LHWHS Missouri",
+"village": "Therapeutics",
+"country": "USA",
+"section": "high-school",
+"title": "A High-throughput Framework for Screening Therapeutic siRNA Cocktails in Hyperlipidemia",
+"abstract": "Traditional single-gene siRNA therapies often fall short against complex conditions like hyperlipidemia. To overcome this limitation, we propose a combinatorial siRNA strategy utilizing multi-target cocktails to optimize lipid metabolism regulation.\n\nAt the core of this initiative is our proprietary technology: a high-throughput screening platform featuring single-cell addressability within a single plate of liver cells. This powerful system rapidly tests myriad siRNA cocktail formulations to identify superior multi-target therapies. By improving silencing efficiency and robustness, our platform establishes a versatile framework for advancing RNA therapeutics across diverse complex diseases.",
+"wiki": "https://2026.igem.wiki/lhwhs-missouri"
+},
+{
+"id": 6454,
+"name": "LINKS-Union",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "S.H.I.E.L.D Smart Hydrogel for Integrated Enamel & Lesion Defense",
+"abstract": "Orthodontic braces trap bacteria, and cariogenic acid causes enamel demineralization, white spot lesions, and caries. Existing cleaners suffer from \"burst release,\" losing efficacy quickly. To address this, we developed SHIELD, an acid-responsive hydrogel coating for braces. It uses calcium alginate loaded with CaGP, alkaline phosphatase (ALP), and an antimicrobial peptide (AMP) fusion protein. ALP catalyzes CaGP hydrolysis to form a mineralized nHA layer, creating a dual physical barrier that slows AMP release and competitively resists acid attack. The MtuI intein self-cleaves at pH < 6.5 to release LL-37 on demand. This system enables intelligent responsiveness and long-term sustained release, suppressing biofilms and reducing demineralization. Ultimately, SHIELD embodies the principle of \"prevention over treatment,\" intercepting enamel damage before it becomes irreversible and providing a universal, safe, and convenient solution for long-term oral protection.",
+"wiki": "https://2026.igem.wiki/links-union"
+},
+{
+"id": 6160,
+"name": "Lund",
+"village": "Therapeutics",
+"country": "SWE",
+"section": "overgrad",
+"title": "A Gut-Based Approach to address Androgen Excess in PMOS",
+"abstract": "Polyendocrine Metabolic Ovarian Syndrome (PMOS), formerly known as Polycystic Ovary Syndrome (PCOS), affects millions of women worldwide, with hyperandrogenism being a key driver of symptoms such as irregular periods, acne, and an increased risk of type 2 diabetes. To address the lack of therapeutically precise treatments, iGEM Lund 2026 is developing a proof-of-concept synthetic biology platform designed to tackle androgen excess locally within the gut. By engineering a bacterial strain to express androgen-metabolizing enzymes under the control of a gut-responsive transcriptional switch, our system aims to convert excess androgens into less bioactive metabolites. Our project seeks to contribute on two fronts simultaneously: improving pathophysiological understanding of PMOS and exploring potential management strategies.",
+"wiki": "https://2026.igem.wiki/lund"
+},
+{
+"id": 6132,
+"name": "LUT-CHINA",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "overgrad",
+"title": "Bioactive Four-Layer Dressing for Diabetic Foot Ulcers via Synthetic Biolo",
+"abstract": "Diabetic foot ulcers (DFUs) are chronic, hard-to-heal wounds with high amputation risk, while conventional dressings fail to address underlying pathological barriers to tissue repair.\nUsing synthetic biology, we engineer E. coli cell factories to biosynthesize two herbal bioactives — calycosin-7-glucoside and lobetyolin — for synergistic regulation of the wound microenvironment. We integrate them into a four-layer functional dressing enabling targeted drug delivery, efficient exudate management and atraumatic dressing changes.\nWe have completed cell-based functional screening, validated lobetyolin biosynthesis via HPLC, curated 5 Registry parts, optimized the ternary formulation and fabricated a preliminary prototype. This project aims to deliver a novel DFU therapeutic option and advance high-value biomanufacturing of local herbal resources.",
+"wiki": "https://2026.igem.wiki/lut-china"
+},
+{
+"id": 6082,
+"name": "LZU GANSU",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "DENTAL SHIELD: A Probiotic System for Early Detection and Treatment of Dental Caries and Periodontitis",
+"abstract": "To address the clinical challenges of early diagnosis and treatment of oral infectious diseases such as dental caries and periodontitis, we have designed and validated an engineered Lactococcus lactis probiotic. This probiotic can colonize the oral microenvironment, report early-stage hidden lesions, and enable timely intervention. Our project provides a novel and practical approach for the simple and home-based early prevention and treatment of dental caries and periodontitis.",
+"wiki": "https://2026.igem.wiki/lzu-gansu"
+},
+{
+"id": 6079,
+"name": "LZU-CHINA",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "overgrad",
+"title": "INTESTINAL BARRIER: designed for the prevention and treatment of Salmonella infections during the perioperative period.",
+"abstract": "Our project designed and reported an engineered probiotic Escherichia coli Nissle 1917 (ECN1917) strain with a modified chassis genome. We integrated a dual-switch system into the engineered bacteria, which combines the AI-2 quorum sensing recognition system from intestinal Salmonella and the tetrathionate inflammation signal recognition system. This enables the early detection of disease signals within the gut microbiota, facilitates convenient diagnostics based on stool samples, and suppresses intestinal pathogens through the active expression of antimicrobial peptides.",
+"wiki": "https://2026.igem.wiki/lzu-china"
+},
+{
+"id": 6536,
+"name": "MaiAnTiem",
+"village": "Therapeutics",
+"country": "CAN",
+"section": null,
+"title": "",
+"abstract": "",
+"wiki": null
+},
+{
+"id": 6297,
+"name": "McMaster-Canada",
+"village": "Therapeutics",
+"country": "CAN",
+"section": "undergrad",
+"title": "Chariot: A Platform Technology for OMV-based Therapeutics",
+"abstract": "Bacterial outer membrane vesicles (OMVs) are promising drug delivery vector and vaccine platforms, but their biomanufacturing is limited by low yields, high variability, and costly manufacturing. We present Chariot, an end-to-end platform for the design of vesicle nucleating peptide (VNp)-tagged therapeutics for high-yield OMV loading. Leveraging OMV biofilm penetration and adjuvanticity, we investigate VNp-mediated loading of antimicrobial peptides and bacterial antigens to combat bacterial infections in preventative and acute contexts. Our in silico models, Apollo and Artemis, expand Chariot’s therapeutic applicability through de novo cargo generation and VNp sequence optimization, alongside a custom bioreactor and microfluidic OMV isolation device. In addition to our OMVS (Observe, Modify, Vision, Synthesis) stakeholder framework, we ground our educational initiatives in the MUST (Mutual, Universal, Sustainable, Thoughtful) learning pillars, highlighting meaningful confrontations between diverse communities and the challenges of implementing engineered therapeutics. Chariot enables robust OMV bioengineering for innovative, targeted therapeutic development.",
+"wiki": "https://2026.igem.wiki/mcmaster-canada"
+},
+{
+"id": 6276,
+"name": "Michigan",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "MagNav",
+"abstract": "Ovarian cancer and endometriosis are very difficult to treat without invasive standards of care. Harnessing the pathological characteristics of these diseases that elude traditional methods of treatment, our project engineers a non-pathogenic bacteria into a novel, specific, and non-invasive treatment option. AMB-1, a species of bacteria responsive to magnetic fields and hypoxic microenvironments, is combined with fine-tuned RNA thermometers to deliver a therapeutic payload customizable for ovarian cancer and endometriosis. Our project aims to provide an accessible solution to sufficient life-saving and life-changing therapies.",
+"wiki": "https://2026.igem.wiki/michigan"
+},
+{
+"id": 6418,
+"name": "MSP-Maastricht",
+"village": "Therapeutics",
+"country": "NLD",
+"section": "undergrad",
+"title": "Vivora- Treating Recurrent Bacterial Vaginosis",
+"abstract": "One in four women globally is affected by bacterial vaginosis (BV), and although current antibiotic treatments provide short-term relief, BV recurs in over 55% of affected women within 12 months. Vivora aims to lay the design foundations for an engineered live biotherapeutic that combines a two-part detection system and the synthesis of Antimicrobial Peptides (AMPs). The detection mechanism responds to elevated pH and the presence of the biogenic amine putrescine, ensuring targeted treatment delivery while limiting the development of resistant strains. AMPs are naturally derived proteins shown to have antibacterial properties against BV-associated bacteria. The vaginal commensal bacterium Lactobacillus jensenii serves as the chassis for this synergistic system. It is engineered using protocols developed by a previous iGEM team, Vagineering. Ultimately, Vivora aims to reduce the rates of BV recurrence and develop parts applicable to other vaginal infections.",
+"wiki": "https://2026.igem.wiki/msp-maastricht"
+},
+{
+"id": 6232,
+"name": "NCState",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "AMPack: Engineering probiotic yeast for antimicrobial peptide production",
+"abstract": "To address growing antimicrobial resistance this study evaluated the feasibility of engineering S. boulardii to produce four functional antimicrobial peptides (AMPs): LL37, AMP-17, ToAP2, and P113, and assess their anti bacterial effects. Digitally designed plasmids, later constructed in lab via Golden Gate assembly were transformed into S. boulardii strains to evaluate AMP production, growth rates, and cellular morphology.  Unmodified S. boulardii (PY0001) showed no native hemolytic or antimicrobial activity. Modified strains (LL37, AMP17) had significantly reduced growth rates (p=6.4278×10^−6) compared to PY0001, likely caused by nourseothricin (NAT) in the selective media. NAT substantially reduced B. subtilis and E. coli viability, whereas P. putida was moderately sensitive. Notably, AMP17 significantly inhibited P. putida growth (p=0.003553) in our agar diffusion assay. Although NAT reduced growth rates, AMP17 successfully inhibited P. putida, demonstrating the feasibility of engineering S. boulardii as a therapeutic probiotic against resistant bacteria.",
+"wiki": "https://2026.igem.wiki/ncstate"
+},
+{
+"id": 6530,
+"name": "NTU-Singapore",
+"village": "Therapeutics",
+"country": "SGP",
+"section": "undergrad",
+"title": "Development of efficient RNA writers",
+"abstract": "The ability to rewrite biological information in living cells has many applications. Although DNA editing can install enduring changes in the genome and correct disease-causing mutations, it suffers from safety issues as any off-target edits will be permanent and thus propagate to subsequent generations. In contrast, RNA engineering offers a safer alternative as any off-target effect will be transient. Moreover, the targeting space is smaller as only expressed genes can be edited, reducing the risk of non-specific alterations. To date, considerable efforts have focused on the development of powerful RNA base editors that can install single nucleotide changes in selected RNA transcripts. However, they cannot introduce any arbitrary edit, such as swapping of entire exons. An attractive strategy to rewrite RNA molecules in a universal manner is trans-splicing. Unfortunately, existing programmable trans-splicing methods are inefficient and lack design rules. To address the problem, we will develop novel RNA writing technologies.",
+"wiki": "https://2026.igem.wiki/ntu-singapore"
+},
+{
+"id": 6449,
+"name": "Patras UPAT",
+"village": "Therapeutics",
+"country": "GRC",
+"section": "undergrad",
+"title": "EPIONE: Decoding pain to restore life",
+"abstract": "Chronic cancer pain is managed almost exclusively with systemic opioids, whose escalating doses bring tolerance, sedation, dependence and respiratory risk. Project Epione asks whether patients can make the analgesic themselves. We deliver the human proenkephalin (PENK) gene, precursor of the enkephalins, as a nonviral lipoplex sprayed intranasally, exploiting the olfactory route that bypasses the blood brain barrier. Working entirely from computational design, we built four bicistronic constructs as a 2x2 matrix of linker chemistry against reporter orientation, with the His tag placed at the amino terminus so the terminal heptapeptide stays intact. Constructs are expressed in HEK293T cells, tracked by mEGFP fluorescence, purified by affinity chromatography and matured in vitro with recombinant PC2, 7B2 and carboxypeptidase E, since these cells lack the convertases of the regulated secretory pathway. We also designed an engineered PENK whose enkephalin cores carry a delta preferring motif, submitted to the iGEM Registry.",
+"wiki": "https://2026.igem.wiki/patras-upat"
+},
+{
+"id": 6371,
+"name": "PekingHSC",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "HEPHA-RNA",
+"abstract": "Chromosome microdeletion syndromes reduce the expression of multiple genes, yet replacing deleted genes remains challenging. HEPHA-RNA offers an alternative by enhancing translation from the remaining allele without adding DNA. Its Binding Domain recognizes the target mRNA’s 3′ UTR, while its Effector Domain recruits the 60S ribosomal subunit. For Wolf–Hirschhorn syndrome, LETM1- and NSD2-targeting domains enhanced luciferase reporter expression. LETM1-targeting domains increased endogenous protein levels to over 1.5-fold those of a non-binding control across two Western blot experiments, without significantly increasing mRNA abundance. NSD2 upregulation also increased H3K36me2, a histone mark associated with gene regulation. Our measurement workflow combines off-target screening, luciferase assays, protein and mRNA quantification, and dose optimization. Computational models connect phenotype-guided gene prioritization and binding-site analysis with AAV delivery considerations. Through Integrated Human Practices and PHAROS, engagement with clinicians, researchers, and patients informed a patient-centered approach spanning diagnosis, treatment, care, and social inclusion.",
+"wiki": "https://2026.igem.wiki/pekinghsc"
+},
+{
+"id": 6270,
+"name": "PuiChing-Macau",
+"village": "Therapeutics",
+"country": "MAC",
+"section": "high-school",
+"title": "Tuning butyrate with engineered probiotics to prevent Alzheimer’s",
+"abstract": "Emerging evidence underscores a strong association between gut microbiota metabolites (e.g., butyrate) and neurodegenerative diseases such as Alzheimer’s disease (AD). Disruptions in gut microbial composition impair intestinal barrier function, allowing pro-inflammatory molecules, such as nitric monoxide (NO), to enter systemic circulation. The persistent inflammatory state contributes to neuroinflammation and accelerates neuronal damage. In AD patients, reduced butyrate-producing bacteria lead to decreased neuroprotective short-chain fatty acids. To address this imbalance along the gut–brain axis, we engineered probiotic E. coli Nissle 1917 to sense and respond to inflammatory signals. We built a pNorVβ-promoter-based biosensor to detect NO, and a self-regulating butyrate biosynthesis system with a negative feedback loop, preventing overproduction. Together with the customized drug-delivery hardware, risk-predicting software, and personalized dosage estimation models, our engineered probiotics provide a new solution to mitigate neuroinflammation in AD.",
+"wiki": "https://2026.igem.wiki/puiching-macau"
+},
+{
+"id": 6402,
+"name": "SCU-WestChina",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "PerioGuard-A Biohybrid Living Therapeutic Platform for Precision Periodontal Regeneration",
+"abstract": "Periodontitis causes progressive destruction of periodontal tissues, while current regenerative treatments often require invasive surgery. To explore a non-surgical alternative, we developed PerioGuard, an engineered probiotic–material hybrid system integrating regenerative protein delivery with enhanced bacterial retention. We engineered Escherichia coli Nissle 1917 (EcN) to produce and secrete CsgA–amelogenin (AMG) under the control of a HucR-based genetic circuit. Using AI-assisted crystal structure prediction, we developed a porous nucleoside-based adsorptive coating (PNAC) assembled from 2FA and cyanuric acid. PNAC promotes bacterial surface attachment, while 2FA enhances biofilm formation and activates CsgA–AMG expression through its metabolic conversion to xanthine. Experiments demonstrated inducible protein expression, PNAC adsorption onto EcN, enhanced biofilm-associated responses, and reduced early macrophage phagocytosis. PerioGuard provides a proof of concept for combining programmable protein delivery with material-assisted bacterial retention, offering a potential strategy for non-surgical periodontal regeneration.",
+"wiki": "https://2026.igem.wiki/scu-westchina"
+},
+{
+"id": 6430,
+"name": "Sheffield",
+"village": "Therapeutics",
+"country": "GBR",
+"section": "undergrad",
+"title": "DRAVEX: An engineered exosome platform for gene therapy delivery in Dravet Syndrome",
+"abstract": "Dravet syndrome is a severe childhood-onset genetic epilepsy commonly associated with pathogenic variants in SCN1A, which encodes the voltage-gated sodium channel Nav1.1. Dysfunction of inhibitory GABAergic interneurons contributes to treatment-resistant seizures and neurological impairment. Current treatments primarily manage symptoms, highlighting the need for therapies targeting the underlying genetic cause. However, delivering genetic therapeutics to the brain remains challenging due to the selective permeability of the blood–brain barrier. This project aims to develop DRAVEX, an engineered exosome-based platform for targeted gene therapy delivery. Exosomes produced by engineered HEK293 cells will display an RVG–Lamp2b fusion protein to enhance BBB transport. The platform is intended to deliver therapeutic cargo capable of restoring functional SCN1A expression. Experimental investigations, complemented by in silico modelling, will explore the potential of engineered exosomes to improve targeted delivery and inform future genetic therapies for Dravet syndrome.",
+"wiki": "https://2026.igem.wiki/sheffield"
+},
+{
+"id": 6054,
+"name": "SJTU-BioX-Shanghai",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "Dual-Armor",
+"abstract": "Chronic wounds are frequently complicated by Staphylococcus aureus infections, whose biofilms hinder bacterial eradication and contribute to persistent infection and delayed healing. Conventional treatments, including debridement and antibiotics, may fail to fully eliminate biofilms, highlighting the need for integrated therapeutic strategies. Dual-Armor aims to address this challenge through a responsive wound dressing that combines biofilm disruption, targeted antibacterial activity, and wound healing. Two engineered bacterial chassis, Staphylococcus epidermidis and Escherichia coli Nissle 1917, communicate through naringenin-mediated signaling to coordinate these complementary functions. Integrated into a multilayer dressing with freeze-dried bacterial layers and semipermeable membranes, the system is designed for practical local application.",
+"wiki": "https://2026.igem.wiki/sjtu-biox-shanghai"
+},
+{
+"id": 6519,
+"name": "SNIoE-India",
+"village": "Therapeutics",
+"country": "IND",
+"section": "undergrad",
+"title": "SmogSense: An Engineered Macrophage That Senses Pollution and Resolves Inflammation",
+"abstract": "Fine particulate matter below 2.5 micrometres (PM2.5) is among the most serious environmental health threats facing Indian cities. In Delhi, where exposure is near constant, these particles bypass upper airway defences and reach the alveolar compartment, acting directly on macrophages. PM2.5 is not merely an irritant. It acts as a chronic molecular stressor, locking macrophages into persistent NF-κB activation and continuous release of pro-inflammatory mediators, driving sustained pulmonary inflammation and irreversible tissue damage. SmogSense targets this cascade at the cellular level. We are engineering a synthetic gene circuit for human monocyte-derived macrophages: an autonomous anti-inflammatory system operating natively within the cell. It senses PM2.5-induced inflammatory signalling in real time and responds by expressing interleukin-10 (IL-10), which feeds back to suppress NF-κB hyperactivation. This sense, respond and shut off architecture is intrinsically self-limiting, restoring homeostatic balance.",
+"wiki": "https://2026.igem.wiki/snioe-india"
+},
+{
+"id": 6278,
+"name": "Stanford University",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "Kele Patch: A mRNA logic-gated RADAR sensor for cell-state specific reprogramming in keloid scars",
+"abstract": "Keloid scars are pathological scars which continue to grow beyond the site of the original injury and do not regress. Existing treatments include surgical removal and steroid injections, which often have high recurrence rates. We propose Kele Patch, an mRNA therapy delivered via microneedle patch straight into cells in the keloid tissue. To avoid activation in non-targeted cells, the sensor is designed to detect the transcriptional state of cells and only produce a therapeutic payload in activated keloid fibroblasts. Because of our extensive modeling of the entire pipeline from target selection to sensor design, delivery and activation, future researchers can use our platform RADAR-Scout to develop cell-state specific therapies for other diseases resulting from aberrant transcriptional programs. Kele Patch is the first synthetic biology approach to treat a widespread and overlooked disease and could easily be adapted to treat other cell-state-specific diseases, such as other fibrotic conditions.",
+"wiki": "https://2026.igem.wiki/stanford-university"
+},
+{
+"id": 6141,
+"name": "Stony Brook",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "Engineering Bacteria to Detect and Break Down Biofilms Secreted by Staphylococcus aureus",
+"abstract": "Biofilms are surface-adherent microbial communities encased in extracellular polymeric substances of extracellular DNA, sugars, and proteins, and are a leading cause of healthcare-associated infections on post-surgical wound sites. The goal is to bioengineer Escherichia coli that detects and degrades early- and late-stage biofilms of methicillin-resistant Staphylococcus aureus (MRSA). \n\nBiofilm formation will be detected through Autoinducer-2, a quorum sensing molecule indicating early-stage formation, and nitric oxide, which accumulates during later stages.    \n\nThe YebF protein secretes three substrate-specific enzymes: Nuclease1, an endonuclease that cleaves extracellular DNA; SspA, a protease that targets biofilm-associated proteins; and Dispersin B, a glycoside hydrolase that degrades poly-β-1,6-N-acetyl-D-glucosamine sugar. \n\nWe confirmed secretion of Nuclease1 and SspA, nitric oxide detection at physiological concentrations, and eDNA degradation. SspA showed proteolytic activity; Dispersin B remained membrane-embedded and untested. An arabinose-inducible mazE/mazF kill switch eliminates the engineered bacteria with the introduction of arabinose. Degradation of biofilms remains to be demonstrated.",
+"wiki": "https://2026.igem.wiki/stony-brook"
+},
+{
+"id": 6199,
+"name": "SUIS-SFLS",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "TyroFix: Immobilized Tyrosinase-Driven Mussel Protein Skin Repair",
+"abstract": "Skin injuries often require materials that can both protect damaged tissue and promote healing. Inspired by mussel adhesion, TyroFix harnesses synthetic biology to create multifunctional adhesive proteins with antioxidant and regenerative properties. Using engineered fusion proteins and tyrosinase-mediated DOPA modification, we produce biomimetic mussel proteins capable of enhancing tissue adhesion and supporting skin repair. To improve sustainability and reduce costs, tyrosinase is immobilized on magnetic beads for efficient reuse. TyroFix combines enzyme engineering, biomaterials, and synthetic biology to provide a scalable platform for next-generation wound-care materials and regenerative medicine applications.",
+"wiki": "https://2026.igem.wiki/suis-sfls"
+},
+{
+"id": 6085,
+"name": "SUSTech",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "ORCA: On-target RNA Correction of APOE4 for Alzheimer’s",
+"abstract": "ORCA explores programmable C-to-U RNA editing of APOE4, a major genetic risk factor for Alzheimer’s disease, toward an APOE3-like sequence without permanent genome modification.\n\nThrough POD and CETUS, we engineered recognition and catalytic domains. PUFFER integrated protein and RNA foundation models, structural models, and generative models. Wet-lab measurements informed modeling, while predictions guided candidate selection and experimental design through iterative feedback. In HEK293T assays, two candidates retained 61–70% target editing while reducing cumulative bystander editing within the measured APOE region by 84–88% versus the parental editor. G.M.A.C. addressed cell-context-dependent and antisense-mediated regulation, and we established an AAV9 preparation workflow for delivery studies.\n\nWe developed SONAR and its Measurement Pipeline to connect reporter engineering with interpretable, reusable analysis. Human Practices dialogue with clinicians and researchers shaped priorities for specificity, controllability, and functional evaluation. These efforts provide experimental foundations and tools for APOE RNA-editing research, linking computational design with iterative experimental development.",
+"wiki": "https://2026.igem.wiki/sustech"
+},
+{
+"id": 6048,
+"name": "SUSTech-MED",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "FORGE: Functional Outcomes via Reprogramming by Genetically Engineered Lactiplantibacillus in Autism",
+"abstract": "SUSTech-MED focuses on the frontier of Autism Spectrum Disorder (ASD) intervention. Our team innovatively utilizes Lactiplantibacillus plantarum L168 as a synthetic biology chassis, engineered to biosynthesize functional molecules—Sulforaphane (SFN) and N-Acetylcysteine (NAC)—while incorporating metabolic pathways to efficiently degrade glutamine and convert neurotoxic brain ammonia into branched-chain amino acids (BCAAs). Delivered via a non-invasive intranasal route to bypass the blood-brain barrier, our system precisely targets the neural microenvironment. By synergistically mitigating ammonia toxicity, modulating neuroinflammation, and alleviating oxidative stress, this platform reshapes the neural microenvironment to relieve core ASD symptoms, pioneering a novel, non-invasive, and promising synthetic biology paradigm for autism care.",
+"wiki": "https://2026.igem.wiki/sustech-med"
+},
+{
+"id": 6106,
+"name": "SYPHU-China",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "LBP-Mototype: An Environment-Dependent Suicide Strategy for IBD Live Biotherapeutics",
+"abstract": "Live biotherapeutics for inflammatory bowel disease (IBD) must balance therapeutic persistence with controllable clearance. LBP-Mototype proposes an environment-dependent suicide strategy in Escherichia coli Nissle 1917. Deleting acrB and pspA weakens bile efflux and membrane protection, while inflammation-responsive PspA complementation conditionally restores protection, leaving AcrB absent. Environmental bile stress supplies the damaging agent, avoiding an introduced toxin and aiming to shorten the genetic killing chain. Hydrogen peroxide and tetrathionate are alternative candidate inputs. A reset–targeting–acclimation–clearance cycle allows protective capacity to diverge before stronger stress selects between populations. Protein carry-over could buffer signal fluctuations, while par⁻-associated inheritance variation could produce graded survival and adjust the duration and size of the producing population. Signal reduction offers a candidate manual exit. A separate constitutive module encodes Elafin for local therapeutic delivery. The framework tests whether one conditional-protection pathway can coordinate these functions, linking signal history, viable-cell behaviour, recovery and active extracellular Elafin.",
+"wiki": "https://2026.igem.wiki/syphu-china"
+},
+{
+"id": 6438,
+"name": "SZA-Union",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "Unlocking the Code of Dental Caries Prevention: An Enzymatic Strategy Targeting Oral Biofilm",
+"abstract": "This project develops a multi-enzyme system targeting the exopolysaccharide matrix of dental plaque biofilms. By recombinantly expressing α-1,3-glucanase and α-1,6-glucanase in E. coli, the team aims to degrade the structural glucans of Streptococcus mutans biofilms. In vitro biofilm models are treated with enzyme cocktails and evaluated via HPLC, TLC, SEM, and staining assays. The system is designed for integration into mouthwashes or degradable oral films. Future directions include enzyme engineering, multi-enzyme synergy optimization, and smart delivery systems. This work offers a non-antibiotic, biofilm-targeting strategy for preventing dental caries.",
+"wiki": "https://2026.igem.wiki/sza-union"
+},
+{
+"id": 6097,
+"name": "Thessaly",
+"village": "Therapeutics",
+"country": "GRC",
+"section": "undergrad",
+"title": "ATHENA: Microbiome engineering as a therapeutic approach against rUTIs",
+"abstract": "Urinary tract infections affect over 400 million people worldwide each year, mostly women. Uropathogenic E. coli (UPEC) causes recurrence by invading urothelial cells and forming protected intracellular reservoirs that antibiotics cannot reach,  while antibiotic overuse has driven widespread multidrug resistance. We propose ATHENA, a microbiome engineering approach that converts UPEC into a non-pathogenic bacteria rather than simply killing it. Our system uses a genetically enhanced probiotic strain of E. coli (ABU 83,972), engineered with a functional fimbriae adhesion system to establish within the bladder. This probiotic carries a synthetic multiplexing plasmid that transfers into UPEC via conjugation, where an invasion-activated effector platform disarms the pathogen's virulence mechanisms from within, restoring, rather than disrupting, the bladder's microbiome. To make this kind of engineering accessible beyond UTIs, we also built NOCTUA, a user-friendly software suite making protein and microbiome engineering accessible.",
+"wiki": "https://2026.igem.wiki/thessaly"
+},
+{
+"id": 6444,
+"name": "TU-Eindhoven",
+"village": "Therapeutics",
+"country": "NLD",
+"section": "overgrad",
+"title": "RESTART; Receptors Engineered for a SynNotch Therapy Against Rejection in Transplantation",
+"abstract": "We have developed the basis for a cell therapy designed to induce local immune tolerance and protect transplanted organs from rejection. The proposed approach involves engineering a patient’s own T cells with a cascade of two synthetic Notch (synNotch) receptors. The first receptor recognizes donor-associated HLA-A2 on the graft and induces expression of a second receptor. The second receptor recognizes VCAM-1, a marker associated with inflammation. Recognition of both signals triggers production of interleukin-10 (IL-10), an anti-inflammatory cytokine that can suppress immune responses and promote tolerance.\n\nBy combining recognition of a donor-associated antigen with detection of inflammation, the system is designed to restrict IL-10 production to sites where both signals are present. This conditional response could help protect the graft while preserving immune function elsewhere in the body, providing a foundation for a more targeted approach to controlling transplant rejection with reduced reliance on continuous systemic immunosuppression.",
+"wiki": "https://2026.igem.wiki/tu-eindhoven"
+},
+{
+"id": 6486,
+"name": "U Copenhagen",
+"village": "Therapeutics",
+"country": "DNK",
+"section": "undergrad",
+"title": "Lutealine: Hormone-responsive dosing for women with ADHD",
+"abstract": "Our project addresses the treatment of women with ADHD. ADHD is caused, among other factors, by dysregulated dopamine signalling in the brain. Sex hormones such as estrogen and progesterone both modulate this signalling: estrogen generally enhances dopaminergic transmission, while progesterone counteracts it. Consequently, fluctuating hormone levels across women’s hormonal cycles lead to varying degrees of symptoms. Current treatment, which uses a fixed dose of ADHD medication (e.g., methylphenidate or lisdexamfetamine), does not account for these fluctuating symptoms. The only option currently available is for the patient to adjust her own dose according to cycle phase - an approach that places the burden on the patient and requires accurate cycle tracking.\nWe are therefore developing a system that adapts dosing to the hormonal cycle, ensuring that women receive sufficient medication on the days they need it to manage symptoms, while avoiding an unnecessarily high dose.",
+"wiki": "https://2026.igem.wiki/u-copenhagen"
+},
+{
+"id": 6254,
+"name": "UAlberta",
+"village": "Therapeutics",
+"country": "CAN",
+"section": "undergrad",
+"title": "gleyeco: A glycan-targeting ocular drug delivery platform",
+"abstract": "Despite their critical role in regulating cellular interactions and disease pathology, glycans remain a largely untapped therapeutic target. Current treatments for inflammatory eye diseases are limited by toxic side effects and poor ocular retention, with nearly an entire dose washed away in the blink of an eye. Enter gleyeco, a glycan-targeted drug delivery platform that harnesses engineered lectins to selectively anchor therapeutics to inflamed ocular tissues. Candidate lectins were optimized through in silico mutagenesis and binding simulations to improve glycan recognition while minimizing off-target interactions. Our constructs were then validated experimentally for binding performance and functional activity. To enable sustained, localized treatment, therapeutics are incorporated into a hydrogel-based contact lens system. By enhancing drug retention at the ocular surface, gleyeco aims to improve inflammation control, reduce dosing frequency, and minimize systemic effects. This modular approach extends beyond ocular inflammation, opening the door to glycan-targeted therapies tailored to diverse disease contexts.",
+"wiki": "https://2026.igem.wiki/ualberta"
+},
+{
+"id": 6502,
+"name": "UC Davis",
+"village": "Therapeutics",
+"country": "USA",
+"section": "undergrad",
+"title": "INDIGO: INdole Delivery In Gut Oncology",
+"abstract": "Colorectal cancer (CRC) is one of the most prevalent, severe cancers worldwide. The CRC tumor microenvironment is influenced by bacteria within the gut microbiome. We aim to create a site-localized live biotherapeutic product (LBP) to provide patients with a quality-of-life preserving treatment option prior to more aggressive interventions such as chemotherapies, radiation-therapies, and surgery. The proposed therapeutic mechanism acts in three stages: site localization, tumor-suppressive metabolite release, and containment through a genetic kill-switch to prevent environmental release. \nSite localization is mediated by oligopeptides that bind to the Thomsen–Friedenreich antigen (TF) antigen, also known as Gal-GalNAc, a disaccharide overexpressed on the surface of CRC cells. The metabolite released is indole-3-lactic acid (ILA), which has been proven to minimize CRC cell proliferation. Finally, a kill switch mediated by an RNA thermometer prevents the engineered bacteria from surviving outside physiological conditions of the body. Our LBP serves as a foundation for future development.",
+"wiki": "https://2026.igem.wiki/uc-davis"
+},
+{
+"id": 6157,
+"name": "UCAS-China",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "PARCEL: Pumilio-Assisted RNA Carrier via ELP Transition for Asthma Treatment",
+"abstract": "The prevalence of asthma is increasing worldwide. Caused by genetic and environmental factors, asthma can severely impair respiratory function and patients' quality of life, yet existing treatments have limitations. We developed PARCEL: Pumilio-Assisted RNA Carrier via ELP Transition for Asthma Treatment, utilizing phase separation of elastin-like polypeptide (ELP) to build protein-mRNA supermolecules for inhaled asthma medication. Integrated ELP-Pum2-EEP13 fusion proteins assemble into micellar nanoparticles, with therapeutic mRNAs captured inside by the Pumilio 2 (Pum2) domain. Via Sortase A-induced antibody conjugation, the nanoparticles can specifically target lung epithelial cells and disassemble after internalization. Triggered by endosomal escape peptide 13 (EEP13), RNAs are released to be translated into asthma-related proteins. Our design establishes a novel RNA delivery platform, throwing new light on safe and specific therapies for asthma and beyond.",
+"wiki": "https://2026.igem.wiki/ucas-china"
+},
+{
+"id": 6527,
+"name": "UCS-B",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "Living Factory: Engineering L-Asparaginase for Improved Microbial Production of Anti-Leukemia Drugs",
+"abstract": "Acute lymphoblastic leukemia is a common malignancy among children and adolescents. L-asparaginase is a key therapeutic enzyme that depletes circulating asparagine and suppresses leukemia-cell growth; however, current preparations may face limitations in production efficiency, stability, and adverse immune responses. This project develops an engineered microbial “living factory” for improved L-asparaginase production. We use type II L-asparaginase from Bacillus subtilis as the target enzyme and apply a region-specific rational mutagenesis strategy. Guided by structural modeling, sequence conservation analysis, and active-pocket prediction, nonconserved residues near the substrate-entry region, tetramer interface, and exposed flexible regions are selected for mutation while preserving catalytic residues. Candidate variants are expressed in E. coli BL21(DE3) and evaluated through protein purification, activity assays, half-life measurements, and kinetic analysis. Signal-peptide optimization is further explored to improve expression. This work aims to establish a more efficient and stable enzyme-production platform for future biomanufacturing applications.",
+"wiki": "https://2026.igem.wiki/ucs-b"
+},
+{
+"id": 6237,
+"name": "UI-ITB-Indonesia",
+"village": "Therapeutics",
+"country": "IDN",
+"section": "undergrad",
+"title": "BELL10: Exosome Encapsulated IL-10 for Blood-Brain Barrier Inflammation Therapy",
+"abstract": "Neuroinflammation is increasingly linked to neurological and mental-health disorders, yet anti-inflammatory proteins such as interleukin-10 (IL-10) cannot readily cross the blood-brain barrier (BBB). In Indonesia, where suicide is stigmatized and often untreated, this gap motivated BELL10. We engineered HEK293 cells with a plasmid combining IL-10, CD63, and a TAT-derived peptide, plus an S/MAR region for episomal plasmid retention, to produce IL-10 and explore its delivery via extracellular vesicles. IL-10, secreted by HEK293 cells, reached 126.70 ± 8.73 pg/mL by day eight. Semi-quantitative measurement of exosomes from TEM suggests size of 59nm. The conditioned medium reduced the inflammatory marker TNF-α in inflamed immune cells, though prolonged treatment caused cell death. A pharmacokinetic-pharmacodynamic model of intranasal IL-10 predicted increased claudin-5, with brain entry dominated by direct nose-brain routes. BELL10 is not a proven therapy but an exploratory step toward engineered systems for neuroinflammation, highlighting challenges before biomedical application.",
+"wiki": "https://2026.igem.wiki/ui-itb-indonesia"
+},
+{
+"id": 6518,
+"name": "ULP-CA",
+"village": "Therapeutics",
+"country": "USA",
+"section": "high-school",
+"title": "SulFlux: Continued Regulation of Bile Acid Sulfonation through the BtSULT Operon",
+"abstract": "Cholecystectomy, the surgical removal of the gallbladder, can be followed by post-cholecystectomy syndrome (PCS), involving chronic diarrhea and gastrointestinal discomfort. Altered secondary bile acid metabolism may contribute to these symptoms, and prolonged exposure to certain bile acids has been associated with colorectal cancer risk. Existing treatments primarily manage symptoms rather than directly modifying these metabolites.\nULP-CA is developing a probiotic-based therapeutic proof of concept designed to reduce harmful secondary bile acid activity in the gut. Our engineered enzyme, SulFlux, is derived from BtSULT, a bacterial sulfotransferase found in Bacteroides thetaiotaomicron. Computational modeling suggests SulFlux can accommodate lithocholic acid (LCA), a secondary bile acid poorly recognized by native BtSULT. In vitro, we transformed Escherichia coli with our construct, assessed protein production through BCA assays, and observed improved SDS-PAGE band formation. Continued experimentation aims to establish reliable SulFlux folding, catalytic activity, and LCA sulfation.",
+"wiki": "https://2026.igem.wiki/ulp-ca"
+},
+{
+"id": 6131,
+"name": "UManitoba",
+"village": "Therapeutics",
+"country": "CAN",
+"section": "overgrad",
+"title": "H.A.L.T. - UTI",
+"abstract": "Recurrent urinary tract infections affect millions of people with vaginas, and over a third of those treated experience reinfection within six months. Antibiotic use kills beneficial bacteria along with pathogens, disrupting the vaginal microbiome and driving antimicrobial resistance. Lactobacillus crispatus normally guards against uropathogens, so utilizing it to block pathogen colonization of the vagina may prevent infection before it reaches the urethra.\n\nWe demonstrated self-assembly and surface display using GFP, purified several target adhesins and their binders, and encapsulated L. crispatus in hydrogel for testing in simulated vaginal fluid.\n\nBy combining AI-guided protein design, engineered probiotics, and localized delivery, H.A.L.T. - UTI shifts recurrent UTI care from treatment toward prevention, offering a non-antibiotic approach that preserves the microbiome and could be adapted to other infections",
+"wiki": "https://2026.igem.wiki/umanitoba"
+},
+{
+"id": 6509,
+"name": "Worldshaper-SHMed",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "high-school",
+"title": "AdipoSense: A Dual-Metabolite-Sensing Engineered Probiotic Response System",
+"abstract": "AdipoSense explores how engineered probiotics can respond to gut metabolic signals to support obesity-related research. Using Escherichia coli Nissle 1917 as the chassis, we integrate succinate and butyrate sensing with a genetic logic circuit designed to activate downstream expression only when succinate is high and butyrate is low. This dual-input design links a defined metabolic signal combination to controlled biological output. The circuit incorporates the plant-derived At1g78690p gene to investigate N-acylphosphatidylethanolamine (NAPE)-related lipid biosynthesis, alongside GFP as a measurable reporter. Through iterative Design–Build–Test–Learn cycles, we characterized the sensing modules, demonstrated the intended logic response in vitro, and obtained preliminary evidence of output-module expression. Further work is needed to confirm lipid production and evaluate biological effects. AdipoSense provides a foundation for developing probiotics whose activity is guided by their metabolic environment.",
+"wiki": "https://2026.igem.wiki/worldshaper-shmed"
+},
+{
+"id": 6218,
+"name": "XJTLU",
+"village": "Therapeutics",
+"country": "CHN",
+"section": "undergrad",
+"title": "FOLLICoffee: ROS-Responsive Living Microneedles for Hair-Loss Intervention",
+"abstract": "Excess reactive oxygen species (ROS) can damage hair follicle cells and contribute to hair loss, although physiological ROS levels support normal cellular signaling. FOLLICoffee proposes a living microneedle patch containing engineered E. coli and calcium alginate carriers encapsulating S-acetylglutathione (SAG)-loaded liposomes. Bacteria would sense hydrogen peroxide (H₂O₂) through OxyR–PkatG and display alginate lyase on their surface to open carriers and release the liposomes. The design aims to quantitatively link H₂O₂ exposure to release while limiting ROS removal at physiological levels. Local SAG delivery would support intracellular glutathione replenishment to reduce oxidative stress around hair follicles and help prevent hair loss as a potential complement to existing interventions.\n\nOur current work includes characterization of H₂O₂-induced promoter response via reporter gene insertion, fusion-protein expression studies, preliminary alginate-cleavage assays, and system modeling. Stakeholder dialogue and public co-design shaped project decisions and helped make participation more accessible.",
+"wiki": "https://2026.igem.wiki/xjtlu"
+}
+]
