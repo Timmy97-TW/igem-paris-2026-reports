@@ -1,4 +1,20 @@
 title: Paris Grand Jamboree 2026 — Adviser Field Reports
-description: GEMS-Taiwan · Gabriel, Chars, Timmy
-theme: jekyll-theme-primer
-exclude: [tools/, research/_slices/, data/teams_2026.json, README.md]
+description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — the brief, the floor plan, and the reports that come back.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+exclude:
+  - tools/
+  - research/_slices/
+  - data/teams_2026.json
+  - README.md
+  - .gitignore
+defaults:
+  - scope: {path: ""}
+    values: {layout: doc}

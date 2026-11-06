@@ -1,4 +1,10 @@
-# What we did not see
+---
+layout: doc
+title: What we did not see
+eyebrow: Honesty
+section: Gaps
+description: The limits of what three people can cover across 452 teams.
+---
 
 463 teams registered. We will have seen a fraction of them. A report that implies otherwise is
 less credible than one that states the limits plainly.

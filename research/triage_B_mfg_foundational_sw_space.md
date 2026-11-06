@@ -1,4 +1,10 @@
-# Triage B — Biomanufacturing, Foundational Advance, Software & AI, Space
+---
+layout: doc
+title: Biomanufacturing, foundational, software, space
+eyebrow: Triage · slice B
+section: Triage
+description: 135 teams, including the bioreactor, optogenetics and closed-loop control work.
+---
 
 Source: `research/_slices/B_mfg_foundational_sw_space.json` — 135 entries read (Biomanufacturing 56, Foundational Advance 47, Space 17, Software & AI 15). The slice file was missing when this triage was written; it was regenerated from `data/teams_2026.json` by taking all **accepted** teams in those four villages (138 records in those villages minus Arizona and FHSW, withdrawn, and OPTIC-8, disqualified), which reproduces the stated count of 135 exactly. Built from abstracts only — nothing fetched from the web. 11 entries carry no abstract at all; one more (`Example`, FRA) is a placeholder joke entry.
 

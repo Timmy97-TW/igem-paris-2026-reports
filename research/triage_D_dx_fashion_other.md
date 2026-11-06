@@ -1,4 +1,10 @@
-# Triage D — Diagnostics, Fashion & Cosmetics, and unassigned teams
+---
+layout: doc
+title: Diagnostics, fashion and cosmetics
+eyebrow: Triage · slice D
+section: Triage
+description: 73 teams — the richest source of low-cost instruments and cross-field projects.
+---
 
 Source: `research/_slices/D_dx_fashion_other.json` (73 teams). Built only from the abstracts in that file; nothing was fetched from the web. Wiki links are given so each advisor can read further before or after the trip.
 

@@ -1,4 +1,10 @@
-# iGEM 2026 — all teams and project abstracts
+---
+layout: doc
+title: All teams and abstracts
+eyebrow: Reference
+section: Teams
+description: The complete 2026 team list with full project abstracts, as published by iGEM.
+---
 
 Pulled 2026-11-06 from api.igem.org (`tools/fetch_teams.py`). 463 teams; 426 have a published abstract. Grouped by village, alphabetical within.
 

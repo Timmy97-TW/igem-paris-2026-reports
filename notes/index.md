@@ -1,4 +1,10 @@
-# Notes
+---
+layout: doc
+title: Notes
+eyebrow: The evidence base
+section: Notes
+description: One note per team or talk — the mechanism, the number that matters, and where it came from.
+---
 
 One file per team or talk, written from [`_TEMPLATE.md`](https://github.com/Timmy97-TW/igem-paris-2026-reports/blob/main/notes/_TEMPLATE.md).
 

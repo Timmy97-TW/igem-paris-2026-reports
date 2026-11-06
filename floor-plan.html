@@ -1,0 +1,62 @@
+---
+layout: base
+title: Floor plan
+description: The assigned priority targets for Paris, split between Gabriel, Chars and Timmy.
+---
+<header class="dochead">
+  <div class="wrap">
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; Floor plan</div>
+    <span class="eyebrow">Before we fly</span>
+    <h1>{{ site.data.targets | size }} posters worth our time</h1>
+    <p>Pulled out of the four triage documents and split so nobody walks the same aisle twice.
+      Tick a team off once you have written its note — the ticks are saved on this device only.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:34px">
+  <div class="pbar" style="max-width:420px;margin:0 0 26px">
+    <div class="pbar-t" style="color:var(--ink3)"><span id="seen-lab">0 visited</span><span>saved on this device</span></div>
+    <div class="pbar-r" style="background:rgba(0,6,28,.08)"><i id="seen-bar" style="width:0"></i></div>
+  </div>
+
+  <div class="tools">
+    <div class="srch">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search team, project or relevance" aria-label="Search targets">
+    </div>
+    <div class="seg" id="seg" role="group" aria-label="Filter by person">
+      <button type="button" data-f="all" class="on">Everyone</button>
+      <button type="button" data-f="Gabriel">Gabriel</button>
+      <button type="button" data-f="Chars">Chars</button>
+      <button type="button" data-f="Timmy">Timmy</button>
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tgt" id="targets">
+    {% for t in site.data.targets %}
+    <div class="row" id="{{ t.id }}" data-group="{{ t.who }}" data-id="{{ t.id }}"
+         data-search="{{ t.name }} {{ t.title }} {{ t.relevance }} {{ t.village }} {{ t.country }} {{ t.why }}">
+      <input type="checkbox" aria-label="Mark {{ t.name }} as visited">
+      <div>
+        <div class="nm">{% if t.wiki %}<a href="{{ t.wiki }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</div>
+        <p class="pj">{{ t.title }}</p>
+        {% if t.relevance %}<div class="chips"><span class="chip{% if t.relevance contains 'same space' %} r{% elsif t.relevance contains 'borrow' %} g{% elsif t.relevance contains 'benchmark' %} v{% else %} a{% endif %}">{{ t.relevance | truncate: 90 }}</span></div>{% endif %}
+        <div class="mt">{{ t.meta }}</div>
+      </div>
+      <span class="who">{{ t.who }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="empty" id="empty" hidden>Nothing matches that.</p>
+
+  <div class="note" style="margin:30px 0 0">
+    <p><b>This is a reading list, not a verdict.</b> Every line came from a team's own published
+      abstract, read before we saw any of the work. Use it to decide where to stand, then write what
+      you actually find in <a href="{{ '/notes/' | relative_url }}">the notes</a>.</p>
+  </div>
+</main>
+
+<script>
+  filterList({input:'q', count:'count', rows:'#targets .row', empty:'empty', seg:'seg', noun:'target'});
+</script>

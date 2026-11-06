@@ -1,4 +1,10 @@
-# Computation, modelling and data — theme M
+---
+layout: doc
+title: Computation
+eyebrow: Theme M
+section: Synthesis
+description: Prediction from biological data, and making a complicated result legible to a judge.
+---
 
 *Synthesis across teams. Written after the trip, from the notes in `notes/`. Every claim here
 should point at a note; anything with no note behind it does not belong on this page.*

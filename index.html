@@ -1,0 +1,234 @@
+---
+layout: base
+title: Paris Grand Jamboree 2026 — field reports
+description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — the brief, the floor plan, and the reports that come back.
+---
+{% assign gab = site.data.targets | where: "who", "Gabriel" %}
+{% assign cha = site.data.targets | where: "who", "Chars" %}
+{% assign tim = site.data.targets | where: "who", "Timmy" %}
+
+<header class="hero">
+  <div class="hero-photo" role="img" aria-label="The GEMS Taiwan team"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker"><span class="dot"></span><span>GEMS Taiwan · iGEM Grand Jamboree</span></div>
+        <h1>Three advisers.<br><span class="gt">One Jamboree.</span></h1>
+        <p class="lede">Gabriel, Chars and Timmy go to Paris with a standing brief: look past our own
+          project, and bring back <em>how</em> other teams work. This is the brief, the plan, and
+          everything that comes back.</p>
+        <div class="hero-acts">
+          <a class="lbtn" href="{{ '/brief.html' | relative_url }}">Start with the brief</a>
+          <a class="lbtn ghost" href="{{ '/floor-plan.html' | relative_url }}">Open the floor plan</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Where this stands</h3>
+        <div class="pstat">
+          <div><b class="tw">452</b><span>teams read before we fly</span></div>
+          <div><b class="tw">{{ site.data.targets | size }}</b><span>posters worth our time</span></div>
+          <div><b class="tw">4</b><span>themes the report answers</span></div>
+          <div><b class="tw">3</b><span>reports, one each</span></div>
+        </div>
+        <div class="pbar">
+          <div class="pbar-t"><span>Before we fly</span><span>Triage done</span></div>
+          <div class="pbar-r"><i style="width:100%"></i></div>
+        </div>
+        <div class="pbar">
+          <div class="pbar-t"><span>On the floor</span><span>Notes to write</span></div>
+          <div class="pbar-r"><i style="width:0%"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="s" id="brief">
+  <div class="wrap">
+    <span class="eyebrow">01 · What we were asked</span>
+    <h2>Four questions, not a travel diary.</h2>
+    <p class="sub">The brief is an observation list, and every line of it asks <em>how</em> other teams
+      work — not which projects looked impressive. A note without a mechanism in it answers nothing.</p>
+
+    <div class="grid g4">
+      <a class="card theme c" href="{{ '/buckets/concepts.html' | relative_url }}">
+        <span class="t">C</span>
+        <h3>Concepts</h3>
+        <p>How a team picked its problem. Niches that matter to Taiwan. Fields combined into something
+          that did not exist as a category before.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme h" href="{{ '/buckets/hardware.html' | relative_url }}">
+        <span class="t">H</span>
+        <h3>Hardware</h3>
+        <p>Low-cost instruments, open hardware, field kits — and the ingenuity that shows up when a
+          team has no budget.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme m" href="{{ '/buckets/compute.html' | relative_url }}">
+        <span class="t">M</span>
+        <h3>Computation</h3>
+        <p>Prediction from biological data, and how teams make a complicated result legible to a judge
+          in ninety seconds.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme s" href="{{ '/buckets/impact.html' | relative_url }}">
+        <span class="t">S</span>
+        <h3>Science for good</h3>
+        <p>Education that works, human practices with a real community behind them, and what teams do
+          with the project after the medals.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="before">
+  <div class="wrap">
+    <span class="eyebrow">02 · Before we fly</span>
+    <h2>We read the whole competition first.</h2>
+    <p class="sub">Every team publishes an abstract. All of them were read and ranked against the four
+      themes before anyone boarded, so the floor time in Paris is deliberate instead of a random walk.</p>
+
+    <div class="stats">
+      <div class="stat"><b class="tw">463</b><span>teams registered for 2026</span></div>
+      <div class="stat"><b class="tw">452</b><span>accepted, and triaged</span></div>
+      <div class="stat"><b class="tw">424</b><span>had an abstract to read</span></div>
+      <div class="stat"><b class="tw">{{ site.data.targets | size }}</b><span>targets, split three ways</span></div>
+    </div>
+
+    <div class="grid g3">
+      <a class="card" href="{{ '/floor-plan.html' | relative_url }}">
+        <span class="n">Start here</span>
+        <h3>The floor plan</h3>
+        <p>{{ site.data.targets | size }} posters, assigned one to a person so nobody walks the same
+          aisle twice. Tick them off as you go.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/teams.html' | relative_url }}">
+        <span class="n">Reference</span>
+        <h3>All 452 teams</h3>
+        <p>Search every accepted team by name, project or village — for the booth you walk past and
+          had not planned for.</p>
+        <span class="more">Browse &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/research/' | relative_url }}">
+        <span class="n">The reasoning</span>
+        <h3>Full triage</h3>
+        <p>Four documents covering every village, with the questions to ask and the claims that looked
+          thin.</p>
+        <span class="more">Read &rarr;</span>
+      </a>
+    </div>
+
+    <div class="note" style="margin-top:22px">
+      <p><b>Treat the rankings as a reason to walk over, never as a finding.</b> They come from reading
+        abstracts that teams wrote to sell their own projects — not from seeing the work. Where a claim
+        looked unsupported the triage says so, and those are the questions to open with.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="floor">
+  <div class="wrap">
+    <span class="eyebrow">03 · On the floor</span>
+    <h2>Split the hall, merge the notes.</h2>
+    <p class="sub">Three people at one Jamboree produce three identical diaries unless the floor is
+      divided first. Each adviser takes a different slice and a different question.</p>
+
+    <div class="grid g3">
+      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#gabriel">
+        <span class="av">G</span>
+        <h3>Gabriel</h3>
+        <p>Wet lab — secretion, chassis, bench technique.</p>
+        <p class="cnt tw">{{ gab | size }}<small>targets</small></p>
+      </a>
+      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#chars">
+        <span class="av">C</span>
+        <h3>Chars</h3>
+        <p>Wet lab — problem selection, measurement, validation.</p>
+        <p class="cnt tw">{{ cha | size }}<small>targets</small></p>
+      </a>
+      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#timmy">
+        <span class="av">T</span>
+        <h3>Timmy</h3>
+        <p>Dry lab — hardware, modelling, and how teams present to judges.</p>
+        <p class="cnt tw">{{ tim | size }}<small>targets</small></p>
+      </a>
+    </div>
+
+    <div class="grid g2" style="margin-top:16px">
+      <a class="card" href="{{ '/notes/' | relative_url }}">
+        <span class="n">The evidence base</span>
+        <h3>One note per team</h3>
+        <p>Same fields every time: the mechanism, the one number that matters, where it came from, and
+          a verdict. Free-form notes from three people never merge.</p>
+        <span class="more">See the template &rarr;</span>
+      </a>
+      <div class="card">
+        <span class="n">House rules</span>
+        <h3>Four that matter</h3>
+        <p>Mechanism, not claim. Mark what you were told apart from what you worked out. Decide the
+          relevance at the poster. Write it up the same evening — notes written on the flight home are
+          a fraction of what you saw.</p>
+        <div class="chips">
+          <span class="chip">ask before photographing people</span>
+          <span class="chip g">ask before unpublished data</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="after">
+  <div class="wrap">
+    <span class="eyebrow">04 · What comes back</span>
+    <h2>Three reports, one evidence base.</h2>
+    <p class="sub">Each adviser owes a report. They cite the same notes and reach their own conclusions
+      — three readings, not three itineraries.</p>
+
+    <div class="grid g3">
+      <a class="card" href="{{ '/reports/gabriel.html' | relative_url }}">
+        <span class="n">Report</span><h3>Gabriel</h3>
+        <p>Wet lab.</p><span class="more">Read &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/reports/chars.html' | relative_url }}">
+        <span class="n">Report</span><h3>Chars</h3>
+        <p>Wet lab.</p><span class="more">Read &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/reports/timmy.html' | relative_url }}">
+        <span class="n">Report</span><h3>Timmy</h3>
+        <p>PI, dry lab.</p><span class="more">Read &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="limits" style="padding-bottom:20px">
+  <div class="wrap">
+    <span class="eyebrow">05 · The limits</span>
+    <h2>What we did not see.</h2>
+    <p class="sub">452 teams accepted; we will reach a fraction of them. A report that implies otherwise
+      is worth less than one that states its limits plainly.</p>
+
+    <div class="grid g2">
+      <a class="card" href="{{ '/gaps.html' | relative_url }}">
+        <span class="n">Honesty</span><h3>Gaps</h3>
+        <p>Villages we never covered, targets we never reached, and the questions we meant to ask and
+          did not.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/followups.html' | relative_url }}">
+        <span class="n">Owed</span><h3>Follow-ups</h3>
+        <p>Who we owe an email and what to ask. An unanswered row here in six months is a visit that
+          produced nothing.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>

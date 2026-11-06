@@ -1,4 +1,10 @@
-# Science for good — theme S
+---
+layout: doc
+title: Science for good
+eyebrow: Theme S
+section: Synthesis
+description: Education, human practices with a community behind them, and what happens after the medals.
+---
 
 *Synthesis across teams. Written after the trip, from the notes in `notes/`. Every claim here
 should point at a note; anything with no note behind it does not belong on this page.*

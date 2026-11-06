@@ -1,4 +1,10 @@
-# Chars — Paris Grand Jamboree 2026
+---
+layout: doc
+title: Chars
+eyebrow: Report
+section: Reports
+description: Wet lab. What I went looking for in Paris, and what I think we should change.
+---
 
 *wet lab · GEMS-Taiwan · report to the adviser*
 

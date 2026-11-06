@@ -1,4 +1,10 @@
-# Novel concepts and interdisciplinary work — theme C
+---
+layout: doc
+title: Concepts
+eyebrow: Theme C
+section: Synthesis
+description: How teams chose their problems, and the fields they combined to make a new kind of project.
+---
 
 *Synthesis across teams. Written after the trip, from the notes in `notes/`. Every claim here
 should point at a note; anything with no note behind it does not belong on this page.*

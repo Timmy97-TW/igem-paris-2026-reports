@@ -1,4 +1,10 @@
-# Timmy — Paris Grand Jamboree 2026
+---
+layout: doc
+title: Timmy
+eyebrow: Report
+section: Reports
+description: PI, dry lab. What I went looking for in Paris, and what I think we should change.
+---
 
 *PI, dry lab · GEMS-Taiwan · report to the adviser*
 

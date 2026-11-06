@@ -1,4 +1,10 @@
-# Triage — slice C_health (Therapeutics, Oncology, Infectious Diseases)
+---
+layout: doc
+title: Therapeutics, oncology, infectious disease
+eyebrow: Triage · slice C
+section: Triage
+description: 98 teams, read for transferable method rather than subject matter.
+---
 
 **Teams read:** 98 (Therapeutics 67, Oncology 18, Infectious Diseases 13). 5 have no abstract in the slice.
 **Audience:** GEMS-Taiwan advisors Gabriel (G, wet lab), Chars (Ch, wet lab), Timmy (T, PI / dry lab).

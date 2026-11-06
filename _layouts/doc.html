@@ -1,0 +1,19 @@
+---
+layout: base
+---
+<header class="dochead">
+  <div class="wrap">
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; {{ page.section | default: 'Document' }}</div>
+    <span class="eyebrow">{{ page.eyebrow | default: page.section | default: 'Report' }}</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </div>
+</header>
+<main class="wrap">
+  <div class="doc">
+    <aside class="toc" id="toc" aria-label="On this page"><b>On this page</b></aside>
+    <article class="prose" id="prose">
+      {{ content }}
+    </article>
+  </div>
+</main>

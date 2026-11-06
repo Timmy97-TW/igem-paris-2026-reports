@@ -1,4 +1,10 @@
-# Triage — Slice A: Agriculture / Bioremediation / Conservation / Food & Nutrition
+---
+layout: doc
+title: Agriculture, bioremediation, conservation, food
+eyebrow: Triage · slice A
+section: Triage
+description: 146 teams in the villages closest to ReLeaf, read from their published abstracts.
+---
 
 **Teams read:** 146 (40 Agriculture, 50 Bioremediation, 1 Climate Crisis, 22 Conservation, 33 Food & Nutrition)
 **Source:** `research/_slices/A_agri_env_food.json` — abstracts only, no wiki fetched.

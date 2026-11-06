@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} · Paris 2026{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="theme-color" content="#00061C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="{{ '/img/team.webp' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ '/img/logo.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/img/logo.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="nav-in">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/img/logo.png' | relative_url }}" alt="">
+      <span class="bw"><b>Paris 2026</b><small>Adviser reports</small></span>
+    </a>
+    <button class="menu" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nlinks"><span></span><span></span></button>
+    <ul class="nlinks" id="nlinks">
+      <li><a href="{{ '/brief.html' | relative_url }}">The brief</a></li>
+      <li><a href="{{ '/floor-plan.html' | relative_url }}">Floor plan</a></li>
+      <li><a href="{{ '/teams.html' | relative_url }}">Teams</a></li>
+      <li><a href="{{ '/research/' | relative_url }}">Triage</a></li>
+      <li><a href="{{ '/notes/' | relative_url }}">Notes</a></li>
+      <li><a href="{{ '/reports/' | relative_url }}">Reports</a></li>
+    </ul>
+  </div>
+  <div class="nprog" id="nprog"></div>
+</nav>
+
+{{ content }}
+
+<footer>
+  <div class="wrap">
+    <div>GEMS&nbsp;Taiwan · Gabriel, Chars &amp; Timmy · iGEM Grand Jamboree, Paris</div>
+    <div class="fl">
+      <a href="{{ '/gaps.html' | relative_url }}">What we missed</a>
+      <a href="{{ '/followups.html' | relative_url }}">Follow-ups</a>
+      <a href="https://github.com/Timmy97-TW/igem-paris-2026-reports">Source</a>
+    </div>
+  </div>
+</footer>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>

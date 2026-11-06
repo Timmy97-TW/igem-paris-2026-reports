@@ -1,0 +1,57 @@
+---
+layout: base
+title: All teams
+description: Every accepted iGEM 2026 team, searchable by name, project or village.
+---
+<header class="dochead">
+  <div class="wrap">
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; Teams</div>
+    <span class="eyebrow">Reference</span>
+    <h1>Every team in the competition</h1>
+    <p>All {{ site.data.teams | size }} accepted teams for 2026, straight from the iGEM API. For the
+      booth you walk past and had not planned for.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:34px">
+  <div class="tools">
+    <div class="srch">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search team, project, country or village" aria-label="Search teams">
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="seg" id="seg" role="group" aria-label="Filter by village"
+       style="overflow-x:auto;max-width:100%;margin:-8px 0 22px">
+    <button type="button" data-f="all" class="on">All</button>
+    {% assign villages = site.data.teams | map: "village" | uniq | sort %}
+    {% for v in villages %}<button type="button" data-f="{{ v }}">{{ v }}</button>{% endfor %}
+  </div>
+
+  <div class="grid g2" id="teams">
+    {% for t in site.data.teams %}
+    <div class="team" data-group="{{ t.village }}"
+         data-search="{{ t.name }} {{ t.title }} {{ t.village }} {{ t.country }} {{ t.blurb }}">
+      <h4>{% if t.wiki %}<a href="{{ t.wiki }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h4>
+      <p class="ti">{% if t.title != '' %}{{ t.title }}{% else %}<em>No project title published</em>{% endif %}</p>
+      {% if t.blurb != '' %}<p class="ab">{{ t.blurb }}</p>{% endif %}
+      <div class="mt">
+        <span>{{ t.village }}</span><span>{{ t.country }}</span>{% if t.section != '' %}<span>{{ t.section }}</span>{% endif %}
+        <a href="{{ t.page }}">iGEM page</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="empty" id="empty" hidden>No team matches that.</p>
+
+  <div class="note" style="margin:30px 0 0">
+    <p>Abstracts are shortened here. The full text of all of them is in
+      <a href="{{ '/data/teams_2026.html' | relative_url }}">the complete list</a>, and
+      <code>tools/fetch_teams.py</code> re-pulls everything from the iGEM API.</p>
+  </div>
+</main>
+
+<script>
+  filterList({input:'q', count:'count', rows:'#teams .team', empty:'empty', seg:'seg', noun:'team'});
+</script>
