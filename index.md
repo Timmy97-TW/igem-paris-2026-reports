@@ -25,13 +25,17 @@ Every note on this site is filed under at least one of these.
 
 ## The evidence
 
-- [Notes](notes/) — one per team or talk
+- [Notes](notes/index.md) — one per team or talk
 - Synthesis by theme: [concepts](buckets/concepts.md) · [hardware](buckets/hardware.md) · [computation](buckets/compute.md) · [science for good](buckets/impact.md)
 - [Follow-ups](followups.md) — who we owe an email
 - [What we did not see](gaps.md)
 
 ## Before we left
 
-We read the published abstracts of all 463 registered 2026 teams and marked the ones worth the
-floor time. That triage is in `research/`, and the full team list with abstracts is in
-`data/teams_2026.md`.
+We read the published abstracts of all 452 accepted 2026 teams and marked the ones worth the floor
+time: the [triage](research/README.md), and the [floor plan](research/FLOOR_PLAN.md) that splits 57
+targets between the three of us. The full team list with abstracts is in
+[data/teams_2026.md](data/teams_2026.md).
+
+Those rankings are a reading of team-written abstracts, done before we saw anything. They are a
+reason to walk over to a poster, never a finding about the work.
