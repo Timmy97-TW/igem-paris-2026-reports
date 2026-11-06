@@ -63,6 +63,9 @@ for t in json.loads((ROOT / "data/teams_2026.json").read_text()):
         "country": t["country"], "section": t["section"] or "", "wiki": t["wiki"],
         "page": t["team_page"],
         "blurb": (ab[:240].rsplit(" ", 1)[0] + "…") if len(ab) > 240 else ab,
+        # full abstract, lowercased and stripped of punctuation, so search reaches the whole text
+        "search": re.sub(r"[^a-z0-9 ]+", " ",
+                         f"{t['name']} {t['title']} {t['village']} {t['country']} {ab}".lower()),
         "has_abstract": bool(ab),
     })
 rows.sort(key=lambda r: r["name"].lower())

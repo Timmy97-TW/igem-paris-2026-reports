@@ -32,7 +32,7 @@ description: Every accepted iGEM 2026 team, searchable by name, project or villa
   <div class="grid g2" id="teams">
     {% for t in site.data.teams %}
     <div class="team" data-group="{{ t.village }}"
-         data-search="{{ t.name }} {{ t.title }} {{ t.village }} {{ t.country }} {{ t.blurb }}">
+         data-search="{{ t.search }}">
       <h4>{% if t.wiki %}<a href="{{ t.wiki }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h4>
       <p class="ti">{% if t.title != '' %}{{ t.title }}{% else %}<em>No project title published</em>{% endif %}</p>
       {% if t.blurb != '' %}<p class="ab">{{ t.blurb }}</p>{% endif %}
@@ -46,7 +46,7 @@ description: Every accepted iGEM 2026 team, searchable by name, project or villa
   <p class="empty" id="empty" hidden>No team matches that.</p>
 
   <div class="note" style="margin:30px 0 0">
-    <p>Abstracts are shortened here. The full text of all of them is in
+    <p>Cards are shortened, but the search reads every full abstract. The complete text is in
       <a href="{{ '/data/teams_2026.html' | relative_url }}">the complete list</a>, and
       <code>tools/fetch_teams.py</code> re-pulls everything from the iGEM API.</p>
   </div>
