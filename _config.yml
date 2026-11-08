@@ -1,5 +1,5 @@
-title: Paris Grand Jamboree 2026 — Adviser Field Reports
-description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — the brief, the floor plan, and the reports that come back.
+title: Paris Grand Jamboree 2026 — the instructors' hub
+description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — the four-day plan, the eight capabilities we are after, and the three reports that come back.
 markdown: kramdown
 kramdown:
   input: GFM
@@ -11,8 +11,12 @@ relative_links:
   collections: false
 exclude:
   - tools/
+  - plan/
   - research/_slices/
   - data/teams_2026.json
+  - data/schedule_2026.json
+  - data/schedule_meta.json
+  - data/event_2026.json
   - README.md
   - .gitignore
 defaults:

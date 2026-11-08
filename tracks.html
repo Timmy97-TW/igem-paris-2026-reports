@@ -1,0 +1,98 @@
+---
+layout: base
+title: Growth tracks
+description: The eight capabilities GEMS is trying to accumulate, what we already have, what we need from Paris, and which official sessions feed each one.
+---
+{% assign J = site.data.jamboree %}
+<header class="dochead">
+  <div class="wrap">
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; Growth tracks</div>
+    <span class="eyebrow">Why we are going · the institutional case</span>
+    <h1>Eight capabilities, not four days</h1>
+    <p>A Jamboree report that only describes this year's project is worth one year. These are the
+      eight things GEMS is trying to accumulate as a research institution — each with what we
+      already have, the specific thing we are missing, and the official sessions that answer it.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:34px">
+
+  <div class="note" style="margin:0 0 30px">
+    <p><b>Read this as the brief behind the schedule.</b> Every official session we attend is tagged
+      with one of these eight. Where a track has only two or three sessions against it, that is the
+      honest picture: the programme has little to say about it, and the gap is itself a finding for
+      next year's plan.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b class="tw">8</b><span>capability tracks</span></div>
+    <div class="stat"><b class="tw">{{ J.official_planned }}</b><span>official sessions mapped onto them</span></div>
+    <div class="stat"><b class="tw">{{ J.official_dropped }}</b><span>considered and given up</span></div>
+    <div class="stat"><b class="tw">{{ J.official_total }}</b><span>in the programme, all accounted for</span></div>
+  </div>
+
+  {% for t in J.tracks %}
+  <section class="s" id="{{ t.id }}" style="padding:40px 0 0;border-top:1px solid var(--line);margin-top:34px">
+    <span class="eyebrow">{{ t.id }} · {{ t.n }} session{% if t.n != 1 %}s{% endif %}{% if t.who.size > 0 %} · {{ t.who | join: ", " }}{% endif %}</span>
+    <h2>{{ t.name }}</h2>
+    <p class="sub">{{ t.line }}</p>
+
+    <div class="grid g2" style="margin-top:4px">
+      <div class="card">
+        <span class="n">What we already have</span>
+        <p style="margin-top:8px">{{ t.have }}</p>
+      </div>
+      <div class="card" style="box-shadow:0 2px 14px rgba(1,103,239,.1)">
+        <span class="n">What we are missing</span>
+        <p style="margin-top:8px">{{ t.want }}</p>
+      </div>
+    </div>
+
+    {% if t.sessions.size > 0 %}
+    <div class="sch" style="margin-top:18px">
+      {% for s in t.sessions %}
+      <div class="it {{ s.tier }}">
+        <div class="tm">{{ s.dayname }}<small>{{ s.start }}</small></div>
+        <div>
+          <p class="ti"><a href="{{ '/schedule.html' | relative_url }}#{{ s.id }}">{{ s.title }}</a></p>
+          <div class="mt"><b>{{ s.where }}</b></div>
+          {% if s.ask %}<p class="ak"><b>Walk in and ask</b>{{ s.ask }}</p>{% endif %}
+        </div>
+        <div class="rt"><span class="who">{{ s.who }}</span></div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="note" style="margin-top:18px">
+      <p>Nothing in the official programme feeds this track. That is the finding: if GEMS wants this
+        capability it comes from somewhere other than a Jamboree session.</p>
+    </div>
+    {% endif %}
+  </section>
+  {% endfor %}
+
+  <section class="s" style="padding:48px 0 20px;border-top:1px solid var(--line);margin-top:34px">
+    <span class="eyebrow">How to use this after Paris</span>
+    <h2>Three questions per track, in each report.</h2>
+    <p class="sub">The point of the tracks is that three reports written from them combine into one
+      institutional document instead of three travelogues. For each track you covered, answer:</p>
+    <div class="grid g3">
+      <div class="card"><span class="n">01</span><h3>What is the state of the art?</h3>
+        <p>Not who impressed you. What is the thing a well-funded group does here that we do not,
+          and what does it cost them.</p></div>
+      <div class="card"><span class="n">02</span><h3>What is our actual gap?</h3>
+        <p>Named against our own numbers. "Our calibration is single-point" is a gap; "we should
+          improve measurement" is not.</p></div>
+      <div class="card"><span class="n">03</span><h3>What would close it in one cycle?</h3>
+        <p>One experiment, one tool, one change to how a student is taught. If it needs three
+          years, it belongs in a different document.</p></div>
+    </div>
+    <div class="note" style="margin-top:26px">
+      <p><b>The tracks are a hypothesis, not a result.</b> They were written before the trip from what
+        GEMS already has on record. If Paris shows that a track is the wrong unit — too wide, too
+        narrow, or not the thing holding us back — say so in the report. A brief that survives
+        contact with four days of evidence unchanged was probably not specific enough.</p>
+    </div>
+  </section>
+
+</main>

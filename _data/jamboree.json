@@ -1,0 +1,789 @@
+{
+ "title": "2026 iGEM Grand Jamboree",
+ "venue": "Paris Convention Centre",
+ "detail": "Pavilion 7.3",
+ "lat": 48.8279219,
+ "lon": 2.2886679,
+ "start": "2026-11-13",
+ "end": "2026-11-16",
+ "sessions_total": 799,
+ "sessions_open": 376,
+ "sessions_judging": 423,
+ "team_talks": 305,
+ "official_total": 71,
+ "official_planned": 48,
+ "official_dropped": 23,
+ "bonus_free": 17,
+ "planned": 55,
+ "dropped": 23,
+ "tracks": [
+  {
+   "id": "T1",
+   "name": "Measurement you can defend",
+   "line": "Cheap instruments that produce numbers a judge will believe.",
+   "have": "An OD600 channel on commodity photodiodes, a reference channel 32 counts wide at 0.067 OD per count, a DNPH activity assay at 7.25 mU/mL with two QC items still open, and a TiO₂ calibration from last August.",
+   "want": "A defensible answer to what makes a home-built instrument's number admissible: which reference material, which raw data published, which error bars earned rather than assumed.",
+   "n": 3,
+   "who": [
+    "All",
+    "Timmy"
+   ],
+   "sessions": [
+    {
+     "title": "Fusing Living Biological Neurons with Silicon Chips",
+     "who": "All",
+     "dayname": "Fri",
+     "start": "13:00",
+     "where": "Main Stage",
+     "tier": "medium",
+     "ask": null,
+     "id": "fusing-living-biological-neurons-with-silicon-chips"
+    },
+    {
+     "title": "The Foundry Era: From Parts to Platforms",
+     "who": "All",
+     "dayname": "Sun",
+     "start": "10:30",
+     "where": "Main Stage",
+     "tier": "high",
+     "ask": "What is the smallest useful automation unit for a team with no foundry, and what should they not try to automate?",
+     "id": "the-foundry-era-from-parts-to-platforms"
+    },
+    {
+     "title": "Systematic assay design for resource-constrained projects",
+     "who": "Timmy",
+     "dayname": "Sun",
+     "start": "17:05",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "What is the minimum you must characterise before a cheap assay's number is allowed into a figure?",
+     "id": "systematic-assay-design-for-resource-constrained-projects"
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "name": "The self-running experiment",
+   "line": "Closed-loop control, the digital twin, and AI over process data.",
+   "have": "A 434-hour run with two events found 26.7 h ahead of the operator, a green-light schedule chosen by Bayesian optimisation, and an invariant explorer whose fouling margin moved 0.26 → 0.73 on three corrections.",
+   "want": "How people who sell autonomous labs handle a sensor artefact, because our own naive loop mistriggers on the 29 h OD dip that turned out 40% instrument.",
+   "n": 5,
+   "who": [
+    "Timmy"
+   ],
+   "sessions": [
+    {
+     "title": "The AI x Synthetic Biology Revolution",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "10:00",
+     "where": "Advancements",
+     "tier": "medium",
+     "ask": null,
+     "id": "the-ai-x-synthetic-biology-revolution"
+    },
+    {
+     "title": "The Autonomous Lab: When Biology Runs Itself",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "11:20",
+     "where": "Innovation",
+     "tier": "high",
+     "ask": "What does your trigger logic do with a sensor artefact? Ours put a 40% instrument drop into a real OD dip at 29 h.",
+     "id": "the-autonomous-lab-when-biology-runs-itself"
+    },
+    {
+     "title": "Machine learning for the design and optimization of new biological sequences and networks",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "14:45",
+     "where": "Advancements",
+     "tier": "high",
+     "ask": "How much wet-lab validation does a designed sequence need before you will put it in a figure?",
+     "id": "machine-learning-for-the-design-and-optimization-of-new-biological-seq"
+    },
+    {
+     "title": "Tools to Drive DBTL Efficiently, De-Risk Scale-Up, and Prioritize High-Quality Data",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "15:20",
+     "where": "Technology",
+     "tier": "medium",
+     "ask": null,
+     "id": "tools-to-drive-dbtl-efficiently-de-risk-scale-up-and-prioritize-high-q"
+    },
+    {
+     "title": "A Design Is Only a Prediction: Where AI Meets the Bench",
+     "who": "Timmy",
+     "dayname": "Sun",
+     "start": "15:20",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "What do you report when the model and the bench disagree, and the bench is the one you cannot repeat?",
+     "id": "a-design-is-only-a-prediction-where-ai-meets-the-bench"
+    }
+   ]
+  },
+  {
+   "id": "T3",
+   "name": "Hosts that actually secrete",
+   "line": "Non-model chassis, secretion, and the cell-free fallback.",
+   "have": "A Level-2 construct read end to end twice and four blockers in front of it, the fourth being that secreting a PLP-dependent oligomeric ACC deaminase has no precedent anywhere.",
+   "want": "The decision rule for when to stop engineering a signal peptide and change the strategy — and whether cell-free gets folded, active enzyme or merely protein.",
+   "n": 3,
+   "who": [
+    "Gabriel"
+   ],
+   "sessions": [
+    {
+     "title": "Rebuilding Translation: The PURE System and Where Cell-Free Biology Goes Next",
+     "who": "Gabriel",
+     "dayname": "Fri",
+     "start": "10:30",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "For a PLP-dependent oligomeric enzyme, does cell-free get you folded, active protein — or just protein?",
+     "id": "rebuilding-translation-the-pure-system-and-where-cell-free-biology-goe"
+    },
+    {
+     "title": "The Other 99%: Engineering Non-Model Organisms",
+     "who": "Gabriel",
+     "dayname": "Fri",
+     "start": "14:45",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "When a Gram-positive host will not secrete a heterologous enzyme, at what point do you stop engineering the signal peptide and change the host?",
+     "id": "the-other-99-engineering-non-model-organisms"
+    },
+    {
+     "title": "Bringing colours to life",
+     "who": "Gabriel",
+     "dayname": "Fri",
+     "start": "17:25",
+     "where": "Technology",
+     "tier": "medium",
+     "ask": "What did you have to give up about the plant to make the chemistry work at volume?",
+     "id": "bringing-colours-to-life"
+    }
+   ]
+  },
+  {
+   "id": "T4",
+   "name": "Parts other people can use",
+   "line": "Standards, registry, machine-readable data, open science.",
+   "have": "Four codon-optimised composites and four MD figure sets, a parts library verified against IDT, and a published BOM with a retired membrane part number still in it.",
+   "want": "What makes a registration machine-readable rather than merely machine-visible, now that registries are being rebuilt for AI to read.",
+   "n": 4,
+   "who": [
+    "All",
+    "Gabriel",
+    "Timmy"
+   ],
+   "sessions": [
+    {
+     "title": "Standards in Synthetic Biology and the Role of iGEM",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "09:10",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "For a cheap photodiode instrument, what makes a calibration credible to you — the reference material, or the published raw counts?",
+     "id": "standards-in-synthetic-biology-and-the-role-of-igem"
+    },
+    {
+     "title": "Open Infrastructure for AI-Native Synthetic Biology",
+     "who": "All",
+     "dayname": "Sat",
+     "start": "10:30",
+     "where": "Main Stage",
+     "tier": "high",
+     "ask": "What in a part registration makes it machine-readable rather than merely machine-visible?",
+     "id": "open-infrastructure-for-ai-native-synthetic-biology"
+    },
+    {
+     "title": "Git for Genomes",
+     "who": "Gabriel",
+     "dayname": "Sat",
+     "start": "12:30",
+     "where": "Technology",
+     "tier": "high",
+     "ask": "What does the tool refuse to track, and where do teams still lose the provenance?",
+     "id": "git-for-genomes"
+    },
+    {
+     "title": "Publishing Interdisciplinary Research",
+     "who": "Gabriel",
+     "dayname": "Sun",
+     "start": "15:10",
+     "where": "Fabrication",
+     "tier": "medium",
+     "ask": null,
+     "id": "publishing-interdisciplinary-research"
+    }
+   ]
+  },
+  {
+   "id": "T5",
+   "name": "Responsibility as design, not paperwork",
+   "line": "Biocontainment, governance, dual use, and the public's voice.",
+   "have": "A kill switch that is the weakest part of the design, and human practices built from interviews.",
+   "want": "Governance practised rather than described — and what a 1976 citizens' committee asked that a modern IHP interview does not.",
+   "n": 8,
+   "who": [
+    "All",
+    "Chars",
+    "Gabriel"
+   ],
+   "sessions": [
+    {
+     "title": "Welcome and Introductions",
+     "who": "Chars",
+     "dayname": "Fri",
+     "start": "10:00",
+     "where": "Nucleus",
+     "tier": "medium",
+     "ask": null,
+     "id": "welcome-and-introductions"
+    },
+    {
+     "title": "DNA Dilemmas: A Policy-Building Challenge",
+     "who": "Chars",
+     "dayname": "Fri",
+     "start": "14:00",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": "Where does DNA synthesis screening actually fail — the order, the sequence, or the customer?",
+     "id": "dna-dilemmas-a-policy-building-challenge"
+    },
+    {
+     "title": "Who Decides? Restaging the 1976 Cambridge Recombinant DNA Hearings",
+     "who": "Chars",
+     "dayname": "Sat",
+     "start": "09:00",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": "What did the 1976 citizens' committee ask that a modern IHP interview does not?",
+     "id": "who-decides-restaging-the-1976-cambridge-recombinant-dna-hearings"
+    },
+    {
+     "title": "Operation Outbreak Simulation",
+     "who": "All",
+     "dayname": "Sat",
+     "start": "09:00",
+     "where": "OO app",
+     "tier": "medium",
+     "ask": null,
+     "id": "operation-outbreak-simulation"
+    },
+    {
+     "title": "Expert Panel on AI for Science",
+     "who": "Chars",
+     "dayname": "Sat",
+     "start": "14:00",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": "What should a small team be required to write down before it lets a model choose an experiment?",
+     "id": "expert-panel-on-ai-for-science"
+    },
+    {
+     "title": "Governing the Future of Generative Biology",
+     "who": "All",
+     "dayname": "Sat",
+     "start": "16:00",
+     "where": "Main Stage",
+     "tier": "high",
+     "ask": null,
+     "id": "governing-the-future-of-generative-biology"
+    },
+    {
+     "title": "Global Efforts to Prevent Biological Misuse",
+     "who": "Chars",
+     "dayname": "Sat",
+     "start": "17:00",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": null,
+     "id": "global-efforts-to-prevent-biological-misuse"
+    },
+    {
+     "title": "Operation Outbreak: Advancing Preparedness Through Simulation",
+     "who": "Gabriel",
+     "dayname": "Sun",
+     "start": "16:15",
+     "where": "Technology",
+     "tier": "medium",
+     "ask": "What did the venue-wide data show that the participants did not notice themselves?",
+     "id": "operation-outbreak-advancing-preparedness-through-simulation"
+    }
+   ]
+  },
+  {
+   "id": "T6",
+   "name": "From project to product",
+   "line": "Translation, funding, IP, and scale — whether a GEMS project outlives its competition year.",
+   "have": "A bioreactor at Tier 2 of our own published audit, an industry report, and a cost claim the project brief forbids us to make.",
+   "want": "What an investor, a technology-transfer office and a biomanufacturer each need to see before a school project becomes a thing that exists next year.",
+   "n": 14,
+   "who": [
+    "All",
+    "Chars",
+    "Gabriel",
+    "Timmy"
+   ],
+   "sessions": [
+    {
+     "title": "Next-Gen Biomanufacturing",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "10:10",
+     "where": "Innovation",
+     "tier": "high",
+     "ask": "At what working volume does light delivery stop being uniform, and what did you change first — the vessel geometry or the light source?",
+     "id": "next-gen-biomanufacturing"
+    },
+    {
+     "title": "Private Sector, Public Good? Building Accountability into the Bioeconomy",
+     "who": "Chars",
+     "dayname": "Fri",
+     "start": "10:10",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": "What does an accountability roadmap ask of a research group too small to have a compliance office?",
+     "id": "private-sector-public-good-building-accountability-into-the-bioeconomy"
+    },
+    {
+     "title": "Pharma & Synthetic Biology",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "13:50",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "pharma-synthetic-biology"
+    },
+    {
+     "title": "Navigating Commercialization for Biodefense - Where Pandemic Preparedness, Biodefense and Mass-Market Products Overlap",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "14:40",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "navigating-commercialization-for-biodefense-where-pandemic-preparednes"
+    },
+    {
+     "title": "From Research to Impact: Building the Future of IP Transfer on Evidence",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "15:20",
+     "where": "Innovation",
+     "tier": "high",
+     "ask": "Who should hold the IP when the inventor is seventeen and the lab belongs to a school?",
+     "id": "from-research-to-impact-building-the-future-of-ip-transfer-on-evidence"
+    },
+    {
+     "title": "When Bio Meets the Consumer - Novel Foods, Consumer SynBio and the Future of What We Eat, Wear and Use",
+     "who": "Timmy",
+     "dayname": "Fri",
+     "start": "16:55",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "when-bio-meets-the-consumer-novel-foods-consumer-synbio-and-the-future"
+    },
+    {
+     "title": "Academia and Startups: Friends or Foes?",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "12:00",
+     "where": "Innovation",
+     "tier": "high",
+     "ask": "What does a small institution give away cheaply because it has never done this before?",
+     "id": "academia-and-startups-friends-or-foes"
+    },
+    {
+     "title": "Venture Creation - Turning Innovation into Impact",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "14:00",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "venture-creation-turning-innovation-into-impact"
+    },
+    {
+     "title": "Unlocking Ambition with Philanthropic Capital",
+     "who": "Timmy",
+     "dayname": "Sat",
+     "start": "17:00",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": "What does a philanthropic funder need to see from a group with no publication record?",
+     "id": "unlocking-ambition-with-philanthropic-capital"
+    },
+    {
+     "title": "Startup Showcase - Part 1",
+     "who": "Timmy",
+     "dayname": "Sun",
+     "start": "12:00",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "startup-showcase-part-1"
+    },
+    {
+     "title": "From DBTL to Biomanufacturing: Lessons in Designing for Scale",
+     "who": "Gabriel",
+     "dayname": "Sun",
+     "start": "12:30",
+     "where": "Technology",
+     "tier": "medium",
+     "ask": null,
+     "id": "from-dbtl-to-biomanufacturing-lessons-in-designing-for-scale"
+    },
+    {
+     "title": "What Makes a Good Idea Go Further?",
+     "who": "All",
+     "dayname": "Sun",
+     "start": "13:00",
+     "where": "Main Stage",
+     "tier": "medium",
+     "ask": null,
+     "id": "what-makes-a-good-idea-go-further"
+    },
+    {
+     "title": "Startup Showcase - Part 3",
+     "who": "Timmy",
+     "dayname": "Sun",
+     "start": "16:00",
+     "where": "Innovation",
+     "tier": "medium",
+     "ask": null,
+     "id": "startup-showcase-part-3"
+    },
+    {
+     "title": "Afterparty",
+     "who": "All",
+     "dayname": "Mon",
+     "start": "19:30",
+     "where": "Main Stage",
+     "tier": "medium",
+     "ask": null,
+     "id": "afterparty"
+    }
+   ]
+  },
+  {
+   "id": "T7",
+   "name": "The pipeline",
+   "line": "Recruiting, curriculum, instructor craft, and publishing student work.",
+   "have": "A 2027 cohort to build on Pak's 52-hour research-methods class, and an education page with four gaps still marked on it.",
+   "want": "How other high-school programmes get bench hours, keep second-year students, and get student work into print.",
+   "n": 9,
+   "who": [
+    "All",
+    "Chars",
+    "Gabriel"
+   ],
+   "sessions": [
+    {
+     "title": "Opening Show",
+     "who": "All",
+     "dayname": "Fri",
+     "start": "09:00",
+     "where": "Main Stage",
+     "tier": "anchor",
+     "ask": null,
+     "id": "opening-show"
+    },
+    {
+     "title": "A PhD, a Start-Up, and a Career in Industry",
+     "who": "Gabriel",
+     "dayname": "Fri",
+     "start": "11:25",
+     "where": "Technology",
+     "tier": "medium",
+     "ask": null,
+     "id": "a-phd-a-start-up-and-a-career-in-industry"
+    },
+    {
+     "title": "Publishing Workshop for Early-Stage Researchers and Students",
+     "who": "Gabriel",
+     "dayname": "Sat",
+     "start": "09:15",
+     "where": "Community",
+     "tier": "high",
+     "ask": "What is the smallest publishable unit from a student project, and which journals actually take it?",
+     "id": "publishing-workshop-for-early-stage-researchers-and-students"
+    },
+    {
+     "title": "The Future We Can Build Together: 2027 iGEM Community Recruitment",
+     "who": "Gabriel",
+     "dayname": "Sat",
+     "start": "14:35",
+     "where": "Community",
+     "tier": "high",
+     "ask": "How do you keep second-year students when the first year was the exciting one?",
+     "id": "the-future-we-can-build-together-2027-igem-community-recruitment"
+    },
+    {
+     "title": "HS PI Roundtable: Shared Experiences, Best Practices, and Real Talk",
+     "who": "All",
+     "dayname": "Sun",
+     "start": "09:20",
+     "where": "Community",
+     "tier": "anchor",
+     "ask": "Who runs the wet-lab work when the students are in school, and how many hours a week is a student actually at the bench?",
+     "id": "hs-pi-roundtable-shared-experiences-best-practices-and-real-talk"
+    },
+    {
+     "title": "Building the Generative Biology Workforce of 2035",
+     "who": "Chars",
+     "dayname": "Sun",
+     "start": "12:00",
+     "where": "Nucleus",
+     "tier": "high",
+     "ask": "What should a seventeen-year-old be able to do by the end of a first research year?",
+     "id": "building-the-generative-biology-workforce-of-2035"
+    },
+    {
+     "title": "Whose Values Are They, Anyway? A Community Conversation on iGEM's Ideals and Individual Goals",
+     "who": "Chars",
+     "dayname": "Sun",
+     "start": "14:55",
+     "where": "Nucleus",
+     "tier": "medium",
+     "ask": null,
+     "id": "whose-values-are-they-anyway-a-community-conversation-on-igem-s-ideals"
+    },
+    {
+     "title": "How to Lead a Multicultural Volunteer Team",
+     "who": "Chars",
+     "dayname": "Sun",
+     "start": "16:00",
+     "where": "Community",
+     "tier": "medium",
+     "ask": null,
+     "id": "how-to-lead-a-multicultural-volunteer-team"
+    },
+    {
+     "title": "Final Day Show",
+     "who": "All",
+     "dayname": "Mon",
+     "start": "14:00",
+     "where": "Main Stage",
+     "tier": "anchor",
+     "ask": null,
+     "id": "final-day-show"
+    }
+   ]
+  },
+  {
+   "id": "T8",
+   "name": "Why it didn't reproduce",
+   "line": "Reproducibility and failure analysis as institutional memory.",
+   "have": "Four formula errors in Experiment #9, a chlorophyll ratio range that cannot be believed, a 1.460× standard-concentration error in the first DNPH assay, and an OD dip that was 40% instrument.",
+   "want": "A method for reading our own failures that is better than remembering them, and somewhere to put them where a judge finds them on purpose.",
+   "n": 2,
+   "who": [
+    "All"
+   ],
+   "sessions": [
+    {
+     "title": "What Will We Have Got Wrong About SynBio in 2040?",
+     "who": "All",
+     "dayname": "Fri",
+     "start": "16:00",
+     "where": "Main Stage",
+     "tier": "high",
+     "ask": "Which promise in a student project should a judge refuse to reward?",
+     "id": "what-will-we-have-got-wrong-about-synbio-in-2040"
+    },
+    {
+     "title": "Why Does It Work in Your Lab but Not Mine?",
+     "who": "All",
+     "dayname": "Sat",
+     "start": "13:00",
+     "where": "Main Stage",
+     "tier": "anchor",
+     "ask": null,
+     "id": "why-does-it-work-in-your-lab-but-not-mine"
+    }
+   ]
+  }
+ ],
+ "targets": 57,
+ "targets_with_talk": 47,
+ "booth_only": [
+  "Aachen",
+  "BNUZH-China",
+  "Houston-TX",
+  "ICJFLS",
+  "LethbridgeHS",
+  "SYPHU-China",
+  "SZ-SHD",
+  "Tongji China",
+  "UPF-Barcelona",
+  "UW-Poland"
+ ],
+ "per_person": {
+  "Gabriel": 28,
+  "Chars": 26,
+  "Timmy": 33
+ },
+ "days": [
+  {
+   "day": "2026-11-13",
+   "label": "Fri 13 Nov",
+   "short": "FRI",
+   "n": 20,
+   "anchors": 3
+  },
+  {
+   "day": "2026-11-14",
+   "label": "Sat 14 Nov",
+   "short": "SAT",
+   "n": 18,
+   "anchors": 1
+  },
+  {
+   "day": "2026-11-15",
+   "label": "Sun 15 Nov",
+   "short": "SUN",
+   "n": 14,
+   "anchors": 2
+  },
+  {
+   "day": "2026-11-16",
+   "label": "Mon 16 Nov",
+   "short": "MON",
+   "n": 3,
+   "anchors": 1
+  }
+ ],
+ "expo": [
+  {
+   "group": "A",
+   "sessions": [
+    {
+     "day": 1,
+     "end": "13:00",
+     "start": "09:00"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "start": "08:00"
+    }
+   ]
+  },
+  {
+   "group": "B",
+   "sessions": [
+    {
+     "day": 1,
+     "end": "17:00",
+     "start": "13:00"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "start": "08:00"
+    }
+   ]
+  }
+ ],
+ "pods": [
+  {
+   "day": 1,
+   "opens": "09:30",
+   "closes": "16:30"
+  },
+  {
+   "day": 2,
+   "opens": "07:30",
+   "closes": "16:30"
+  },
+  {
+   "day": 3,
+   "opens": "07:30",
+   "closes": "16:30"
+  }
+ ],
+ "conflicts": [
+  {
+   "when": "Fri 10:00–10:15",
+   "who": "Timmy",
+   "what": "The AI × SynBio village talk ends 10:15; Next-Gen Biomanufacturing starts 10:10.",
+   "call": "Both. Take the village talk and slip into the Innovation session at 10:15 — it runs a full hour and opens with introductions."
+  },
+  {
+   "when": "Fri 10:00–11:40",
+   "who": "Chars",
+   "what": "The Responsibility Conference opening and the OECD session run against the Environment village talk and the Alliance showcase.",
+   "call": "Nucleus, both of them. Ninety minutes with the OECD, companies and unions in one room beats two quarter-hour village framings."
+  },
+  {
+   "when": "Fri 12:00–12:25",
+   "who": "All",
+   "what": "Our judging session runs against AI × Drug Discovery and the manufacturability talk.",
+   "call": "Judging. Not a decision."
+  },
+  {
+   "when": "Fri 14:00–15:45",
+   "who": "Chars",
+   "what": "DNA Dilemmas runs across the Environment village talk and the biodesign-training typology panel.",
+   "call": "DNA Dilemmas. Ninety minutes that produce a framework; the typology is worth an email to the panellists afterwards."
+  },
+  {
+   "when": "Fri 14:45–15:30",
+   "who": "Gabriel",
+   "what": "The Other 99% panel runs to 15:30, and TUS-Japan — the one team talk that matters to the wet lab — starts at 15:30 in another plaza.",
+   "call": "Leave the panel at 15:25. The panel is recorded; the team talk is not."
+  },
+  {
+   "when": "Sat 09:10–10:15",
+   "who": "Timmy",
+   "what": "The Standards panel runs against Early-Stage Funding on the Innovation stage.",
+   "call": "Standards. It is the body that awards the prize we are chasing; the funding session repeats in different form on Saturday afternoon."
+  },
+  {
+   "when": "Sat 14:30–15:20",
+   "who": "Gabriel",
+   "what": "Who Funds the Future starts 14:30; the 2027 recruitment workshop starts 14:35.",
+   "call": "Recruitment. Next year's team is decided by it, and Timmy is covering the funding thread all weekend."
+  },
+  {
+   "when": "Sat 14:45–15:45",
+   "who": "Timmy",
+   "what": "The ML sequence-design talk at 14:45 runs against the Live Roast pitch teardown at 15:00.",
+   "call": "The ML talk, then the DBTL tools talk at 15:20. Both are our own work described by people who validate it."
+  },
+  {
+   "when": "Sun 09:20–10:15",
+   "who": "All",
+   "what": "The HS PI Roundtable runs against BioInnovator Pathways and From Bench to Journal.",
+   "call": "The roundtable, all three. It is the only session in the programme addressed to us."
+  },
+  {
+   "when": "Sun 14:30–15:30",
+   "who": "Timmy",
+   "what": "Beyond the Hype and Startup Showcase Part 2 both run across our own team talk.",
+   "call": "Our team talk. Beyond the Hype is the best single fit to his report in the whole programme — find the speaker afterwards and send the email."
+  },
+  {
+   "when": "Sun 17:00–17:45",
+   "who": "Timmy",
+   "what": "The showcase Time Capsule interviews run against the assay-design talk.",
+   "call": "Assay design. It is the Measurement award; the interviews are a story."
+  }
+ ],
+ "unresolved": [
+  "Booth hours disagree. The iGEM API's expo day plan puts shift B at Fri 13:00–17:00 and Sat 08:00–17:00; the team site says Fri 14:00–18:00 and Sat 09:00–18:00 — one hour out on all four edges. Check the board or the My iGEM App on arrival and fix whichever is wrong.",
+  "Our team talk's room. The API says the Fabrication plaza stage; the team site says the Main Stage. The API is the live source, so the plaza is more likely — but confirm before Sunday, because the two are not near each other.",
+  "Speaker names. The public API publishes session titles, hooks and organisers but not the speaker list, so none of the picks here is made on who is talking. Check the My iGEM App once badges are collected; a named speaker may be worth more than the session title suggests.",
+  "Jason is the fourth instructor on the trip and is on the team site, but the report is owed by three. No sessions are assigned to him here; if he is also writing one, the split needs redoing with four people — and the Innovation track, which Timmy is carrying almost alone, is where a fourth person would help most.",
+  "Judging Room 3's location inside Pavilion 7.3, and the walk from the plazas. Fifteen judging rooms run in parallel; find the room on Thursday at badge pickup, not on Friday morning.",
+  "Operation Outbreak needs opting in through the app before Saturday, or Sunday's debrief session has nobody's own data in it."
+ ]
+}

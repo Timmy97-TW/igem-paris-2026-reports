@@ -63,7 +63,8 @@ window.filterList = function (opts) {
     rows.forEach(function (r) {
       var okF = filter === 'all' || (r.dataset.group || '').split('|').indexOf(filter) > -1;
       var okQ = !q || (r.dataset.search || r.textContent).toLowerCase().indexOf(q) > -1;
-      var show = okF && okQ;
+      var okX = !opts.extra || opts.extra(r);
+      var show = okF && okQ && okX;
       r.hidden = !show; if (show) n++;
     });
     if (count) count.textContent = n + ' ' + (n === 1 ? opts.noun : opts.nounPlural || opts.noun + 's');
@@ -81,24 +82,29 @@ window.filterList = function (opts) {
   return apply;
 };
 
-/* floor plan: remember ticked teams on this device */
-(function () {
-  var list = document.getElementById('targets'); if (!list) return;
-  var KEY = 'paris2026.visited';
-  var done = {};
-  try { done = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { done = {}; }
+/* shared: tick rows off, remembered on this device only.
+   localStorage can throw or come back empty (private window, cleared site data),
+   so every read and write is guarded and the page renders fine without it. */
+window.tickList = function (opts) {
+  var list = typeof opts.list === 'string' ? document.getElementById(opts.list) : opts.list;
+  if (!list) return;
+  var KEY = opts.key, done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { done = {}; }
 
   var save = function () { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} };
+  var rows = [].slice.call(list.querySelectorAll(opts.rows));
   var progress = function () {
-    var rows = [].slice.call(list.querySelectorAll('.row')),
-        n = rows.filter(function (r) { return done[r.dataset.id]; }).length,
-        bar = document.getElementById('seen-bar'), lab = document.getElementById('seen-lab');
-    if (bar) bar.style.width = (rows.length ? (n / rows.length * 100) : 0) + '%';
-    if (lab) lab.textContent = n + ' of ' + rows.length + ' visited';
+    var tickable = rows.filter(function (r) { return r.querySelector('input[type=checkbox]'); });
+    var n = tickable.filter(function (r) { return done[r.dataset.id]; }).length,
+        bar = document.getElementById(opts.bar || 'seen-bar'),
+        lab = document.getElementById(opts.lab || 'seen-lab');
+    if (bar) bar.style.width = (tickable.length ? (n / tickable.length * 100) : 0) + '%';
+    if (lab) lab.textContent = n + ' of ' + tickable.length + ' ' + (opts.verb || 'done');
   };
 
-  list.querySelectorAll('.row').forEach(function (r) {
+  rows.forEach(function (r) {
     var cb = r.querySelector('input[type=checkbox]');
+    if (!cb) return;
     if (done[r.dataset.id]) { cb.checked = true; r.classList.add('done'); }
     cb.addEventListener('change', function () {
       if (cb.checked) { done[r.dataset.id] = 1; } else { delete done[r.dataset.id]; }
@@ -106,4 +112,11 @@ window.filterList = function (opts) {
     });
   });
   progress();
+};
+
+/* floor plan */
+(function () {
+  var list = document.getElementById('targets');
+  if (list) window.tickList({ list: list, rows: '.row', key: 'paris2026.visited',
+                              verb: 'visited' });
 })();

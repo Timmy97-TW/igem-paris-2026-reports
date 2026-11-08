@@ -1,0 +1,621 @@
+{
+ "locations": [
+  {
+   "type": "main-stage",
+   "number": null,
+   "title": "Main Stage",
+   "icon": null,
+   "liveStreamUUID": "dac55403-168b-4973-b6f9-57212d53c146",
+   "uuid": "b175aa47-ced4-4adb-bc78-5ae3437a5ba0",
+   "displayTitle": "Main Stage"
+  },
+  {
+   "type": "judging-room",
+   "number": 1,
+   "title": "Judging Room 1",
+   "icon": null,
+   "liveStreamUUID": "5fa8b0df-f022-42c6-986e-ccd6f3ccbcc8",
+   "uuid": "cc82942f-c893-4f1b-88f1-1147974b5548",
+   "displayTitle": "Judging Room 1"
+  },
+  {
+   "type": "judging-room",
+   "number": 2,
+   "title": "Judging Room 2",
+   "icon": null,
+   "liveStreamUUID": "676b3fce-7c42-451a-9e0a-5839e779ef69",
+   "uuid": "259e0d44-fbef-47a9-91bd-f5e8f257bedd",
+   "displayTitle": "Judging Room 2"
+  },
+  {
+   "type": "judging-room",
+   "number": 3,
+   "title": "Judging Room 3",
+   "icon": null,
+   "liveStreamUUID": "581c59a1-1129-4934-97a5-4160a2154c3d",
+   "uuid": "b5fdfe91-4897-4714-80aa-8a4c185e022f",
+   "displayTitle": "Judging Room 3"
+  },
+  {
+   "type": "judging-room",
+   "number": 4,
+   "title": "Judging Room 4",
+   "icon": null,
+   "liveStreamUUID": "8b90309f-2464-4110-aa93-5c4493c4a4a2",
+   "uuid": "394efa56-089a-4f79-b264-621e84b63d0a",
+   "displayTitle": "Judging Room 4"
+  },
+  {
+   "type": "judging-room",
+   "number": 5,
+   "title": "Judging Room 5",
+   "icon": null,
+   "liveStreamUUID": "09de1a3c-8648-4754-8e61-c2cfa570fbb7",
+   "uuid": "c3ccde81-9830-41a3-bcab-9c08a8f45fa1",
+   "displayTitle": "Judging Room 5"
+  },
+  {
+   "type": "judging-room",
+   "number": 6,
+   "title": "Judging Room 6",
+   "icon": null,
+   "liveStreamUUID": "a9cdada4-b8a7-4ad2-ad0a-a196a9bf79c7",
+   "uuid": "6b393eab-0d7a-45af-9aff-d4fc0a81818d",
+   "displayTitle": "Judging Room 6"
+  },
+  {
+   "type": "judging-room",
+   "number": 7,
+   "title": "Judging Room 7",
+   "icon": null,
+   "liveStreamUUID": "562d3e64-117f-4478-87bc-493fd361f9dc",
+   "uuid": "2c2171a6-f4eb-4949-8286-1bc21407c1aa",
+   "displayTitle": "Judging Room 7"
+  },
+  {
+   "type": "judging-room",
+   "number": 8,
+   "title": "Judging Room 8",
+   "icon": null,
+   "liveStreamUUID": "1490cfac-b193-4789-ac4c-56f81a4d942d",
+   "uuid": "c22f821a-fcec-404e-a2db-64ce19ff457a",
+   "displayTitle": "Judging Room 8"
+  },
+  {
+   "type": "judging-room",
+   "number": 9,
+   "title": "Judging Room 9",
+   "icon": null,
+   "liveStreamUUID": "33580e57-1122-4c09-af25-dbfb571155da",
+   "uuid": "1d227d1a-1394-4221-b437-edb2100eeb5e",
+   "displayTitle": "Judging Room 9"
+  },
+  {
+   "type": "judging-room",
+   "number": 10,
+   "title": "Judging Room 10",
+   "icon": null,
+   "liveStreamUUID": "c25e8311-452a-4dd0-8d9e-6e8b21d4b04f",
+   "uuid": "c9def74a-064b-45d6-80ca-e4b789b05d36",
+   "displayTitle": "Judging Room 10"
+  },
+  {
+   "type": "judging-room",
+   "number": 11,
+   "title": "Judging Room 11",
+   "icon": null,
+   "liveStreamUUID": "dc43e4af-0385-473f-9874-570ec864768e",
+   "uuid": "394092bf-1150-45dc-bd65-47a36589f0ae",
+   "displayTitle": "Judging Room 11"
+  },
+  {
+   "type": "judging-room",
+   "number": 12,
+   "title": "Judging Room 12",
+   "icon": null,
+   "liveStreamUUID": "74740ae0-0ff5-4684-80e4-c9c7ad528190",
+   "uuid": "5f7d40ae-24b8-4652-8f70-5565edcb53fa",
+   "displayTitle": "Judging Room 12"
+  },
+  {
+   "type": "judging-room",
+   "number": 13,
+   "title": "Judging Room 13",
+   "icon": null,
+   "liveStreamUUID": "8ae0742f-9f0c-4d87-94ba-5f07d7a402a3",
+   "uuid": "866701b3-7c0f-447f-b3fd-9e74c2391492",
+   "displayTitle": "Judging Room 13"
+  },
+  {
+   "type": "judging-room",
+   "number": 14,
+   "title": "Judging Room 14",
+   "icon": null,
+   "liveStreamUUID": "2d0ba1da-e0d3-4aad-a14a-964386ac43bb",
+   "uuid": "a0d6a16a-34b7-40c5-81b2-aaf4fe81462e",
+   "displayTitle": "Judging Room 14"
+  },
+  {
+   "type": "plaza",
+   "number": 2,
+   "title": "Community",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "83ec1724-1e75-4410-85de-49976728ded0",
+   "displayTitle": "Community"
+  },
+  {
+   "type": "plaza",
+   "number": 3,
+   "title": "Technology",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "568ac839-86b2-41a9-b940-9a3f4a7305f1",
+   "displayTitle": "Technology"
+  },
+  {
+   "type": "plaza",
+   "number": 7,
+   "title": "Healthcare",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "e3b328cd-f1c1-4468-915a-20fea0923d88",
+   "displayTitle": "Healthcare"
+  },
+  {
+   "type": "plaza",
+   "number": 6,
+   "title": "Advancements",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "a182b3b8-dbd7-489e-a476-5613dadff226",
+   "displayTitle": "Advancements"
+  },
+  {
+   "type": "plaza",
+   "number": 5,
+   "title": "Fabrication",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "509ea1d3-8711-45e8-921e-770ba02176a0",
+   "displayTitle": "Fabrication"
+  },
+  {
+   "type": "plaza",
+   "number": 4,
+   "title": "Environment",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "b704a66c-d71d-4355-b46e-7c629dc250f1",
+   "displayTitle": "Environment"
+  },
+  {
+   "type": "plaza",
+   "number": 1,
+   "title": "Innovation",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "75e9f175-856c-4842-bfb1-8c934577adf7",
+   "displayTitle": "Innovation"
+  },
+  {
+   "type": "workshop",
+   "number": null,
+   "title": "Nucleus",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "c70ad423-5d0d-41db-9d76-a74035af7f48",
+   "displayTitle": "Nucleus"
+  },
+  {
+   "type": "park",
+   "number": null,
+   "title": "Protein Park",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "16c90b7e-6713-4299-8308-320e24823ac9",
+   "displayTitle": "Protein Park"
+  },
+  {
+   "type": "online",
+   "number": null,
+   "title": "OO app",
+   "icon": null,
+   "liveStreamUUID": null,
+   "uuid": "2173fa02-114f-49f8-b0bd-14355651dd36",
+   "displayTitle": "OO app"
+  }
+ ],
+ "types": [
+  "ceremony",
+  "talk",
+  "team-talk",
+  "responsibility-conference",
+  "bioinnovation-summit",
+  "panel",
+  "workshop",
+  "judging-session",
+  "keynote",
+  "featured-panel",
+  "networking"
+ ],
+ "labels": [
+  {
+   "uuid": "b9e4b7cb-dc6b-46e2-bd9d-13b325f42286",
+   "name": "Format",
+   "description": null,
+   "color": "#334155",
+   "selection": "Single",
+   "children": [
+    {
+     "uuid": "eaa77288-f962-49c7-9e6d-7219ad0a966a",
+     "name": "Publication",
+     "description": null,
+     "color": "#BAE6FD"
+    }
+   ]
+  },
+  {
+   "uuid": "c821e5c5-1987-49cf-96ba-aca2d5e85b2a",
+   "name": "Topics",
+   "description": null,
+   "color": "#334155",
+   "selection": "Multiple",
+   "children": [
+    {
+     "uuid": "dcbb3e2d-d772-4fe3-b24c-e34a6e237e2f",
+     "name": "Academia",
+     "description": null,
+     "color": "#BAE6FD"
+    },
+    {
+     "uuid": "09fd4935-b5dd-4e50-9d1b-cee12e340f07",
+     "name": "Advancements",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "b2a3bc56-0390-4603-8a3a-a2462afc171e",
+     "name": "AI",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "5def2c06-dae0-4c87-8fed-0aed0f68540a",
+     "name": "Assembly",
+     "description": null,
+     "color": "#BAE6FD"
+    },
+    {
+     "uuid": "64ebf00e-fb56-4ca7-9480-d548e434e18f",
+     "name": "Automation",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "521e338e-5671-4188-aa07-ea979fb52537",
+     "name": "Bioart",
+     "description": null,
+     "color": "#FBCFE8"
+    },
+    {
+     "uuid": "1a4924ed-1cca-418a-8369-93ab420dcd9c",
+     "name": "Bioeconomy",
+     "description": null,
+     "color": "#D9F99D"
+    },
+    {
+     "uuid": "a3f4f5cc-5e12-4acf-acf3-c86f278326d2",
+     "name": "Biomanufacturing",
+     "description": null,
+     "color": "#BAE6FD"
+    },
+    {
+     "uuid": "a075b945-5996-42de-b90b-78366e91a3a2",
+     "name": "Biosafety",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "ced8e4cc-ed90-4c5c-9c3f-fdafb227b3de",
+     "name": "Biosecurity",
+     "description": null,
+     "color": "#F5D0FE"
+    },
+    {
+     "uuid": "b19a29bb-bf87-46e6-a264-884bccb7f0a1",
+     "name": "Biotechnology",
+     "description": null,
+     "color": "#BBF7D0"
+    },
+    {
+     "uuid": "75811360-ccf0-4cb2-89a1-3371c589b11e",
+     "name": "Carbon Utilization",
+     "description": null,
+     "color": "#FDE68A"
+    },
+    {
+     "uuid": "d436ef0c-9eb1-4f16-9377-04befe795065",
+     "name": "Careers",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "c24160f5-fbf7-44ef-9548-32703edfbd6b",
+     "name": "Cell-Free",
+     "description": null,
+     "color": "#BAE6FD"
+    },
+    {
+     "uuid": "bceeb372-b8bf-4e57-b5c6-2598bf8d38c9",
+     "name": "Collaboration",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "89ee1c5a-408b-4e92-93ee-83599244de80",
+     "name": "Community & Collaboration",
+     "description": null,
+     "color": "#FED7AA"
+    },
+    {
+     "uuid": "f8617712-cc21-4447-ac8c-acb18c4f5ba4",
+     "name": "Creativity",
+     "description": null,
+     "color": "#F5D0FE"
+    },
+    {
+     "uuid": "550073d7-ef63-4985-978d-b9d86265c4cc",
+     "name": "Data",
+     "description": null,
+     "color": "#FED7AA"
+    },
+    {
+     "uuid": "d9723eec-55b2-4ba4-aefb-3c01f6ab9a3b",
+     "name": "Design",
+     "description": null,
+     "color": "#FBCFE8"
+    },
+    {
+     "uuid": "cdf53cd0-ab77-4b87-ac32-cb674e5d90f0",
+     "name": "Education",
+     "description": null,
+     "color": "#FEF08A"
+    },
+    {
+     "uuid": "0ee767a2-2e56-4380-864e-456e56b35ffd",
+     "name": "Funding",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "9e0abd0a-fc5f-41ad-94d6-e1031690cb5e",
+     "name": "Governance",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "390e3880-3ced-4427-8313-c15e4f7e70ec",
+     "name": "Health",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "a4c0e022-c81e-450b-ab98-abb84ac63c1b",
+     "name": "Human Practices",
+     "description": null,
+     "color": "#FBCFE8"
+    },
+    {
+     "uuid": "ef6d74a9-ca99-4643-b4da-695f1395ef53",
+     "name": "iGEM Journey",
+     "description": null,
+     "color": "#BBF7D0"
+    },
+    {
+     "uuid": "92266a01-f157-4af4-9507-f1b23c5f4698",
+     "name": "iGEM Project",
+     "description": null,
+     "color": "#D9F99D"
+    },
+    {
+     "uuid": "dd5066d6-6652-46be-8ec7-8f6b59dd9d9c",
+     "name": "Inclusivity",
+     "description": null,
+     "color": "#FBCFE8"
+    },
+    {
+     "uuid": "d1a9f4a7-eee9-48de-b3a9-4d7f35bd8363",
+     "name": "Innovation",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "89dba911-9ac4-4d59-8f18-895131c1a2a5",
+     "name": "Learn",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "19e51ced-6f00-460c-8512-c83cfd333a9a",
+     "name": "Machine Learning",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "3f42141c-14fe-44bc-a9e5-6881b135b68b",
+     "name": "Networking",
+     "description": null,
+     "color": "#FEF08A"
+    },
+    {
+     "uuid": "ed62bc6b-4b26-4780-a169-cd2ea88c8c4a",
+     "name": "Non-Model Organisms",
+     "description": null,
+     "color": "#BBF7D0"
+    },
+    {
+     "uuid": "42bb3871-61dc-4e6b-a193-b15d744998b0",
+     "name": "Policy",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "a12a6486-902a-465e-9299-26cc606fda27",
+     "name": "Protein Design",
+     "description": null,
+     "color": "#FBCFE8"
+    },
+    {
+     "uuid": "9d0e37ca-24d4-430a-868d-da5f686ec1e0",
+     "name": "Research",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "b70f2dd3-96a0-45a7-9a13-02c7a19ce87b",
+     "name": "Responsibility",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "3b8e88e5-392a-43de-a8ec-b02e5e6af0cd",
+     "name": "Software",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "fe2c8f9f-2e9f-4f5a-9579-4ea86a1d957a",
+     "name": "Standards",
+     "description": null,
+     "color": "#FDE68A"
+    },
+    {
+     "uuid": "ec363319-3efe-40e7-87a6-ebfebd957dda",
+     "name": "Sustainability",
+     "description": null,
+     "color": "#BBF7D0"
+    },
+    {
+     "uuid": "d47e7a43-c7f9-4b7f-921d-602779ab2594",
+     "name": "SynBio Ecosystems",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "c0cb5ca1-d730-461f-b409-b05bfefb240e",
+     "name": "Technology",
+     "description": null,
+     "color": "#BFDBFE"
+    },
+    {
+     "uuid": "42b72203-1da7-4624-8da1-f12f1853edca",
+     "name": "Tools",
+     "description": null,
+     "color": "#DDD6FE"
+    },
+    {
+     "uuid": "9d34a561-214d-44bc-8bd0-bb790b5e6561",
+     "name": "Troubleshooting",
+     "description": null,
+     "color": "#FECACA"
+    },
+    {
+     "uuid": "e248143c-ff8b-4522-ab1b-6082d9060729",
+     "name": "World View",
+     "description": null,
+     "color": "#BAE6FD"
+    }
+   ]
+  },
+  {
+   "uuid": "becd067a-6134-4a03-bb49-a0f0361d4665",
+   "name": "Village",
+   "description": null,
+   "color": "#e5e5e5",
+   "selection": "Multiple",
+   "children": [
+    {
+     "uuid": "377efd1c-b2c3-4891-b3aa-a98d7786c5c4",
+     "name": "Agriculture",
+     "description": null,
+     "color": "#C8D850"
+    },
+    {
+     "uuid": "29232f71-107d-4a5a-acbf-2a571bebf343",
+     "name": "Biomanufacturing",
+     "description": null,
+     "color": "#966ED6"
+    },
+    {
+     "uuid": "2fb036a7-753a-4420-b602-da9f1fb96cee",
+     "name": "Bioremediation",
+     "description": null,
+     "color": "#50C6DF"
+    },
+    {
+     "uuid": "ef39a1c9-5523-42ab-813a-cdd08cf3a60e",
+     "name": "Conservation",
+     "description": null,
+     "color": "#97CB58"
+    },
+    {
+     "uuid": "9128a311-ca4d-4406-8311-22464019f284",
+     "name": "Diagnostics",
+     "description": null,
+     "color": "#F15E4E"
+    },
+    {
+     "uuid": "06accc48-119c-46cd-8ea1-c9fdd16ce997",
+     "name": "Fashion & Cosmetics",
+     "description": null,
+     "color": "#0C8AC8"
+    },
+    {
+     "uuid": "b8a92ba7-ecaf-4d75-bc80-0673701616cb",
+     "name": "Food & Nutrition",
+     "description": null,
+     "color": "#0DB26B"
+    },
+    {
+     "uuid": "abccd88e-49cd-4389-afba-846d7a232708",
+     "name": "Foundational Advance",
+     "description": null,
+     "color": "#CD6650"
+    },
+    {
+     "uuid": "3c5905a1-ec29-487c-883d-0341744d3e09",
+     "name": "Infectious Diseases",
+     "description": null,
+     "color": "#F1AA36"
+    },
+    {
+     "uuid": "26f74d21-445a-4c71-b333-630bfef15e6c",
+     "name": "Oncology",
+     "description": null,
+     "color": "#DB2971"
+    },
+    {
+     "uuid": "5359b42b-f081-4daf-90bc-c2065581c10e",
+     "name": "Software & AI",
+     "description": null,
+     "color": "#D7C6A5"
+    },
+    {
+     "uuid": "11e7c1e8-ee1b-4f63-9567-707d944d7b96",
+     "name": "Space",
+     "description": null,
+     "color": "#959595"
+    },
+    {
+     "uuid": "2aa08de2-efa9-4862-bbb6-80572da72a54",
+     "name": "Therapeutics",
+     "description": null,
+     "color": "#F391BC"
+    }
+   ]
+  }
+ ],
+ "from": "2026-11-13T08:00:00.000Z",
+ "until": "2026-11-16T20:00:00.000Z"
+}

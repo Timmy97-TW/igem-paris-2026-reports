@@ -1,0 +1,464 @@
+{
+  "_comment": [
+    "The three instructors' Jamboree plan. Hand-authored; this is the judgment layer.",
+    "",
+    "The plan is built on the OFFICIAL programme — keynotes, featured panels, the iGEM",
+    "Technology panels, the BioInnovation Summit, the Responsibility Conference and the",
+    "Community workshops, all given by industry and academic speakers. Student team talks",
+    "are fill-in only: they carry tier `bonus` and the builder greys out any that collide",
+    "with an official assignment.",
+    "",
+    "  who   : All | Gabriel | Chars | Timmy",
+    "  tier  : anchor (all three, non-negotiable) | high | medium | bonus | own",
+    "  track : which GEMS capability the session feeds (see `tracks` below)",
+    "  why   : one sentence, why this slot and not the one against it",
+    "  ask   : the question to walk in with. A talk you cannot ask a question at is a podcast.",
+    "  drop  : deliberately not attending; kept on the page so the trade is visible",
+    "",
+    "Keyed by `key` (exact session title, unique across the 71 official items) or `team`",
+    "(exact team name, unique across the 305 team talks). build_schedule_data.py exits",
+    "non-zero if a key matches zero or several sessions, so a schedule change at iGEM's",
+    "end cannot silently drop an entry.",
+    "",
+    "All times Paris (UTC+1). Re-run tools/build_schedule_data.py after editing."
+  ],
+
+  "tracks": [
+    { "id": "T1", "name": "Measurement you can defend",
+      "line": "Cheap instruments that produce numbers a judge will believe.",
+      "have": "An OD600 channel on commodity photodiodes, a reference channel 32 counts wide at 0.067 OD per count, a DNPH activity assay at 7.25 mU/mL with two QC items still open, and a TiO₂ calibration from last August.",
+      "want": "A defensible answer to what makes a home-built instrument's number admissible: which reference material, which raw data published, which error bars earned rather than assumed." },
+    { "id": "T2", "name": "The self-running experiment",
+      "line": "Closed-loop control, the digital twin, and AI over process data.",
+      "have": "A 434-hour run with two events found 26.7 h ahead of the operator, a green-light schedule chosen by Bayesian optimisation, and an invariant explorer whose fouling margin moved 0.26 → 0.73 on three corrections.",
+      "want": "How people who sell autonomous labs handle a sensor artefact, because our own naive loop mistriggers on the 29 h OD dip that turned out 40% instrument." },
+    { "id": "T3", "name": "Hosts that actually secrete",
+      "line": "Non-model chassis, secretion, and the cell-free fallback.",
+      "have": "A Level-2 construct read end to end twice and four blockers in front of it, the fourth being that secreting a PLP-dependent oligomeric ACC deaminase has no precedent anywhere.",
+      "want": "The decision rule for when to stop engineering a signal peptide and change the strategy — and whether cell-free gets folded, active enzyme or merely protein." },
+    { "id": "T4", "name": "Parts other people can use",
+      "line": "Standards, registry, machine-readable data, open science.",
+      "have": "Four codon-optimised composites and four MD figure sets, a parts library verified against IDT, and a published BOM with a retired membrane part number still in it.",
+      "want": "What makes a registration machine-readable rather than merely machine-visible, now that registries are being rebuilt for AI to read." },
+    { "id": "T5", "name": "Responsibility as design, not paperwork",
+      "line": "Biocontainment, governance, dual use, and the public's voice.",
+      "have": "A kill switch that is the weakest part of the design, and human practices built from interviews.",
+      "want": "Governance practised rather than described — and what a 1976 citizens' committee asked that a modern IHP interview does not." },
+    { "id": "T6", "name": "From project to product",
+      "line": "Translation, funding, IP, and scale — whether a GEMS project outlives its competition year.",
+      "have": "A bioreactor at Tier 2 of our own published audit, an industry report, and a cost claim the project brief forbids us to make.",
+      "want": "What an investor, a technology-transfer office and a biomanufacturer each need to see before a school project becomes a thing that exists next year." },
+    { "id": "T7", "name": "The pipeline",
+      "line": "Recruiting, curriculum, instructor craft, and publishing student work.",
+      "have": "A 2027 cohort to build on Pak's 52-hour research-methods class, and an education page with four gaps still marked on it.",
+      "want": "How other high-school programmes get bench hours, keep second-year students, and get student work into print." },
+    { "id": "T8", "name": "Why it didn't reproduce",
+      "line": "Reproducibility and failure analysis as institutional memory.",
+      "have": "Four formula errors in Experiment #9, a chlorophyll ratio range that cannot be believed, a 1.460× standard-concentration error in the first DNPH assay, and an OD dip that was 40% instrument.",
+      "want": "A method for reading our own failures that is better than remembering them, and somewhere to put them where a judge finds them on purpose." }
+  ],
+
+  "sessions": [
+    { "key": "Opening Show", "who": "All", "tier": "anchor", "track": "T7",
+      "why": "The only moment the whole competition is in one room, and where the villages, stages and plaza layout are explained. Everything after this assumes you were here." },
+
+    { "key": "The AI x Synthetic Biology Revolution", "who": "Timmy", "tier": "medium", "track": "T2",
+      "why": "Fifteen minutes on what computational tools are doing to the field, from the village that would host our software work. Slip into Next-Gen Biomanufacturing at 10:15; it runs an hour and opens with introductions." },
+
+    { "key": "Welcome and Introductions", "who": "Chars", "tier": "medium", "track": "T5",
+      "why": "Ten minutes that set up the Responsibility Conference she attends on all three days. Cheap, and the framing matters for the rest." },
+
+    { "key": "Private Sector, Public Good? Building Accountability into the Bioeconomy", "who": "Chars", "tier": "high", "track": "T6",
+      "why": "Run by the OECD with companies, investors and unions in the room, building an accountability roadmap. Ninety minutes of how a real institution is told to behave — the frame GEMS will be judged against long after this project.",
+      "ask": "What does an accountability roadmap ask of a research group too small to have a compliance office?" },
+
+    { "key": "Next-Gen Biomanufacturing", "who": "Timmy", "tier": "high", "track": "T6",
+      "why": "The session hook names light-steered bioreactors. That is our machine, described by people who have taken it to production scale.",
+      "ask": "At what working volume does light delivery stop being uniform, and what did you change first — the vessel geometry or the light source?" },
+
+    { "key": "Rebuilding Translation: The PURE System and Where Cell-Free Biology Goes Next", "who": "Gabriel", "tier": "high", "track": "T3",
+      "why": "Cell-free is the escape route if secretion stays blocked. Four blockers stand in front of secreted ACC deaminase; this panel skips all four.",
+      "ask": "For a PLP-dependent oligomeric enzyme, does cell-free get you folded, active protein — or just protein?" },
+
+    { "key": "SynBio Alliance Showcase", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "Alliance members showing their work. Runs inside the OECD session, which is worth more; listed so the trade is visible." },
+
+    { "key": "The Autonomous Lab: When Biology Runs Itself", "who": "Timmy", "tier": "high", "track": "T2",
+      "why": "The closed loop we claim in the digital twin, built by people who sell it.",
+      "ask": "What does your trigger logic do with a sensor artefact? Ours put a 40% instrument drop into a real OD dip at 29 h." },
+
+    { "key": "A PhD, a Start-Up, and a Career in Industry", "who": "Gabriel", "tier": "medium", "track": "T7",
+      "why": "One route from PhD to industry, from someone engineering bacteria on waste gases. Useful to be able to describe to students who ask what this leads to." },
+
+    { "key": "From iGEM Project to Community Resource: Open Science for Lasting Impact", "who": "Gabriel", "tier": "high", "track": "T4", "drop": true,
+      "why": "Exactly the question GEMS has not answered — how a project becomes something the community keeps using instead of a wiki that freezes in October — and it runs 11:50–12:05, five minutes into our judging session. Dropped, reluctantly. This is the one dropped session worth chasing the speaker for: the question below is the whole of track T4.",
+      "ask": "What did you have to maintain for the resource to stay used, and who paid for that maintenance?" },
+
+    { "key": "AI × Drug Discovery", "who": "Timmy", "tier": "medium", "track": "T2", "drop": true,
+      "why": "Runs across our own judging session. Dropped without discussion." },
+
+    { "key": "Your Design Works - Could It Become a Medicine?", "who": "Gabriel", "tier": "medium", "track": "T6", "drop": true,
+      "why": "Manufacturability and validation on the way to clinic. Runs across our judging session; dropped." },
+
+    { "key": "Fusing Living Biological Neurons with Silicon Chips", "who": "All", "tier": "medium", "track": "T1",
+      "why": "Friday's keynote, and instrumentation at its limit: living neurons wired onto silicon to make sensors that smell. Go together after the judging debrief — it is the one keynote that is purely about building a measuring device." },
+
+    { "key": "Pharma & Synthetic Biology", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "Founders on turning platforms into medicines. First of the Friday afternoon Innovation run, which is the institutional-direction track nobody else is covering." },
+
+    { "key": "DNA Dilemmas: A Policy-Building Challenge", "who": "Chars", "tier": "high", "track": "T5",
+      "why": "Ninety minutes building a governance framework, hands on. The only session in the programme that produces responsibility material you cannot read off a wiki.",
+      "ask": "Where does DNA synthesis screening actually fail — the order, the sequence, or the customer?" },
+
+    { "key": "Navigating Commercialization for Biodefense - Where Pandemic Preparedness, Biodefense and Mass-Market Products Overlap", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "Where public-good science and a mass-market product share the same bench. Our own cost claim sits on that line." },
+
+    { "key": "The Other 99%: Engineering Non-Model Organisms", "who": "Gabriel", "tier": "high", "track": "T3",
+      "why": "B. subtilis sits off the E. coli path, and this panel is about exactly the barriers that cost us a year.",
+      "ask": "When a Gram-positive host will not secrete a heterologous enzyme, at what point do you stop engineering the signal peptide and change the host?" },
+
+    { "key": "How SynBio Solves the Biggest Environmental Challenges", "who": "Chars", "tier": "medium", "track": "T5", "drop": true,
+      "why": "The village's own framing talk. Runs inside DNA Dilemmas; dropped." },
+
+    { "key": "Learning from/with/in the Living. A Typology of Biodesign Training Programs", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "A typology of training programmes and how expectations shape what students learn — good pipeline material, but it opens while DNA Dilemmas is still running. Dropped; ask the panellists for the typology by email." },
+
+    { "key": "From Research to Impact: Building the Future of IP Transfer on Evidence", "who": "Timmy", "tier": "high", "track": "T6",
+      "why": "Why spinouts stall on IP agreements, and what one model changes about the terms. GEMS has no position on who owns what a student builds, and will need one.",
+      "ask": "Who should hold the IP when the inventor is seventeen and the lab belongs to a school?" },
+
+    { "key": "What Will We Have Got Wrong About SynBio in 2040?", "who": "All", "tier": "high", "track": "T8",
+      "why": "Two founding figures grading the field's promises. All three: it is the cheapest available calibration of how far our own claims are ahead of our evidence.",
+      "ask": "Which promise in a student project should a judge refuse to reward?" },
+
+    { "key": "When Bio Meets the Consumer - Novel Foods, Consumer SynBio and the Future of What We Eat, Wear and Use", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "Precision fermentation and climate-ready crops reaching actual buyers — the far end of the path our plant-stress work points down." },
+
+    { "key": "Bringing colours to life", "who": "Gabriel", "tier": "medium", "track": "T3",
+      "why": "A plant-focused synthetic biology venture, in our own domain, closing Friday in the Technology plaza.",
+      "ask": "What did you have to give up about the plant to make the chemistry work at volume?" },
+
+    { "key": "Who Decides? Restaging the 1976 Cambridge Recombinant DNA Hearings", "who": "Chars", "tier": "high", "track": "T5",
+      "why": "A staged reading of the hearings, then discussion. The most unusual item in the programme and the best education-design material in it; our own public engagement has nothing of this shape.",
+      "ask": "What did the 1976 citizens' committee ask that a modern IHP interview does not?" },
+
+    { "key": "Operation Outbreak Simulation", "who": "All", "tier": "medium", "track": "T5", "ambient": true,
+      "why": "Runs in an app all Saturday, in the background of everything else, so it costs no slot. Opt in on Friday evening or Sunday's debrief session has nobody's own data in it." },
+
+    { "key": "Standards in Synthetic Biology and the Role of iGEM", "who": "Timmy", "tier": "high", "track": "T4",
+      "why": "Measurement and data standards, traced from early parts to today, by the body that awards the Measurement prize we are going for.",
+      "ask": "For a cheap photodiode instrument, what makes a calibration credible to you — the reference material, or the published raw counts?" },
+
+    { "key": "Publishing Workshop for Early-Stage Researchers and Students", "who": "Gabriel", "tier": "high", "track": "T7",
+      "why": "The practical route from student work to a paper. GEMS has three years of unpublished data and no process for turning any of it into print.",
+      "ask": "What is the smallest publishable unit from a student project, and which journals actually take it?" },
+
+    { "key": "Early-Stage Funding - How Early Is Too Early?", "who": "Timmy", "tier": "medium", "track": "T6", "drop": true,
+      "why": "When to raise and what early decision-makers assess. Runs against the Standards panel, which is closer to the award we are chasing. Dropped." },
+
+    { "key": "Metabolic Guide to Space Survival", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "An artist and a biotechnologist on a multi-year lab collaboration. Runs inside the 1976 restaging; dropped." },
+
+    { "key": "How RNA Can Become Medicine", "who": "Gabriel", "tier": "medium", "track": "T3", "drop": true,
+      "why": "A synthesis-services company on RNA therapeutics. Outside our space, and it runs into the publishing workshop. Dropped." },
+
+    { "key": "Open Infrastructure for AI-Native Synthetic Biology", "who": "All", "tier": "high", "track": "T4",
+      "why": "Registries and biological data rebuilt so AI systems can read them. All three: it decides what our parts pages and our measurement data should look like from next year on, and no one of us owns that question alone.",
+      "ask": "What in a part registration makes it machine-readable rather than merely machine-visible?" },
+
+    { "key": "Academia and Startups: Friends or Foes?", "who": "Timmy", "tier": "high", "track": "T6",
+      "why": "IP and equity negotiations with academic institutions, from the founder's side. GEMS is the institution in that negotiation.",
+      "ask": "What does a small institution give away cheaply because it has never done this before?" },
+
+    { "key": "Git for Genomes", "who": "Gabriel", "tier": "high", "track": "T4",
+      "why": "Version control for DNA edits and variants out of pooled cloning. Our cloning history lives in people's memories and four spreadsheets.",
+      "ask": "What does the tool refuse to track, and where do teams still lose the provenance?" },
+
+    { "key": "Why Does It Work in Your Lab but Not Mine?", "who": "All", "tier": "anchor", "track": "T8",
+      "why": "Reproducibility is the exact failure mode in our own records — the secretion blockers, four formula errors in one experiment, a 1.460× standard error, an OD dip that was 40% instrument. One keynote, three readings, and the cheapest hour of the trip." },
+
+    { "key": "Venture Creation - Turning Innovation into Impact", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "How researchers actually navigate venture creation and early strategy. Continues the Innovation thread into Saturday." },
+
+    { "key": "Expert Panel on AI for Science", "who": "Chars", "tier": "high", "track": "T5",
+      "why": "Run with RAND, on raising AI's laboratory capability while containing the biosecurity risk that capability creates. We are putting an AI layer on a bioreactor; this is the room where the objection to that is made properly.",
+      "ask": "What should a small team be required to write down before it lets a model choose an experiment?" },
+
+    { "key": "Who Funds the Future? Public and Philanthropic Support for Synthetic Biology", "who": "Gabriel", "tier": "medium", "track": "T6", "drop": true,
+      "why": "Public grants and non-dilutive funding, and what each expects. Loses to the 2027 recruitment workshop, which starts five minutes later and decides next year's team. Dropped — ask Timmy for the Innovation-track notes instead." },
+
+    { "key": "The Future We Can Build Together: 2027 iGEM Community Recruitment", "who": "Gabriel", "tier": "high", "track": "T7",
+      "why": "Recruiting and growing a team, in the year we build the 2027 cohort on Pak's research-methods class.",
+      "ask": "How do you keep second-year students when the first year was the exciting one?" },
+
+    { "key": "Machine learning for the design and optimization of new biological sequences and networks", "who": "Timmy", "tier": "high", "track": "T2",
+      "why": "Deep learning designing antimicrobial peptides and expression-optimised sequences — the same class of method as our BoPep4 work, done by people who validate it.",
+      "ask": "How much wet-lab validation does a designed sequence need before you will put it in a figure?" },
+
+    { "key": "Live Roast Session - Pitch Deck Teardown", "who": "Timmy", "tier": "medium", "track": "T6", "drop": true,
+      "why": "Investors tearing down pitch decks live. Entertaining and genuinely instructive about claims, but it runs across the ML design talk, which is closer to our own work. Dropped." },
+
+    { "key": "Emerging from the Art & Design Village 2025 – What Happens Next?", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "How village encounters turned into lab access and exhibitions. Outside our tracks this year; listed because the mechanism — a meeting becoming access — is one GEMS has never used." },
+
+    { "key": "Tools to Drive DBTL Efficiently, De-Risk Scale-Up, and Prioritize High-Quality Data", "who": "Timmy", "tier": "medium", "track": "T2",
+      "why": "Automation and data management tightening the design-build-test-learn loop — the vocabulary our Software page already uses, from a vendor who has to make it work." },
+
+    { "key": "Governing the Future of Generative Biology", "who": "All", "tier": "high", "track": "T5",
+      "why": "Science, industry and government on governing AI-driven biological design. All three: our AI layer, our kill switch and our human practices all answer to this argument, and each of us would take different notes." },
+
+    { "key": "Unlocking Ambition with Philanthropic Capital", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "Non-dilutive money for long-horizon science that investors avoid. The most plausible funding shape for a school research institute.",
+      "ask": "What does a philanthropic funder need to see from a group with no publication record?" },
+
+    { "key": "Global Efforts to Prevent Biological Misuse", "who": "Chars", "tier": "high", "track": "T5",
+      "why": "Run with Biosecure Ltd, on how misuse is actually prevented. Closes her Saturday responsibility thread and gives the Safety & Security argument a source outside iGEM." },
+
+    { "key": "HS PI Roundtable: Shared Experiences, Best Practices, and Real Talk", "who": "All", "tier": "anchor", "track": "T7",
+      "why": "The only session in the whole programme written for high-school instructors, and GEMS competes in the high-school section. Lab access, recruiting and mentoring are our three hardest problems, and the room is full of people solving them under the same constraints.",
+      "ask": "Who runs the wet-lab work when the students are in school, and how many hours a week is a student actually at the bench?" },
+
+    { "key": "BioInnovator Pathways - Where Can Innovation Take You?", "who": "Timmy", "tier": "medium", "track": "T6", "drop": true,
+      "why": "What the Venture Foundry offers students. Runs against the HS PI Roundtable, which all three attend. Dropped." },
+
+    { "key": "From Bench to Journal: Navigating Publishing in Synthetic Biology", "who": "Gabriel", "tier": "medium", "track": "T7", "drop": true,
+      "why": "Journal editors on moving student projects through peer review. Runs against the HS PI Roundtable; dropped, and Saturday's publishing workshop already covers the track." },
+
+    { "key": "The Foundry Era: From Parts to Platforms", "who": "All", "tier": "high", "track": "T1",
+      "why": "Automated biofoundries, and who gets access to them. All three: it is the honest counterweight to our claim that a cheap bioreactor and a twin do useful work, and it bears on hardware, measurement and strategy at once.",
+      "ask": "What is the smallest useful automation unit for a team with no foundry, and what should they not try to automate?" },
+
+    { "key": "Startup Showcase - Part 1", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "Twelve teams pitching to a real panel. The fastest way to see what a fundable synthetic biology claim sounds like, and how far ours is from one." },
+
+    { "key": "Building the Generative Biology Workforce of 2035", "who": "Chars", "tier": "high", "track": "T7",
+      "why": "Which skills students need as generative biology meets automation and biomanufacturing. The 2027 curriculum question, asked by people hiring into it.",
+      "ask": "What should a seventeen-year-old be able to do by the end of a first research year?" },
+
+    { "key": "From DBTL to Biomanufacturing: Lessons in Designing for Scale", "who": "Gabriel", "tier": "medium", "track": "T6",
+      "why": "Designing for scale rather than discovering it later. Short, and it sits in the gap between our bench work and the industry report's claims." },
+
+    { "key": "What Makes a Good Idea Go Further?", "who": "All", "tier": "medium", "track": "T6",
+      "why": "A patent attorney on IP and the mentorship that carries an idea further, ending at 13:45 — fifty-five minutes before we are on the plaza stage. Go together, leave together." },
+
+    { "key": "Startup Showcase - Part 2", "who": "Timmy", "tier": "medium", "track": "T6", "drop": true,
+      "why": "The finalists' round. Runs straight across our own team talk; dropped without discussion." },
+
+    { "key": "iGEM Career Fair", "who": "Gabriel", "tier": "medium", "track": "T7", "drop": true,
+      "why": "Forty-five minutes of employers and programmes, ending five minutes after our team talk starts. Dropped — but walk through Protein Park on the way and collect what is on the tables." },
+
+    { "key": "Beyond the Hype: Synthetic Biology's Next Decade", "who": "Timmy", "tier": "high", "track": "T2", "drop": true,
+      "why": "A biofoundry director on where automation, data standards and AI take the field — the single best fit to Timmy's report of any talk in the programme, and it runs straight across our own team talk. Dropped. Find the speaker afterwards; this one is worth an email." },
+
+    { "key": "Whose Values Are They, Anyway? A Community Conversation on iGEM's Ideals and Individual Goals", "who": "Chars", "tier": "medium", "track": "T7",
+      "why": "Small-group discussion on where shared ideals and personal goals clash. Starts five minutes after our team talk ends, in Nucleus." },
+
+    { "key": "How to Find and Secure the Right PhD", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "Useful for students, not for the report, and it runs inside the values conversation. Dropped." },
+
+    { "key": "Publishing Interdisciplinary Research", "who": "Gabriel", "tier": "medium", "track": "T4",
+      "why": "Article formats, peer review stages and editorial decisions for work that crosses fields — which is every iGEM project. Pairs with Saturday's publishing workshop into one usable process." },
+
+    { "key": "A Design Is Only a Prediction: Where AI Meets the Bench", "who": "Timmy", "tier": "high", "track": "T2",
+      "why": "The exact gap the digital twin has to defend: a prediction is not a result.",
+      "ask": "What do you report when the model and the bench disagree, and the bench is the one you cannot repeat?" },
+
+    { "key": "How to Lead a Multicultural Volunteer Team", "who": "Chars", "tier": "medium", "track": "T7",
+      "why": "Short, and squarely about running a team of volunteers, which is what a high-school iGEM team is." },
+
+    { "key": "Startup Showcase - Part 3", "who": "Timmy", "tier": "medium", "track": "T6",
+      "why": "The last showcase round, and the one where the judges' reasoning is clearest because they are choosing." },
+
+    { "key": "Operation Outbreak: Advancing Preparedness Through Simulation", "who": "Gabriel", "tier": "medium", "track": "T5",
+      "why": "The simulation's own data, read back as a training tool. A working example of turning an activity into measurable education — which our outreach has never done.",
+      "ask": "What did the venue-wide data show that the participants did not notice themselves?" },
+
+    { "key": "Meet the 2026 Startup Showcase Finalists - Time Capsule Interviews", "who": "Timmy", "tier": "medium", "track": "T6", "drop": true,
+      "why": "Founders interviewed about where their venture stands. Loses to the assay-design talk, which is closer to the award we are chasing. Dropped." },
+
+    { "key": "Systematic assay design for resource-constrained projects", "who": "Timmy", "tier": "high", "track": "T1",
+      "why": "Assay design on no budget, which is the whole premise of our photodiode OD600 channel and the DNPH assay.",
+      "ask": "What is the minimum you must characterise before a cheap assay's number is allowed into a figure?" },
+
+    { "key": "Final Day Show", "who": "All", "tier": "anchor", "track": "T7",
+      "why": "Results, and the only place the whole competition is together again. The team will want all three of us in the room either way." },
+
+    { "key": "Afterparty", "who": "All", "tier": "medium", "track": "T6",
+      "why": "Where the conversations that did not fit into a ten-minute talk actually happen. Follow-up emails get agreed here, not at posters." },
+
+    { "key": "SynBio Oncology Knowledgebase: A tool from the Oncology Village", "who": "Timmy", "tier": "medium", "track": "T4", "drop": true,
+      "why": "A village knowledgebase and how to join it. The mechanism is interesting for T4, the subject is not ours; dropped." },
+
+    { "key": "The Role of Multidisciplinary Science to Address the Biggest Environmental Challenges", "who": "Chars", "tier": "medium", "track": "T5", "drop": true,
+      "why": "Our own village's framing talk. Runs against the Responsibility Conference opening and the OECD session; dropped." },
+
+    { "key": "How Synbio is shaping Infectious Diseases Solutions", "who": "Chars", "tier": "medium", "track": "T5", "drop": true,
+      "why": "Outside our space. Listed to show the Friday morning slot was considered and spent elsewhere." },
+
+    { "key": "The Importance of Art & Design in SynBio: What the iGEM Art & Design Village Is Working Towards", "who": "Chars", "tier": "medium", "track": "T7", "drop": true,
+      "why": "The art and design village's year in review. Not a track we are building this cycle; dropped." }
+  ],
+
+  "team_sessions": [
+    { "team": "TUS-Japan", "who": "Gabriel", "tier": "bonus",
+      "why": "Same enzyme, same chassis, same unsolved problem: they surface-display ACC deaminase on B. subtilis with a Tat signal and a LysM anchor. The one team talk worth leaving an official session for.",
+      "ask": "Did you ever measure activity of the displayed enzyme, or only that it is on the surface?" },
+    { "team": "Stony Brook", "who": "Gabriel", "tier": "bonus",
+      "why": "The talk is titled Secretion Systems, and their wiki documents a failure rather than a yield. We need the failure more than another success.",
+      "ask": "Which signal peptides did you try before you stopped, and what did the negative data look like?" },
+    { "team": "Hongwen School", "who": "Gabriel", "tier": "bonus",
+      "why": "The only team publishing an actual B. subtilis secretion yield — 107.9 mg/g. Everyone else reports that it worked.",
+      "ask": "How was the 107.9 mg/g measured, and is it total protein or active enzyme?" },
+    { "team": "Concordia-Montreal", "who": "Gabriel", "tier": "bonus",
+      "why": "A Gram-positive toolkit, same chassis family as ours.",
+      "ask": "Which of your parts transfer to B. subtilis without re-tuning, and which do not?" },
+    { "team": "Guelph", "who": "Gabriel", "tier": "bonus",
+      "why": "Hardware for optogenetics — our light system, built by someone else.",
+      "ask": "How do you measure what the cells actually receive, rather than what the LED emits?" },
+    { "team": "ECUST", "who": "Gabriel", "tier": "bonus",
+      "why": "A second optogenetic system characterised end to end; a comparison for the CcaSR fold change that caps our green ladder.",
+      "ask": "What fold change did you get, and over what induction window?" },
+    { "team": "Texas", "who": "Gabriel", "tier": "bonus",
+      "why": "Genome-scale metabolic modelling, and their wiki documents a secretion failure." },
+    { "team": "NUS-SPS", "who": "Gabriel", "tier": "bonus",
+      "why": "An engineered growth-inhibition strain — biocontainment, which our kill switch still lacks." },
+    { "team": "Virginia", "who": "Gabriel", "tier": "bonus",
+      "why": "A time-based modular kill switch, directly the weakest part of our design." },
+    { "team": "XMU-China", "who": "Gabriel", "tier": "bonus", "why": "A TnpB nuclease toolkit for bacterial engineering." },
+    { "team": "BJWZ-China", "who": "Gabriel", "tier": "bonus", "why": "Plant disease in a woody crop — our problem in a different host." },
+    { "team": "HiZJU-China", "who": "Gabriel", "tier": "bonus", "why": "CO₂ to product; a biomanufacturing comparison." },
+    { "team": "Waterloo", "who": "Gabriel", "tier": "bonus", "why": "Stakeholder feedback reshaping a project." },
+    { "team": "KULeuven", "who": "Gabriel", "tier": "bonus", "why": "On closing a funding gap in women's research." },
+    { "team": "RUM-UPRM", "who": "Gabriel", "tier": "bonus", "why": "Collaboration held together across many partners." },
+
+    { "team": "EPFL", "who": "Timmy", "tier": "bonus",
+      "why": "Titled How Precise Can Our Measurements Really Be? The Measurement-award question asked out loud by someone else.",
+      "ask": "How do you report precision when your reference channel is 32 counts wide and one count is 0.067 OD?" },
+    { "team": "SHSID", "who": "Timmy", "tier": "bonus",
+      "why": "Plant-stress hardware: drought monitoring and irrigation. The only team whose hardware and whose problem are both ours.",
+      "ask": "What does your sensor actually measure, and how often is it wrong in the field?" },
+    { "team": "NTHU Taiwan", "who": "Timmy", "tier": "bonus",
+      "why": "The closest hardware analogue in the competition, and Taiwanese, so the conversation can continue after Paris.",
+      "ask": "What did you build and what did you buy, and would you make the same split again?" },
+    { "team": "William-and-Mary", "who": "Timmy", "tier": "bonus",
+      "why": "Failure analysis applied to genetic circuits. We have two years of failures and no method for reading them.",
+      "ask": "What is the smallest failure worth writing up, and where do you put it so a judge finds it?" },
+    { "team": "CAU-China", "who": "Timmy", "tier": "bonus",
+      "why": "A smartphone fluorimeter, from raw photons to a field reading — our instrument problem with a different detector.",
+      "ask": "What dominates your noise floor — the detector, the optics or the phone?" },
+    { "team": "Saarland", "who": "Timmy", "tier": "bonus",
+      "why": "Their talk is on water pollution, not the 3D-printed reader calibrated into fluorescein-equivalent units that we want. Go for the person, not the talk.",
+      "ask": "How did you tie the 3D-printed reader to fluorescein-equivalent units, and what did it cost you in time?" },
+    { "team": "Toronto", "who": "Timmy", "tier": "bonus", "why": "A recommendation system over 300 million sequences, with a real selection problem behind it." },
+    { "team": "Jilin-China", "who": "Timmy", "tier": "bonus", "why": "A living recorder for nutritional quality — a biological data logger." },
+    { "team": "NUS-Singapore", "who": "Timmy", "tier": "bonus", "why": "On the limits of vision-only sensing; a sensor-fusion argument we may need." },
+    { "team": "GeorgetownPrep", "who": "Timmy", "tier": "bonus", "why": "Cadmium in a high-school lab, and a team built around what safety allowed. Our exact constraint." },
+    { "team": "Uni-Padua-IT", "who": "Timmy", "tier": "bonus", "why": "Cyanobacterial oxygen supply — a photobioreactor problem next door to ours." },
+    { "team": "ULethbridge", "who": "Timmy", "tier": "bonus", "why": "A method talk in the Technology plaza." },
+    { "team": "Mingdao", "who": "Timmy", "tier": "bonus", "why": "Taiwanese, enzymatic breakdown of a waste stream." },
+    { "team": "SUDA-ICPI-China", "who": "Timmy", "tier": "bonus", "why": "Useful for how teams narrate themselves to judges." },
+    { "team": "PuiChing-Macau", "who": "Timmy", "tier": "bonus", "why": "Engineered probiotics with a dosing argument." },
+    { "team": "SUSTech", "who": "Timmy", "tier": "bonus", "why": "On explaining iGEM outside iGEM." },
+    { "team": "Patras-Med", "who": "Timmy", "tier": "bonus", "why": "Society in safety and security." },
+
+    { "team": "NU Boston", "who": "Chars", "tier": "bonus",
+      "why": "What We Wish We Knew, from three cycles of iGEM. The only talk of its kind in the programme.",
+      "ask": "What did you stop doing in year three that you thought was essential in year one?" },
+    { "team": "NCKU-Tainan", "who": "Chars", "tier": "bonus",
+      "why": "450+ students taught, and Taiwanese, so the comparison is like for like against our own outreach numbers.",
+      "ask": "What did the 450 cost you in instructor hours, and what fraction came back a second time?" },
+    { "team": "HKU-HongKong", "who": "Chars", "tier": "bonus",
+      "why": "A medical student on overpromise and the clinical gap. Every iGEM wiki overpromises, ours included.",
+      "ask": "What sentence on your own wiki would you now delete?" },
+    { "team": "Latvia-Riga", "who": "Chars", "tier": "bonus",
+      "why": "Education that changes how people think, rather than education measured in headcount. Our education page still counts people.",
+      "ask": "How do you know the thinking changed, and not just the attendance?" },
+    { "team": "UCSC", "who": "Chars", "tier": "bonus", "why": "Balancing leadership and lab work as a student captain." },
+    { "team": "KAIST Korea", "who": "Chars", "tier": "bonus", "why": "Explaining a field whose definition is unsettled." },
+    { "team": "Gikal", "who": "Chars", "tier": "bonus", "why": "Seven regions, seven schools — outreach at a scale we have not tried." },
+    { "team": "Ionis-Paris", "who": "Chars", "tier": "bonus", "why": "Impostor syndrome and failure in science." },
+    { "team": "AshesiGhana", "who": "Chars", "tier": "bonus", "why": "E-waste to gold: problem selection driven by what is in front of them." },
+    { "team": "Korea-HS", "who": "Chars", "tier": "bonus", "why": "A high-school team with a materials output; a peer in our own section." },
+    { "team": "KAUST-KSA", "who": "Chars", "tier": "bonus", "why": "In-situ biomanufacturing under harder constraints than ours." },
+    { "team": "HAS", "who": "Chars", "tier": "bonus", "why": "Plant hormones modulated by engineered E. coli — our mechanism, different host." },
+    { "team": "BGCFullerton", "who": "Chars", "tier": "bonus", "why": "Growing plants in space." },
+    { "team": "YHA-HWFLA", "who": "Chars", "tier": "bonus", "why": "An enzymatic consumer product — a route from a protein to something a person buys." },
+    { "team": "McMaster-Canada", "who": "Chars", "tier": "bonus", "why": "An OMV therapeutic platform." }
+  ],
+
+  "own_blocks": [
+    { "day": "2026-11-13", "start": "12:00", "end": "12:25", "who": "All", "tier": "anchor",
+      "title": "GEMS-Taiwan judging session",
+      "where": "Judging Room 3",
+      "why": "The twenty-five minutes the whole year is graded on. All three in the room. Nothing is scheduled against it and nothing may be — it costs us AI × Drug Discovery and the manufacturability talk, and that is the right price." },
+    { "day": "2026-11-13", "start": "12:30", "end": "13:00", "who": "All", "tier": "anchor",
+      "title": "Judging debrief, while it is fresh",
+      "where": "Somewhere quiet, outside Pavilion 7",
+      "why": "Thirty minutes to write down what the judges asked, in their words, before anyone reconstructs it. The single highest-value half hour of the trip for all three reports." },
+    { "day": "2026-11-13", "start": "14:00", "end": "18:00", "who": "Gabriel", "tier": "own",
+      "title": "On call for booth H-17",
+      "where": "Pavilion 7.3, booth H-17",
+      "why": "Students run the booth; one instructor stays inside Pavilion 7 with a phone on. Gabriel's Friday afternoon is all in-hall anyway." },
+    { "day": "2026-11-14", "start": "10:30", "end": "13:00", "who": "Gabriel", "tier": "own",
+      "title": "On call for booth H-17",
+      "where": "Pavilion 7.3, booth H-17",
+      "why": "Between the publishing workshop and the Git for Genomes talk he is in-hall the whole time, and it frees Chars for the 1976 restaging in Nucleus." },
+    { "day": "2026-11-14", "start": "13:45", "end": "18:00", "who": "Chars", "tier": "own",
+      "title": "On call for booth H-17",
+      "where": "Pavilion 7.3, booth H-17",
+      "why": "Her Saturday afternoon is Nucleus and Main Stage, both in-hall. Rotates the duty off Gabriel after the keynote." },
+    { "day": "2026-11-15", "start": "14:40", "end": "14:50", "who": "All", "tier": "anchor",
+      "title": "Releaf: Every Farmer a Biomanufacturer",
+      "where": "Fabrication plaza stage — NOT the Main Stage",
+      "why": "Our ten minutes on a plaza stage. All three in the audience, one of us filming. It costs Timmy the Beyond the Hype keynote and the second startup showcase; nobody argues about that." },
+    { "day": "2026-11-16", "start": "09:30", "end": "13:00", "who": "All", "tier": "own",
+      "title": "Report skeletons, before the Final Day Show",
+      "where": "Hotel, or a quiet corner of the venue",
+      "why": "Monday morning is the only empty block in four days and the last before the flight. Each instructor turns three days of notes into a skeleton: the eight tracks, what goes under each, and what is missing. A report started in Paris is a different document from one started in Taipei." }
+  ],
+
+  "conflicts": [
+    { "when": "Fri 10:00–10:15", "who": "Timmy",
+      "what": "The AI × SynBio village talk ends 10:15; Next-Gen Biomanufacturing starts 10:10.",
+      "call": "Both. Take the village talk and slip into the Innovation session at 10:15 — it runs a full hour and opens with introductions." },
+    { "when": "Fri 10:00–11:40", "who": "Chars",
+      "what": "The Responsibility Conference opening and the OECD session run against the Environment village talk and the Alliance showcase.",
+      "call": "Nucleus, both of them. Ninety minutes with the OECD, companies and unions in one room beats two quarter-hour village framings." },
+    { "when": "Fri 12:00–12:25", "who": "All",
+      "what": "Our judging session runs against AI × Drug Discovery and the manufacturability talk.",
+      "call": "Judging. Not a decision." },
+    { "when": "Fri 14:00–15:45", "who": "Chars",
+      "what": "DNA Dilemmas runs across the Environment village talk and the biodesign-training typology panel.",
+      "call": "DNA Dilemmas. Ninety minutes that produce a framework; the typology is worth an email to the panellists afterwards." },
+    { "when": "Fri 14:45–15:30", "who": "Gabriel",
+      "what": "The Other 99% panel runs to 15:30, and TUS-Japan — the one team talk that matters to the wet lab — starts at 15:30 in another plaza.",
+      "call": "Leave the panel at 15:25. The panel is recorded; the team talk is not." },
+    { "when": "Sat 09:10–10:15", "who": "Timmy",
+      "what": "The Standards panel runs against Early-Stage Funding on the Innovation stage.",
+      "call": "Standards. It is the body that awards the prize we are chasing; the funding session repeats in different form on Saturday afternoon." },
+    { "when": "Sat 14:30–15:20", "who": "Gabriel",
+      "what": "Who Funds the Future starts 14:30; the 2027 recruitment workshop starts 14:35.",
+      "call": "Recruitment. Next year's team is decided by it, and Timmy is covering the funding thread all weekend." },
+    { "when": "Sat 14:45–15:45", "who": "Timmy",
+      "what": "The ML sequence-design talk at 14:45 runs against the Live Roast pitch teardown at 15:00.",
+      "call": "The ML talk, then the DBTL tools talk at 15:20. Both are our own work described by people who validate it." },
+    { "when": "Sun 09:20–10:15", "who": "All",
+      "what": "The HS PI Roundtable runs against BioInnovator Pathways and From Bench to Journal.",
+      "call": "The roundtable, all three. It is the only session in the programme addressed to us." },
+    { "when": "Sun 14:30–15:30", "who": "Timmy",
+      "what": "Beyond the Hype and Startup Showcase Part 2 both run across our own team talk.",
+      "call": "Our team talk. Beyond the Hype is the best single fit to his report in the whole programme — find the speaker afterwards and send the email." },
+    { "when": "Sun 17:00–17:45", "who": "Timmy",
+      "what": "The showcase Time Capsule interviews run against the assay-design talk.",
+      "call": "Assay design. It is the Measurement award; the interviews are a story." }
+  ],
+
+  "unresolved": [
+    "Booth hours disagree. The iGEM API's expo day plan puts shift B at Fri 13:00–17:00 and Sat 08:00–17:00; the team site says Fri 14:00–18:00 and Sat 09:00–18:00 — one hour out on all four edges. Check the board or the My iGEM App on arrival and fix whichever is wrong.",
+    "Our team talk's room. The API says the Fabrication plaza stage; the team site says the Main Stage. The API is the live source, so the plaza is more likely — but confirm before Sunday, because the two are not near each other.",
+    "Speaker names. The public API publishes session titles, hooks and organisers but not the speaker list, so none of the picks here is made on who is talking. Check the My iGEM App once badges are collected; a named speaker may be worth more than the session title suggests.",
+    "Jason is the fourth instructor on the trip and is on the team site, but the report is owed by three. No sessions are assigned to him here; if he is also writing one, the split needs redoing with four people — and the Innovation track, which Timmy is carrying almost alone, is where a fourth person would help most.",
+    "Judging Room 3's location inside Pavilion 7.3, and the walk from the plazas. Fifteen judging rooms run in parallel; find the room on Thursday at badge pickup, not on Friday morning.",
+    "Operation Outbreak needs opting in through the app before Saturday, or Sunday's debrief session has nobody's own data in it."
+  ]
+}

@@ -1,0 +1,154 @@
+---
+layout: base
+title: The four days
+description: Which official sessions each instructor attends in Paris, which we attend together, and what we gave up for them.
+---
+{% assign J = site.data.jamboree %}
+<header class="dochead">
+  <div class="wrap">
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; The four days</div>
+    <span class="eyebrow">13–16 November · {{ J.venue }}, {{ J.detail }}</span>
+    <h1>Three instructors, {{ J.official_total }} official sessions</h1>
+    <p>Every keynote, panel, summit session and workshop in the programme is on this page —
+      {{ J.official_planned }} we attend and {{ J.official_dropped }} we considered and gave up, each with
+      the reason. Student team talks are fill-in only, behind the toggle.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:30px">
+
+  <div class="days" id="days" role="group" aria-label="Filter by day">
+    <button type="button" data-d="all" class="on"><b>All four</b><span>{{ J.planned }} slots</span></button>
+    {% for d in J.days %}
+    <button type="button" data-d="{{ d.day }}"><b>{{ d.label }}</b><span>{{ d.n }} slots</span></button>
+    {% endfor %}
+  </div>
+
+  <div class="tools" style="margin:18px 0 0">
+    <div class="srch">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search session, room or reason" aria-label="Search the schedule">
+    </div>
+    <div class="seg" id="seg" role="group" aria-label="Filter by person">
+      <button type="button" data-f="all" class="on">Everyone</button>
+      <button type="button" data-f="Gabriel">Gabriel</button>
+      <button type="button" data-f="Chars">Chars</button>
+      <button type="button" data-f="Timmy">Timmy</button>
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="legend">
+    <span class="lg a"><i></i>All three together</span>
+    <span class="lg h"><i></i>Priority</span>
+    <span class="lg m"><i></i>Worth the slot</span>
+    <span class="lg o"><i></i>Our own block</span>
+    <span class="lg d"><i></i>Considered, dropped</span>
+    <label class="lg" style="cursor:pointer"><input type="checkbox" id="tt" style="width:14px;height:14px;margin:0;accent-color:var(--blue)"> Show student team talks</label>
+  </div>
+
+  <div class="sch" id="sch">
+    {% assign lastday = '' %}
+    {% for r in site.data.program %}
+      {% unless r.ambient %}
+      {% if r.day != lastday %}
+        {% assign lastday = r.day %}
+        {% assign dd = J.days | where: 'day', r.day | first %}
+        <div class="hd" data-day="{{ r.day }}"><h3>{{ dd.label }}</h3><span>{{ dd.n }} slots · {{ dd.anchors }} together</span></div>
+      {% endif %}
+      <div class="it {{ r.tier }}{% if r.drop %} drop{% endif %}"
+           data-day="{{ r.day }}" data-group="{{ r.group }}" data-id="{{ r.id }}"
+           data-bonus="{{ r.tier }}"
+           data-search="{{ r.title }} {{ r.where }} {{ r.why }} {{ r.ask }} {{ r.team }} {{ r.org }} {{ r.who }} {{ r.type }}">
+        <div class="tm">{{ r.start }}<small>{{ r.end }}</small></div>
+        <div>
+          <p class="ti">{% if r.team %}<b style="font-weight:700">{{ r.team }}</b> · {% endif %}{{ r.title }}</p>
+          <div class="mt">
+            <b>{{ r.where }}</b>
+            <span>{{ r.mins }} min</span>
+            {% if r.org %}<span>{{ r.org }}</span>{% endif %}
+            {% unless r.official %}<span>our own</span>{% endunless %}
+            {% if r.tier == 'bonus' %}<span>team talk</span>{% endif %}
+            {% if r.track %}{% assign tk = J.tracks | where: 'id', r.track | first %}<a href="{{ '/tracks.html' | relative_url }}#{{ r.track }}">{{ r.track }} · {{ tk.name }}</a>{% endif %}
+          </div>
+          <p class="wy">{% if r.drop %}<b>Dropped.</b> {% endif %}{{ r.why }}</p>
+          {% if r.ask %}<p class="ak"><b>Walk in and ask</b>{{ r.ask }}</p>{% endif %}
+          {% if r.clash and r.clash != '' %}<p class="mt" style="color:var(--amber)">Collides with {{ r.clash }} — only if that one ends early.</p>{% endif %}
+        </div>
+        <div class="rt">
+          <span class="who">{{ r.who }}</span>
+          {% unless r.drop %}<input type="checkbox" aria-label="Mark {{ r.title }} as attended">{% endunless %}
+        </div>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+  <p class="empty" id="empty" hidden>Nothing matches that.</p>
+
+  <section class="s" id="clashes" style="padding:46px 0 0">
+    <span class="eyebrow">The calls we made</span>
+    <h2>Eleven places where two things we wanted ran at once.</h2>
+    <p class="sub">A schedule with no conflicts in it has not been read properly. These are the ones
+      that matter, and what we decided before the day rather than in the corridor.</p>
+    <div class="cf">
+      {% for c in J.conflicts %}
+      <div class="c">
+        <div class="w">{{ c.when }} · {{ c.who }}</div>
+        <p>{{ c.what }}</p>
+        <p class="k">{{ c.call }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="s" id="open" style="padding:40px 0 20px">
+    <span class="eyebrow">Still open</span>
+    <h2>What this plan does not know yet.</h2>
+    <div class="note">
+      <ul style="margin:0;padding-left:20px">
+        {% for u in J.unresolved %}<li style="margin:7px 0">{{ u }}</li>{% endfor %}
+      </ul>
+    </div>
+    <p class="sub" style="margin-top:22px">The programme came from iGEM's public API on
+      {{ site.time | date: "%-d %B %Y" }} — {{ J.sessions_total }} sessions, of which
+      {{ J.sessions_judging }} are closed judging slots. Re-run
+      <code>tools/fetch_schedule.py</code> to pick up changes, then
+      <code>tools/build_schedule_data.py</code>. The full programme is
+      <a href="{{ '/program.html' | relative_url }}">browsable here</a>.</p>
+  </section>
+
+</main>
+
+<script>
+  addEventListener('DOMContentLoaded', function () {
+    var sch = document.getElementById('sch'), day = 'all', showTT = false;
+    var apply = filterList({
+      input: 'q', count: 'count', rows: '#sch .it', empty: 'empty', seg: 'seg',
+      noun: 'slot',
+      extra: function (r) {
+        if (day !== 'all' && r.dataset.day !== day) return false;
+        if (!showTT && r.dataset.bonus === 'bonus') return false;
+        return true;
+      },
+      onApply: function () {
+        sch.querySelectorAll('.hd').forEach(function (h) {
+          var any = false, n = h.nextElementSibling;
+          while (n && !n.classList.contains('hd')) {
+            if (n.classList.contains('it') && !n.hidden) any = true;
+            n = n.nextElementSibling;
+          }
+          h.hidden = !any;
+        });
+      }
+    });
+    document.getElementById('days').addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      this.querySelectorAll('button').forEach(function (x) { x.classList.toggle('on', x === b); });
+      day = b.dataset.d; apply();
+    });
+    document.getElementById('tt').addEventListener('change', function () {
+      showTT = this.checked; apply();
+    });
+    tickList({ list: sch, rows: '.it', key: 'paris2026.attended' });
+  });
+</script>

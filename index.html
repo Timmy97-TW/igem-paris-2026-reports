@@ -1,8 +1,9 @@
 ---
 layout: base
-title: Paris Grand Jamboree 2026 — field reports
-description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — the brief, the floor plan, and the reports that come back.
+title: Paris Grand Jamboree 2026 — the instructors' hub
+description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — the four-day plan, the eight capabilities we are after, and the three reports that come back.
 ---
+{% assign J = site.data.jamboree %}
 {% assign gab = site.data.targets | where: "who", "Gabriel" %}
 {% assign cha = site.data.targets | where: "who", "Chars" %}
 {% assign tim = site.data.targets | where: "who", "Timmy" %}
@@ -12,31 +13,31 @@ description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — 
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="kicker"><span class="dot"></span><span>GEMS Taiwan · iGEM Grand Jamboree</span></div>
-        <h1>Three advisers.<br><span class="gt">One Jamboree.</span></h1>
-        <p class="lede">Gabriel, Chars and Timmy go to Paris with a standing brief: look past our own
-          project, and bring back <em>how</em> other teams work. This is the brief, the plan, and
-          everything that comes back.</p>
+        <div class="kicker"><span class="dot"></span><span>GEMS Taiwan · instructors · 13–16 November</span></div>
+        <h1>Four days in Paris.<br><span class="gt">Eight things to bring back.</span></h1>
+        <p class="lede">Gabriel, Chars and Timmy go with a standing brief: look past our own project
+          and bring back <em>how</em> the field works. This is the plan for every hour of it, the
+          capabilities it is meant to build, and the reports that have to come out of it.</p>
         <div class="hero-acts">
-          <a class="lbtn" href="{{ '/brief.html' | relative_url }}">Start with the brief</a>
-          <a class="lbtn ghost" href="{{ '/floor-plan.html' | relative_url }}">Open the floor plan</a>
+          <a class="lbtn" href="{{ '/schedule.html' | relative_url }}">Open the four days</a>
+          <a class="lbtn ghost" href="{{ '/tracks.html' | relative_url }}">Why we are going</a>
         </div>
       </div>
 
       <div class="panel">
         <h3>Where this stands</h3>
         <div class="pstat">
-          <div><b class="tw">452</b><span>teams read before we fly</span></div>
-          <div><b class="tw">{{ site.data.targets | size }}</b><span>posters worth our time</span></div>
-          <div><b class="tw">4</b><span>themes the report answers</span></div>
+          <div><b class="tw">{{ J.official_planned }}</b><span>official sessions, split three ways</span></div>
+          <div><b class="tw">{{ J.official_dropped }}</b><span>considered and given up, with reasons</span></div>
+          <div><b class="tw">8</b><span>capabilities we are after</span></div>
           <div><b class="tw">3</b><span>reports, one each</span></div>
         </div>
         <div class="pbar">
-          <div class="pbar-t"><span>Before we fly</span><span>Triage done</span></div>
+          <div class="pbar-t"><span>Programme read and split</span><span>Done</span></div>
           <div class="pbar-r"><i style="width:100%"></i></div>
         </div>
         <div class="pbar">
-          <div class="pbar-t"><span>On the floor</span><span>Notes to write</span></div>
+          <div class="pbar-t"><span>Notes written</span><span>From 13 Nov</span></div>
           <div class="pbar-r"><i style="width:0%"></i></div>
         </div>
       </div>
@@ -46,134 +47,95 @@ description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — 
 
 <main>
 
-<section class="s" id="brief">
+<section class="s" id="plan">
   <div class="wrap">
-    <span class="eyebrow">01 · What we were asked</span>
-    <h2>Four questions, not a travel diary.</h2>
-    <p class="sub">The brief is an observation list, and every line of it asks <em>how</em> other teams
-      work — not which projects looked impressive. A note without a mechanism in it answers nothing.</p>
-
-    <div class="grid g4">
-      <a class="card theme c" href="{{ '/buckets/concepts.html' | relative_url }}">
-        <span class="t">C</span>
-        <h3>Concepts</h3>
-        <p>How a team picked its problem. Niches that matter to Taiwan. Fields combined into something
-          that did not exist as a category before.</p>
-        <span class="more">Synthesis &rarr;</span>
-      </a>
-      <a class="card theme h" href="{{ '/buckets/hardware.html' | relative_url }}">
-        <span class="t">H</span>
-        <h3>Hardware</h3>
-        <p>Low-cost instruments, open hardware, field kits — and the ingenuity that shows up when a
-          team has no budget.</p>
-        <span class="more">Synthesis &rarr;</span>
-      </a>
-      <a class="card theme m" href="{{ '/buckets/compute.html' | relative_url }}">
-        <span class="t">M</span>
-        <h3>Computation</h3>
-        <p>Prediction from biological data, and how teams make a complicated result legible to a judge
-          in ninety seconds.</p>
-        <span class="more">Synthesis &rarr;</span>
-      </a>
-      <a class="card theme s" href="{{ '/buckets/impact.html' | relative_url }}">
-        <span class="t">S</span>
-        <h3>Science for good</h3>
-        <p>Education that works, human practices with a real community behind them, and what teams do
-          with the project after the medals.</p>
-        <span class="more">Synthesis &rarr;</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="s" id="before">
-  <div class="wrap">
-    <span class="eyebrow">02 · Before we fly</span>
-    <h2>We read the whole competition first.</h2>
-    <p class="sub">Every team publishes an abstract. All of them were read and ranked against the four
-      themes before anyone boarded, so the floor time in Paris is deliberate instead of a random walk.</p>
+    <span class="eyebrow">01 · The plan</span>
+    <h2>Every official session in the programme is accounted for.</h2>
+    <p class="sub">There are {{ J.official_total }} keynotes, panels, summit sessions and workshops at this
+      Jamboree, given by industry and academic speakers. We read all of them and decided on all of
+      them: {{ J.official_planned }} we attend, {{ J.official_dropped }} we gave up — and the page says what each
+      one was given up for. Student team talks are fill-in, behind a toggle.</p>
 
     <div class="stats">
-      <div class="stat"><b class="tw">463</b><span>teams registered for 2026</span></div>
-      <div class="stat"><b class="tw">452</b><span>accepted, and triaged</span></div>
-      <div class="stat"><b class="tw">424</b><span>had an abstract to read</span></div>
-      <div class="stat"><b class="tw">{{ site.data.targets | size }}</b><span>targets, split three ways</span></div>
+      <div class="stat"><b class="tw">{{ J.sessions_total }}</b><span>sessions in the programme</span></div>
+      <div class="stat"><b class="tw">{{ J.sessions_judging }}</b><span>closed judging slots</span></div>
+      <div class="stat"><b class="tw">{{ J.official_total }}</b><span>official sessions, all triaged</span></div>
+      <div class="stat"><b class="tw">{{ J.conflicts | size }}</b><span>clashes decided in advance</span></div>
     </div>
 
     <div class="grid g3">
-      <a class="card" href="{{ '/floor-plan.html' | relative_url }}">
+      <a class="card" href="{{ '/schedule.html' | relative_url }}">
         <span class="n">Start here</span>
-        <h3>The floor plan</h3>
-        <p>{{ site.data.targets | size }} posters, assigned one to a person so nobody walks the same
-          aisle twice. Tick them off as you go.</p>
+        <h3>The four days</h3>
+        <p>Hour by hour, filtered to your name. Every slot carries why it was chosen over the one
+          next to it, and the priority ones carry the question to walk in with.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/teams.html' | relative_url }}">
-        <span class="n">Reference</span>
-        <h3>All 452 teams</h3>
-        <p>Search every accepted team by name, project or village — for the booth you walk past and
-          had not planned for.</p>
-        <span class="more">Browse &rarr;</span>
-      </a>
-      <a class="card" href="{{ '/research/' | relative_url }}">
+      <a class="card" href="{{ '/tracks.html' | relative_url }}">
         <span class="n">The reasoning</span>
-        <h3>Full triage</h3>
-        <p>Four documents covering every village, with the questions to ask and the claims that looked
-          thin.</p>
+        <h3>Growth tracks</h3>
+        <p>The eight capabilities GEMS is trying to accumulate, each with what we already have and
+          the specific thing we are missing.</p>
         <span class="more">Read &rarr;</span>
       </a>
-    </div>
-
-    <div class="note" style="margin-top:22px">
-      <p><b>Treat the rankings as a reason to walk over, never as a finding.</b> They come from reading
-        abstracts that teams wrote to sell their own projects — not from seeing the work. Where a claim
-        looked unsupported the triage says so, and those are the questions to open with.</p>
+      <a class="card" href="{{ '/program.html' | relative_url }}">
+        <span class="n">Reference</span>
+        <h3>Full programme</h3>
+        <p>All {{ site.data.fullprog | size }} open sessions, searchable — for the one you hear about
+          in a corridor and had not planned for.</p>
+        <span class="more">Browse &rarr;</span>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="s" id="floor">
+<section class="s" id="together">
   <div class="wrap">
-    <span class="eyebrow">03 · On the floor</span>
-    <h2>Split the hall, merge the notes.</h2>
+    <span class="eyebrow">02 · Together or apart</span>
+    <h2>Seven slots all three of us attend. The rest we split.</h2>
     <p class="sub">Three people at one Jamboree produce three identical diaries unless the floor is
-      divided first. Each adviser takes a different slice and a different question.</p>
+      divided first. Each instructor takes a different stage and a different question — except where
+      a session is worth three sets of notes, or is our own.</p>
 
     <div class="grid g3">
-      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#gabriel">
+      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">G</span>
         <h3>Gabriel</h3>
-        <p>Wet lab — secretion, chassis, bench technique.</p>
-        <p class="cnt tw">{{ gab | size }}<small>targets</small></p>
+        <p>Wet lab — secretion, chassis, bench technique, and getting student work published.</p>
+        <p class="cnt tw">{{ J.per_person.Gabriel }}<small>slots</small></p>
       </a>
-      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#chars">
+      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">C</span>
         <h3>Chars</h3>
-        <p>Wet lab — problem selection, measurement, validation.</p>
-        <p class="cnt tw">{{ cha | size }}<small>targets</small></p>
+        <p>Responsibility and the pipeline — governance, biosafety, education, the 2027 cohort.</p>
+        <p class="cnt tw">{{ J.per_person.Chars }}<small>slots</small></p>
       </a>
-      <a class="card person" href="{{ '/floor-plan.html' | relative_url }}#timmy">
+      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">T</span>
         <h3>Timmy</h3>
-        <p>Dry lab — hardware, modelling, and how teams present to judges.</p>
-        <p class="cnt tw">{{ tim | size }}<small>targets</small></p>
+        <p>Dry lab and direction — measurement, automation, standards, and the whole Innovation stage.</p>
+        <p class="cnt tw">{{ J.per_person.Timmy }}<small>slots</small></p>
       </a>
     </div>
 
     <div class="grid g2" style="margin-top:16px">
-      <a class="card" href="{{ '/notes/' | relative_url }}">
-        <span class="n">The evidence base</span>
-        <h3>One note per team</h3>
-        <p>Same fields every time: the mechanism, the one number that matters, where it came from, and
-          a verdict. Free-form notes from three people never merge.</p>
-        <span class="more">See the template &rarr;</span>
-      </a>
+      <div class="card">
+        <span class="n">The seven we do together</span>
+        <h3>Where three readings beat one</h3>
+        <p>The opening and the Final Day Show; <b>our judging session and the debrief straight
+          after</b>; our own stage talk on Sunday; the reproducibility keynote; and the HS PI
+          Roundtable, the only session in the programme written for high-school instructors.</p>
+        <div class="chips">
+          <span class="chip r">Judging Room 3 · Fri 12:00</span>
+          <span class="chip g">Fabrication plaza · Sun 14:40</span>
+        </div>
+      </div>
       <div class="card">
         <span class="n">House rules</span>
         <h3>Four that matter</h3>
         <p>Mechanism, not claim. Mark what you were told apart from what you worked out. Decide the
-          relevance at the poster. Write it up the same evening — notes written on the flight home are
-          a fraction of what you saw.</p>
+          relevance at the session. Write it up the same evening — notes written on the flight home
+          are a fraction of what you saw.</p>
         <div class="chips">
           <span class="chip">ask before photographing people</span>
           <span class="chip g">ask before unpublished data</span>
@@ -183,12 +145,90 @@ description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — 
   </div>
 </section>
 
+<section class="s" id="logistics">
+  <div class="wrap">
+    <span class="eyebrow">03 · The trip</span>
+    <h2>Nine days, Taipei to Taipei.</h2>
+    <p class="sub">The team flies on 10 November and lands back on the 17th. Three of those days are
+      preparation, four are the Jamboree, and two are in the air.</p>
+
+    <div class="grid g3">
+      <a class="card" href="{{ '/before.html' | relative_url }}">
+        <span class="n">10–12 November</span>
+        <h3>Before we fly</h3>
+        <p>What each day owes, the two source disagreements to settle on Thursday rather than
+          Friday, what to read, and what to carry.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/ground.html' | relative_url }}">
+        <span class="n">13–16 November</span>
+        <h3>On the ground</h3>
+        <p>The venue and the rooms that matter, getting there, the booth and its one rule, and what
+          to do when something goes wrong.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/after.html' | relative_url }}">
+        <span class="n">17 November onward</span>
+        <h3>After we land</h3>
+        <p>How three sets of notes become three reports and one plan for 2027 — the sequence, and
+          the step that is easy to skip.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+    </div>
+
+    <div class="note" style="margin-top:22px">
+      <p><b>The students have their own site.</b> Flights, rooms, booth shifts, materials and the
+        emergency numbers live on <a href="https://timmy97-tw.github.io/releaf-jamboree/">ReLEAF to
+        Paris</a>, and this site takes those numbers from it rather than keeping a second copy that
+        can drift. Two things disagree between that site and iGEM's own API —
+        <a href="{{ '/schedule.html' | relative_url }}#open">both are listed</a>, and both are
+        ten minutes' work at badge pickup.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="themes">
+  <div class="wrap">
+    <span class="eyebrow">04 · What the report answers</span>
+    <h2>Four themes from the brief, eight tracks underneath.</h2>
+    <p class="sub">Pak's brief sets the four themes the report has to answer. The eight growth tracks
+      are how we made them specific enough to choose a session with.</p>
+
+    <div class="grid g4">
+      <a class="card theme c" href="{{ '/buckets/concepts.html' | relative_url }}">
+        <span class="t">C</span><h3>Concepts</h3>
+        <p>How a team picked its problem, and fields combined into something that did not exist as a
+          category before.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme h" href="{{ '/buckets/hardware.html' | relative_url }}">
+        <span class="t">H</span><h3>Hardware</h3>
+        <p>Low-cost instruments, open hardware and field kits — and the ingenuity that shows up when
+          a team has no budget.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme m" href="{{ '/buckets/compute.html' | relative_url }}">
+        <span class="t">M</span><h3>Computation</h3>
+        <p>Prediction from biological data, and how teams make a complicated result legible to a
+          judge in ninety seconds.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme s" href="{{ '/buckets/impact.html' | relative_url }}">
+        <span class="t">S</span><h3>Science for good</h3>
+        <p>Education that works, human practices with a real community behind them, and what teams
+          do with a project after the medals.</p>
+        <span class="more">Synthesis &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="s" id="after">
   <div class="wrap">
-    <span class="eyebrow">04 · What comes back</span>
+    <span class="eyebrow">05 · What comes back</span>
     <h2>Three reports, one evidence base.</h2>
-    <p class="sub">Each adviser owes a report. They cite the same notes and reach their own conclusions
-      — three readings, not three itineraries.</p>
+    <p class="sub">Each instructor owes a report. They cite the same notes and reach their own
+      conclusions — three readings, not three itineraries.</p>
 
     <div class="grid g3">
       <a class="card" href="{{ '/reports/gabriel.html' | relative_url }}">
@@ -204,20 +244,17 @@ description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — 
         <p>PI, dry lab.</p><span class="more">Read &rarr;</span>
       </a>
     </div>
-  </div>
-</section>
 
-<section class="s" id="limits" style="padding-bottom:20px">
-  <div class="wrap">
-    <span class="eyebrow">05 · The limits</span>
-    <h2>What we did not see.</h2>
-    <p class="sub">452 teams accepted; we will reach a fraction of them. A report that implies otherwise
-      is worth less than one that states its limits plainly.</p>
-
-    <div class="grid g2">
+    <div class="grid g3" style="margin-top:16px">
+      <a class="card" href="{{ '/notes/' | relative_url }}">
+        <span class="n">The evidence base</span><h3>One note per session</h3>
+        <p>Same fields every time: the mechanism, the one number that matters, where it came from,
+          and a verdict.</p>
+        <span class="more">See the template &rarr;</span>
+      </a>
       <a class="card" href="{{ '/gaps.html' | relative_url }}">
-        <span class="n">Honesty</span><h3>Gaps</h3>
-        <p>Villages we never covered, targets we never reached, and the questions we meant to ask and
+        <span class="n">Honesty</span><h3>What we missed</h3>
+        <p>Sessions we gave up, villages we never covered, and the questions we meant to ask and
           did not.</p>
         <span class="more">Open &rarr;</span>
       </a>
@@ -227,6 +264,42 @@ description: Three GEMS Taiwan advisers at the iGEM Grand Jamboree in Paris — 
           produced nothing.</p>
         <span class="more">Open &rarr;</span>
       </a>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="teams" style="padding-bottom:20px">
+  <div class="wrap">
+    <span class="eyebrow">06 · The competition</span>
+    <h2>We also read all 452 teams.</h2>
+    <p class="sub">Done before the programme was published, and still useful: it is how we know which
+      teams to find at a booth, and it is where the pre-trip judgments are recorded.</p>
+
+    <div class="grid g3">
+      <a class="card" href="{{ '/floor-plan.html' | relative_url }}">
+        <span class="n">{{ site.data.targets | size }} targets</span><h3>Floor plan</h3>
+        <p>Teams worth finding, split one to a person. {{ J.targets_with_talk }} of them give a talk;
+          the other {{ J.booth_only | size }} exist only at a booth.</p>
+        <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/teams.html' | relative_url }}">
+        <span class="n">Reference</span><h3>All 452 teams</h3>
+        <p>Searchable across every full abstract, by name, project, country or village.</p>
+        <span class="more">Browse &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/research/' | relative_url }}">
+        <span class="n">The reasoning</span><h3>Full triage</h3>
+        <p>Four documents covering every village, with the questions to ask and the claims that
+          looked thin.</p>
+        <span class="more">Read &rarr;</span>
+      </a>
+    </div>
+
+    <div class="note" style="margin-top:22px">
+      <p><b>Treat the team rankings as a reason to walk over, never as a finding.</b> They come from
+        reading abstracts that teams wrote to sell their own projects — not from seeing the work.
+        Where a claim looked unsupported the triage says so, and those are the questions to open
+        with.</p>
     </div>
   </div>
 </section>

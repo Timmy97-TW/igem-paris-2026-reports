@@ -1,0 +1,68 @@
+{
+ "uuid": "1e487302-ac10-4d73-8407-2178d1e258a3",
+ "type": "jamboree",
+ "title": "2026 iGEM Grand Jamboree",
+ "startDate": "2026-11-13T00:00:00.000Z",
+ "endDate": "2026-11-16T00:00:00.000Z",
+ "metadata": {
+  "venue": {
+   "name": "Paris Convention Centre",
+   "detail": "Pavilion 7.3",
+   "latitude": 48.8279219,
+   "longitude": 2.2886679
+  },
+  "expoDayPlan": [
+   {
+    "group": "A",
+    "sessions": [
+     {
+      "day": 1,
+      "end": "13:00",
+      "start": "09:00"
+     },
+     {
+      "day": 3,
+      "end": "17:00",
+      "start": "08:00"
+     }
+    ]
+   },
+   {
+    "group": "B",
+    "sessions": [
+     {
+      "day": 1,
+      "end": "17:00",
+      "start": "13:00"
+     },
+     {
+      "day": 2,
+      "end": "17:00",
+      "start": "08:00"
+     }
+    ]
+   }
+  ],
+  "podOpeningHours": [
+   {
+    "day": 1,
+    "opens": "09:30",
+    "closes": "16:30"
+   },
+   {
+    "day": 2,
+    "opens": "07:30",
+    "closes": "16:30"
+   },
+   {
+    "day": 3,
+    "opens": "07:30",
+    "closes": "16:30"
+   }
+  ]
+ },
+ "audit": {
+  "created": "2025-10-31T17:41:56.861Z",
+  "updated": "2026-09-24T14:09:52.671Z"
+ }
+}
