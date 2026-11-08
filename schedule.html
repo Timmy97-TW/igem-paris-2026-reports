@@ -23,9 +23,9 @@ description: Which official sessions each instructor attends in Paris, which we 
   </div>
 
   <div class="days" id="days" role="group" aria-label="Filter by day">
-    <button type="button" data-d="all" class="on"><b>All four</b><span>{{ J.planned }} slots</span></button>
+    <button type="button" data-d="all" class="on"><b>All four</b><span>{{ J.planned }} going</span></button>
     {% for d in J.days %}
-    <button type="button" data-d="{{ d.day }}"><b>{{ d.label }}</b><span>{{ d.n }} slots</span></button>
+    <button type="button" data-d="{{ d.day }}"><b>{{ d.label }}</b><span>{{ d.n }} going</span></button>
     {% endfor %}
   </div>
 
@@ -59,7 +59,7 @@ description: Which official sessions each instructor attends in Paris, which we 
       {% if r.day != lastday %}
         {% assign lastday = r.day %}
         {% assign dd = J.days | where: 'day', r.day | first %}
-        <div class="hd" data-day="{{ r.day }}"><h3>{{ dd.label }}</h3><span>{{ dd.n }} slots · {{ dd.anchors }} together</span></div>
+        <div class="hd" data-day="{{ r.day }}"><h3>{{ dd.label }}</h3><span>{{ dd.n }} going · {{ dd.anchors }} together · dropped ones shown too</span></div>
       {% endif %}
       <div class="it {{ r.tier }}{% if r.drop %} drop{% endif %}"
            data-day="{{ r.day }}" data-group="{{ r.group }}" data-id="{{ r.id }}"
@@ -129,7 +129,7 @@ description: Which official sessions each instructor attends in Paris, which we 
     var sch = document.getElementById('sch'), day = 'all', showTT = false;
     var apply = filterList({
       input: 'q', count: 'count', rows: '#sch .it', empty: 'empty', seg: 'seg',
-      noun: 'slot',
+      noun: 'row listed', nounPlural: 'rows listed',
       extra: function (r) {
         if (day !== 'all' && r.dataset.day !== day) return false;
         if (!showTT && r.dataset.bonus === 'bonus') return false;
