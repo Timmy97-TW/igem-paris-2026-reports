@@ -387,6 +387,10 @@
   ],
 
   "own_blocks": [
+    { "day": "2026-11-13", "start": "11:15", "end": "11:50", "who": "Gabriel", "tier": "own",
+      "title": "Judging assembly: bring the student group to Judging Room 3",
+      "where": "Outside the Judging zone, Pavilion 7.3",
+      "why": "Someone has to have the students counted and at the door before 11:50. Gabriel gives up the 11:25 career talk for it; Chars arrives 11:40, Timmy 11:50. See the duty roster." },
     { "day": "2026-11-13", "start": "12:00", "end": "12:25", "who": "All", "tier": "anchor",
       "title": "GEMS-Taiwan judging session",
       "where": "Judging Room 3",
@@ -399,14 +403,22 @@
       "title": "On call for booth H-17",
       "where": "Pavilion 7.3, booth H-17",
       "why": "Students run the booth; one instructor stays inside Pavilion 7 with a phone on. Gabriel's Friday afternoon is all in-hall anyway." },
-    { "day": "2026-11-14", "start": "10:30", "end": "13:00", "who": "Gabriel", "tier": "own",
+    { "day": "2026-11-14", "start": "08:30", "end": "09:05", "who": "Timmy", "tier": "own",
+      "title": "Open booth H-17 with group 1",
+      "where": "Pavilion 7.3, booth H-17",
+      "why": "Group 1 sets up from 08:30 and nobody else is free: Chars is in the 1976 restaging and Gabriel's workshop starts 09:15. Timmy hands over to Gabriel and walks to the Standards panel at 09:10." },
+    { "day": "2026-11-14", "start": "09:05", "end": "13:45", "who": "Gabriel", "tier": "own",
       "title": "On call for booth H-17",
       "where": "Pavilion 7.3, booth H-17",
-      "why": "Between the publishing workshop and the Git for Genomes talk he is in-hall the whole time, and it frees Chars for the 1976 restaging in Nucleus." },
+      "why": "From the publishing workshop through Git for Genomes and the 13:00 keynote he is in-hall the whole time, and it frees Chars for the 1976 restaging. Takes over from Timmy at 09:05 and hands to Chars at 13:45. See the duty roster." },
     { "day": "2026-11-14", "start": "13:45", "end": "18:00", "who": "Chars", "tier": "own",
       "title": "On call for booth H-17",
       "where": "Pavilion 7.3, booth H-17",
       "why": "Her Saturday afternoon is Nucleus and Main Stage, both in-hall. Rotates the duty off Gabriel after the keynote." },
+    { "day": "2026-11-15", "start": "10:20", "end": "12:00", "who": "Timmy", "tier": "own",
+      "title": "Stage talk final runs, at the hotel",
+      "where": "Hotel meeting room",
+      "why": "The students rehearse at the hotel on Sunday morning and the talk is at 14:40. Timmy walks back after the HS PI Roundtable and gives up The Foundry Era to lock the final version; Chars and Gabriel take notes on Foundry for him." },
     { "day": "2026-11-15", "start": "14:40", "end": "14:50", "who": "All", "tier": "anchor",
       "title": "Releaf: Every Farmer a Biomanufacturer",
       "where": "Fabrication plaza stage — NOT the Main Stage",
@@ -418,6 +430,9 @@
   ],
 
   "conflicts": [
+    { "when": "Fri 11:15–11:50", "who": "Gabriel",
+      "what": "A PhD, a Start-Up, and a Career in Industry runs against gathering the students for judging.",
+      "call": "The students. Someone has to have the judging group counted and at the door before 11:50." },
     { "when": "Fri 10:00–10:15", "who": "Timmy",
       "what": "The AI × SynBio village talk ends 10:15; Next-Gen Biomanufacturing starts 10:10.",
       "call": "Both. Take the village talk and slip into the Innovation session at 10:15 — it runs a full hour and opens with introductions." },
@@ -450,7 +465,10 @@
       "call": "Our team talk. Beyond the Hype is the best single fit to his report in the whole programme — find the speaker afterwards and send the email." },
     { "when": "Sun 17:00–17:45", "who": "Timmy",
       "what": "The showcase Time Capsule interviews run against the assay-design talk.",
-      "call": "Assay design. It is the Measurement award; the interviews are a story." }
+      "call": "Assay design. It is the Measurement award; the interviews are a story." },
+    { "when": "Sun 10:30–11:15", "who": "Timmy",
+      "what": "The Foundry Era, an all-three session, runs against the last stage-talk runs at the hotel.",
+      "call": "The stage talk. Chars and Gabriel cover Foundry; Timmy reads their notes." }
   ],
 
   "unresolved": [

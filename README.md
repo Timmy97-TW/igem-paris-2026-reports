@@ -25,6 +25,8 @@ instead of three travelogues.
 |---|---|
 | `index.html` | The hub |
 | `schedule.html` | **The four days** — the plan, hour by hour, filterable per person |
+| `duties.html` | **帶隊分工表** — the 10–18 Nov duty roster: squads, roll call, duty rota, training, booth, materials, safety, emergency cards (zh-Hant) |
+| `research-log.md` | **研究紀錄** — the nightly research discussion, written up each night, and the 2027 topic table |
 | `tracks.html` | **Growth tracks** — the eight capabilities, what we have, what we are missing |
 | `before.md` | Before we fly: the nine-day trip, what to settle at badge pickup, what to carry |
 | `ground.md` | On the ground: venue, rooms, transport, the booth, emergencies |

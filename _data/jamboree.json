@@ -14,7 +14,7 @@
  "official_planned": 48,
  "official_dropped": 23,
  "bonus_free": 17,
- "planned": 55,
+ "planned": 58,
  "dropped": 23,
  "tracks": [
   {
@@ -627,30 +627,30 @@
   "UW-Poland"
  ],
  "per_person": {
-  "Gabriel": 28,
+  "Gabriel": 29,
   "Chars": 26,
-  "Timmy": 33
+  "Timmy": 35
  },
  "days": [
   {
    "day": "2026-11-13",
    "label": "Fri 13 Nov",
    "short": "FRI",
-   "n": 20,
+   "n": 21,
    "anchors": 3
   },
   {
    "day": "2026-11-14",
    "label": "Sat 14 Nov",
    "short": "SAT",
-   "n": 18,
+   "n": 19,
    "anchors": 1
   },
   {
    "day": "2026-11-15",
    "label": "Sun 15 Nov",
    "short": "SUN",
-   "n": 14,
+   "n": 15,
    "anchors": 2
   },
   {
@@ -711,6 +711,12 @@
   }
  ],
  "conflicts": [
+  {
+   "when": "Fri 11:15–11:50",
+   "who": "Gabriel",
+   "what": "A PhD, a Start-Up, and a Career in Industry runs against gathering the students for judging.",
+   "call": "The students. Someone has to have the judging group counted and at the door before 11:50."
+  },
   {
    "when": "Fri 10:00–10:15",
    "who": "Timmy",
@@ -776,6 +782,12 @@
    "who": "Timmy",
    "what": "The showcase Time Capsule interviews run against the assay-design talk.",
    "call": "Assay design. It is the Measurement award; the interviews are a story."
+  },
+  {
+   "when": "Sun 10:30–11:15",
+   "who": "Timmy",
+   "what": "The Foundry Era, an all-three session, runs against the last stage-talk runs at the hotel.",
+   "call": "The stage talk. Chars and Gabriel cover Foundry; Timmy reads their notes."
   }
  ],
  "unresolved": [

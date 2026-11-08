@@ -1,0 +1,864 @@
+---
+layout: doc
+title: 帶隊分工表 11/10–11/18
+eyebrow: Timmy · Chars · Gabriel · 30 位學生
+section: 帶隊分工
+description: 三位老師九天的完整分工：分組、點名、訓練、攤位輪值、資料採集、物品、安全，以及每晚的研究討論。Jason 的六個問題逐條回答。
+---
+<style>
+.du{--t:#0167EF;--c:#00B87A;--g:#7C5CFF}
+.du .lede{font-size:18px;color:var(--ink2);margin-bottom:18px}
+.du .p{white-space:nowrap;font-weight:600;color:var(--ink)}
+.du .p::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px;background:var(--ink3)}
+.du .p.t::before{background:var(--t)} .du .p.c::before{background:var(--c)} .du .p.g::before{background:var(--g)}
+.du .on{display:inline-block;font-size:11.5px;font-weight:650;line-height:1.5;padding:1px 8px;border-radius:999px;background:var(--navy);color:#fff;margin:0 6px 2px 0;vertical-align:1px}
+.du .mut{color:var(--ink3)}
+.du-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:6px 0 22px}
+.du-three>div{background:var(--bg);border-radius:18px;padding:18px 18px 14px}
+.du-three .nm{font-size:21px;font-weight:700;letter-spacing:-.02em;margin:0 0 2px}
+.du-three .rl{font-size:13px;color:var(--ink3);margin:0 0 10px;font-weight:600}
+.du-three ul{margin:0;padding-left:18px;font-size:14.5px}
+.du-three li{margin:0 0 5px}
+.du-nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 26px}
+.du-nums>div{background:var(--bg);border-radius:16px;padding:14px 16px}
+.du-nums b{display:block;font-size:30px;font-weight:700;letter-spacing:-.03em;line-height:1.1}
+.du-nums span{font-size:13px;color:var(--ink2)}
+.du-qs{list-style:none;padding:0!important;margin:0 0 10px!important;counter-reset:q}
+.du-qs li{counter-increment:q;display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;padding:11px 0;border-top:1px solid var(--line);margin:0!important}
+.du-qs li:last-child{border-bottom:1px solid var(--line)}
+.du-qs li::before{content:counter(q);font-weight:700;font-size:15px;color:var(--ink3);font-variant-numeric:tabular-nums}
+.du-qs b{display:block;color:var(--ink)}
+.du-qs span{font-size:14.5px;color:var(--ink2)}
+.du table{font-size:14px}
+.du td.tm{white-space:nowrap;font-weight:650;color:var(--ink);font-variant-numeric:tabular-nums}
+.du table.day td{min-width:120px}
+.du table.day td.tm{min-width:76px}
+.du table.mx td{white-space:nowrap}
+.du .sum{background:var(--bg);border-radius:16px;padding:16px 18px;margin:0 0 18px;font-size:15.5px}
+.du .sum p{margin:0 0 6px} .du .sum p:last-child{margin:0}
+.du .ans{font-size:19px;font-weight:700;color:var(--ink);margin:0 0 10px}
+.du code.ln{display:block;white-space:pre-wrap;padding:10px 12px;margin:0 0 12px;font-size:13px}
+.du-steps{list-style:none;padding:0!important;margin:0 0 16px!important}
+.du-steps li{display:grid;grid-template-columns:70px minmax(0,1fr);gap:12px;padding:9px 0;border-top:1px solid var(--line);margin:0!important}
+.du-steps li>b{font-variant-numeric:tabular-nums;color:var(--ink)}
+/* emergency cards */
+.du-cfg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:8px 0 12px}
+.du-cfg label{font-size:12.5px;font-weight:600;color:var(--ink2);display:grid;gap:4px}
+.du-cfg input{font:inherit;font-size:15px;padding:9px 11px;border-radius:10px;border:1px solid rgba(0,0,0,.14);background:#fff;min-width:0}
+.du-btn{font:inherit;font-size:15px;font-weight:600;border:0;border-radius:999px;padding:10px 18px;background:var(--navy);color:#fff;cursor:pointer;margin:0 8px 8px 0}
+.du-btn.gh{background:var(--bg);color:var(--ink)}
+.du details{margin:6px 0 14px}
+.du summary{cursor:pointer;font-weight:600;color:var(--blue)}
+.du-cards{display:grid;grid-template-columns:repeat(auto-fill,90mm);gap:6mm;margin-top:12px}
+.ecard{width:90mm;height:88mm;border:1px dashed #9a9aa0;border-radius:3mm;font-size:7.6pt;line-height:1.3;color:#111;background:#fff;display:grid;grid-template-rows:44mm 44mm;overflow:hidden;font-family:-apple-system,"PingFang TC","Noto Sans TC",Arial,sans-serif}
+.ecard>div{padding:3mm 3.5mm;overflow:hidden}
+.ecard .ef{border-bottom:1px dashed #9a9aa0}
+.ecard .et{display:flex;justify-content:space-between;font-size:6.8pt;color:#555;font-weight:600}
+.ecard .en{font-size:12.5pt;font-weight:700;margin:1mm 0 1.2mm;letter-spacing:-.01em}
+.ecard .en small{font-size:8pt;font-weight:600;color:#555;margin-left:2mm}
+.ecard ol{margin:0;padding:0;list-style:none}
+.ecard ol li{display:grid;grid-template-columns:8mm 25mm 1fr;gap:1mm;margin:0;padding:.25mm 0}
+.ecard ol li b small{font-weight:600;color:#666;font-size:6.5pt;margin-left:1mm}
+.ecard ol li span{color:#666} .ecard ol li b{font-weight:700} .ecard ol li i{font-style:normal;font-variant-numeric:tabular-nums}
+.ecard .eh{margin-top:1.2mm;font-size:6.8pt;color:#333}
+.ecard .es{margin-top:.8mm;font-size:6.8pt;font-weight:700}
+.ecard .eb b{font-size:8pt}
+.ecard .eb p{margin:.8mm 0;font-size:6.9pt}
+.ecard .eb .fr{font-style:italic}
+.ecard .eb .al{margin-top:1.2mm;border-top:1px solid #ccc;padding-top:1mm}
+#du-print{display:none}
+@media(max-width:860px){.du-three{grid-template-columns:1fr}.du-nums{grid-template-columns:repeat(2,minmax(0,1fr))}.du-cfg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media print{
+  @page{size:A4;margin:10mm}
+  body{background:#fff}
+  nav,footer,.dochead,.toc{display:none!important}
+  .doc{display:block;padding:0}
+  .wrap{max-width:none;padding:0}
+  .prose{border:0;box-shadow:none;padding:0;background:#fff}
+  .du>*:not(#du-print){display:none!important}
+  #du-print{display:grid!important;grid-template-columns:90mm 90mm;column-gap:8mm;row-gap:4mm;justify-content:center}
+  .ecard{break-inside:avoid;page-break-inside:avoid}
+}
+</style>
+
+<div class="du" lang="zh-Hant">
+
+<p class="lede">這一頁是三位老師在巴黎九天的分工。學生的行程照 <a href="https://timmy97-tw.github.io/releaf-jamboree/">ReLEAF to Paris</a>，老師要聽的官方場次照 <a href="schedule.html">The four days</a>，這裡把兩邊接起來：誰在什麼時候管學生、誰在採集資料、誰訓練什麼、出事時誰做什麼。時間都是巴黎時間（台北減 7 小時），11/10 和 11/18 是台北時間。</p>
+
+<div class="du-three">
+  <div>
+    <p class="nm"><span class="p t">Timmy</span></p>
+    <p class="rl">總領隊 · 第 4 次帶隊 · 帶 D 組 6 人</p>
+    <ul>
+      <li>最後決定：安全、要不要外出、11/16 用哪個模式</li>
+      <li>家長群組、iGEM 窗口</li>
+      <li>5 分鐘評審簡報、10 分鐘舞台演講內容</li>
+      <li>評審問答第 4、5、6 席</li>
+      <li>主持每晚研究討論、整合 Pak 報告與 2027</li>
+    </ul>
+  </div>
+  <div>
+    <p class="nm"><span class="p c">Chars</span></p>
+    <p class="rl">副領隊 · 第 2 次（2025 同行）· 帶 C、E 組 12 人</p>
+    <ul>
+      <li>評審問答訓練總負責（模擬評審）</li>
+      <li>舞台演講走位、計時、錄影</li>
+      <li>醫藥、飯店窗口</li>
+      <li>週日晚上的學生反思</li>
+      <li>評審問答第 2、3 席；託運 2 件，第 2 件是生物反應器箱</li>
+    </ul>
+  </div>
+  <div>
+    <p class="nm"><span class="p g">Gabriel</span></p>
+    <p class="rl">第 1 次 · 帶 A、B 組 12 人</p>
+    <ul>
+      <li>點名系統、GPS、緊急小卡、學生聯絡表</li>
+      <li>物品管理（帶 Mia、Sophia Lin）</li>
+      <li>攤位值班、評審日集合與評審包</li>
+      <li>攤位 pitch 與硬體 demo</li>
+      <li>評審問答第 1、7 席；收據與零用金</li>
+    </ul>
+  </div>
+</div>
+
+<div class="du-nums">
+  <div><b class="tw">30</b><span>位學生，每人一個號碼 1–30</span></div>
+  <div><b class="tw">5 × 6</b><span>小組，照房間分，各有組長</span></div>
+  <div><b class="tw">7 · 7 · 7</b><span>三人各值 7 個時段</span></div>
+  <div><b class="tw">3</b><span>道晚間檢查：20:00、21:45、22:00</span></div>
+</div>
+
+<h2 id="jason">Jason 的問題，答在哪裡</h2>
+
+<ol class="du-qs">
+  <li><div><b><a href="#q1">學生怎麼管</a></b><span>分 5 組每組 6 人；什麼時候 30 人、6 人、3 人；吃飯；每天誰跟誰、誰記；早中晚怎麼確認；晚上幾點點名、三人怎麼分；GPS；緊急小卡；緊急 SOP；可不可以去市區（不行）</span></div></li>
+  <li><div><b><a href="#q2">訓練 11/11–11/13，以及 11/15–11/16</a></b><span>誰訓練什麼、每一個小時做什麼</span></div></li>
+  <li><div><b><a href="#q3">11/13–11/15 三人怎麼輪</a></b><span>一人值班、兩人採集；攤位老師輪值；誰看哪些場次和隊伍；學生的 talk 分配</span></div></li>
+  <li><div><b><a href="#q4">物品管理</a></b><span>七個清點點、行李額度與分配、種子和反應器兩件要先處理的事、護照</span></div></li>
+  <li><div><b><a href="#q5">11/16 怎麼安排、出發前一晚的安全檢查</a></b><span>進決賽怎麼做、沒進怎麼做；最後一晚；11/17 清晨；11/18 交給家長</span></div></li>
+  <li><div><b><a href="#q6">要不要學生反思</a></b><span>要。週日晚上，一起等 finalist 公布的時候寫</span></div></li>
+</ol>
+<p>另外三段是 Timmy 要求的：<a href="#days">九天逐日分工</a>、<a href="#research">每晚研究討論與 Pak 的報告</a>、<a href="#more">其他補充</a>。最後是出發前<a href="#open">還要確認的事</a>。</p>
+
+<h2 id="roles">三個人的固定職責</h2>
+
+<p>值班會輪，下面這些不輪。主責的人負責「事情有做完」，不是每一件都自己做。</p>
+
+<table>
+<thead><tr><th>職責</th><th>主責</th><th>支援</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td>總指揮、最後決定（安全、外出、11/16 模式）</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span></td><td>三人意見不同時 Timmy 決定，事後再檢討</td></tr>
+<tr><td>家長群組每日平安訊息</td><td><span class="p t">Timmy</span></td><td><span class="p g">Gabriel</span> 每天給 5 張照片</td><td>每晚 22:30 巴黎時間（台北早上 05:30，家長起床就看到）</td></tr>
+<tr><td>iGEM 窗口：識別證、App、攤位時間、舞台地點、finalist 公布</td><td><span class="p t">Timmy</span></td><td></td><td>11/12 在會場把兩個資料不一致的地方確認掉（見<a href="#open">待確認</a>）</td></tr>
+<tr><td>點名系統：編號、小組、Discord #點名 #去向 #talks</td><td><span class="p g">Gabriel</span></td><td>當天值班</td><td>11/10 前建好頻道、印好名單</td></tr>
+<tr><td>GPS 位置分享</td><td><span class="p g">Gabriel</span></td><td></td><td>11/10 桃園設定，確認三位老師都看得到 30 個點</td></tr>
+<tr><td>緊急小卡</td><td><span class="p g">Gabriel</span></td><td></td><td><a href="#card">本頁可直接列印</a></td></tr>
+<tr><td>學生聯絡表：eSIM 號碼、家長電話、過敏、用藥、同意書勾選</td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span> 醫藥欄</td><td>紙本三份，三人手機各存離線版。不放網站</td></tr>
+<tr><td>醫藥包、學生自備藥、身體不適</td><td><span class="p c">Chars</span></td><td></td><td>只給學生自己的藥，或同意書上家長同意的藥</td></tr>
+<tr><td>飯店：會議室、早餐時間、11/17 叫醒電話與早餐盒、退房</td><td><span class="p c">Chars</span></td><td></td><td></td></tr>
+<tr><td>物品清點（學生負責人 Mia、Sophia Lin）</td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span> 反應器箱</td><td><a href="#q4">七個清點點</a></td></tr>
+<tr><td>評審問答訓練、模擬評審</td><td><span class="p c">Chars</span></td><td><span class="p t">Timmy</span> <span class="p g">Gabriel</span></td><td>七席分給三人，見<a href="#q2">訓練</a></td></tr>
+<tr><td>5 分鐘評審簡報（Chloe、Abigail、Jacquelyn）</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span> 計時</td><td></td></tr>
+<tr><td>10 分鐘舞台演講（11/15 14:40）</td><td><span class="p t">Timmy</span> 內容與定稿</td><td><span class="p c">Chars</span> 走位、計時、錄影</td><td></td></tr>
+<tr><td>攤位 pitch（30 人）、硬體 demo</td><td><span class="p g">Gabriel</span></td><td><span class="p t">Timmy</span> demo 技術問題</td><td>還沒交 pitch 稿的 9 位，11/11 晚上前交</td></tr>
+<tr><td>攤位老師輪值</td><td><span class="p g">Gabriel</span> 週五、週六上午</td><td><span class="p c">Chars</span> 週六下午 · <span class="p t">Timmy</span> 週六開攤</td><td><a href="#booth">輪值表</a></td></tr>
+<tr><td>評審日集合、評審包</td><td><span class="p g">Gabriel</span></td><td></td><td>11/13 11:15 帶主答組到評審區</td></tr>
+<tr><td>審核學生自己選的 talk</td><td>各組帶班老師</td><td></td><td>11/11 晚上</td></tr>
+<tr><td>每晚研究討論、2027 題目</td><td><span class="p t">Timmy</span> 主持</td><td>記錄：<span class="p g">Gabriel</span>、<span class="p c">Chars</span> 輪流</td><td><a href="research-log.html">研究紀錄頁</a></td></tr>
+<tr><td>Pak 的研究報告</td><td>三人各一份</td><td><span class="p t">Timmy</span> 整合 2027</td><td><a href="#pak">分工</a></td></tr>
+<tr><td>週日學生反思</td><td><span class="p c">Chars</span></td><td><span class="p t">Timmy</span> 收尾</td><td></td></tr>
+<tr><td>收據、隊上緊急現金</td><td><span class="p g">Gabriel</span></td><td></td><td>每晚把收據拍照</td></tr>
+<tr><td>最後一晚安全檢查</td><td><span class="p g">Gabriel</span></td><td>全員</td><td><a href="#lastnight">清單</a></td></tr>
+</tbody>
+</table>
+
+<h2 id="duty">值班表</h2>
+
+<p>每個時段有一位<b>值班老師</b>，另外兩位做研究採集。值班的人不是一直站在學生旁邊，而是：</p>
+<ol>
+  <li><b>喊報數</b>。這個時段的每一次移動都由值班老師喊，數到 30 才走，然後在 #點名 發「30/30 ✅ 地點 時間」。</li>
+  <li><b>看 #去向</b>。小組長每一則登記都按 ✅；超過預定時間 10 分鐘沒回報，先打給組長。</li>
+  <li><b>學生的第一通電話</b>。手機開震動、電量充足，在場次裡坐靠門的位置，接到就出去。</li>
+  <li><b>安全檢查</b>。上午時段 07:00、下午時段 17:00 看一次新聞和罷工消息。</li>
+  <li><b>交班</b>。時段結束在 #點名 寫一行：「交班：30/30，注意 ___」。</li>
+</ol>
+<p>上午是起床到 12:00，下午 12:00–18:30，晚上 18:30–22:30（包含 22:00 查房）。22:30 以後三人同住 T3 房，晚上值班的人手機開鈴聲到隔天 07:00。</p>
+
+<table class="mx">
+<thead><tr><th>日期</th><th>上午</th><th>下午</th><th>晚上</th><th>當天重點</th></tr></thead>
+<tbody>
+<tr><td class="tm">11/10 二</td><td class="mut">在家</td><td class="mut">在家</td><td><span class="p t">Timmy</span></td><td>桃園集合、報到、GPS、23:30 起飛</td></tr>
+<tr><td class="tm">11/11 三</td><td><span class="p c">Chars</span></td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span></td><td>07:45 落地、13:00 入住、下午附近走走、21:00 準備</td></tr>
+<tr><td class="tm">11/12 四</td><td><span class="p t">Timmy</span></td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span></td><td>訓練日、13:00 領識別證、晚上彩排</td></tr>
+<tr><td class="tm">11/13 五</td><td><span class="p g">Gabriel</span></td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span></td><td>09:00 開幕、12:00 評審、14:00 攤位</td></tr>
+<tr><td class="tm">11/14 六</td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span></td><td><span class="p t">Timmy</span></td><td>攤位整天</td></tr>
+<tr><td class="tm">11/15 日</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span></td><td><span class="p c">Chars</span></td><td>上午舞台準備、14:40 舞台演講、晚上反思</td></tr>
+<tr><td class="tm">11/16 一</td><td><span class="p t">Timmy</span></td><td><span class="p g">Gabriel</span></td><td><span class="p g">Gabriel</span></td><td>決賽日、after party、最後一晚檢查</td></tr>
+<tr><td class="tm">11/17 二</td><td colspan="3"><span class="p t">Timmy</span>　清晨起床到登機</td><td>接駁車到 CDG、11:20 起飛</td></tr>
+<tr><td class="tm">11/18 三</td><td colspan="3"><span class="p g">Gabriel</span>　落地到交給家長</td><td>07:20 抵達桃園</td></tr>
+</tbody>
+</table>
+
+<p class="mut">Gabriel 第一次帶隊：11/11 全天跟著 Chars 值班，看她怎麼報數和處理 #去向；11/12 下午是他第一次自己值班，第一晚查房 Timmy 陪他走一次。</p>
+
+<h2 id="q1">1 · 學生怎麼管</h2>
+
+<h3 id="squads">分組：5 組，每組 6 人，照房間分</h3>
+
+<p>用 Jason 提的 5 組 × 6 人，但每一組都由<b>整間房</b>組成。這樣早上叫起床、晚上查房、吃飯、點名都是同一群人，小組長只要管自己那兩三間房。攤位的三個班（G1–G3，各 10 人）照學生網站不變，只在週五下午和週六用。</p>
+
+<table>
+<thead><tr><th>組</th><th>編號</th><th>組長 / 副組長</th><th>組員</th><th>房間</th><th>帶班老師</th></tr></thead>
+<tbody>
+<tr><td><b>A</b></td><td class="tm">1–6</td><td>1 Felix Yu / 5 Ethan Liu</td><td>2 Ethan Chang · 3 Anton Lin · 4 Noah Tau · 6 Ryan Yuan</td><td>D7 · D8 · D9</td><td><span class="p g">Gabriel</span></td></tr>
+<tr><td><b>B</b></td><td class="tm">7–12</td><td>7 Alex Li / 9 Abby Tsai</td><td>8 Ryan Wei · 10 Abby Kao · 11 Sophie Chen · 12 Joshua Hong</td><td>T1 · D10 · P1</td><td><span class="p g">Gabriel</span></td></tr>
+<tr><td><b>C</b></td><td class="tm">13–18</td><td>13 Olivia Du / 15 Audrey Chu</td><td>14 Mia Guo · 16 Sophia Lin · 17 Naomi Lin · 18 Sara Chen</td><td>T2 · D4 · P2</td><td><span class="p c">Chars</span></td></tr>
+<tr><td><b>D</b></td><td class="tm">19–24</td><td>19 Anna Chuang / 20 Olivia Lin</td><td>21 Chloe Wu · 22 Jacquelyn Inocencio · 23 Abigail Lin · 24 Renee Kuo</td><td>D1 · D3 · P3 · P4</td><td><span class="p t">Timmy</span></td></tr>
+<tr><td><b>E</b></td><td class="tm">25–30</td><td>25 Sophie Liu / 27 Sarah Chou</td><td>26 Audrey Hsieh · 28 Phoebe Chen · 29 Sophie Huang · 30 Eva Zhong</td><td>D2 · D5 · D6</td><td><span class="p c">Chars</span></td></tr>
+</tbody>
+</table>
+
+<ul>
+  <li><b>為什麼這樣排。</b>組長選有組長職或年級較高、又不是評審主講的人。5 分鐘簡報的三位（Chloe、Abigail、Jacquelyn）都在 D 組，跟 Timmy 同組，排練不用另外找人。物品負責的 Mia 和 Sophia Lin 都在 C 組。</li>
+  <li><b>房間代號</b>（T1、D1、P1…）是學生網站上的代號。11/11 入住後組長把實際房號寫在 #點名，Gabriel 更新查房表。</li>
+  <li><b>和家長同住的 4 位</b>（Joshua、Sara Chen、Abigail、Renee）照常屬於小組、照常報數，家長不代替點名。</li>
+  <li><b>編號在 11/10 桃園集合時發</b>。每組第一個號碼是組長，報數卡在哪個號碼，一聽就知道是哪一組。</li>
+  <li>如果 Timmy 想調整組長人選，改這張表和下面的<a href="#card">緊急小卡</a>就好，其他規則不變。</li>
+</ul>
+
+<h3 id="sizes">什麼時候 30 人、6 人、3 人</h3>
+
+<table>
+<thead><tr><th>人數</th><th>什麼時候</th><th>規則</th></tr></thead>
+<tbody>
+<tr><td><b>全隊 30 人</b></td><td>機場、接駁車；每天早上飯店到會場、傍晚會場回飯店；開幕、舞台演講、決賽日、after party；每晚晚間集合</td><td>報數到 30 才出發，三位老師前、中、後各一</td></tr>
+<tr><td><b>小組 6 人</b></td><td>午餐、晚餐；11/11 下午（全隊行動時的單位）；會場內固定集合點</td><td>組長帶，出發前在 #去向 登記</td></tr>
+<tr><td><b>3 人以上</b></td><td>在會場 Pavilion 7.3 裡聽 talk、逛攤位；Carrefour；飯店周邊步行 5 分鐘內的餐廳（一組可拆成兩個 3 人）；飯店健身房（22:00 前）</td><td>3 人同進同出，換地點在 #去向 說一聲</td></tr>
+<tr><td><b>不行</b></td><td>1 個人或 2 個人行動；離開飯店和會場這一帶；20:00 以後出飯店；22:00 以後串房</td><td></td></tr>
+</tbody>
+</table>
+
+<h3 id="meals">吃飯與自由時間</h3>
+
+<ul>
+  <li><b>早餐</b>全隊在飯店一起吃，同時做當天第一次報數。</li>
+  <li><b>午餐、晚餐</b>照家長同意書。勾「需要老師陪同」的學生，至少一位老師全程同桌（名單只放在老師的聯絡表，不放網站），預設是帶班老師。其他人以小組為單位、最少 3 人，在飯店和會場附近吃；學生網站周邊地圖上步行 5 分鐘那一圈是預設範圍。</li>
+  <li><b>會場日午餐</b>在會場裡吃，3 人以上。週六照攤位班錯開：G1 13:00、G2 11:30、G3 12:00。</li>
+  <li><b>晚餐最晚 20:00 回到飯店。</b></li>
+  <li><b>沒有「隨意放風」。</b>自由時間只在三個地方：飯店裡、Carrefour（結伴）、會場裡（3 人以上）。這和家長通知上寫的一致：除了午晚餐和 11/11 下午，學生不是在飯店就是在會場。</li>
+</ul>
+
+<h3 id="log">每天誰跟誰：要記，組長記</h3>
+
+<p><b>要記，每一次分開都記。</b>由小組長記，老師不記。地方是 Discord 的 #去向 頻道，頻道本身就是紀錄，不用另外寫本子。固定一行：</p>
+<code class="ln">C組｜午餐｜3人 Olivia Du、Mia、Audrey Chu → Il Gabbiano｜13:40 回飯店
+C組｜午餐｜3人 Sophia Lin、Naomi、Sara Chen → 會場美食區｜13:40 回飯店
+C組 6/6 回到飯店 13:36</code>
+<ul>
+  <li>值班老師每一則按 ✅。過了預定時間 10 分鐘沒有「回到」那一行，值班老師打給組長。</li>
+  <li>同一天 3 人組合可以換，每換一次寫一行。</li>
+  <li>會場裡聽 talk 不用每場登記，只在離開原本那一區時寫（例如「B組 3人 → Main Stage 13:00」）。</li>
+</ul>
+
+<h3 id="checks">早、中、晚、夜：怎麼確認</h3>
+
+<table>
+<thead><tr><th>時間</th><th>誰</th><th>怎麼做</th></tr></thead>
+<tbody>
+<tr><td class="tm">07:00</td><td>組長</td><td>敲自己組的房門，看到人；07:10 在 #點名 回「A組 6/6 起床」</td></tr>
+<tr><td class="tm">早餐</td><td>值班老師</td><td>全隊報數 1–30（當天第一次）</td></tr>
+<tr><td class="tm">出發</td><td>值班老師</td><td>大廳報數，到 30 才出門；過會場安檢後再報一次</td></tr>
+<tr><td class="tm">中午</td><td>組長</td><td>午餐出發、回來各一行 #去向</td></tr>
+<tr><td class="tm">攤位換班</td><td>當班班長</td><td>「G2 10/10 到攤位 10:00」（G1–G3 各自選一位班長）</td></tr>
+<tr><td class="tm">18:00</td><td>值班老師</td><td>會場集合點報數，一起走回飯店</td></tr>
+<tr><td class="tm">20:00</td><td>組長</td><td>「C組 6/6 在飯店」：晚間第一道</td></tr>
+<tr><td class="tm">21:45</td><td>值班老師</td><td>晚間集合結束時全隊報數：第二道</td></tr>
+<tr><td class="tm">22:00</td><td>帶班老師</td><td>敲門查房：第三道（下一段）</td></tr>
+</tbody>
+</table>
+
+<h3 id="night">晚餐後點名：幾點、三人怎麼分</h3>
+
+<ol class="du-steps">
+  <li><b>20:00</b><span>每組組長在 #點名 回報小組全員回到飯店。這是第一道，沒到的人由組長先找。</span></li>
+  <li><b>20:45</b><span>晚間集合（飯店會議室）。內容每天不同，見<a href="#days">逐日表</a>。</span></li>
+  <li><b>21:45</b><span>集合結束，值班老師喊全隊報數。第二道。</span></li>
+  <li><b>22:00</b><span>三位老師同時查房，各查自己帶班的組：<span class="p g">Gabriel</span> D7、D8、D9、T1、D10、P1（6 間，A＋B 組）；<span class="p c">Chars</span> T2、D4、P2、D2、D5、D6（6 間，C＋E 組）；<span class="p t">Timmy</span> D1、D3、P3、P4（4 間，D 組），查完去支援還沒查完的人。學生開門露臉，老師不進房間。</span></li>
+  <li><b>22:10</b><span>三人在 #點名 回「A+B 12/12」「C+E 12/12」「D 6/6」，值班老師回「30/30 ✅」。22:00 以後學生不出房、不串房。</span></li>
+  <li><b>22:30</b><span>Timmy 在家長群組發當天平安訊息。</span></li>
+</ol>
+<p>一位老師不在（例如陪學生就醫），他的房間由當天值班老師接手；值班的人就是那位老師時，由 Timmy 接。</p>
+
+<h3 id="count">報數怎麼做</h3>
+<ul>
+  <li>值班老師喊「報數」，學生依號碼 1 → 30 大聲接下去。正常 30 秒內報完。</li>
+  <li>斷掉的號碼，該組組長立刻說人在哪（「14 號在廁所，兩分鐘」）。</li>
+  <li>最後由值班老師說「30 到齊」，才移動。</li>
+  <li>每次報數同時確認兩件事：手機電量 30% 以上；旅行日（11/10、11/11、11/17、11/18）加一句「護照舉起來」。</li>
+</ul>
+
+<h3 id="gps">GPS 位置分享</h3>
+<ul>
+  <li>用 <b>Google 地圖的「位置資訊分享」</b>，iPhone 和 Android 都能用，不用再裝 App。</li>
+  <li>每位學生分享給三位老師的 Google 帳號，期間選「直到關閉」。同組 6 人也互相分享，組長才找得到組員。</li>
+  <li>11/10 在桃園報到完設定，Gabriel 確認三位老師的地圖上都看得到 30 個點。沒有 Google 帳號的學生當場處理。</li>
+  <li>只在找人的時候看，不用來盯人。11/18 交給家長後全部關閉，這一點先在家長群組說明。</li>
+  <li>前提是手機有電：每次報數看電量，行動電源每天帶（行動電源只能放手提行李）。</li>
+</ul>
+
+<h3 id="card">緊急小卡</h3>
+<p>要，而且每位學生一張不同的。對摺後放護照夾或手機殼裡。正面是編號、小組、照順序要打的三位老師（帶班老師在第一個）、飯店地址電話、112、駐法國台北代表處；背面是迷路三步驟、一段請路人幫忙打電話的法文和英文、過敏與用藥欄（手寫）。</p>
+<p><b>電話號碼不會上網。</b>在下面輸入，只存在這台電腦的瀏覽器，列印時才印上去。印兩份：一份給學生，一份老師留著。用 A4，每頁 6 張，共 5 頁，沿虛線剪下、沿中線對摺。</p>
+
+<div class="du-cfg">
+  <label>Timmy 法國號碼<input id="ph-t" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label>Chars 法國號碼<input id="ph-c" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label>Gabriel 法國號碼<input id="ph-g" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label>飯店電話<input id="ph-h" inputmode="tel" placeholder="+33 1 …" autocomplete="off"></label>
+</div>
+<button class="du-btn" type="button" id="du-printbtn">列印 30 張小卡</button><button class="du-btn gh" type="button" id="du-clear">清除這台電腦上的號碼</button>
+<details><summary>預覽 30 張</summary><div class="du-cards" id="du-cards"></div></details>
+
+<h3 id="sop">緊急情況怎麼處理</h3>
+
+<p>原則只有一條：<b>一位老師處理事情，一位老師帶其他學生，一位老師聯絡</b>（家長、學校、iGEM、代表處）。學生群不能沒有老師。</p>
+
+<table>
+<thead><tr><th>情況</th><th>怎麼做</th><th>誰</th></tr></thead>
+<tbody>
+<tr><td><b>報數少一人</b></td><td><b>0 分鐘</b>：組長打電話，同組說最後在哪看到；值班老師看 GPS。<b>5 分鐘</b>：還沒找到，一位老師帶全隊原地等，一位去最後的位置。<b>15 分鐘</b>：會場找 iGEM 服務台、飯店找櫃檯；Timmy 通知家長。<b>30 分鐘</b>：打 17（警察）或 112，通知駐法國台北代表處。</td><td>值班老師主導</td></tr>
+<tr><td><b>學生自己迷路</b></td><td>停在原地；照小卡順序打給三位老師；都不通就在 #點名 發位置。在會場就去 iGEM 服務台；在外面就走進店家，把小卡背面給店員看。</td><td>學生</td></tr>
+<tr><td><b>輕微不適</b></td><td>醫藥包；只吃自己的藥或同意書上家長同意的藥。藥局：飯店旁 Pharmacie de l'Hôpital（步行約 4 分鐘）。回飯店休息時同組一人陪，帶班老師知道。</td><td><span class="p c">Chars</span></td></tr>
+<tr><td><b>急症、受傷</b></td><td>打 112（醫療 15）。一位老師陪同就醫，帶護照影本和保險資料；另一位接手他的小組；Timmy 通知家長和學校。附近的大型急診是 Hôpital Européen Georges-Pompidou（20 rue Leblanc, 75015），以 112 的指示為準。</td><td>帶班老師陪同</td></tr>
+<tr><td><b>護照遺失</b></td><td>先在原地找、回想最後放哪。確定遺失：到警察局報案拿遺失證明，聯絡駐法國台北代表處辦回國文件。老師有全隊護照掃描檔與影本，回國前這件事最優先。</td><td><span class="p t">Timmy</span></td></tr>
+<tr><td><b>扒竊</b></td><td>用同學手機在 #點名 報；手機用「尋找裝置」；卡片請家長掛失；需要報案再去警察局。</td><td>帶班老師</td></tr>
+<tr><td><b>附近抗議、騷亂、罷工</b></td><td>值班老師每天 07:00、17:00 看新聞。附近有狀況：全隊進室內（會場或飯店），報數，取消所有外出。交通罷工影響不大：飯店到會場走路 12 分鐘。</td><td>值班老師；<span class="p t">Timmy</span> 決定</td></tr>
+<tr><td><b>情緒、想家、同學衝突</b></td><td>帶班老師私下談，不在群組處理。當晚讓學生和家長視訊（台北早上）。有衝突的兩人分到不同的 3 人組。</td><td>帶班老師</td></tr>
+<tr><td><b>學生擅自離隊</b></td><td>見下一段。</td><td></td></tr>
+<tr><td><b>老師自己出狀況</b></td><td>另外兩位接手：他的小組給當天值班老師，另一位接值班。</td><td></td></tr>
+<tr><td><b>班機延誤、取消（11/17）</b></td><td>全隊不分開。Timmy 在航空公司櫃檯處理，Chars 聯絡飯店，Gabriel 發家長群組。</td><td><span class="p t">Timmy</span></td></tr>
+<tr><td><b>行李沒到</b></td><td>在行李轉盤旁一起填報失。清點點 C1 會先發現，隊上物品的那幾件優先確認。</td><td><span class="p g">Gabriel</span></td></tr>
+</tbody>
+</table>
+
+<h3 id="downtown">學生想去市區（downtown），可以嗎？</h3>
+
+<p class="ans">不行。有先說也不行。</p>
+<ul>
+  <li><b>家長同意書只寫了兩段離開團體的時間</b>：每天午晚餐在飯店附近，和 11/11 下午。市區不在裡面，老師沒有權利放行。</li>
+  <li>10 月 15–19 日的騷亂紀錄集中在 Châtelet、République 一帶（學生網站的地圖），我們住的 Issy 和會場不在那裡，沒有理由過去。</li>
+  <li><b>唯一會進市區的情況</b>：11/11 下午，全隊 30 人加三位老師一起，而且 Timmy 中午判斷當天安全（11/11 是停戰紀念日，市中心有典禮和封路）。</li>
+  <li><b>學生先來問</b>：說不行，說原因。想買東西就結伴去 Carrefour 或會場附近。</li>
+  <li><b>學生沒說就去了</b>：照「報數少一人」處理。聯絡上之後一位老師去接，不讓他自己回來。當晚 Timmy 告知家長。之後到回國，這位學生吃飯和老師同桌，在會場和帶班老師待在同一區。</li>
+  <li><b>學生說了、老師說不行、還是去了</b>：同上。</li>
+</ul>
+
+<h2 id="q2">2 · 訓練</h2>
+
+<h3 id="trainers">誰訓練什麼</h3>
+
+<table>
+<thead><tr><th>項目</th><th>主責</th><th>協助</th><th>對象</th><th>用的工具</th></tr></thead>
+<tbody>
+<tr><td>評審問答（模擬評審）</td><td><span class="p c">Chars</span></td><td><span class="p t">Timmy</span> <span class="p g">Gabriel</span></td><td>七席主答與備援</td><td><a href="https://timmy97-tw.github.io/releaf-judging-qa/">Judging QA</a> 的 Mock Room、Question Bank、Mic Map</td></tr>
+<tr><td>七席分給三人</td><td colspan="2"><span class="p t">Timmy</span> 第 4 硬體、5 軟體與模型、6 商業與法規 · <span class="p c">Chars</span> 第 2 cloning 與迴路、3 蛋白與 assay · <span class="p g">Gabriel</span> 第 1 植物、7 人文實踐／團隊／沒人接的題＋生物安全</td><td>該席主答</td><td>Question Bank 用 Quiz me 模式</td></tr>
+<tr><td>5 分鐘評審簡報</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span> 計時</td><td>Chloe（1–2）、Abigail（3）、Jacquelyn（4–6）</td><td><a href="https://timmy97-tw.github.io/releaf-opening-five/">Opening Five</a></td></tr>
+<tr><td>10 分鐘舞台演講</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span> 走位、計時、錄影</td><td>舞台組 11 人，13 個段落</td><td><a href="https://timmy97-tw.github.io/releaf-stage-talk/">Stage Talk</a></td></tr>
+<tr><td>攤位 pitch</td><td><span class="p g">Gabriel</span></td><td></td><td>30 人</td><td>Booth Pitch Prep 文件</td></tr>
+<tr><td>硬體 demo</td><td><span class="p g">Gabriel</span></td><td><span class="p t">Timmy</span></td><td>Anton、Noah、Joshua、Felix</td><td>230 V 實測</td></tr>
+<tr><td>決賽簡報（若入圍）</td><td><span class="p t">Timmy</span></td><td><span class="p c">Chars</span> <span class="p g">Gabriel</span></td><td>週日晚上決定講者</td><td>5 分鐘＋舞台演講改</td></tr>
+</tbody>
+</table>
+
+<p>舞台組 11 人是 11/7 那天的名單：Anna、Eva、Abby Kao、Joshua、Abby Tsai、Alex Li、Sophie Huang、Sara Chen、Ethan Liu、Audrey Chu、Audrey Hsieh。13 個段落誰講哪段由 Timmy 定。</p>
+
+<h3 id="train-plan">時程</h3>
+
+<p>原則：到巴黎之後不學新東西，只練已經有的。每一段都要有輸出（改好的答案、計時結果、一張要修的清單），不是「大家再看一遍」。</p>
+
+<table class="day">
+<thead><tr><th>時間</th><th>內容</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm" colspan="5"><b>11/11（三）晚上，時差第一天，短</b></td></tr>
+<tr><td class="tm">21:00</td><td>全隊：明天流程、編號、小組、小卡、規則（20 分鐘）</td><td>講</td><td>補醫藥規則</td><td>發小卡</td></tr>
+<tr><td class="tm">21:20</td><td>三站同時，40 分鐘</td><td>5 分鐘簡報唸兩遍</td><td>舞台組坐著順稿，標出卡住的地方</td><td>攤位 pitch 兩兩互講 30 秒；還沒交稿的 9 位當晚交</td></tr>
+<tr><td class="tm" colspan="5"><b>11/12（四）訓練日</b></td></tr>
+<tr><td class="tm">08:30</td><td>模擬評審 #1：5 分鐘簡報＋20 分鐘問答。三位老師加一位學生當四個評審，其他人旁聽，記下答不好的題</td><td>評審</td><td>主持</td><td>評審</td></tr>
+<tr><td class="tm">09:00</td><td>檢討，列出答不好的 10 題</td><td></td><td>主持</td><td></td></tr>
+<tr><td class="tm">09:20</td><td>分三間 QA，80 分鐘。每位學生只去一間：有席位的照席位，沒有的去和自己攤位 pitch 最近的那間（攤位訪客問的是同一批題）。做法：Quiz me → 60 秒回答 → 老師判「留／改」→ 每人帶走 3 題改好的答案</td><td>第 4、5、6 席；5 分鐘簡報修正</td><td>第 2、3 席</td><td>第 1、7 席、生物安全</td></tr>
+<tr><td class="tm">10:40</td><td>模擬評審 #2（Deep end 題組）</td><td>評審</td><td>主持</td><td>評審</td></tr>
+<tr><td class="tm">11:10</td><td>檢討</td><td></td><td>主持</td><td></td></tr>
+<tr><td class="tm">15:15</td><td>三組同時，兩小時（領完識別證回來）</td><td>5 分鐘簡報＋七席「最難 20 題」</td><td>舞台演講第一次完整走位、計時</td><td>攤位物品組裝（盆栽、邀請卡、名牌）；硬體 demo 接 230 V</td></tr>
+<tr><td class="tm">19:30</td><td>正式彩排：5 分鐘計時兩遍＋模擬評審 #3（20 分鐘快問）</td><td>5 分鐘</td><td>模擬評審</td><td>評審包檢查</td></tr>
+<tr><td class="tm" colspan="5"><b>11/13（五）評審日</b></td></tr>
+<tr><td class="tm">07:40</td><td>熱身 30 分鐘：5 分鐘簡報一遍；10 題只說關鍵字</td><td>簡報</td><td>快問</td><td>評審包</td></tr>
+<tr><td class="tm">12:30</td><td>評審後檢討：每一席把評審問的題目<b>照原句</b>寫進 2026 QA prep 表</td><td>主持</td><td>記錄</td><td>收評審包</td></tr>
+<tr><td class="tm">20:45</td><td>晚間集合：評審學到什麼、攤位改哪裡</td><td>舞台演講順稿</td><td>主持</td><td>攤位</td></tr>
+<tr><td class="tm" colspan="5"><b>11/14–11/15 舞台演講</b></td></tr>
+<tr><td class="tm">11/14 20:45</td><td>舞台組完整計時跑兩遍；其他人寫攤位訪客問題</td><td>舞台</td><td>計時</td><td>攤位組</td></tr>
+<tr><td class="tm">11/15 08:00</td><td>舞台組跑兩遍 → 09:05–10:20 學生自己練（Anna 帶）→ 10:30 最後兩遍、定稿</td><td>主責；10:20 回飯店</td><td>08:00–09:05 走位</td><td></td></tr>
+<tr><td class="tm" colspan="5"><b>11/16（一）只在進決賽時</b></td></tr>
+<tr><td class="tm">08:00</td><td>決賽準備，見<a href="#mode-good">進決賽的一天</a></td><td>簡報與講者</td><td>問答</td><td>場地與物品</td></tr>
+</tbody>
+</table>
+
+<h2 id="q3">3 · 11/13–11/15 三人怎麼輪</h2>
+
+<div class="sum">
+<p><b>一人值班，兩人採集。</b>值班的人管學生和攤位（見<a href="#duty">值班表</a>），另外兩人照計畫聽場次、看隊伍、寫筆記。</p>
+<p>值班的人也可以聽 talk：Pavilion 7.3 所有場次都在同一層，兩分鐘內到得了攤位。坐靠門的位置，手機震動，接到電話就出去。</p>
+</div>
+
+<h3 id="booth">攤位老師輪值</h3>
+
+<p>學生的攤位班照學生網站：週五 G1 14:00、G2 15:00、G3 16:00、17:00 全隊；週六 G1 09/12/15、G2 10/13/16、G3 11/14/17。老師不站在攤位旁邊（三個大人站在桌邊，訪客就不靠近），而是 on call 加每天路過一次，聽一次 pitch、給一個建議。</p>
+
+<table>
+<thead><tr><th>時段</th><th>學生</th><th>老師 on call</th><th>路過看一次</th></tr></thead>
+<tbody>
+<tr><td class="tm">五 13:30–14:00</td><td>G1 布置</td><td><span class="p g">Gabriel</span></td><td></td></tr>
+<tr><td class="tm">五 14:00–17:00</td><td>G1 → G2 → G3</td><td><span class="p g">Gabriel</span></td><td><span class="p c">Chars</span> 15:35 · <span class="p t">Timmy</span> 15:50</td></tr>
+<tr><td class="tm">五 17:00–18:00</td><td>全隊</td><td><span class="p g">Gabriel</span></td><td></td></tr>
+<tr><td class="tm">五 18:00</td><td>收攤（C4）</td><td><span class="p g">Gabriel</span>＋Mia、Sophia Lin</td><td></td></tr>
+<tr><td class="tm">六 08:30–09:05</td><td>G1 開攤</td><td><span class="p t">Timmy</span>，09:10 去 Standards</td><td></td></tr>
+<tr><td class="tm">六 09:05–13:45</td><td>G1 → G2 → G3 → G1 → G2</td><td><span class="p g">Gabriel</span></td><td><span class="p t">Timmy</span> 11:20</td></tr>
+<tr><td class="tm">六 13:45–18:00</td><td>G3 → G1 → G2 → G3</td><td><span class="p c">Chars</span></td><td><span class="p g">Gabriel</span> 15:25</td></tr>
+<tr><td class="tm">六 18:00</td><td>最後一次收攤（C5）</td><td><span class="p c">Chars</span>＋Mia、Sophia Lin</td><td></td></tr>
+</tbody>
+</table>
+
+<ul>
+  <li>筆電、光度計、反應器、UNO Q 隨時有人看著。換班時下一班的人當面點交。</li>
+  <li>攤位牆上不能貼任何東西，55 吋螢幕是唯一的展示。</li>
+  <li>訪客問倒我們的題目，當班班長寫進 QA 表，晚上研究討論會讀。</li>
+  <li>如果 11/12 確認攤位時間是 iGEM API 的版本（早一小時），這張表整張往前移一小時。</li>
+</ul>
+
+<h3 id="collect">採集資料：誰看什麼</h3>
+
+<table>
+<thead><tr><th></th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td>報告主軸</td><td>乾實驗與方向：量測、自動化、標準、整個 Innovation 舞台</td><td>責任與人才管道：治理、生物安全、教育、2027 招生</td><td>濕實驗：分泌、chassis、實驗技術、學生論文發表</td></tr>
+<tr><td>場次與值班時段（<a href="schedule.html">The four days</a> 篩名字，不含三人同場的 12 個）</td><td class="tw">35 個</td><td class="tw">26 個</td><td class="tw">29 個</td></tr>
+<tr><td>事先挑好的隊伍（<a href="floor-plan.html">Floor plan</a>）</td><td class="tw">19 支</td><td class="tw">20 支</td><td class="tw">18 支</td></tr>
+<tr><td>每天目標</td><td colspan="3">週五每人 4 支、週六 8 支、週日 7 支。值班的人看我們攤位附近的 Biomanufacturing Village 隊伍，走得開也回得來。</td></tr>
+<tr><td>2027 題目</td><td colspan="3">每人每天至少看 2 支高中隊（High School）的攤位，記下題目和他們卡在哪裡，帶到晚上的研究討論。</td></tr>
+<tr><td>筆記</td><td colspan="3">一場或一支隊伍一份，用 <code>notes/_TEMPLATE.md</code>。當天 20:00–20:45 寫完。</td></tr>
+</tbody>
+</table>
+
+<p>三人都到的場次：開幕、評審與檢討、Open Infrastructure for AI-Native SynBio、Why Does It Work in Your Lab but Not Mine?、Governing Generative Biology、HS PI Roundtable、我們的舞台演講、決賽日。這幾場的值班老師一樣在場，坐靠門。</p>
+
+<p>為了學生改動的地方：週五 <span class="p g">Gabriel</span> 放掉 11:25 的 A PhD, a Start-Up（去帶評審集合）；週日 <span class="p t">Timmy</span> 放掉 10:30 的 The Foundry Era（回飯店帶舞台演講定稿），由 Chars 和 Gabriel 記這場。週六 09:00–10:30 原本沒有老師 on call，改成 Timmy 開攤、Gabriel 接。</p>
+
+<h3 id="talks">學生的 talk 分配</h3>
+<ul>
+  <li>每位學生已經在學生網站選了 3–5 場。11/11 晚上帶班老師看自己組的選擇：有沒有寫理由、有沒有撞到攤位班（撞到的話攤位優先）、是不是都 3 人以上一起去。</li>
+  <li>不要全擠在 Biomanufacturing。農業、環境、硬體相關的場次至少各有一組人去，帶班老師當晚調。</li>
+  <li>每聽一場，在 Discord #talks 寫一句：「場次名｜學到的一件事｜跟我們有什麼關係」。研究討論和週日反思都會用。</li>
+  <li>台上的分配：評審 5 分鐘是 Chloe、Abigail、Jacquelyn，問答照 Mic Map 七席；舞台演講 13 段由 Timmy 定；進決賽的講者週日晚上定。</li>
+</ul>
+
+<h2 id="days">九天逐日分工</h2>
+
+<p><span class="on">值班</span>標的是那個時段的值班老師。空白表示照<a href="schedule.html">自己的場次計畫</a>。</p>
+
+<h3 id="d10">11/10（二）台北出發</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">白天</td><td>打包：手提 7 kg、託運 23 kg</td><td>印評審簡報 4 份、舞台稿；家長最後通知</td><td>醫藥包；確認飯店會議室與早餐時間</td><td>聯絡表三份；Discord 頻道；兩個行李秤；30 張小卡</td></tr>
+<tr><td class="tm">20:00</td><td>桃園第二航廈集合（以家長通知為準）</td><td><span class="on">值班</span>第一次報數、發編號</td><td>收學生自備藥資料</td><td>發小卡、分小組</td></tr>
+<tr><td class="tm">20:15</td><td>依小組排隊報到</td><td>團體櫃檯</td><td>託運 2 件：個人＋反應器箱</td><td>物品清點 C0</td></tr>
+<tr><td class="tm">21:15</td><td>設定 Google 地圖位置分享</td><td></td><td></td><td>確認看到 30 個點</td></tr>
+<tr><td class="tm">22:15</td><td>過安檢</td><td>登機門報數</td><td></td><td></td></tr>
+<tr><td class="tm">23:00</td><td>登機，組長確認組員都上機</td><td></td><td></td><td></td></tr>
+<tr><td class="tm">機上</td><td>吃完第一餐就睡（巴黎早上落地）</td><td colspan="3">三人輪流睡，至少一人醒著</td></tr>
+</tbody>
+</table>
+
+<h3 id="d11">11/11（三）抵達</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">07:45</td><td>落地 CDG，過海關</td><td>第一個過，在出口等</td><td><span class="on">值班</span>出海關後報數</td><td>最後一個過（掃尾）</td></tr>
+<tr><td class="tm">行李</td><td>領行李</td><td></td><td></td><td>物品清點 C1、行李件數</td></tr>
+<tr><td class="tm">接駁車</td><td>上車前報數</td><td></td><td>報數</td><td>Gabriel 跟著看 Chars 怎麼做</td></tr>
+<tr><td class="tm">到飯店</td><td>寄放行李，大廳休息</td><td></td><td>入住、房號、會議室</td><td></td></tr>
+<tr><td class="tm">12:00</td><td></td><td>看新聞（停戰紀念日，市中心典禮與封路），13:30 前決定下午</td><td></td><td></td></tr>
+<tr><td class="tm">13:00</td><td>入住、一起午餐</td><td></td><td>組長回報房號 → 查房表</td><td>更新查房表</td></tr>
+<tr><td class="tm">14:00–17:15</td><td>全隊：Carrefour（3 人以上進店）；走到會場看一次路；安全才去 1–2 個景點</td><td><span class="on">值班</span>決定、帶頭</td><td>隊伍中間</td><td>隊尾</td></tr>
+<tr><td class="tm">17:30</td><td>晚餐（小組，飯店附近）</td><td></td><td><span class="on">值班</span></td><td></td></tr>
+<tr><td class="tm">20:00</td><td>全員回飯店，報數</td><td colspan="3">20:00–21:00 各自看自己組學生的 talk 選擇</td></tr>
+<tr><td class="tm">21:00</td><td>隊伍準備（見<a href="#train-plan">訓練</a>）</td><td>5 分鐘簡報</td><td>舞台組順稿</td><td>攤位 pitch</td></tr>
+<tr><td class="tm">22:00</td><td>查房，睡（調時差）</td><td>D 組；陪 Gabriel 走一次</td><td>C、E 組</td><td>A、B 組</td></tr>
+<tr><td class="tm">22:15</td><td></td><td colspan="3">三人 15 分鐘：明天分工</td></tr>
+</tbody>
+</table>
+
+<h3 id="d12">11/12（四）準備日</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">07:30</td><td>早餐、報數</td><td><span class="on">值班</span></td><td></td><td></td></tr>
+<tr><td class="tm">08:30–11:20</td><td>訓練（模擬評審兩次、分間 QA）</td><td>第 4、5、6 席</td><td>主持模擬評審；第 2、3 席</td><td>第 1、7 席</td></tr>
+<tr><td class="tm">11:20</td><td>午餐（小組）</td><td></td><td></td><td></td></tr>
+<tr><td class="tm">12:30</td><td>大廳報數，走到會場</td><td></td><td></td><td><span class="on">值班</span>帶隊</td></tr>
+<tr><td class="tm">13:00–14:45</td><td>領識別證；走一遍 Judging Room 3、攤位 H-17、Fabrication plaza；App 加入 Operation Outbreak</td><td>服務台：攤位時間、舞台地點、finalist 公布時間</td><td>量舞台走位</td><td>量三段路程各幾分鐘</td></tr>
+<tr><td class="tm">15:00</td><td>報數，走回</td><td></td><td></td><td>帶隊</td></tr>
+<tr><td class="tm">15:15–17:30</td><td>三組準備</td><td>5 分鐘＋最難 20 題</td><td>舞台演講第一次完整走位</td><td>攤位物品＋硬體 demo；物品 C2</td></tr>
+<tr><td class="tm">18:00</td><td>晚餐</td><td></td><td><span class="on">值班</span></td><td></td></tr>
+<tr><td class="tm">19:30–21:00</td><td>正式彩排</td><td>5 分鐘計時兩遍</td><td>模擬評審 #3</td><td>評審包：兩台筆電離線簡報、HDMI 與 USB-C 轉接頭、簡報筆、紙本 4 份、USB 備份</td></tr>
+<tr><td class="tm">21:45</td><td>報數；22:00 查房；22:30 熄燈（明天評審）</td><td>D 組</td><td>C、E 組</td><td>A、B 組</td></tr>
+<tr><td class="tm">22:15</td><td></td><td>研究討論 N0，主持</td><td></td><td>記錄</td></tr>
+</tbody>
+</table>
+
+<h3 id="d13">11/13（五）開幕、評審、攤位</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">07:00</td><td>早餐、報數</td><td></td><td></td><td><span class="on">值班</span></td></tr>
+<tr><td class="tm">07:40</td><td>熱身 30 分鐘</td><td>5 分鐘一遍</td><td>10 題關鍵字</td><td>評審包</td></tr>
+<tr><td class="tm">08:15</td><td>報數，走到會場</td><td>隊伍中間</td><td>隊尾</td><td>帶頭</td></tr>
+<tr><td class="tm">09:00</td><td>開幕，全隊坐一起，結束在出口報數</td><td colspan="3">三人都在</td></tr>
+<tr><td class="tm">09:45–11:15</td><td>3 人一組聽自己選的 talk；主答組安靜準備</td><td>AI × SynBio、Next-Gen Biomanufacturing</td><td>責任會議開場、OECD</td><td>on call；PURE system</td></tr>
+<tr><td class="tm">11:15</td><td>主答組到評審區外集合；11:30 報數</td><td>11:50 到</td><td>11:40 到</td><td><span class="on">值班</span>帶集合</td></tr>
+<tr><td class="tm">12:00</td><td>評審 Judging Room 3</td><td colspan="3">三人都在</td></tr>
+<tr><td class="tm">12:30</td><td>檢討，照原句寫下評審的問題</td><td>主持</td><td>記錄</td><td>收評審包</td></tr>
+<tr><td class="tm">13:00</td><td>午餐（會場內）</td><td>Neurons on Chips</td><td>Neurons on Chips</td><td>13:30 帶 G1 布置攤位（C3）</td></tr>
+<tr><td class="tm">14:00–18:00</td><td>攤位 G1 → G2 → G3，17:00 全隊</td><td>Pharma、Biodefense、IP transfer、2040、Consumer；15:50 路過攤位</td><td>DNA Dilemmas、2040；15:35 路過攤位</td><td><span class="on">值班</span>攤位 on call；Other 99%、TUS-Japan</td></tr>
+<tr><td class="tm">18:00</td><td>攤位報數、收攤（C4），走回</td><td></td><td></td><td>貴重物品帶回</td></tr>
+<tr><td class="tm">18:30</td><td>晚餐；20:00 組長回報</td><td></td><td><span class="on">值班</span></td><td></td></tr>
+<tr><td class="tm">20:00</td><td>休息、洗澡</td><td>寫筆記</td><td>寫筆記</td><td>寫筆記</td></tr>
+<tr><td class="tm">20:45</td><td>晚間集合：評審學到什麼、攤位改哪裡、舞台順稿</td><td>舞台</td><td>主持</td><td>攤位</td></tr>
+<tr><td class="tm">21:45</td><td>報數、22:00 查房</td><td>D 組</td><td>C、E 組</td><td>A、B 組</td></tr>
+<tr><td class="tm">22:15</td><td></td><td>研究討論 N1，主持</td><td>記錄</td><td></td></tr>
+</tbody>
+</table>
+
+<h3 id="d14">11/14（六）攤位整天</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">07:00</td><td>早餐、報數</td><td></td><td></td><td><span class="on">值班</span></td></tr>
+<tr><td class="tm">08:15</td><td>報數，走到會場</td><td></td><td></td><td>帶頭</td></tr>
+<tr><td class="tm">08:30</td><td>G1 開攤</td><td>開攤到 09:05，09:10 Standards</td><td>09:00 1976 重演</td><td>09:15 Publishing workshop</td></tr>
+<tr><td class="tm">09:00–13:45</td><td>攤位班照表；不在班的 3 人一組聽 talk；Operation Outbreak 整天在 App 裡</td><td>Academia & Startups；11:20 路過攤位</td><td></td><td><span class="on">值班</span>攤位 on call 09:05–13:45；Git for Genomes</td></tr>
+<tr><td class="tm">午餐</td><td>G2 11:30、G3 12:00、G1 13:00</td><td colspan="3">10:30 Open Infrastructure、13:00 Why Does It Work 三人都在</td></tr>
+<tr><td class="tm">13:45–18:00</td><td>攤位班照表</td><td>Venture、ML、DBTL tools、Philanthropic</td><td><span class="on">值班</span>攤位 on call；AI for Science、Global misuse</td><td>2027 Recruitment；15:25 路過攤位</td></tr>
+<tr><td class="tm">16:00</td><td></td><td colspan="3">Governing Generative Biology 三人都在</td></tr>
+<tr><td class="tm">18:00</td><td>最後一次收攤（C5），報數，走回</td><td></td><td>帶收攤</td><td></td></tr>
+<tr><td class="tm">18:30</td><td>晚餐；20:00 組長回報</td><td><span class="on">值班</span></td><td></td><td></td></tr>
+<tr><td class="tm">20:00</td><td>休息</td><td>寫筆記</td><td>寫筆記</td><td>寫筆記</td></tr>
+<tr><td class="tm">20:45</td><td>舞台組完整計時兩遍；其他人寫攤位訪客問題</td><td>舞台</td><td>計時</td><td>攤位組</td></tr>
+<tr><td class="tm">21:45</td><td>報數、22:00 查房</td><td>D 組</td><td>C、E 組</td><td>A、B 組</td></tr>
+<tr><td class="tm">22:15</td><td></td><td>研究討論 N2，主持</td><td></td><td>記錄</td></tr>
+</tbody>
+</table>
+
+<h3 id="d15">11/15（日）舞台演講與反思</h3>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">07:00</td><td>早餐、報數</td><td><span class="on">值班</span></td><td></td><td></td></tr>
+<tr><td class="tm">08:00</td><td>全隊在飯店：舞台組跑兩遍；其他人當觀眾、計時、拍照</td><td>舞台</td><td>走位</td><td>非舞台組</td></tr>
+<tr><td class="tm">09:05–10:20</td><td>學生在飯店自己練（Anna 帶），其他人休息</td><td>HS PI Roundtable，10:20 回飯店</td><td>Roundtable、Foundry Era</td><td>Roundtable、Foundry Era</td></tr>
+<tr><td class="tm">10:30–12:00</td><td>最後兩遍、定稿</td><td><span class="on">值班</span>定稿</td><td>Workforce 2035</td><td>DBTL to Biomanufacturing</td></tr>
+<tr><td class="tm">12:00</td><td>午餐（小組）</td><td></td><td></td><td></td></tr>
+<tr><td class="tm">13:00</td><td>報數，走到會場</td><td>帶頭</td><td><span class="on">值班</span></td><td>Good Idea 場次</td></tr>
+<tr><td class="tm">13:30</td><td>舞台組到 Fabrication plaza 技術確認</td><td>帶舞台組</td><td>找錄影位置</td><td></td></tr>
+<tr><td class="tm">14:15</td><td>全隊在台前坐好</td><td></td><td>報數</td><td>14:15 到</td></tr>
+<tr><td class="tm">14:40</td><td>舞台演講</td><td>台下</td><td>錄影</td><td>拍照</td></tr>
+<tr><td class="tm">14:55</td><td>全隊報數、合照</td><td></td><td>報數</td><td></td></tr>
+<tr><td class="tm">15:00–18:00</td><td>3 人一組聽 talk</td><td>A Design Is Only a Prediction、Startup 3、Assay design</td><td><span class="on">值班</span>on call；Whose Values、Multicultural team</td><td>Publishing、Operation Outbreak 檢討</td></tr>
+<tr><td class="tm">18:00</td><td>會場集合報數，走回</td><td></td><td>報數</td><td></td></tr>
+<tr><td class="tm">18:30</td><td>晚餐；20:00 組長回報</td><td></td><td><span class="on">值班</span></td><td></td></tr>
+<tr><td class="tm">20:00</td><td><a href="#q6">反思</a></td><td>收尾</td><td>主持</td><td>收紙本</td></tr>
+<tr><td class="tm">21:00</td><td>一起等 finalist 公布；行李收八成</td><td>讀公布</td><td></td><td>看行李</td></tr>
+<tr><td class="tm">21:45</td><td>報數、22:00 查房</td><td>D 組</td><td>C、E 組</td><td>A、B 組</td></tr>
+<tr><td class="tm">22:15</td><td></td><td>研究討論 N3，主持；決定 11/16 模式</td><td>記錄</td><td></td></tr>
+</tbody>
+</table>
+<p class="mut">週日晚上三人的筆記改在 21:00–21:45 學生收行李的時候寫。</p>
+
+<h3 id="d16">11/16（一）決賽日</h3>
+<p>上午看週日晚上的結果，分兩種，見<a href="#q5">第 5 段</a>。下午和晚上兩種一樣：</p>
+<table class="day">
+<thead><tr><th>時間</th><th>學生</th><th><span class="p t">Timmy</span></th><th><span class="p c">Chars</span></th><th><span class="p g">Gabriel</span></th></tr></thead>
+<tbody>
+<tr><td class="tm">上午</td><td>進決賽：決賽準備 · 沒進：反思、2027、打包</td><td><span class="on">值班</span></td><td></td><td></td></tr>
+<tr><td class="tm">13:30</td><td>報數，走到會場</td><td></td><td></td><td><span class="on">值班</span></td></tr>
+<tr><td class="tm">14:00–18:00</td><td>決賽日典禮，全隊坐一起</td><td colspan="3">三人都在。我們入圍 Best Measurement、Best Hardware、Best Integrated Human Practices 三個提名，這裡頒</td></tr>
+<tr><td class="tm">18:00</td><td>報數，晚餐（會場或飯店附近，小組）</td><td></td><td></td><td>報數</td></tr>
+<tr><td class="tm">19:30–20:45</td><td>After party，全隊進、全隊出</td><td>在場</td><td>在場</td><td><span class="on">值班</span>出口報數</td></tr>
+<tr><td class="tm">21:00</td><td><a href="#lastnight">最後一晚安全檢查</a></td><td>D 組</td><td>C、E 組；退房與叫醒</td><td>主責；A、B 組</td></tr>
+</tbody>
+</table>
+
+<h3 id="d17">11/17（二）、11/18（三）回程</h3>
+<p>見<a href="#morning">11/17 清晨</a>和<a href="#home">11/18 交給家長</a>。</p>
+
+<h2 id="q4">4 · 物品管理</h2>
+
+<h3 id="mat-who">誰管</h3>
+<ul>
+  <li><b>學生</b>：Mia 拿總表、唸清單，Sophia Lin 打勾核對。學生網站的物品清單有 22 項，每一項都有負責人。</li>
+  <li><b>老師</b>：<span class="p g">Gabriel</span> 督導每一次清點；<span class="p c">Chars</span> 管生物反應器箱。</li>
+  <li>每次清點完，在 #點名 發一行「物品 C1 22/22 ✅」，少的寫出來。</li>
+</ul>
+
+<h3 id="mat-points">七個清點點</h3>
+<table>
+<thead><tr><th></th><th>時間</th><th>清什麼</th></tr></thead>
+<tbody>
+<tr><td><b>C0</b></td><td class="tm">11/10 桃園報到前</td><td>每一項拍照，寫下在誰的行李裡</td></tr>
+<tr><td><b>C1</b></td><td class="tm">11/11 CDG 行李轉盤</td><td>件數、有沒有破</td></tr>
+<tr><td><b>C2</b></td><td class="tm">11/12 下午</td><td>攤位物品裝成一箱「攤位箱」，評審包另外裝</td></tr>
+<tr><td><b>C3</b></td><td class="tm">11/13 13:30</td><td>攤位布置，照清單擺</td></tr>
+<tr><td><b>C4</b></td><td class="tm">11/13 18:00</td><td>收攤：貴重的全部帶回飯店，留下的先拍照</td></tr>
+<tr><td><b>C5</b></td><td class="tm">11/14 18:00</td><td>最後一次收攤：全部帶回，分成「帶回台灣、送掉、丟掉」三堆</td></tr>
+<tr><td><b>C6</b></td><td class="tm">11/16 21:00</td><td>回程打包：反應器箱進 Chars 第 2 件，硬體和電池進手提</td></tr>
+<tr><td><b>C7</b></td><td class="tm">11/18 桃園</td><td>反應器和硬體點交回實驗室</td></tr>
+</tbody>
+</table>
+
+<h3 id="luggage">行李額度與分配（建議，11/10 在桃園確認）</h3>
+<p>手提 7 公斤，託運 23 公斤一件。老師託運共 4 件：Timmy 1、Gabriel 1、Chars 2。</p>
+<table>
+<thead><tr><th>行李</th><th>放什麼</th></tr></thead>
+<tbody>
+<tr><td><span class="p c">Chars</span> 託運 1</td><td>個人</td></tr>
+<tr><td><span class="p c">Chars</span> 託運 2</td><td>生物反應器箱（乾淨、空的、沒有菌和培養液）、備用 luer 閥</td></tr>
+<tr><td><span class="p g">Gabriel</span> 託運 1</td><td>個人＋文具（筆、便利貼、資料夾、剪刀、膠帶、雙面膠、環氧樹脂膠）＋兩個行李秤＋醫藥補充</td></tr>
+<tr><td><span class="p t">Timmy</span> 託運 1</td><td>個人＋紙本（評審簡報、名牌 35 張、邀請卡 200 張）＋布條＋軟 PET 片</td></tr>
+<tr><td>學生手提</td><td>筆電、光度計（Felix）、備用 UNO Q（Abby Kao）、硬體 demo（Joshua）、所有行動電源和電池</td></tr>
+<tr><td>學生託運</td><td>盆栽 100 個（Mia 分給 C 組幾位）、各自負責的物品</td></tr>
+</tbody>
+</table>
+<ul>
+  <li>剪刀刀刃超過 6 公分不能手提；膠類放託運；<b>行動電源只能手提、不能託運</b>。</li>
+  <li>手提超過 7 公斤，分到同組同學的手提。</li>
+  <li>回程會輕很多（盆栽、卡片、種子都送掉了），但紀念品會補回來。最後一晚用行李秤秤。</li>
+</ul>
+
+<h3 id="mat-flags">出發前要先處理的三件事</h3>
+<ol>
+  <li><b>種子。</b>歐盟從 2019 年底起，從非歐盟國家帶進來的種子要有植物檢疫證明。建議不要從台灣帶，到巴黎買種子包（超市或園藝店）。Sophia Lin 和 Gabriel 11/10 前決定。</li>
+  <li><b>反應器箱只帶硬體。</b>會場不能有活的生物材料，入境也不能帶基改菌。Chars 打包前確認沒有菌、沒有培養液、管路是乾的。</li>
+  <li><b>待印的三樣</b>（布條、35 張名牌、200 張邀請卡）11/10 前要印好；在巴黎很難當天印。攤位牆上不能掛東西，布條只用在合照和舞台。</li>
+</ol>
+
+<h3 id="passports">護照和貴重物品</h3>
+<ul>
+  <li>學生自己保管護照。會場日放房間保險箱；旅行日（11/10、11/11、11/17）放手提包，報數時舉起來。</li>
+  <li>老師有 30 本護照的掃描檔（雲端）和兩份紙本影本，由 Gabriel 保管。</li>
+  <li>最後一晚最常漏的是<b>保險箱裡的護照</b>，所以列在最後檢查的第一項。</li>
+  <li>攤位的貴重物品不留過夜。</li>
+</ul>
+
+<h2 id="q5">5 · 11/16 怎麼安排、出發前一晚</h2>
+
+<p>週日晚上公布 finalist（確切時間 11/12 在會場問清楚）。Timmy 在公布前先準備好兩段話，結果出來第一句就說得出口。</p>
+
+<h3 id="mode-good">進決賽（好）</h3>
+<ul>
+  <li><b>週日晚上</b>：Timmy 宣布，學生照常 22:00 回房。三位老師 22:15 把研究討論換成決賽準備：用 5 分鐘簡報和舞台演講改，當晚決定講者。</li>
+  <li><b>週一 07:00</b> 早餐。<b>08:00–12:30</b> 決賽準備（飯店會議室，或 iGEM 指定的地方）：<span class="p t">Timmy</span> 簡報與講者；<span class="p c">Chars</span> 問答，題目從週五評審的原句來；<span class="p g">Gabriel</span> 去會場確認決賽時段、場地、技術，帶物品。</li>
+  <li>不上台的學生：上午先把行李收到八成（12:00 Gabriel 看），11:30 當彩排觀眾、計時、拍照。</li>
+  <li>三位老師原本週一上午寫報告骨架，改到 11/17 飛機上。</li>
+  <li>當晚 Timmy 跟家長說。After party 照常 20:45 離開。</li>
+</ul>
+
+<h3 id="mode-avg">沒進決賽（普通）</h3>
+<ul>
+  <li><b>週日晚上</b>：Timmy 直接說，講三個評審或訪客真的有反應的地方，不檢討誰。學生照常睡。</li>
+  <li><b>週一 07:30</b> 早餐（多睡半小時）。</li>
+  <li><b>09:00–10:30</b> 學生的「2026 → 2027」：每人帶一個在會場看到、讓自己想到點子的隊伍或場次，貼到想法牆；最後選出全隊最想追的三個（<span class="p c">Chars</span>、<span class="p g">Gabriel</span> 帶）。這三個帶到 2027 Project Hub。同時 <span class="p t">Timmy</span>（值班）寫報告骨架。</li>
+  <li><b>10:30–12:00</b> 行李收八成、房間整理（組長檢查）、3 人一組去 Carrefour 買紀念品。Chars、Gabriel 寫報告骨架，Timmy 值班。</li>
+  <li>下午一樣全隊去決賽日典禮：三個特別獎提名在這裡頒。</li>
+  <li>不安排市區觀光。家長通知寫的是除了午晚餐和 11/11 下午，學生都在飯店或會場，週一也一樣。</li>
+</ul>
+
+<h3 id="lastnight">最後一晚（11/16）安全檢查</h3>
+<ol class="du-steps">
+  <li><b>20:45</b><span>離開 after party，出口報數，一起走回。</span></li>
+  <li><b>21:00</b><span>回到飯店，報數。</span></li>
+  <li><b>21:00</b><span>依小組在會議室或大廳：行李秤過（託運 23、手提 7）；行動電源和電池移到手提；液體移到託運；隊上物品照回程清單（C6）。</span></li>
+  <li><b>21:20</b><span><b>護照</b>：每人舉起護照給組長看，放進手提包，不放保險箱。組長在 #點名 發「C組 6 本護照 ✅」。</span></li>
+  <li><b>21:30</b><span>房間：保險箱打開、清空；充電器、轉接頭、衣櫃、浴室。明天要穿的衣服拿出來。兩個鬧鐘 05:45，加上飯店叫醒電話（Chars 已訂）。</span></li>
+  <li><b>21:45</b><span>報數。</span></li>
+  <li><b>22:00</b><span>查房，每一間問三句：護照在包裡嗎？鬧鐘設了嗎？保險箱空了嗎？</span></li>
+  <li><b>22:15</b><span>三位老師 15 分鐘：接駁車時間、早餐盒、明天在機場誰做什麼。不開研究討論，睡覺。</span></li>
+</ol>
+
+<h3 id="morning">11/17 清晨（接駁車時間未定，以 07:00 出發為例）</h3>
+<p>BR088 11:20 起飛，國際線大約起飛前一小時關櫃。早上從 Issy 到 CDG 塞車可能要一小時以上，所以 08:15 前到機場比較穩。接駁車訂好後，下面整張照實際時間平移。</p>
+<ol class="du-steps">
+  <li><b>05:45</b><span>起床（飯店叫醒＋自己的鬧鐘）。</span></li>
+  <li><b>06:00</b><span>組長敲自己組的門，06:05 在 #點名 回報。</span></li>
+  <li><b>06:15</b><span>早餐盒，在大廳。</span></li>
+  <li><b>06:40</b><span>全員帶行李到大廳，依小組站。</span></li>
+  <li><b>06:45</b><span>報數＋護照舉起來＋每人說自己幾件行李（<span class="p t">Timmy</span> 值班）。</span></li>
+  <li><b>06:50</b><span>房卡交回、退房（<span class="p c">Chars</span>）；組長最後看一次房間。</span></li>
+  <li><b>07:00</b><span>接駁車出發，上車前報數。</span></li>
+  <li><b>08:15</b><span>到 CDG（長榮在第一航廈，以登機證為準）。依小組排隊報到：Timmy 在櫃檯，Gabriel 秤行李，Chars 看護照。</span></li>
+  <li><b>安檢後</b><span>登機門報數；登機前組長確認組員。11:20 起飛。</span></li>
+</ol>
+
+<h3 id="home">11/18 抵達台北，交給家長</h3>
+<ul>
+  <li><b>07:20</b> 落地。過海關：Timmy 第一個、Gabriel 最後一個。</li>
+  <li>領完行李報數；物品 C7：反應器和硬體點交。</li>
+  <li><b>交給家長</b>：學生和家長（或同意書上的接送人）見到面，帶班老師才打勾。三人的勾給 <span class="p g">Gabriel</span>（值班）彙整，全部打完 Timmy 在家長群組發「30/30 交給家長」。</li>
+  <li>當天請學生關掉位置分享；Discord #點名 #去向 封存。</li>
+</ul>
+
+<h2 id="q6">6 · 學生反思</h2>
+
+<p class="ans">要。放在週日晚上，一起等 finalist 公布的時候。</p>
+<p>週日是比賽的最後一天，評審、攤位、舞台都講完了，記憶最新；等公布的那一個小時本來就坐不住，拿來寫正好。週一不管進不進決賽都太亂，回台灣以後就寫不出細節了。</p>
+
+<table>
+<thead><tr><th>時間</th><th>做什麼</th></tr></thead>
+<tbody>
+<tr><td class="tm">20:00</td><td>安靜寫 25 分鐘（紙本，一人一張）</td></tr>
+<tr><td class="tm">20:25</td><td>小組內兩兩分享 20 分鐘</td></tr>
+<tr><td class="tm">20:45</td><td>5 位自願的人各唸一句，Timmy 收尾</td></tr>
+<tr><td class="tm">21:00</td><td>一起等公布；Chars 收紙本，回台灣後掃描到 Drive</td></tr>
+</tbody>
+</table>
+
+<p><b>紙上六題：</b></p>
+<ol>
+  <li>這幾天我最驕傲的一刻是什麼？為什麼？</li>
+  <li>評審或攤位訪客問倒我的一題。現在我會怎麼回答？</li>
+  <li>我看到別隊做得比我們好的一件事（寫隊名，寫他們具體怎麼做）。</li>
+  <li>如果 2027 再做一次，我自己要改的一個工作習慣。</li>
+  <li>我想做的 2027 題目（可以空白）。</li>
+  <li>給家長的一句話。</li>
+</ol>
+<p>第 2 題進 QA 題庫；第 3、5 題進週日晚上的研究討論和 2027 題目表；第 6 題 Timmy 挑幾句放進當晚的家長訊息（先問本人）。</p>
+
+<h2 id="research">每晚研究討論與 Pak 的報告</h2>
+
+<h3 id="nightly">每晚 22:15–23:00</h3>
+<p>地點：飯店大廳或會議室（離學生樓層近，值班手機收得到）。11/12 到 11/15，共四晚。主持 <span class="p t">Timmy</span>，記錄輪流：N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。記錄的人當晚寫進<a href="research-log.html">研究紀錄頁</a>，睡前 push。</p>
+
+<table>
+<thead><tr><th>分鐘</th><th>做什麼</th></tr></thead>
+<tbody>
+<tr><td class="tm">10</td><td>每人 3 分鐘：今天看到最有用的一個<b>機制</b>（怎麼做的，不是他們說做到了什麼），附筆記檔名</td></tr>
+<tr><td class="tm">10</td><td>評審和攤位訪客問了什麼，代表我們缺什麼</td></tr>
+<tr><td class="tm">15</td><td>2027 題目表：新增、刪掉、改分數</td></tr>
+<tr><td class="tm">5</td><td>明天：誰去看哪幾支隊伍、要問什麼</td></tr>
+<tr><td class="tm">5</td><td>記錄的人把進度寫進研究紀錄，念一遍</td></tr>
+</tbody>
+</table>
+
+<p><b>每晚要寫下來的具體進度</b>（不是心得）：當天筆記幾份、看了幾支隊伍幾場場次；三個機制；評審或訪客的問題；題目表怎麼變；明天的問題；決定了什麼、誰負責。</p>
+
+<h3 id="topics">2027 題目：四晚收斂</h3>
+<table>
+<thead><tr><th>晚上</th><th>題目數</th><th>那一晚要做到</th></tr></thead>
+<tbody>
+<tr><td class="tm">N0 · 11/12</td><td>9</td><td>每人從出發前的隊伍分析和我們自己的四個弱點（分泌、生物圍堵、真植物驗證、量測校正）各提 3 個方向；定好評分標準</td></tr>
+<tr><td class="tm">N1 · 11/13</td><td>最多 12</td><td>加上評審的問題和第一天的場次；每個題目寫一條正面或負面證據</td></tr>
+<tr><td class="tm">N2 · 11/14</td><td>6</td><td>攤位日看到的高中隊：哪些題目已經被做爛了，哪些沒人做；刪到 6 個</td></tr>
+<tr><td class="tm">N3 · 11/15</td><td>3</td><td>加上學生反思第 3、5 題；每個題目一段話、第一個實驗、最大風險、回去要寄信問誰</td></tr>
+<tr><td class="tm">11/17 飛機上</td><td>2</td><td>選兩個帶給 Pak</td></tr>
+</tbody>
+</table>
+<p>評分標準五項，各 0–3 分：和台灣有關；高中生九個月做得出來；有可以量的結果；乾實驗或硬體接得上；場上還沒有人做得比我們好。</p>
+
+<h3 id="pak">Pak 的研究報告：三人分工</h3>
+<p>Pak 的題目分四個主題：C 新概念與跨領域、H 硬體與自動化、M 計算與資料、S 科學為善。三人各寫一份自己的報告，四個主題的跨隊整理分給三人。</p>
+<table>
+<thead><tr><th></th><th>自己的報告</th><th>負責整理的主題</th><th>對應的成長項目</th></tr></thead>
+<tbody>
+<tr><td><span class="p g">Gabriel</span></td><td>濕實驗：分泌、chassis、實驗技術、學生發表</td><td>C 新概念與跨領域</td><td>T3 分泌、T4 零件、T8 重現性</td></tr>
+<tr><td><span class="p c">Chars</span></td><td>題目選擇、量測、驗證；責任與人才管道</td><td>S 科學為善</td><td>T5 責任設計、T7 人才管道</td></tr>
+<tr><td><span class="p t">Timmy</span></td><td>乾實驗：硬體、模型、怎麼對評審講</td><td>H 硬體＋M 計算；另外整合「2027 要改什麼」</td><td>T1 量測、T2 自動實驗、T6 產品化</td></tr>
+</tbody>
+</table>
+<p>時程照 <a href="after.html">After we land</a>：回台 3 天內筆記整理完、1 週內寄 follow-up 信、2 週內初稿互看、3 週內交叉讀一次，然後交給 Pak。</p>
+
+<h2 id="more">其他補充</h2>
+<ul>
+  <li><b>家長每日訊息</b>（Timmy，22:30 巴黎）：今天 30/30 平安、3 張照片、明天一個重要時間。照片 Gabriel 每天挑 5 張給 Timmy。</li>
+  <li><b>時差</b>：11/11 白天曬太陽、撐到 22:00 才睡，午睡不超過 30 分鐘。11/12 07:30 早餐準時。</li>
+  <li><b>不喝酒</b>：所有學生都不喝，after party 也一樣，已滿 18 歲的也一樣。</li>
+  <li><b>識別證</b>在會場一直戴著；掉了找 Timmy。</li>
+  <li><b>拍照</b>：拍其他隊的人、或還沒發表的資料前先問。學生要發社群，避開別隊未發表的內容。</li>
+  <li><b>錢</b>：學生用自己的卡；Gabriel 帶一筆隊上緊急現金，收據放他的信封，每晚拍照。</li>
+  <li><b>天氣</b>：5–12 °C，常下毛毛雨，17:10 左右天黑。外套和傘每天帶。</li>
+  <li><b>飯店健身房</b>24 小時開，學生 3 人以上、22:00 前。</li>
+  <li><b>電</b>：Type C/E、230 V；每人一個轉接頭，充電器都是雙電壓。</li>
+  <li><b>晚上安靜</b>：22:00 後走廊不大聲，同一層有其他客人。</li>
+  <li><b>老師互相支援</b>：任何一位老師覺得撐不住，直接說，另外兩人調值班。三個人都累垮比少聽一場 talk 嚴重得多。</li>
+</ul>
+
+<h2 id="open">出發前還要確認的事</h2>
+<table>
+<thead><tr><th></th><th>事情</th><th>誰</th><th>期限</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>同意書勾「需要老師陪同用餐」的學生名單（只放老師聯絡表）</td><td><span class="p g">Gabriel</span></td><td>11/10</td></tr>
+<tr><td>2</td><td>三位老師的法國號碼、飯店電話 → 印緊急小卡</td><td><span class="p g">Gabriel</span></td><td>11/10</td></tr>
+<tr><td>3</td><td>Discord #點名 #去向 #talks、Google 地圖分享步驟發給學生</td><td><span class="p g">Gabriel</span></td><td>11/10</td></tr>
+<tr><td>4</td><td>種子：不帶，改在巴黎買</td><td>Sophia Lin、<span class="p g">Gabriel</span></td><td>11/10</td></tr>
+<tr><td>5</td><td>反應器箱確認沒有菌、沒有培養液</td><td><span class="p c">Chars</span></td><td>11/10</td></tr>
+<tr><td>6</td><td>飯店會議室（11/11 晚、11/12 全天、11/13–11/15 晚、11/16 上午）、早餐開始時間</td><td><span class="p c">Chars</span></td><td>11/11</td></tr>
+<tr><td>7</td><td>11/17 接駁車時間、早餐盒、全隊叫醒電話</td><td><span class="p c">Chars</span>、<span class="p t">Timmy</span></td><td>11/12</td></tr>
+<tr><td>8</td><td>攤位時間（iGEM API 和學生網站差一小時）、舞台地點（Fabrication plaza 還是 Main Stage）</td><td><span class="p t">Timmy</span></td><td>11/12 在會場</td></tr>
+<tr><td>9</td><td>Finalist 公布的時間和方式</td><td><span class="p t">Timmy</span></td><td>11/12</td></tr>
+<tr><td>10</td><td>組長人選和編號最後確認（改這頁的分組表和小卡）</td><td><span class="p t">Timmy</span></td><td>11/10</td></tr>
+</tbody>
+</table>
+
+<div id="du-print"></div>
+
+</div>
+
+<script>
+(function(){
+  var S=[
+    ['A','Gabriel',[[1,'Felix Yu','組長'],[2,'Ethan Chang'],[3,'Anton Lin'],[4,'Noah Tau'],[5,'Ethan Liu','副組長'],[6,'Ryan Yuan']]],
+    ['B','Gabriel',[[7,'Alex Li','組長'],[8,'Ryan Wei'],[9,'Abby Tsai','副組長'],[10,'Abby Kao'],[11,'Sophie Chen'],[12,'Joshua Hong']]],
+    ['C','Chars',[[13,'Olivia Du','組長'],[14,'Mia Guo'],[15,'Audrey Chu','副組長'],[16,'Sophia Lin'],[17,'Naomi Lin'],[18,'Sara Chen']]],
+    ['D','Timmy',[[19,'Anna Chuang','組長'],[20,'Olivia Lin','副組長'],[21,'Chloe Wu'],[22,'Jacquelyn Inocencio'],[23,'Abigail Lin'],[24,'Renee Kuo']]],
+    ['E','Chars',[[25,'Sophie Liu','組長'],[26,'Audrey Hsieh'],[27,'Sarah Chou','副組長'],[28,'Phoebe Chen'],[29,'Sophie Huang'],[30,'Eva Zhong']]]
+  ];
+  var KEY='du-card-phones', ids={Timmy:'ph-t',Chars:'ph-c',Gabriel:'ph-g',hotel:'ph-h'};
+  function el(id){return document.getElementById(id)}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function load(){var o={};try{o=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}return o}
+  function save(o){try{localStorage.setItem(KEY,JSON.stringify(o))}catch(e){}}
+  function val(o,k){return o[k]?esc(o[k]):'+33 ____________'}
+  function order(home){var r=[home];['Timmy','Chars','Gabriel'].forEach(function(n){if(r.indexOf(n)<0)r.push(n)});return r}
+  function card(sq,home,st,o){
+    var no=st[0]<10?'0'+st[0]:''+st[0], calls=order(home), lab=['先打','再打','最後'];
+    var h='<div class="ecard"><div class="ef"><div class="et"><span>GEMS Taiwan · iGEM Paris 2026</span><span>No. '+no+' · '+sq+' 組</span></div>';
+    h+='<div class="en">'+esc(st[1])+(st[2]?'<small>'+st[2]+'</small>':'')+'</div><ol>';
+    calls.forEach(function(n,i){h+='<li><span>'+lab[i]+'</span><b>'+n+(i===0?'<small>帶班</small>':'')+'</b><i>'+val(o,n)+'</i></li>'});
+    h+='</ol><div class="eh">飯店 Courtyard by Marriott Paris Porte de Versailles<br>5 Rue Ernest Renan, 92130 Issy-les-Moulineaux · ☎ '+val(o,'hotel')+'</div>';
+    h+='<div class="es">緊急 112 · 駐法國台北代表處 +33 6 80 07 49 94</div></div>';
+    h+='<div class="eb"><b>迷路了</b><p>① 停在原地　② 照正面順序打給老師　③ 都不通：會場找 iGEM 服務台；在外面走進店家，把這張卡給店員看</p>';
+    h+='<p class="fr">Bonjour ! Je suis élève de l’équipe GEMS Taiwan (iGEM Grand Jamboree). Pouvez-vous appeler mon professeur, s’il vous plaît ? Merci !</p>';
+    h+='<p>I’m a student with GEMS Taiwan at the iGEM Grand Jamboree. Could you call my teacher, please?</p>';
+    h+='<p>會場 Paris Expo Porte de Versailles · Pavillon 7.3</p><div class="al">過敏／用藥：</div></div></div>';
+    return h;
+  }
+  function render(){
+    var o=load(),h='';
+    S.forEach(function(g){g[2].forEach(function(st){h+=card(g[0],g[1],st,o)})});
+    el('du-cards').innerHTML=h; el('du-print').innerHTML=h;
+  }
+  var o=load();
+  Object.keys(ids).forEach(function(k){var i=el(ids[k]);if(!i)return;i.value=o[k]||'';
+    i.addEventListener('input',function(){var c=load();c[k]=i.value.trim();if(!c[k])delete c[k];save(c);render()})});
+  el('du-printbtn').addEventListener('click',function(){render();window.print()});
+  el('du-clear').addEventListener('click',function(){try{localStorage.removeItem(KEY)}catch(e){}Object.keys(ids).forEach(function(k){var i=el(ids[k]);if(i)i.value=''});render()});
+  render();
+})();
+</script>

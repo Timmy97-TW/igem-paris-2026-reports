@@ -72,7 +72,8 @@ Not run it. The students do, and three adults standing at a high-top table is ho
 being approached. The schedule puts **one instructor on call** per booth block — in the hall, phone
 on, close enough to arrive in two minutes — and leaves the other two free for sessions. The rota is
 on [the four days](schedule.html); the short version is Gabriel on Friday afternoon and Saturday
-morning, Chars on Saturday afternoon.
+morning, Chars on Saturday afternoon, and Timmy opening the booth with group 1 on Saturday at 08:30.
+The full rota, with who walks past when, is on the [duty roster](duties.html#booth).
 
 ## Photographs
 
@@ -108,3 +109,6 @@ There is also a free worldwide emergency line for R.O.C. nationals abroad.
 
 Stay with the group. Students do not travel alone, and an instructor knows where every student is
 at the end of each day.
+
+The whole system for this — squads, numbers 1 to 30, the three evening checks, location sharing,
+the emergency cards and what to do when — is on the [duty roster](duties.html#q1).
