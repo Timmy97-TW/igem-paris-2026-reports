@@ -3,13 +3,13 @@ layout: doc
 title: 每晚研究紀錄
 eyebrow: 11/12–11/15 · 每晚 22:15
 section: 研究紀錄
-description: 三位老師每晚 45 分鐘研究討論的具體進度，以及 2027 題目從 12 個收到 2 個的過程。記錄的人當晚寫進這一頁，睡前 push。
+description: 三位老師每晚 45 分鐘研究討論的具體進度，以及 2027 題目從 12 個收到 2 個的過程。Timmy 當晚寫進這一頁，睡前 push。
 ---
 
 <div lang="zh-Hant" markdown="1">
 
-這一頁是[帶隊分工表](duties.html#research)裡「每晚研究討論」的紀錄本。主持 Timmy，記錄輪流：
-N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。直接在 GitHub 網頁上編輯這個檔案（`research-log.md`），
+這一頁是[帶隊分工表](duties.html#research)裡「每晚研究討論」的紀錄本。主持輪流：N0 Chars、N1 Gabriel、
+N2 Chars、N3 Gabriel；2027 題目由 Chars、Gabriel 提出。記錄 Timmy。直接在 GitHub 網頁上編輯這個檔案（`research-log.md`），
 或在本機改完 push。
 
 **寫進度，不寫心得。**「今天收穫很多」不算；「他們把 LED 以 1 kHz 開關、用鎖相偵測，因為溫室的
@@ -37,7 +37,7 @@ N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。直接在 GitHub 網頁上編輯
 
 狀態只用四個詞：候選、保留、刪掉（寫原因）、決定。
 
-## N0 · 11/12（四）· 記錄 Gabriel
+## N0 · 11/12（四）· 主持 Chars
 
 **這一晚要做到：** 每人提 3 個方向，共 9 個，填進上面的表；確認評分標準。
 
@@ -51,7 +51,7 @@ N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。直接在 GitHub 網頁上編輯
 - 明天（評審日）每人要特別注意什麼：
 - 決定事項與負責人：
 
-## N1 · 11/13（五）· 記錄 Chars
+## N1 · 11/13（五）· 主持 Gabriel
 
 **這一晚要做到：** 加上評審的問題和第一天的場次；每個題目至少一條正面或負面證據；最多 12 個。
 
@@ -65,7 +65,7 @@ N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。直接在 GitHub 網頁上編輯
 - 明天要問的問題（誰、問哪一隊或哪一場）：
 - 決定事項與負責人：
 
-## N2 · 11/14（六）· 記錄 Gabriel
+## N2 · 11/14（六）· 主持 Chars
 
 **這一晚要做到：** 加上攤位日看到的高中隊：哪些題目已經被做爛了、哪些沒有人做；刪到 6 個。
 
@@ -80,7 +80,7 @@ N0 Gabriel、N1 Chars、N2 Gabriel、N3 Chars。直接在 GitHub 網頁上編輯
 - 明天要問的問題：
 - 決定事項與負責人：
 
-## N3 · 11/15（日）· 記錄 Chars
+## N3 · 11/15（日）· 主持 Gabriel
 
 **這一晚要做到：** 加上學生反思的第 3、5 題；收到 3 個；每個寫一段話、第一個實驗、最大風險、
 回去要寄信問誰。最後決定 11/16 用哪個模式（進決賽 / 沒進）。
