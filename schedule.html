@@ -2,30 +2,34 @@
 layout: base
 title: The four days
 description: Which official sessions each instructor attends in Paris, which we attend together, and what we gave up for them.
+title_alt: 四天行程
+description_alt: 三位老師在巴黎各自參加哪些官方場次、哪些一起參加，以及為了這些場次放棄了什麼。
 ---
 {% assign J = site.data.jamboree %}
+{% assign WD = "日,一,二,三,四,五,六" | split: "," %}
 <header class="dochead">
   <div class="wrap">
-    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; The four days</div>
-    <span class="eyebrow">13–16 November · {{ J.venue }}, {{ J.detail }}</span>
-    <h1>Three instructors, {{ J.official_total }} official sessions</h1>
-    <p>Every keynote, panel, summit session and workshop in the programme is on this page —
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; <span data-l="en">The four days</span><span data-l="zh" data-tr>四天行程</span></div>
+    <span class="eyebrow" data-l="en">13–16 November · {{ J.venue }}, {{ J.detail }}</span><span class="eyebrow" data-l="zh" data-tr>11 月 13–16 日 · {{ J.venue }}, {{ J.detail }}</span>
+    <h1 data-l="en">Three instructors, {{ J.official_total }} official sessions</h1><h1 data-l="zh" data-tr>三位老師，{{ J.official_total }} 場官方場次</h1>
+    <p data-l="en">Every keynote, panel, summit session and workshop in the programme is on this page —
       {{ J.official_planned }} we attend and {{ J.official_dropped }} we considered and gave up, each with
       the reason. Student team talks are fill-in only, behind the toggle.</p>
+    <p data-l="zh" data-tr>議程裡每一場 keynote、panel、summit 場次和 workshop 都在這一頁——{{ J.official_planned }} 場我們參加，{{ J.official_dropped }} 場考慮過但放棄，每一場都寫了理由。學生隊伍的報告只用來補空檔，要打開下方的開關才會顯示。</p>
   </div>
 </header>
 
 <main class="wrap" style="padding-top:30px">
 
   <div class="pbar" style="max-width:420px;margin:0 0 24px">
-    <div class="pbar-t" style="color:var(--ink3)"><span id="seen-lab">0 attended</span><span>saved on this device</span></div>
+    <div class="pbar-t" style="color:var(--ink3)"><span id="seen-lab">0 attended</span><span data-l="en">saved on this device</span><span data-l="zh" data-tr>只存在這台裝置</span></div>
     <div class="pbar-r" style="background:rgba(0,6,28,.08)"><i id="seen-bar" style="width:0"></i></div>
   </div>
 
   <div class="days" id="days" role="group" aria-label="Filter by day">
-    <button type="button" data-d="all" class="on"><b>All four</b><span>{{ J.planned }} going</span></button>
-    {% for d in J.days %}
-    <button type="button" data-d="{{ d.day }}"><b>{{ d.label }}</b><span>{{ d.n }} going</span></button>
+    <button type="button" data-d="all" class="on"><b data-l="en">All four</b><b data-l="zh" data-tr>全部四天</b><span data-l="en">{{ J.planned }} going</span><span data-l="zh" data-tr>參加 {{ J.planned }} 場</span></button>
+    {% for d in J.days %}{% assign w = d.day | date: "%w" | plus: 0 %}
+    <button type="button" data-d="{{ d.day }}"><b data-l="en">{{ d.label }}</b><b data-l="zh" data-tr>週{{ WD[w] }} {{ d.day | date: "%-m/%-d" }}</b><span data-l="en">{{ d.n }} going</span><span data-l="zh" data-tr>參加 {{ d.n }} 場</span></button>
     {% endfor %}
   </div>
 
@@ -35,7 +39,7 @@ description: Which official sessions each instructor attends in Paris, which we 
       <input id="q" type="search" placeholder="Search session, room or reason" aria-label="Search the schedule">
     </div>
     <div class="seg" id="seg" role="group" aria-label="Filter by person">
-      <button type="button" data-f="all" class="on">Everyone</button>
+      <button type="button" data-f="all" class="on"><span data-l="en">Everyone</span><span data-l="zh" data-tr>所有人</span></button>
       <button type="button" data-f="Gabriel">Gabriel</button>
       <button type="button" data-f="Chars">Chars</button>
       <button type="button" data-f="Timmy">Timmy</button>
@@ -44,12 +48,12 @@ description: Which official sessions each instructor attends in Paris, which we 
   </div>
 
   <div class="legend">
-    <span class="lg a"><i></i>All three together</span>
-    <span class="lg h"><i></i>Priority</span>
-    <span class="lg m"><i></i>Worth the slot</span>
-    <span class="lg o"><i></i>Our own block</span>
-    <span class="lg d"><i></i>Considered, dropped</span>
-    <label class="lg" style="cursor:pointer"><input type="checkbox" id="tt" style="width:14px;height:14px;margin:0;accent-color:var(--blue)"> Show student team talks</label>
+    <span class="lg a"><i></i><span data-l="en">All three together</span><span data-l="zh" data-tr>三人一起</span></span>
+    <span class="lg h"><i></i><span data-l="en">Priority</span><span data-l="zh" data-tr>優先</span></span>
+    <span class="lg m"><i></i><span data-l="en">Worth the slot</span><span data-l="zh" data-tr>值得排進去</span></span>
+    <span class="lg o"><i></i><span data-l="en">Our own block</span><span data-l="zh" data-tr>我們自己的時段</span></span>
+    <span class="lg d"><i></i><span data-l="en">Considered, dropped</span><span data-l="zh" data-tr>考慮過，放棄</span></span>
+    <label class="lg" style="cursor:pointer"><input type="checkbox" id="tt" style="width:14px;height:14px;margin:0;accent-color:var(--blue)"> <span data-l="en">Show student team talks</span><span data-l="zh" data-tr>顯示學生隊伍報告</span></label>
   </div>
 
   <div class="sch" id="sch">
@@ -59,7 +63,7 @@ description: Which official sessions each instructor attends in Paris, which we 
       {% if r.day != lastday %}
         {% assign lastday = r.day %}
         {% assign dd = J.days | where: 'day', r.day | first %}
-        <div class="hd" data-day="{{ r.day }}"><h3>{{ dd.label }}</h3><span>{{ dd.n }} going · {{ dd.anchors }} together · dropped ones shown too</span></div>
+        <div class="hd" data-day="{{ r.day }}"><h3>{{ dd.label }}</h3><span data-l="en">{{ dd.n }} going · {{ dd.anchors }} together · dropped ones shown too</span><span data-l="zh" data-tr>參加 {{ dd.n }} 場 · {{ dd.anchors }} 場一起 · 放棄的也列出</span></div>
       {% endif %}
       <div class="it {{ r.tier }}{% if r.drop %} drop{% endif %}"
            data-day="{{ r.day }}" data-group="{{ r.group }}" data-id="{{ r.id }}"
@@ -70,15 +74,15 @@ description: Which official sessions each instructor attends in Paris, which we 
           <p class="ti">{% if r.team %}<b style="font-weight:700">{{ r.team }}</b> · {% endif %}{{ r.title }}</p>
           <div class="mt">
             <b>{{ r.where }}</b>
-            <span>{{ r.mins }} min</span>
+            <span>{{ r.mins }} <span data-l="en">min</span><span data-l="zh" data-tr>分鐘</span></span>
             {% if r.org %}<span>{{ r.org }}</span>{% endif %}
-            {% unless r.official %}<span>our own</span>{% endunless %}
-            {% if r.tier == 'bonus' %}<span>team talk</span>{% endif %}
+            {% unless r.official %}<span data-l="en">our own</span><span data-l="zh" data-tr>我們自己的</span>{% endunless %}
+            {% if r.tier == 'bonus' %}<span data-l="en">team talk</span><span data-l="zh" data-tr>隊伍報告</span>{% endif %}
             {% if r.track %}{% assign tk = J.tracks | where: 'id', r.track | first %}<a href="{{ '/tracks.html' | relative_url }}#{{ r.track }}">{{ r.track }} · {{ tk.name }}</a>{% endif %}
           </div>
-          <p class="wy">{% if r.drop %}<b>Dropped.</b> {% endif %}{{ r.why }}</p>
-          {% if r.ask %}<p class="ak"><b>Walk in and ask</b>{{ r.ask }}</p>{% endif %}
-          {% if r.clash and r.clash != '' %}<p class="mt" style="color:var(--amber)">Collides with {{ r.clash }} — only if that one ends early.</p>{% endif %}
+          <p class="wy">{% if r.drop %}<b data-l="en">Dropped.</b><b data-l="zh" data-tr>放棄。</b> {% endif %}{{ r.why }}</p>
+          {% if r.ask %}<p class="ak"><b data-l="en">Walk in and ask</b><b data-l="zh" data-tr>進場要問</b>{{ r.ask }}</p>{% endif %}
+          {% if r.clash and r.clash != '' %}<p class="mt" style="color:var(--amber)" data-l="en">Collides with {{ r.clash }} — only if that one ends early.</p><p class="mt" style="color:var(--amber)" data-l="zh" data-tr>和 {{ r.clash }} 撞期——只有那一場提早結束才去。</p>{% endif %}
         </div>
         <div class="rt">
           <span class="who">{{ r.who }}</span>
@@ -88,13 +92,14 @@ description: Which official sessions each instructor attends in Paris, which we 
       {% endunless %}
     {% endfor %}
   </div>
-  <p class="empty" id="empty" hidden>Nothing matches that.</p>
+  <p class="empty" id="empty" hidden><span data-l="en">Nothing matches that.</span><span data-l="zh" data-tr>沒有符合的項目。</span></p>
 
   <section class="s" id="clashes" style="padding:46px 0 0">
-    <span class="eyebrow">The calls we made</span>
-    <h2>Eleven places where two things we wanted ran at once.</h2>
-    <p class="sub">A schedule with no conflicts in it has not been read properly. These are the ones
+    <span class="eyebrow" data-l="en">The calls we made</span><span class="eyebrow" data-l="zh" data-tr>我們做的取捨</span>
+    <h2 data-l="en">Eleven places where two things we wanted ran at once.</h2><h2 data-l="zh" data-tr>十一處我們想去的兩場同時進行。</h2>
+    <p class="sub" data-l="en">A schedule with no conflicts in it has not been read properly. These are the ones
       that matter, and what we decided before the day rather than in the corridor.</p>
+    <p class="sub" data-l="zh" data-tr>沒有任何衝突的行程，代表沒有認真讀過。以下是重要的幾處，以及我們事先做好的決定，而不是當天在走廊上才決定。</p>
     <div class="cf">
       {% for c in J.conflicts %}
       <div class="c">
@@ -107,29 +112,38 @@ description: Which official sessions each instructor attends in Paris, which we 
   </section>
 
   <section class="s" id="open" style="padding:40px 0 20px">
-    <span class="eyebrow">Still open</span>
-    <h2>What this plan does not know yet.</h2>
+    <span class="eyebrow" data-l="en">Still open</span><span class="eyebrow" data-l="zh" data-tr>尚未確定</span>
+    <h2 data-l="en">What this plan does not know yet.</h2><h2 data-l="zh" data-tr>這份計畫還不知道的事。</h2>
     <div class="note">
       <ul style="margin:0;padding-left:20px">
         {% for u in J.unresolved %}<li style="margin:7px 0">{{ u }}</li>{% endfor %}
       </ul>
     </div>
-    <p class="sub" style="margin-top:22px">The programme came from iGEM's public API on
+    <p class="sub" style="margin-top:22px" data-l="en">The programme came from iGEM's public API on
       {{ site.time | date: "%-d %B %Y" }} — {{ J.sessions_total }} sessions, of which
       {{ J.sessions_judging }} are closed judging slots. Re-run
       <code>tools/fetch_schedule.py</code> to pick up changes, then
       <code>tools/build_schedule_data.py</code>. The full programme is
       <a href="{{ '/program.html' | relative_url }}">browsable here</a>.</p>
+    <p class="sub" style="margin-top:22px" data-l="zh" data-tr>議程是 {{ site.time | date: "%Y/%-m/%-d" }} 從 iGEM 的公開 API 取得的——共 {{ J.sessions_total }} 場，其中 {{ J.sessions_judging }} 場是不公開的評審時段。要更新，重跑 <code>tools/fetch_schedule.py</code>，再跑 <code>tools/build_schedule_data.py</code>。完整議程<a href="{{ '/program.html' | relative_url }}">在這裡瀏覽</a>。</p>
   </section>
 
 </main>
 
 <script>
   addEventListener('DOMContentLoaded', function () {
-    var sch = document.getElementById('sch'), day = 'all', showTT = false;
+    var LANG = function(){var r=document.documentElement;return r.getAttribute('data-lang')||r.getAttribute('data-orig')||'en'};
+    var T = {
+      en: { noun: 'row listed', nounPlural: 'rows listed', ph: 'Search session, room or reason',
+            seen: function (n, m) { return n + ' of ' + m + ' attended'; } },
+      zh: { noun: '筆', nounPlural: '筆', ph: '搜尋場次、場地或理由',
+            seen: function (n, m) { return '已參加 ' + n + ' / ' + m; } }
+    };
+    var t = function () { return T[LANG()] || T.en; };
+    var sch = document.getElementById('sch'), q = document.getElementById('q'), day = 'all', showTT = false;
     var apply = filterList({
       input: 'q', count: 'count', rows: '#sch .it', empty: 'empty', seg: 'seg',
-      noun: 'row listed', nounPlural: 'rows listed',
+      get noun() { return t().noun; }, get nounPlural() { return t().nounPlural; },
       extra: function (r) {
         if (day !== 'all' && r.dataset.day !== day) return false;
         if (!showTT && r.dataset.bonus === 'bonus') return false;
@@ -155,5 +169,16 @@ description: Which official sessions each instructor attends in Paris, which we 
       showTT = this.checked; apply();
     });
     tickList({ list: sch, rows: '.it', key: 'paris2026.attended', verb: 'attended' });
+    /* tickList writes "N of M attended"; rewrite it in the chosen language */
+    var seen = function () {
+      var lab = document.getElementById('seen-lab'); if (!lab) return;
+      var tickable = [].slice.call(sch.querySelectorAll('.it')).filter(function (r) { return r.querySelector('input[type=checkbox]'); });
+      var n = tickable.filter(function (r) { return r.classList.contains('done'); }).length;
+      lab.textContent = t().seen(n, tickable.length);
+    };
+    sch.addEventListener('change', seen);
+    var relabel = function () { if (q) q.placeholder = t().ph; apply(); seen(); };
+    document.addEventListener('langchange', relabel);
+    relabel();
   });
 </script>

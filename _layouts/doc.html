@@ -1,17 +1,18 @@
 ---
 layout: base
 ---
+{% assign L0 = page.lang | default: "en" %}{% if L0 == "zh" %}{% assign L1 = "en" %}{% else %}{% assign L1 = "zh" %}{% endif %}
 <header class="dochead">
   <div class="wrap">
-    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; {{ page.section | default: 'Document' }}</div>
-    <span class="eyebrow">{{ page.eyebrow | default: page.section | default: 'Report' }}</span>
-    <h1>{{ page.title }}</h1>
-    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; {% if page.section_alt %}<span data-l="{{ L0 }}">{{ page.section }}</span><span data-l="{{ L1 }}" data-tr>{{ page.section_alt }}</span>{% else %}{{ page.section | default: 'Document' }}{% endif %}</div>
+    {% assign EB = page.eyebrow | default: page.section | default: 'Report' %}{% assign EB2 = page.eyebrow_alt | default: page.section_alt %}<span class="eyebrow">{% if EB2 %}<span data-l="{{ L0 }}">{{ EB }}</span><span data-l="{{ L1 }}" data-tr>{{ EB2 }}</span>{% else %}{{ EB }}{% endif %}</span>
+    {% if page.title_alt %}<h1 data-l="{{ L0 }}">{{ page.title }}</h1><h1 data-l="{{ L1 }}" data-tr>{{ page.title_alt }}</h1>{% else %}<h1>{{ page.title }}</h1>{% endif %}
+    {% if page.description %}<p{% if page.description_alt %} data-l="{{ L0 }}"{% endif %}>{{ page.description }}</p>{% endif %}{% if page.description_alt %}<p data-l="{{ L1 }}" data-tr>{{ page.description_alt }}</p>{% endif %}
   </div>
 </header>
 <main class="wrap">
   <div class="doc">
-    <aside class="toc" id="toc" aria-label="On this page"><b>On this page</b></aside>
+    <aside class="toc" id="toc" aria-label="On this page"><b><span data-l="en">On this page</span><span data-l="zh" data-tr>本頁目錄</span></b></aside>
     <article class="prose" id="prose">
       {{ content }}
     </article>

@@ -3,6 +3,11 @@ layout: doc
 title: 帶隊分工表 11/10–11/18
 eyebrow: Timmy · Chars · Gabriel · 30 位學生
 section: 帶隊分工
+lang: zh
+title_alt: Duty roster, 10–18 November
+eyebrow_alt: Timmy · Chars · Gabriel · 30 students
+section_alt: Duty roster
+description_alt: The three instructors' full split for the nine days — squads, roll call, training, booth rota, data collection, materials, safety, and the nightly research discussion. Every item says who owns it and when.
 description: 三位老師九天的完整分工：分組、點名、訓練、攤位輪值、資料採集、物品、安全，以及每晚的研究討論。每一項都寫明誰負責、什麼時候做。
 ---
 <style>
@@ -83,6 +88,7 @@ description: 三位老師九天的完整分工：分組、點名、訓練、攤�
 
 <div class="du" lang="zh-Hant">
 
+<div data-l="zh">
 <p class="lede">這一頁是三位老師在巴黎九天的分工。學生的行程照 <a href="https://timmy97-tw.github.io/releaf-jamboree/">ReLEAF to Paris</a>，老師要聽的官方場次照 <a href="schedule.html">The four days</a>，這裡把兩邊接起來：誰在什麼時候管學生、誰在採集資料、誰訓練什麼、出事時誰做什麼。時間都是巴黎時間（台北減 7 小時），11/10 和 11/18 是台北時間。</p>
 
 <div class="du-three">
@@ -306,19 +312,26 @@ C組 6/6 回到飯店 13:36</code>
   <li>前提是手機有電：每次報數看電量，行動電源每天帶（行動電源只能放手提行李）。</li>
 </ul>
 
-<h3 id="card">緊急聯絡卡</h3>
-<p>每位學生一張，內容各自不同。對摺後放護照夾或手機殼裡。正面是編號、小組、照順序要打的三位老師（帶班老師在第一個）、飯店地址電話、112、駐法國台北代表處；背面是迷路三步驟、一段請路人幫忙打電話的法文和英文、過敏與用藥欄（手寫）。</p>
-<p><b>電話號碼不會上網。</b>在下面輸入，只存在這台電腦的瀏覽器，列印時才印上去。印兩份：一份給學生，一份老師留著。用 A4，每頁 6 張，共 5 頁，沿虛線剪下、沿中線對摺。</p>
+</div>
+<div data-l="en" data-tr>
+{% include i18n/duties_en_a.html %}
+</div>
+<h3 id="card"><span data-l="zh">緊急聯絡卡</span><span data-l="en" data-tr>Emergency contact cards</span></h3>
+<p data-l="zh">每位學生一張，內容各自不同。對摺後放護照夾或手機殼裡。正面是編號、小組、照順序要打的三位老師（帶班老師在第一個）、飯店地址電話、112、駐法國台北代表處；背面是迷路三步驟、一段請路人幫忙打電話的法文和英文、過敏與用藥欄（手寫）。</p>
+<p data-l="zh"><b>電話號碼不會上網。</b>在下面輸入，只存在這台電腦的瀏覽器，列印時才印上去。印兩份：一份給學生，一份老師留著。用 A4，每頁 6 張，共 5 頁，沿虛線剪下、沿中線對摺。</p>
+<p data-l="en" data-tr>One per student, each one different. Fold it in half and keep it in the passport holder or phone case. The front has the student's number and squad, the three instructors to call in order (their own squad instructor first), the hotel address and phone, 112, and the Taipei Representative Office in France. The back has the three steps for being lost, a short request in French and English asking a passer-by to make a call, and a handwritten allergy and medication box. The cards themselves print in Chinese.</p>
+<p data-l="en" data-tr><b>Phone numbers never go online.</b> Type them below: they are stored only in this computer's browser and printed onto the cards at print time. Print two sets, one for the students and one for the instructors. A4, six cards per page, five pages; cut along the dashed lines and fold along the centre line.</p>
 
 <div class="du-cfg">
-  <label>Timmy 法國號碼<input id="ph-t" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
-  <label>Chars 法國號碼<input id="ph-c" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
-  <label>Gabriel 法國號碼<input id="ph-g" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
-  <label>飯店電話<input id="ph-h" inputmode="tel" placeholder="+33 1 …" autocomplete="off"></label>
+  <label><span data-l="zh">Timmy 法國號碼</span><span data-l="en" data-tr>Timmy, French number</span><input id="ph-t" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label><span data-l="zh">Chars 法國號碼</span><span data-l="en" data-tr>Chars, French number</span><input id="ph-c" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label><span data-l="zh">Gabriel 法國號碼</span><span data-l="en" data-tr>Gabriel, French number</span><input id="ph-g" inputmode="tel" placeholder="+33 …" autocomplete="off"></label>
+  <label><span data-l="zh">飯店電話</span><span data-l="en" data-tr>Hotel phone</span><input id="ph-h" inputmode="tel" placeholder="+33 1 …" autocomplete="off"></label>
 </div>
-<button class="du-btn" type="button" id="du-printbtn">列印 30 張聯絡卡</button><button class="du-btn gh" type="button" id="du-clear">清除這台電腦上的號碼</button>
-<details><summary>預覽 30 張</summary><div class="du-cards" id="du-cards"></div></details>
+<button class="du-btn" type="button" id="du-printbtn"><span data-l="zh">列印 30 張聯絡卡</span><span data-l="en" data-tr>Print 30 contact cards</span></button><button class="du-btn gh" type="button" id="du-clear"><span data-l="zh">清除這台電腦上的號碼</span><span data-l="en" data-tr>Clear the numbers on this computer</span></button>
+<details><summary><span data-l="zh">預覽 30 張</span><span data-l="en" data-tr>Preview all 30</span></summary><div class="du-cards" id="du-cards"></div></details>
 
+<div data-l="zh">
 <h3 id="sop">緊急情況怎麼處理</h3>
 
 <p>原則只有一條：<b>一位老師處理事情，一位老師帶其他學生，一位老師聯絡</b>（家長、學校、iGEM、代表處）。學生群不能沒有老師。</p>
@@ -600,6 +613,11 @@ C組 6/6 回到飯店 13:36</code>
 <h3 id="d17">11/17（二）、11/18（三）回程</h3>
 <p>見<a href="#morning">11/17 清晨</a>和<a href="#home">11/18 交給家長</a>。</p>
 
+</div>
+<div data-l="en" data-tr>
+{% include i18n/duties_en_b.html %}
+</div>
+<div data-l="zh">
 <h2 id="q4">4 · 物品與行李</h2>
 
 <h3 id="mat-who">誰管</h3>
@@ -815,6 +833,10 @@ C組 6/6 回到飯店 13:36</code>
 <tr><td>10</td><td>組長人選和編號最後確認（改這頁的分組表和聯絡卡）</td><td><span class="p t">Timmy</span></td><td>11/10</td></tr>
 </tbody>
 </table>
+</div>
+<div data-l="en" data-tr>
+{% include i18n/duties_en_c.html %}
+</div>
 
 <div id="du-print"></div>
 

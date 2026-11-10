@@ -2,20 +2,23 @@
 layout: base
 title: Floor plan
 description: The assigned priority targets for Paris, split between Gabriel, Chars and Timmy.
+title_alt: 攤位分配
+description_alt: 巴黎的優先參觀目標，分給 Gabriel、Chars 和 Timmy。
 ---
 <header class="dochead">
   <div class="wrap">
-    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; Floor plan</div>
-    <span class="eyebrow">Before we fly</span>
-    <h1>{{ site.data.targets | size }} posters worth our time</h1>
-    <p>Pulled out of the four triage documents and split so nobody walks the same aisle twice.
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; <span data-l="en">Floor plan</span><span data-l="zh" data-tr>攤位分配</span></div>
+    <span class="eyebrow" data-l="en">Before we fly</span><span class="eyebrow" data-l="zh" data-tr>出發前</span>
+    <h1 data-l="en">{{ site.data.targets | size }} posters worth our time</h1><h1 data-l="zh" data-tr>{{ site.data.targets | size }} 張值得花時間的海報</h1>
+    <p data-l="en">Pulled out of the four triage documents and split so nobody walks the same aisle twice.
       Tick a team off once you have written its note — the ticks are saved on this device only.</p>
+    <p data-l="zh" data-tr>從四份篩選文件裡挑出來，再分配好，讓沒有人重複走同一條走道。寫完一隊的筆記就把它勾掉——勾選只存在這台裝置上。</p>
   </div>
 </header>
 
 <main class="wrap" style="padding-top:34px">
   <div class="pbar" style="max-width:420px;margin:0 0 26px">
-    <div class="pbar-t" style="color:var(--ink3)"><span id="seen-lab">0 visited</span><span>saved on this device</span></div>
+    <div class="pbar-t" style="color:var(--ink3)"><span id="seen-lab">0 visited</span><span data-l="en">saved on this device</span><span data-l="zh" data-tr>只存在這台裝置</span></div>
     <div class="pbar-r" style="background:rgba(0,6,28,.08)"><i id="seen-bar" style="width:0"></i></div>
   </div>
 
@@ -25,7 +28,7 @@ description: The assigned priority targets for Paris, split between Gabriel, Cha
       <input id="q" type="search" placeholder="Search team, project or relevance" aria-label="Search targets">
     </div>
     <div class="seg" id="seg" role="group" aria-label="Filter by person">
-      <button type="button" data-f="all" class="on">Everyone</button>
+      <button type="button" data-f="all" class="on"><span data-l="en">Everyone</span><span data-l="zh" data-tr>所有人</span></button>
       <button type="button" data-f="Gabriel">Gabriel</button>
       <button type="button" data-f="Chars">Chars</button>
       <button type="button" data-f="Timmy">Timmy</button>
@@ -48,17 +51,39 @@ description: The assigned priority targets for Paris, split between Gabriel, Cha
     </div>
     {% endfor %}
   </div>
-  <p class="empty" id="empty" hidden>Nothing matches that.</p>
+  <p class="empty" id="empty" hidden><span data-l="en">Nothing matches that.</span><span data-l="zh" data-tr>沒有符合的項目。</span></p>
 
   <div class="note" style="margin:30px 0 0">
-    <p><b>This is a reading list, not a verdict.</b> Every line came from a team's own published
+    <p data-l="en"><b>This is a reading list, not a verdict.</b> Every line came from a team's own published
       abstract, read before we saw any of the work. Use it to decide where to stand, then write what
       you actually find in <a href="{{ '/notes/' | relative_url }}">the notes</a>.</p>
+    <p data-l="zh" data-tr><b>這是閱讀清單，不是評價。</b>每一行都來自隊伍自己公開的摘要，是在看到任何實際成果之前讀的。用它決定要站在哪裡，再把你實際看到的寫進<a href="{{ '/notes/' | relative_url }}">筆記</a>。</p>
   </div>
 </main>
 
 <script>
   addEventListener('DOMContentLoaded', function () {
-    filterList({input:'q', count:'count', rows:'#targets .row', empty:'empty', seg:'seg', noun:'target'});
+    var LANG = function(){var r=document.documentElement;return r.getAttribute('data-lang')||r.getAttribute('data-orig')||'en'};
+    var T = {
+      en: { noun: 'target', nounPlural: 'targets', ph: 'Search team, project or relevance',
+            seen: function (n, m) { return n + ' of ' + m + ' visited'; } },
+      zh: { noun: '隊', nounPlural: '隊', ph: '搜尋隊伍、專題或關聯',
+            seen: function (n, m) { return '已參觀 ' + n + ' / ' + m; } }
+    };
+    var t = function () { return T[LANG()] || T.en; };
+    var list = document.getElementById('targets'), q = document.getElementById('q');
+    var apply = filterList({input:'q', count:'count', rows:'#targets .row', empty:'empty', seg:'seg',
+      get noun() { return t().noun; }, get nounPlural() { return t().nounPlural; }});
+    /* site.js's tickList writes "N of M visited"; rewrite it in the chosen language */
+    var seen = function () {
+      var lab = document.getElementById('seen-lab'); if (!lab) return;
+      var tickable = [].slice.call(list.querySelectorAll('.row')).filter(function (r) { return r.querySelector('input[type=checkbox]'); });
+      var n = tickable.filter(function (r) { return r.classList.contains('done'); }).length;
+      lab.textContent = t().seen(n, tickable.length);
+    };
+    list.addEventListener('change', seen);
+    var relabel = function () { if (q) q.placeholder = t().ph; apply(); seen(); };
+    document.addEventListener('langchange', relabel);
+    relabel();
   });
 </script>

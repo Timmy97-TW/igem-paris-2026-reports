@@ -2,6 +2,8 @@
 layout: base
 title: Paris Grand Jamboree 2026 — the instructors' hub
 description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — the four-day plan, the eight capabilities we are after, and the three reports that come back.
+title_alt: 巴黎 Grand Jamboree 2026 — 指導老師總覽
+description_alt: Gabriel、Chars 和 Timmy 在巴黎參加 iGEM Grand Jamboree：四天的計畫、我們要學到的八項能力，以及回來要交的三份報告。
 ---
 {% assign J = site.data.jamboree %}
 {% assign gab = site.data.targets | where: "who", "Gabriel" %}
@@ -13,32 +15,37 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="kicker"><span class="dot"></span><span>GEMS Taiwan · instructors · 13–16 November</span></div>
-        <h1>Four days in Paris.<br><span class="gt">Eight things to bring back.</span></h1>
-        <p class="lede">Gabriel, Chars and Timmy go with a standing brief: look past our own project
+        <div class="kicker" data-l="en"><span class="dot"></span><span>GEMS Taiwan · instructors · 13–16 November</span></div>
+        <div class="kicker" data-l="zh" data-tr><span class="dot"></span><span>GEMS Taiwan · 指導老師 · 11 月 13–16 日</span></div>
+        <h1 data-l="en">Four days in Paris.<br><span class="gt">Eight things to bring back.</span></h1>
+        <h1 data-l="zh" data-tr>巴黎四天。<br><span class="gt">帶回八件事。</span></h1>
+        <p class="lede" data-l="en">Gabriel, Chars and Timmy go with a standing brief: look past our own project
           and bring back <em>how</em> the field works. This is the plan for every hour of it, the
           capabilities it is meant to build, and the reports that have to come out of it.</p>
+        <p class="lede" data-l="zh" data-tr>Gabriel、Chars 和 Timmy 帶著一項長期任務出發：把眼光放到我們自己的專案以外，
+          帶回這個領域<em>怎麼</em>運作。這裡是每一個小時的計畫、這趟要培養的能力，以及最後必須交出的報告。</p>
         <div class="hero-acts">
-          <a class="lbtn" href="{{ '/schedule.html' | relative_url }}">Open the four days</a>
-          <a class="lbtn ghost" href="{{ '/tracks.html' | relative_url }}">Why we are going</a>
-          <a class="lbtn ghost" href="#trip">出差計畫</a>
+          <a class="lbtn" href="{{ '/schedule.html' | relative_url }}"><span data-l="en">Open the four days</span><span data-l="zh" data-tr>打開四天行程</span></a>
+          <a class="lbtn ghost" href="{{ '/tracks.html' | relative_url }}"><span data-l="en">Why we are going</span><span data-l="zh" data-tr>為什麼要去</span></a>
+          <a class="lbtn ghost" href="#trip"><span data-l="zh">出差計畫</span><span data-l="en" data-tr>Trip plan</span></a>
         </div>
       </div>
 
       <div class="panel">
-        <h3>Where this stands</h3>
+        <h3 data-l="en">Where this stands</h3>
+        <h3 data-l="zh" data-tr>目前進度</h3>
         <div class="pstat">
-          <div><b class="tw">{{ J.official_planned }}</b><span>official sessions, split three ways</span></div>
-          <div><b class="tw">{{ J.official_dropped }}</b><span>considered and given up, with reasons</span></div>
-          <div><b class="tw">8</b><span>capabilities we are after</span></div>
-          <div><b class="tw">3</b><span>reports, one each</span></div>
+          <div><b class="tw">{{ J.official_planned }}</b><span data-l="en">official sessions, split three ways</span><span data-l="zh" data-tr>場官方場次，三人分工</span></div>
+          <div><b class="tw">{{ J.official_dropped }}</b><span data-l="en">considered and given up, with reasons</span><span data-l="zh" data-tr>場考慮後放棄，都寫了原因</span></div>
+          <div><b class="tw">8</b><span data-l="en">capabilities we are after</span><span data-l="zh" data-tr>項我們要學到的能力</span></div>
+          <div><b class="tw">3</b><span data-l="en">reports, one each</span><span data-l="zh" data-tr>份報告，一人一份</span></div>
         </div>
         <div class="pbar">
-          <div class="pbar-t"><span>Programme read and split</span><span>Done</span></div>
+          <div class="pbar-t"><span data-l="en">Programme read and split</span><span data-l="zh" data-tr>議程讀完、分好</span><span data-l="en">Done</span><span data-l="zh" data-tr>完成</span></div>
           <div class="pbar-r"><i style="width:100%"></i></div>
         </div>
         <div class="pbar">
-          <div class="pbar-t"><span>Notes written</span><span>From 13 Nov</span></div>
+          <div class="pbar-t"><span data-l="en">Notes written</span><span data-l="zh" data-tr>筆記撰寫</span><span data-l="en">From 13 Nov</span><span data-l="zh" data-tr>11/13 起</span></div>
           <div class="pbar-r"><i style="width:0%"></i></div>
         </div>
       </div>
@@ -50,25 +57,36 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
 
 <section class="s tp-sec" id="trip" lang="zh-Hant">
   <div class="wrap">
-    <span class="eyebrow">11/10–11/18 · 出差計畫</span>
-    <h2>三位老師的出差計畫，七項。</h2>
-    <p class="sub">Timmy、Chars、Gabriel 對這趟出差的共同結論。每一項寫清楚要做到什麼、怎麼做、誰負責、什麼時候。
+    <span class="eyebrow" data-l="zh">11/10–11/18 · 出差計畫</span>
+    <span class="eyebrow" data-l="en" data-tr lang="en">11/10–11/18 · Trip plan</span>
+    <h2 data-l="zh">三位老師的出差計畫，七項。</h2>
+    <h2 data-l="en" data-tr lang="en">The three instructors' trip plan, in seven items.</h2>
+    <p class="sub" data-l="zh">Timmy、Chars、Gabriel 對這趟出差的共同結論。每一項寫清楚要做到什麼、怎麼做、誰負責、什麼時候。
       分工原則：總務盡量由 Timmy 扛；Chars、Gabriel 主力放在學生問答訓練、研究採集與 2027 題目。點名、查房這類輪班的事三人分。逐小時的細節在<a href="{{ '/duties.html' | relative_url }}">帶隊分工表</a>。</p>
+    <p class="sub" data-l="en" data-tr lang="en">What Timmy, Chars and Gabriel agreed on for this trip. Each item says what it has to achieve, how, who is responsible and when.
+      Division of work: Timmy carries as much of the logistics as possible; Chars and Gabriel put their main effort into student Q&amp;A training, research gathering and the 2027 project topics. Rotating duties such as roll call and room checks are shared by all three. Hour-by-hour detail is in the <a href="{{ '/duties.html' | relative_url }}">duty roster</a>.</p>
 
-    <div class="tp-who">
+    <div class="tp-who" data-l="zh">
       <span><i class="t"></i><b>Timmy</b> 總領隊 · 第 4 次</span>
       <span><i class="c"></i><b>Chars</b> 副領隊 · 第 2 次</span>
       <span><i class="g"></i><b>Gabriel</b> 第 1 次</span>
       <span class="tp-k">30 位學生 · 5 組 × 6 人 · 每個時段一位值班老師</span>
     </div>
+    <div class="tp-who" data-l="en" data-tr lang="en">
+      <span><i class="t"></i><b>Timmy</b> lead instructor · 4th time</span>
+      <span><i class="c"></i><b>Chars</b> deputy lead · 2nd time</span>
+      <span><i class="g"></i><b>Gabriel</b> 1st time</span>
+      <span class="tp-k">30 students · 5 groups × 6 · one instructor on duty in every time slot</span>
+    </div>
 
     <div class="tp">
 
       <article class="tp-row" id="trip-1">
-        <div class="tp-h"><span class="tp-n">1</span><h3>九天時程</h3>
-          <p>每個人都知道每一天在哪、做什麼，學生和老師的時間表對得上。</p></div>
+        <div class="tp-h"><span class="tp-n">1</span><h3 data-l="zh">九天時程</h3><h3 data-l="en" data-tr lang="en">Nine-day schedule</h3>
+          <p data-l="zh">每個人都知道每一天在哪、做什麼，學生和老師的時間表對得上。</p>
+          <p data-l="en" data-tr lang="en">Everyone knows where they are and what they are doing each day, and the student and instructor timetables match.</p></div>
         <div class="tp-b">
-          <ol class="tp-days">
+          <ol class="tp-days" data-l="zh">
             <li><b>11/10</b><span>23:30 BR087 出發</span></li>
             <li><b>11/11</b><span>07:45 抵達、入住</span></li>
             <li><b>11/12</b><span>訓練、13:00 領證</span></li>
@@ -79,17 +97,33 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
             <li><b>11/17</b><span>11:20 BR088</span></li>
             <li><b>11/18</b><span>07:20 抵達桃園</span></li>
           </ol>
+          <ol class="tp-days" data-l="en" data-tr lang="en">
+            <li><b>11/10</b><span>23:30 BR087 departs</span></li>
+            <li><b>11/11</b><span>07:45 arrive, check in</span></li>
+            <li><b>11/12</b><span>Training, 13:00 badge pickup</span></li>
+            <li><b>11/13</b><span>Opening, 12:00 judging, booth</span></li>
+            <li><b>11/14</b><span>Booth all day</span></li>
+            <li><b>11/15</b><span>14:40 stage talk</span></li>
+            <li><b>11/16</b><span>Final day</span></li>
+            <li><b>11/17</b><span>11:20 BR088</span></li>
+            <li><b>11/18</b><span>07:20 arrive Taoyuan</span></li>
+          </ol>
         </div>
-        <dl class="tp-m">
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd><span class="p t">Timmy</span> 總時程；每個時段的值班老師（三人各 7 個時段）</dd>
           <dt>細節</dt><dd><a href="{{ '/duties.html' | relative_url }}#days">逐日分工</a> · <a href="{{ '/schedule.html' | relative_url }}">The four days</a></dd>
+        </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd><span class="p t">Timmy</span> overall schedule; the instructor on duty for each time slot (7 slots each)</dd>
+          <dt>More</dt><dd><a href="{{ '/duties.html' | relative_url }}#days">Day-by-day duties</a> · <a href="{{ '/schedule.html' | relative_url }}">The four days</a></dd>
         </dl>
       </article>
 
       <article class="tp-row" id="trip-2">
-        <div class="tp-h"><span class="tp-n">2</span><h3>學生安全與應變</h3>
-          <p>30 人隨時知道在哪；出事時三位老師不用商量，就知道各自做什麼。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">2</span><h3 data-l="zh">學生安全與應變</h3><h3 data-l="en" data-tr lang="en">Student safety and emergencies</h3>
+          <p data-l="zh">30 人隨時知道在哪；出事時三位老師不用商量，就知道各自做什麼。</p>
+          <p data-l="en" data-tr lang="en">We know where all 30 are at any time; if something happens, the three instructors each know what to do without having to discuss it.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li>5 組 × 6 人，照房間分，編號 1–30，每組一位學生組長</li>
           <li>每次移動報數到 30 才走；分開吃飯由組長在 Discord 登記去向</li>
           <li>晚上三道檢查：20:00 組長回報、21:45 全隊報數、22:00 老師查房</li>
@@ -97,91 +131,165 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
           <li>出事時：一人處理、一人帶其他學生、一人聯絡家長與學校</li>
           <li>學生不單獨進巴黎市區，事先告知也一樣</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li>5 groups × 6, split by room, numbered 1–30, one student leader per group</li>
+          <li>Every move starts only when the count reaches 30; when eating separately, group leaders log where they are going on Discord</li>
+          <li>Three checks each evening: 20:00 group leaders report in, 21:45 full headcount, 22:00 instructor room check</li>
+          <li>Location sharing, and an emergency contact card for everyone (instructors' phones, hotel, 112, Taipei Representative Office in France)</li>
+          <li>If something happens: one instructor handles it, one stays with the other students, one contacts parents and the school</li>
+          <li>Students do not go into central Paris alone, even if they tell us beforehand</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd>點名、報數、查房：當班值班老師，三人輪；<span class="p t">Timmy</span> 位置分享、聯絡卡、醫藥、飯店、最後決定與家長</dd>
           <dt>時間</dt><dd>每天；22:30 在家長群組發平安訊息</dd>
           <dt>細節</dt><dd><a href="{{ '/duties.html' | relative_url }}#q1">學生管理與安全</a> · <a href="{{ '/duties.html' | relative_url }}#sop">緊急處理</a></dd>
         </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd>Roll call, headcounts, room checks: the instructor on duty, rotating among the three; <span class="p t">Timmy</span> location sharing, contact cards, medical supplies, hotel, final decisions and parents</dd>
+          <dt>When</dt><dd>Every day; 22:30 safety message to the parents' group</dd>
+          <dt>More</dt><dd><a href="{{ '/duties.html' | relative_url }}#q1">Student management and safety</a> · <a href="{{ '/duties.html' | relative_url }}#sop">Emergency procedures</a></dd>
+        </dl>
       </article>
 
       <article class="tp-row" id="trip-3">
-        <div class="tp-h"><span class="tp-n">3</span><h3>競賽任務</h3>
-          <p>評審的 25 分鐘拿出最好的表現，攤位和舞台不出錯。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">3</span><h3 data-l="zh">競賽任務</h3><h3 data-l="en" data-tr lang="en">Competition</h3>
+          <p data-l="zh">評審的 25 分鐘拿出最好的表現，攤位和舞台不出錯。</p>
+          <p data-l="en" data-tr lang="en">Our best performance in the 25 minutes of judging; no mistakes at the booth or on stage.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li><b>評審</b> 11/13 12:00，Judging Room 3：5 分鐘簡報＋20 分鐘問答</li>
           <li><b>攤位</b> H-17：週五 14:00–18:00、週六 09:00–18:00，學生分三班</li>
           <li><b>舞台演講</b> 11/15 14:40，10 分鐘</li>
           <li><b>決賽日</b> 11/16 14:00；我們有 Best Measurement、Best Hardware、Best Integrated Human Practices 三項提名</li>
           <li>訓練：11/12 三次模擬評審，由 Chars、Gabriel 帶；問答七席分給三位老師</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li><b>Judging</b> 11/13 12:00, Judging Room 3: 5-minute presentation + 20 minutes of Q&amp;A</li>
+          <li><b>Booth</b> H-17: Fri 14:00–18:00, Sat 09:00–18:00, students in three shifts</li>
+          <li><b>Stage talk</b> 11/15 14:40, 10 minutes</li>
+          <li><b>Final day</b> 11/16 14:00; we have three nominations: Best Measurement, Best Hardware, Best Integrated Human Practices</li>
+          <li>Training: three mock judging sessions on 11/12, led by Chars and Gabriel; the seven Q&amp;A seats are split among the three instructors</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd><span class="p c">Chars</span> <span class="p g">Gabriel</span> 評審問答訓練與模擬評審；<span class="p g">Gabriel</span> 攤位 pitch、評審日集合；<span class="p t">Timmy</span> 5 分鐘簡報、舞台演講、評審包</dd>
           <dt>時間</dt><dd>11/11 21:00 起；11/13 07:40 熱身</dd>
           <dt>細節</dt><dd><a href="{{ '/duties.html' | relative_url }}#q2">訓練</a> · <a href="{{ '/duties.html' | relative_url }}#booth">攤位輪值</a></dd>
         </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd><span class="p c">Chars</span> <span class="p g">Gabriel</span> judging Q&amp;A training and mock judging; <span class="p g">Gabriel</span> booth pitch, gathering the team on judging day; <span class="p t">Timmy</span> 5-minute presentation, stage talk, judging pack</dd>
+          <dt>When</dt><dd>From 11/11 21:00; 11/13 07:40 warm-up</dd>
+          <dt>More</dt><dd><a href="{{ '/duties.html' | relative_url }}#q2">Training</a> · <a href="{{ '/duties.html' | relative_url }}#booth">Booth shifts</a></dd>
+        </dl>
       </article>
 
       <article class="tp-row" id="trip-4">
-        <div class="tp-h"><span class="tp-n">4</span><h3>研究報告，以及帶回團隊的東西</h3>
-          <p>三份報告加一份「2027 要改什麼」；看到的做法真的傳到學生和下一屆。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">4</span><h3 data-l="zh">研究報告，以及帶回團隊的東西</h3><h3 data-l="en" data-tr lang="en">The research reports, and what goes back to the team</h3>
+          <p data-l="zh">三份報告加一份「2027 要改什麼」；看到的做法真的傳到學生和下一屆。</p>
+          <p data-l="en" data-tr lang="en">Three reports plus one on “what to change in 2027”; the practices we see actually reach the students and next year's team.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li>每一場、每一支隊伍一份筆記，同一個模板，當天寫完</li>
           <li>每晚 22:15 研究討論，Chars、Gabriel 輪流主持，Timmy 記錄進研究紀錄</li><li>2027 題目由 Chars、Gabriel 提出與收斂：四晚從 9 個收到 3 個，回程選 2 個</li>
           <li>三人各寫一份報告；Pak 的四個主題分三人整理：<span class="p g">Gabriel</span> 新概念與跨領域、<span class="p c">Chars</span> 科學為善、<span class="p t">Timmy</span> 硬體與計算</li>
           <li>回台兩週內辦一次全隊分享會：每位老師帶回 3 個可以直接用的做法，寫成一頁放到 2027 Project Hub</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li>One note per session and per team, same template, written the same day</li>
+          <li>Research discussion every night at 22:15, chaired in turn by Chars and Gabriel; Timmy records it in the research log</li><li>2027 topics proposed and narrowed by Chars and Gabriel: from 9 to 3 over four nights, 2 chosen on the way home</li>
+          <li>Each of the three writes a report; Pak's four themes are split among the three: <span class="p g">Gabriel</span> new concepts and cross-disciplinary work, <span class="p c">Chars</span> science for good, <span class="p t">Timmy</span> hardware and computation</li>
+          <li>Within two weeks of returning to Taiwan, one whole-team sharing session: each instructor brings back 3 practices we can use directly, written up as one page in the 2027 Project Hub</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd><span class="p c">Chars</span> <span class="p g">Gabriel</span> 研究採集、2027 題目；<span class="p t">Timmy</span> 研究紀錄與彙整成文件；三人各自的報告</dd>
           <dt>時間</dt><dd>回台 3 天筆記整理完 · 2 週初稿與分享會 · 3 週交叉讀 · 然後交給 Pak</dd>
           <dt>細節</dt><dd><a href="{{ '/research-log.html' | relative_url }}">研究紀錄</a> · <a href="{{ '/after.html' | relative_url }}">After we land</a> · <a href="{{ '/tracks.html' | relative_url }}">Growth tracks</a></dd>
         </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd><span class="p c">Chars</span> <span class="p g">Gabriel</span> research gathering, 2027 topics; <span class="p t">Timmy</span> the research log and compiling it into documents; each their own report</dd>
+          <dt>When</dt><dd>Notes tidied within 3 days of returning · draft and sharing session at 2 weeks · cross-reading at 3 weeks · then to Pak</dd>
+          <dt>More</dt><dd><a href="{{ '/research-log.html' | relative_url }}">Research log</a> · <a href="{{ '/after.html' | relative_url }}">After we land</a> · <a href="{{ '/tracks.html' | relative_url }}">Growth tracks</a></dd>
+        </dl>
       </article>
 
       <article class="tp-row" id="trip-5">
-        <div class="tp-h"><span class="tp-n">5</span><h3>人脈與後續聯繫</h3>
-          <p>在巴黎認識的每一個人，回台後都收到一封信、一個具體的問題。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">5</span><h3 data-l="zh">人脈與後續聯繫</h3><h3 data-l="en" data-tr lang="en">Contacts and follow-up</h3>
+          <p data-l="zh">在巴黎認識的每一個人，回台後都收到一封信、一個具體的問題。</p>
+          <p data-l="en" data-tr lang="en">Everyone we meet in Paris gets one email and one concrete question after we are back in Taiwan.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li>每人帶 GEMS 名片；收到名片當場拍照，補一句話：誰、在哪、聊了什麼、要追問什麼</li>
           <li>當晚研究討論前，輸入三位老師共用的聯絡人表（只在老師的 Google Drive，不放網站）</li>
           <li>分四類：同領域隊伍、可合作的老師與實驗室、業界與機構、2027 可能的顧問</li>
           <li>回台一週內各自寄出：三句話、一個問題，寄了什麼記在 Follow-ups</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li>Everyone carries GEMS business cards; photograph each card you receive on the spot and add one line: who, where, what you talked about, what to follow up on</li>
+          <li>Before that night's research discussion, enter them in the contact sheet the three instructors share (only on the instructors' Google Drive, not on this site)</li>
+          <li>Four categories: teams in the same field, instructors and labs we could work with, industry and institutions, possible advisors for 2027</li>
+          <li>Each of us sends within one week of returning: three sentences, one question; what was sent is recorded in Follow-ups</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd>各自收；<span class="p t">Timmy</span> 每晚彙整聯絡人表、追 Follow-ups</dd>
           <dt>時間</dt><dd>每晚 22:15 前；回台一週內寄完</dd>
           <dt>細節</dt><dd><a href="{{ '/followups.html' | relative_url }}">Follow-ups</a></dd>
         </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd>Each collects their own; <span class="p t">Timmy</span> compiles the contact sheet every night and chases Follow-ups</dd>
+          <dt>When</dt><dd>Before 22:15 every night; all sent within one week of returning</dd>
+          <dt>More</dt><dd><a href="{{ '/followups.html' | relative_url }}">Follow-ups</a></dd>
+        </dl>
       </article>
 
       <article class="tp-row" id="trip-6">
-        <div class="tp-h"><span class="tp-n">6</span><h3>要去的場次與機構</h3>
-          <p>官方 71 場全部看過、分好；三人不重複，該一起的一起。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">6</span><h3 data-l="zh">要去的場次與機構</h3><h3 data-l="en" data-tr lang="en">Sessions and institutions to attend</h3>
+          <p data-l="zh">官方 71 場全部看過、分好；三人不重複，該一起的一起。</p>
+          <p data-l="en" data-tr lang="en">All 71 official sessions read and assigned; no overlap among the three, together where it matters.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li>{{ J.official_planned }} 場參加、{{ J.official_dropped }} 場放棄，每一場都寫了原因</li>
           <li><b>三人一起</b>：開幕、我們的評審、Open Infrastructure for AI-Native SynBio、Why Does It Work in Your Lab but Not Mine?、Governing Generative Biology、HS PI Roundtable、我們的舞台演講、決賽日</li>
           <li><b>分頭</b>：<span class="p t">Timmy</span> BioInnovation Summit（Innovation 舞台）；<span class="p c">Chars</span> Responsibility Conference（Nucleus，含 OECD 主持的場次）；<span class="p g">Gabriel</span> iGEM Technology 場次與 Community 工作坊</li>
           <li>攤位：事先挑好 57 支隊伍，Chars 20、Timmy 19、Gabriel 18；同酵素、同 chassis 的隊伍（例如 TUS-Japan）優先</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li>{{ J.official_planned }} attended, {{ J.official_dropped }} given up, with a reason written for every one</li>
+          <li><b>All three together</b>: the opening, our judging, Open Infrastructure for AI-Native SynBio, Why Does It Work in Your Lab but Not Mine?, Governing Generative Biology, HS PI Roundtable, our stage talk, the final day</li>
+          <li><b>Split</b>: <span class="p t">Timmy</span> BioInnovation Summit (Innovation stage); <span class="p c">Chars</span> Responsibility Conference (Nucleus, including the sessions chaired by the OECD); <span class="p g">Gabriel</span> iGEM Technology sessions and Community workshops</li>
+          <li>Booths: 57 teams picked in advance, Chars 20, Timmy 19, Gabriel 18; teams with the same enzyme or chassis (for example TUS-Japan) come first</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd>各自；<span class="p t">Timmy</span> 11/12 在 App 確認講者名單</dd>
           <dt>時間</dt><dd>11/13–11/15</dd>
           <dt>細節</dt><dd><a href="{{ '/schedule.html' | relative_url }}">The four days</a> · <a href="{{ '/floor-plan.html' | relative_url }}">Floor plan</a></dd>
         </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd>Each their own; <span class="p t">Timmy</span> confirms the speaker list in the App on 11/12</dd>
+          <dt>When</dt><dd>11/13–11/15</dd>
+          <dt>More</dt><dd><a href="{{ '/schedule.html' | relative_url }}">The four days</a> · <a href="{{ '/floor-plan.html' | relative_url }}">Floor plan</a></dd>
+        </dl>
       </article>
 
       <article class="tp-row" id="trip-7">
-        <div class="tp-h"><span class="tp-n">7</span><h3>照片與影片</h3>
-          <p>所有照片影片在同一個地方找得到；家長每天看得到；別隊未發表的東西不外流。</p></div>
-        <ul class="tp-b">
+        <div class="tp-h"><span class="tp-n">7</span><h3 data-l="zh">照片與影片</h3><h3 data-l="en" data-tr lang="en">Photos and video</h3>
+          <p data-l="zh">所有照片影片在同一個地方找得到；家長每天看得到；別隊未發表的東西不外流。</p>
+          <p data-l="en" data-tr lang="en">Every photo and video can be found in one place; parents see them every day; other teams' unpublished work does not get out.</p></div>
+        <ul class="tp-b" data-l="zh">
           <li><b>Google Drive</b>「Paris 2026」資料夾，每天一個子資料夾（例如 11-13 評審、11-14 攤位）。原檔都放這裡</li>
           <li>老師和學生當天 22:00 前上傳；檔名「日期_場合_拍攝者」</li>
           <li>舞台演講錄影由 Chars 拍，當晚交給 Timmy 上傳</li>
           <li><b>LINE 家長群組</b>只放精選：<span class="p t">Timmy</span> 每天挑 5 張，22:30 連同平安訊息一起發</li>
           <li>拍其他隊的人或未發表的資料前先問；學生發社群避開別隊內容</li>
         </ul>
-        <dl class="tp-m">
+        <ul class="tp-b" data-l="en" data-tr lang="en">
+          <li><b>Google Drive</b> “Paris 2026” folder, one subfolder per day (for example 11-13 judging, 11-14 booth). All originals go here</li>
+          <li>Instructors and students upload by 22:00 the same day; file name “date_occasion_photographer”</li>
+          <li>Chars films the stage talk and hands it to Timmy to upload that evening</li>
+          <li>The <b>LINE parents' group</b> gets a selection only: <span class="p t">Timmy</span> picks 5 a day and posts them at 22:30 with the safety message</li>
+          <li>Ask before photographing people from other teams or unpublished data; students posting on social media leave other teams' content out</li>
+        </ul>
+        <dl class="tp-m" data-l="zh">
           <dt>負責</dt><dd><span class="p t">Timmy</span> Drive、每日精選、LINE；<span class="p c">Chars</span> 舞台演講錄影</dd>
           <dt>時間</dt><dd>每天 22:00 上傳、22:30 發送</dd>
+        </dl>
+        <dl class="tp-m" data-l="en" data-tr lang="en">
+          <dt>Who</dt><dd><span class="p t">Timmy</span> Drive, daily selection, LINE; <span class="p c">Chars</span> stage talk video</dd>
+          <dt>When</dt><dd>Upload by 22:00, post at 22:30, every day</dd>
         </dl>
       </article>
 
@@ -192,41 +300,64 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
 
 <section class="s" id="plan">
   <div class="wrap">
-    <span class="eyebrow">01 · The plan</span>
-    <h2>Every official session in the programme is accounted for.</h2>
-    <p class="sub">There are {{ J.official_total }} keynotes, panels, summit sessions and workshops at this
+    <span class="eyebrow" data-l="en">01 · The plan</span>
+    <span class="eyebrow" data-l="zh" data-tr>01 · 計畫</span>
+    <h2 data-l="en">Every official session in the programme is accounted for.</h2>
+    <h2 data-l="zh" data-tr>議程裡每一場官方場次都有交代。</h2>
+    <p class="sub" data-l="en">There are {{ J.official_total }} keynotes, panels, summit sessions and workshops at this
       Jamboree, given by industry and academic speakers. We read all of them and decided on all of
       them: {{ J.official_planned }} we attend, {{ J.official_dropped }} we gave up — and the page says what each
       one was given up for. Student team talks are fill-in, behind a toggle.</p>
+    <p class="sub" data-l="zh" data-tr>這屆 Jamboree 有 {{ J.official_total }} 場主題演講、座談、高峰會場次和工作坊，講者來自業界與學界。
+      我們全部讀過，每一場都做了決定：{{ J.official_planned }} 場參加、{{ J.official_dropped }} 場放棄，頁面上寫了每一場是為了什麼而放棄。
+      學生隊伍的演講是用來補空檔的，收在一個切換開關後面。</p>
 
     <div class="stats">
-      <div class="stat"><b class="tw">{{ J.sessions_total }}</b><span>sessions in the programme</span></div>
-      <div class="stat"><b class="tw">{{ J.sessions_judging }}</b><span>closed judging slots</span></div>
-      <div class="stat"><b class="tw">{{ J.official_total }}</b><span>official sessions, all triaged</span></div>
-      <div class="stat"><b class="tw">{{ J.conflicts | size }}</b><span>clashes decided in advance</span></div>
+      <div class="stat"><b class="tw">{{ J.sessions_total }}</b><span data-l="en">sessions in the programme</span><span data-l="zh" data-tr>場議程場次</span></div>
+      <div class="stat"><b class="tw">{{ J.sessions_judging }}</b><span data-l="en">closed judging slots</span><span data-l="zh" data-tr>個不公開的評審時段</span></div>
+      <div class="stat"><b class="tw">{{ J.official_total }}</b><span data-l="en">official sessions, all triaged</span><span data-l="zh" data-tr>場官方場次，全部分類過</span></div>
+      <div class="stat"><b class="tw">{{ J.conflicts | size }}</b><span data-l="en">clashes decided in advance</span><span data-l="zh" data-tr>個撞期，事先決定好</span></div>
     </div>
 
     <div class="grid g3">
-      <a class="card" href="{{ '/schedule.html' | relative_url }}">
+      <a class="card" data-l="en" href="{{ '/schedule.html' | relative_url }}">
         <span class="n">Start here</span>
         <h3>The four days</h3>
         <p>Hour by hour, filtered to your name. Every slot carries why it was chosen over the one
           next to it, and the priority ones carry the question to walk in with.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/tracks.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/schedule.html' | relative_url }}">
+        <span class="n">從這裡開始</span>
+        <h3>四天行程</h3>
+        <p>逐小時，可以只看自己的名字。每個時段都寫了為什麼選它、不選同時段的另一場；優先場次還附上進場要帶的問題。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/tracks.html' | relative_url }}">
         <span class="n">The reasoning</span>
         <h3>Growth tracks</h3>
         <p>The eight capabilities GEMS is trying to accumulate, each with what we already have and
           the specific thing we are missing.</p>
         <span class="more">Read &rarr;</span>
       </a>
-      <a class="card" href="{{ '/program.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/tracks.html' | relative_url }}">
+        <span class="n">背後的理由</span>
+        <h3>Growth tracks 成長方向</h3>
+        <p>GEMS 想累積的八項能力，每一項都寫了我們已經有什麼，以及具體還缺什麼。</p>
+        <span class="more">閱讀 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/program.html' | relative_url }}">
         <span class="n">Reference</span>
         <h3>Full programme</h3>
         <p>All {{ site.data.fullprog | size }} open sessions, searchable — for the one you hear about
           in a corridor and had not planned for.</p>
         <span class="more">Browse &rarr;</span>
+      </a>
+      <a class="card" data-l="zh" data-tr href="{{ '/program.html' | relative_url }}">
+        <span class="n">參考</span>
+        <h3>完整議程</h3>
+        <p>全部 {{ site.data.fullprog | size }} 場公開場次，可以搜尋。在走廊上聽到、原本沒排進去的那一場，來這裡找。</p>
+        <span class="more">瀏覽 &rarr;</span>
       </a>
     </div>
   </div>
@@ -234,35 +365,57 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
 
 <section class="s" id="together">
   <div class="wrap">
-    <span class="eyebrow">02 · Together or apart</span>
-    <h2>Seven slots all three of us attend. The rest we split.</h2>
-    <p class="sub">Three people at one Jamboree produce three identical diaries unless the floor is
+    <span class="eyebrow" data-l="en">02 · Together or apart</span>
+    <span class="eyebrow" data-l="zh" data-tr>02 · 一起或分頭</span>
+    <h2 data-l="en">Seven slots all three of us attend. The rest we split.</h2>
+    <h2 data-l="zh" data-tr>七個時段三人一起，其餘分頭。</h2>
+    <p class="sub" data-l="en">Three people at one Jamboree produce three identical diaries unless the floor is
       divided first. Each instructor takes a different stage and a different question — except where
       a session is worth three sets of notes, or is our own.</p>
+    <p class="sub" data-l="zh" data-tr>三個人去同一場 Jamboree，如果不先把場地分好，就會寫出三本一樣的日記。
+      每位老師負責不同的舞台、不同的問題；例外是值得寫三份筆記的場次，或是我們自己的場次。</p>
 
     <div class="grid g3">
-      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
+      <a class="card person" data-l="en" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">G</span>
         <h3>Gabriel</h3>
         <p>Wet lab — secretion, chassis, bench technique, and getting student work published.</p>
         <p class="cnt tw">{{ J.per_person.Gabriel }}<small>slots</small></p>
       </a>
-      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
+      <a class="card person" data-l="zh" data-tr href="{{ '/schedule.html' | relative_url }}">
+        <span class="av">G</span>
+        <h3>Gabriel</h3>
+        <p>濕實驗：分泌、chassis、實驗操作技術，以及讓學生的成果發表出去。</p>
+        <p class="cnt tw">{{ J.per_person.Gabriel }}<small>個時段</small></p>
+      </a>
+      <a class="card person" data-l="en" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">C</span>
         <h3>Chars</h3>
         <p>Responsibility and the pipeline — governance, biosafety, education, the 2027 cohort.</p>
         <p class="cnt tw">{{ J.per_person.Chars }}<small>slots</small></p>
       </a>
-      <a class="card person" href="{{ '/schedule.html' | relative_url }}">
+      <a class="card person" data-l="zh" data-tr href="{{ '/schedule.html' | relative_url }}">
+        <span class="av">C</span>
+        <h3>Chars</h3>
+        <p>責任與人才培育：治理、生物安全、教育、2027 屆學生。</p>
+        <p class="cnt tw">{{ J.per_person.Chars }}<small>個時段</small></p>
+      </a>
+      <a class="card person" data-l="en" href="{{ '/schedule.html' | relative_url }}">
         <span class="av">T</span>
         <h3>Timmy</h3>
         <p>Dry lab and direction — measurement, automation, standards, and the whole Innovation stage.</p>
         <p class="cnt tw">{{ J.per_person.Timmy }}<small>slots</small></p>
       </a>
+      <a class="card person" data-l="zh" data-tr href="{{ '/schedule.html' | relative_url }}">
+        <span class="av">T</span>
+        <h3>Timmy</h3>
+        <p>乾實驗與方向：量測、自動化、標準，以及整個 Innovation 舞台。</p>
+        <p class="cnt tw">{{ J.per_person.Timmy }}<small>個時段</small></p>
+      </a>
     </div>
 
     <div class="grid g2" style="margin-top:16px">
-      <div class="card">
+      <div class="card" data-l="en">
         <span class="n">The seven we do together</span>
         <h3>Where three readings beat one</h3>
         <p>The opening and the Final Day Show; <b>our judging session and the debrief straight
@@ -273,7 +426,17 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
           <span class="chip g">Fabrication plaza · Sun 14:40</span>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-l="zh" data-tr>
+        <span class="n">三人一起的七場</span>
+        <h3>三個人看勝過一個人看</h3>
+        <p>開幕和 Final Day Show；<b>我們的評審場次，以及緊接在後的檢討</b>；週日我們自己的舞台演講；
+          談可重現性的主題演講；以及 HS PI Roundtable，整份議程中唯一寫給高中指導老師的場次。</p>
+        <div class="chips">
+          <span class="chip r">Judging Room 3 · 週五 12:00</span>
+          <span class="chip g">Fabrication plaza · 週日 14:40</span>
+        </div>
+      </div>
+      <div class="card" data-l="en">
         <span class="n">House rules</span>
         <h3>Four that matter</h3>
         <p>Mechanism, not claim. Mark what you were told apart from what you worked out. Decide the
@@ -284,83 +447,141 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
           <span class="chip g">ask before unpublished data</span>
         </div>
       </div>
+      <div class="card" data-l="zh" data-tr>
+        <span class="n">我們的規則</span>
+        <h3>最重要的四條</h3>
+        <p>看機制，不看宣稱。別人告訴你的和你自己推出來的，分開標記。在場就決定跟我們有沒有關係。
+          當天晚上寫完：回程飛機上寫的筆記，只剩你看到的一小部分。</p>
+        <div class="chips">
+          <span class="chip">拍人之前先問</span>
+          <span class="chip g">未發表的資料先問</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="s" id="logistics">
   <div class="wrap">
-    <span class="eyebrow">03 · The trip</span>
-    <h2>Nine days, Taipei to Taipei.</h2>
-    <p class="sub">The team flies on 10 November and lands back on the 17th. Three of those days are
+    <span class="eyebrow" data-l="en">03 · The trip</span>
+    <span class="eyebrow" data-l="zh" data-tr>03 · 這趟旅程</span>
+    <h2 data-l="en">Nine days, Taipei to Taipei.</h2>
+    <h2 data-l="zh" data-tr>九天，台北出發、回到台北。</h2>
+    <p class="sub" data-l="en">The team flies on 10 November and lands back on the 18th. Three of those days are
       preparation, four are the Jamboree, and two are in the air.</p>
+    <p class="sub" data-l="zh" data-tr>全隊 11 月 10 日出發，18 日回到台灣。其中三天是準備，四天是 Jamboree，兩天在飛機上。</p>
 
     <div class="grid g3">
-      <a class="card" href="{{ '/before.html' | relative_url }}">
+      <a class="card" data-l="en" href="{{ '/before.html' | relative_url }}">
         <span class="n">10–12 November</span>
         <h3>Before we fly</h3>
         <p>What each day owes, the two source disagreements to settle on Thursday rather than
           Friday, what to read, and what to carry.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/ground.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/before.html' | relative_url }}">
+        <span class="n">11 月 10–12 日</span>
+        <h3>出發之前</h3>
+        <p>每一天要完成什麼、兩處資料來源不一致的地方要在週四而不是週五解決、要讀什麼、要帶什麼。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/ground.html' | relative_url }}">
         <span class="n">13–16 November</span>
         <h3>On the ground</h3>
         <p>The venue and the rooms that matter, getting there, the booth and its one rule, and what
           to do when something goes wrong.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/after.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/ground.html' | relative_url }}">
+        <span class="n">11 月 13–16 日</span>
+        <h3>在現場</h3>
+        <p>場館和重要的房間、怎麼過去、攤位和它唯一的一條規則，以及出狀況時怎麼辦。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/after.html' | relative_url }}">
         <span class="n">17 November onward</span>
         <h3>After we land</h3>
         <p>How three sets of notes become three reports and one plan for 2027 — the sequence, and
           the step that is easy to skip.</p>
         <span class="more">Open &rarr;</span>
       </a>
+      <a class="card" data-l="zh" data-tr href="{{ '/after.html' | relative_url }}">
+        <span class="n">11 月 17 日以後</span>
+        <h3>回來之後</h3>
+        <p>三份筆記怎麼變成三份報告和一份 2027 計畫：先後順序，以及最容易被跳過的那一步。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
     </div>
 
     <div class="note" style="margin-top:22px">
-      <p><b>The students have their own site.</b> Flights, rooms, booth shifts, materials and the
+      <p data-l="en"><b>The students have their own site.</b> Flights, rooms, booth shifts, materials and the
         emergency numbers live on <a href="https://timmy97-tw.github.io/releaf-jamboree/">ReLEAF to
         Paris</a>, and this site takes those numbers from it rather than keeping a second copy that
         can drift. Two things disagree between that site and iGEM's own API —
         <a href="{{ '/schedule.html' | relative_url }}#open">both are listed</a>, and both are
         ten minutes' work at badge pickup.</p>
+      <p data-l="zh" data-tr><b>學生有自己的網站。</b>航班、房間、攤位班表、物品和緊急電話都在
+        <a href="https://timmy97-tw.github.io/releaf-jamboree/">ReLEAF to Paris</a>，本站的這些數字直接從那裡取用，
+        不另外保存一份可能會對不上的副本。那個網站和 iGEM 官方 API 之間有兩處不一致，
+        <a href="{{ '/schedule.html' | relative_url }}#open">兩處都列出來了</a>，兩處都是領證時花十分鐘就能處理的事。</p>
     </div>
   </div>
 </section>
 
 <section class="s" id="themes">
   <div class="wrap">
-    <span class="eyebrow">04 · What the report answers</span>
-    <h2>Four themes from the brief, eight tracks underneath.</h2>
-    <p class="sub">Pak's brief sets the four themes the report has to answer. The eight growth tracks
+    <span class="eyebrow" data-l="en">04 · What the report answers</span>
+    <span class="eyebrow" data-l="zh" data-tr>04 · 報告要回答什麼</span>
+    <h2 data-l="en">Four themes from the brief, eight tracks underneath.</h2>
+    <h2 data-l="zh" data-tr>任務書的四個主題，底下是八個成長方向。</h2>
+    <p class="sub" data-l="en">Pak's brief sets the four themes the report has to answer. The eight growth tracks
       are how we made them specific enough to choose a session with.</p>
+    <p class="sub" data-l="zh" data-tr>Pak 的任務書訂出報告必須回答的四個主題。八個成長方向是我們把主題具體化的方式，具體到可以拿來挑場次。</p>
 
     <div class="grid g4">
-      <a class="card theme c" href="{{ '/buckets/concepts.html' | relative_url }}">
+      <a class="card theme c" data-l="en" href="{{ '/buckets/concepts.html' | relative_url }}">
         <span class="t">C</span><h3>Concepts</h3>
         <p>How a team picked its problem, and fields combined into something that did not exist as a
           category before.</p>
         <span class="more">Synthesis &rarr;</span>
       </a>
-      <a class="card theme h" href="{{ '/buckets/hardware.html' | relative_url }}">
+      <a class="card theme c" data-l="zh" data-tr href="{{ '/buckets/concepts.html' | relative_url }}">
+        <span class="t">C</span><h3>新概念</h3>
+        <p>一支隊伍怎麼選定它的問題，以及幾個領域怎麼結合成以前不存在的類別。</p>
+        <span class="more">彙整 &rarr;</span>
+      </a>
+      <a class="card theme h" data-l="en" href="{{ '/buckets/hardware.html' | relative_url }}">
         <span class="t">H</span><h3>Hardware</h3>
         <p>Low-cost instruments, open hardware and field kits — and the ingenuity that shows up when
           a team has no budget.</p>
         <span class="more">Synthesis &rarr;</span>
       </a>
-      <a class="card theme m" href="{{ '/buckets/compute.html' | relative_url }}">
+      <a class="card theme h" data-l="zh" data-tr href="{{ '/buckets/hardware.html' | relative_url }}">
+        <span class="t">H</span><h3>硬體</h3>
+        <p>低成本儀器、開源硬體和野外用套件，以及隊伍沒有預算時展現出來的巧思。</p>
+        <span class="more">彙整 &rarr;</span>
+      </a>
+      <a class="card theme m" data-l="en" href="{{ '/buckets/compute.html' | relative_url }}">
         <span class="t">M</span><h3>Computation</h3>
         <p>Prediction from biological data, and how teams make a complicated result legible to a
           judge in ninety seconds.</p>
         <span class="more">Synthesis &rarr;</span>
       </a>
-      <a class="card theme s" href="{{ '/buckets/impact.html' | relative_url }}">
+      <a class="card theme m" data-l="zh" data-tr href="{{ '/buckets/compute.html' | relative_url }}">
+        <span class="t">M</span><h3>計算</h3>
+        <p>用生物數據做預測，以及隊伍怎麼讓評審在九十秒內看懂一個複雜的結果。</p>
+        <span class="more">彙整 &rarr;</span>
+      </a>
+      <a class="card theme s" data-l="en" href="{{ '/buckets/impact.html' | relative_url }}">
         <span class="t">S</span><h3>Science for good</h3>
         <p>Education that works, human practices with a real community behind them, and what teams
           do with a project after the medals.</p>
         <span class="more">Synthesis &rarr;</span>
+      </a>
+      <a class="card theme s" data-l="zh" data-tr href="{{ '/buckets/impact.html' | relative_url }}">
+        <span class="t">S</span><h3>科學為善</h3>
+        <p>真的有效的教育、背後有真實社群的 human practices，以及隊伍在拿到獎牌之後怎麼處理他們的專案。</p>
+        <span class="more">彙整 &rarr;</span>
       </a>
     </div>
   </div>
@@ -368,44 +589,74 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
 
 <section class="s" id="after">
   <div class="wrap">
-    <span class="eyebrow">05 · What comes back</span>
-    <h2>Three reports, one evidence base.</h2>
-    <p class="sub">Each instructor owes a report. They cite the same notes and reach their own
+    <span class="eyebrow" data-l="en">05 · What comes back</span>
+    <span class="eyebrow" data-l="zh" data-tr>05 · 帶回來什麼</span>
+    <h2 data-l="en">Three reports, one evidence base.</h2>
+    <h2 data-l="zh" data-tr>三份報告，同一個證據庫。</h2>
+    <p class="sub" data-l="en">Each instructor owes a report. They cite the same notes and reach their own
       conclusions — three readings, not three itineraries.</p>
+    <p class="sub" data-l="zh" data-tr>每位老師都要交一份報告。三份報告引用同一批筆記，各自得出結論：是三種解讀，不是三份行程表。</p>
 
     <div class="grid g3">
-      <a class="card" href="{{ '/reports/gabriel.html' | relative_url }}">
+      <a class="card" data-l="en" href="{{ '/reports/gabriel.html' | relative_url }}">
         <span class="n">Report</span><h3>Gabriel</h3>
         <p>Wet lab.</p><span class="more">Read &rarr;</span>
       </a>
-      <a class="card" href="{{ '/reports/chars.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/reports/gabriel.html' | relative_url }}">
+        <span class="n">報告</span><h3>Gabriel</h3>
+        <p>濕實驗。</p><span class="more">閱讀 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/reports/chars.html' | relative_url }}">
         <span class="n">Report</span><h3>Chars</h3>
         <p>Wet lab.</p><span class="more">Read &rarr;</span>
       </a>
-      <a class="card" href="{{ '/reports/timmy.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/reports/chars.html' | relative_url }}">
+        <span class="n">報告</span><h3>Chars</h3>
+        <p>濕實驗。</p><span class="more">閱讀 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/reports/timmy.html' | relative_url }}">
         <span class="n">Report</span><h3>Timmy</h3>
         <p>PI, dry lab.</p><span class="more">Read &rarr;</span>
+      </a>
+      <a class="card" data-l="zh" data-tr href="{{ '/reports/timmy.html' | relative_url }}">
+        <span class="n">報告</span><h3>Timmy</h3>
+        <p>PI，乾實驗。</p><span class="more">閱讀 &rarr;</span>
       </a>
     </div>
 
     <div class="grid g3" style="margin-top:16px">
-      <a class="card" href="{{ '/notes/' | relative_url }}">
+      <a class="card" data-l="en" href="{{ '/notes/' | relative_url }}">
         <span class="n">The evidence base</span><h3>One note per session</h3>
         <p>Same fields every time: the mechanism, the one number that matters, where it came from,
           and a verdict.</p>
         <span class="more">See the template &rarr;</span>
       </a>
-      <a class="card" href="{{ '/gaps.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/notes/' | relative_url }}">
+        <span class="n">證據庫</span><h3>每一場一份筆記</h3>
+        <p>每次都是同樣的欄位：機制、最重要的那一個數字、數字從哪裡來，以及結論。</p>
+        <span class="more">看模板 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/gaps.html' | relative_url }}">
         <span class="n">Honesty</span><h3>What we missed</h3>
         <p>Sessions we gave up, villages we never covered, and the questions we meant to ask and
           did not.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/followups.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/gaps.html' | relative_url }}">
+        <span class="n">誠實</span><h3>我們錯過了什麼</h3>
+        <p>放棄的場次、始終沒有涵蓋到的 village，以及原本想問卻沒問的問題。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/followups.html' | relative_url }}">
         <span class="n">Owed</span><h3>Follow-ups</h3>
         <p>Who we owe an email and what to ask. An unanswered row here in six months is a visit that
           produced nothing.</p>
         <span class="more">Open &rarr;</span>
+      </a>
+      <a class="card" data-l="zh" data-tr href="{{ '/followups.html' | relative_url }}">
+        <span class="n">欠的</span><h3>Follow-ups 後續聯繫</h3>
+        <p>我們欠誰一封信、要問什麼。六個月後這裡還有一列沒有回覆，就代表那次拜訪什麼也沒產出。</p>
+        <span class="more">打開 &rarr;</span>
       </a>
     </div>
   </div>
@@ -413,36 +664,56 @@ description: Gabriel, Chars and Timmy at the iGEM Grand Jamboree in Paris — th
 
 <section class="s" id="teams" style="padding-bottom:20px">
   <div class="wrap">
-    <span class="eyebrow">06 · The competition</span>
-    <h2>We also read all 452 teams.</h2>
-    <p class="sub">Done before the programme was published, and still useful: it is how we know which
+    <span class="eyebrow" data-l="en">06 · The competition</span>
+    <span class="eyebrow" data-l="zh" data-tr>06 · 競賽</span>
+    <h2 data-l="en">We also read all 452 teams.</h2>
+    <h2 data-l="zh" data-tr>452 支隊伍，我們也全部讀過。</h2>
+    <p class="sub" data-l="en">Done before the programme was published, and still useful: it is how we know which
       teams to find at a booth, and it is where the pre-trip judgments are recorded.</p>
+    <p class="sub" data-l="zh" data-tr>這是在議程公布之前做的，現在仍然有用：我們靠它知道要去攤位找哪些隊伍，出發前的判斷也記錄在這裡。</p>
 
     <div class="grid g3">
-      <a class="card" href="{{ '/floor-plan.html' | relative_url }}">
+      <a class="card" data-l="en" href="{{ '/floor-plan.html' | relative_url }}">
         <span class="n">{{ site.data.targets | size }} targets</span><h3>Floor plan</h3>
         <p>Teams worth finding, split one to a person. {{ J.targets_with_talk }} of them give a talk;
           the other {{ J.booth_only | size }} exist only at a booth.</p>
         <span class="more">Open &rarr;</span>
       </a>
-      <a class="card" href="{{ '/teams.html' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/floor-plan.html' | relative_url }}">
+        <span class="n">{{ site.data.targets | size }} 個目標</span><h3>場地圖</h3>
+        <p>值得去找的隊伍，每支只分給一個人。其中 {{ J.targets_with_talk }} 支有演講；其餘 {{ J.booth_only | size }} 支只在攤位找得到。</p>
+        <span class="more">打開 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/teams.html' | relative_url }}">
         <span class="n">Reference</span><h3>All 452 teams</h3>
         <p>Searchable across every full abstract, by name, project, country or village.</p>
         <span class="more">Browse &rarr;</span>
       </a>
-      <a class="card" href="{{ '/research/' | relative_url }}">
+      <a class="card" data-l="zh" data-tr href="{{ '/teams.html' | relative_url }}">
+        <span class="n">參考</span><h3>全部 452 支隊伍</h3>
+        <p>可以搜尋每一份完整摘要，依隊名、專案、國家或 village 查找。</p>
+        <span class="more">瀏覽 &rarr;</span>
+      </a>
+      <a class="card" data-l="en" href="{{ '/research/' | relative_url }}">
         <span class="n">The reasoning</span><h3>Full triage</h3>
         <p>Four documents covering every village, with the questions to ask and the claims that
           looked thin.</p>
         <span class="more">Read &rarr;</span>
       </a>
+      <a class="card" data-l="zh" data-tr href="{{ '/research/' | relative_url }}">
+        <span class="n">背後的理由</span><h3>完整分類</h3>
+        <p>四份文件涵蓋每一個 village，附上要問的問題，以及看起來證據薄弱的宣稱。</p>
+        <span class="more">閱讀 &rarr;</span>
+      </a>
     </div>
 
     <div class="note" style="margin-top:22px">
-      <p><b>Treat the team rankings as a reason to walk over, never as a finding.</b> They come from
+      <p data-l="en"><b>Treat the team rankings as a reason to walk over, never as a finding.</b> They come from
         reading abstracts that teams wrote to sell their own projects — not from seeing the work.
         Where a claim looked unsupported the triage says so, and those are the questions to open
         with.</p>
+      <p data-l="zh" data-tr><b>隊伍排名只是走過去看的理由，絕不是結論。</b>排名來自閱讀隊伍為了推銷自己專案而寫的摘要，
+        不是來自看過實際的成果。凡是看起來缺乏根據的宣稱，分類文件裡都寫出來了，那些就是開場要問的問題。</p>
     </div>
   </div>
 </section>

@@ -2,16 +2,20 @@
 layout: base
 title: Full programme
 description: Every open session at the 2026 Grand Jamboree, searchable — pulled from the public iGEM API.
+title_alt: 完整議程
+description_alt: 2026 Grand Jamboree 每一場公開場次，可搜尋——資料取自 iGEM 公開 API。
 ---
 {% assign J = site.data.jamboree %}
+{% assign WD = "日,一,二,三,四,五,六" | split: "," %}
 <header class="dochead">
   <div class="wrap">
-    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; Full programme</div>
-    <span class="eyebrow">Reference · Paris time (UTC+1)</span>
-    <h1>All {{ site.data.fullprog | size }} open sessions</h1>
-    <p>The whole programme as iGEM publishes it, for the session you hear about in a corridor and
+    <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; <span data-l="en">Full programme</span><span data-l="zh" data-tr>完整議程</span></div>
+    <span class="eyebrow" data-l="en">Reference · Paris time (UTC+1)</span><span class="eyebrow" data-l="zh" data-tr>參考資料 · 巴黎時間（UTC+1）</span>
+    <h1 data-l="en">All {{ site.data.fullprog | size }} open sessions</h1><h1 data-l="zh" data-tr>全部 {{ site.data.fullprog | size }} 場公開場次</h1>
+    <p data-l="en">The whole programme as iGEM publishes it, for the session you hear about in a corridor and
       had not planned for. {{ J.sessions_judging }} closed judging slots are left out.
       Our own plan is on <a href="{{ '/schedule.html' | relative_url }}">the four days</a>.</p>
+    <p data-l="zh" data-tr>iGEM 公布的完整議程，給你在走廊上聽到、原本沒排進行程的場次用。{{ J.sessions_judging }} 個不公開的評審時段沒有列入。我們自己的計畫在<a href="{{ '/schedule.html' | relative_url }}">四天行程</a>。</p>
   </div>
 </header>
 
@@ -22,9 +26,9 @@ description: Every open session at the 2026 Grand Jamboree, searchable — pulle
       <input id="q" type="search" placeholder="Search title, team, room, topic or description" aria-label="Search the programme">
     </div>
     <div class="seg" id="seg" role="group" aria-label="Filter by kind">
-      <button type="button" data-f="all" class="on">Everything</button>
-      <button type="button" data-f="official">Official</button>
-      <button type="button" data-f="team-talk">Team talks</button>
+      <button type="button" data-f="all" class="on"><span data-l="en">Everything</span><span data-l="zh" data-tr>全部</span></button>
+      <button type="button" data-f="official"><span data-l="en">Official</span><span data-l="zh" data-tr>官方場次</span></button>
+      <button type="button" data-f="team-talk"><span data-l="en">Team talks</span><span data-l="zh" data-tr>隊伍報告</span></button>
     </div>
     <span class="count" id="count"></span>
   </div>
@@ -34,7 +38,7 @@ description: Every open session at the 2026 Grand Jamboree, searchable — pulle
     {% for s in site.data.fullprog %}
       {% if s.day != lastday %}
         {% assign lastday = s.day %}
-        <div class="hd"><h3>{{ s.day | date: "%A %-d %B" }}</h3></div>
+        {% assign w = s.day | date: "%w" | plus: 0 %}<div class="hd"><h3 data-l="en">{{ s.day | date: "%A %-d %B" }}</h3><h3 data-l="zh" data-tr>{{ s.day | date: "%-m 月 %-d 日" }}（星期{{ WD[w] }}）</h3></div>
       {% endif %}
       <div class="it medium" data-group="{% if s.type == 'team-talk' %}team-talk{% else %}official{% endif %}"
            data-search="{{ s.search }}">
@@ -43,7 +47,7 @@ description: Every open session at the 2026 Grand Jamboree, searchable — pulle
           <p class="ti">{% if s.team %}<b style="font-weight:700">{{ s.team }}</b> · {% endif %}{{ s.title }}</p>
           <div class="mt">
             <b>{{ s.where }}</b><span>{{ s.type | replace: "-", " " }}</span>
-            {% if s.planned %}<span style="color:var(--green)">on our target list</span>{% endif %}
+            {% if s.planned %}<span style="color:var(--green)" data-l="en">on our target list</span><span style="color:var(--green)" data-l="zh" data-tr>在我們的目標清單上</span>{% endif %}
           </div>
           {% if s.hook %}<p class="wy">{{ s.hook }}</p>{% endif %}
         </div>
@@ -51,15 +55,21 @@ description: Every open session at the 2026 Grand Jamboree, searchable — pulle
       </div>
     {% endfor %}
   </div>
-  <p class="empty" id="empty" hidden>Nothing matches that.</p>
+  <p class="empty" id="empty" hidden><span data-l="en">Nothing matches that.</span><span data-l="zh" data-tr>沒有符合的項目。</span></p>
 </main>
 
 <script>
   addEventListener('DOMContentLoaded', function () {
-    var prog = document.getElementById('prog');
-    filterList({
+    var LANG = function(){var r=document.documentElement;return r.getAttribute('data-lang')||r.getAttribute('data-orig')||'en'};
+    var T = {
+      en: { noun: 'session', nounPlural: 'sessions', ph: 'Search title, team, room, topic or description' },
+      zh: { noun: '場', nounPlural: '場', ph: '搜尋標題、隊伍、場地、主題或說明' }
+    };
+    var t = function () { return T[LANG()] || T.en; };
+    var prog = document.getElementById('prog'), q = document.getElementById('q');
+    var apply = filterList({
       input: 'q', count: 'count', rows: '#prog .it', empty: 'empty', seg: 'seg',
-      noun: 'session',
+      get noun() { return t().noun; }, get nounPlural() { return t().nounPlural; },
       onApply: function () {
         prog.querySelectorAll('.hd').forEach(function (h) {
           var any = false, n = h.nextElementSibling;
@@ -71,5 +81,8 @@ description: Every open session at the 2026 Grand Jamboree, searchable — pulle
         });
       }
     });
+    var relabel = function () { if (q) q.placeholder = t().ph; apply(); };
+    document.addEventListener('langchange', relabel);
+    relabel();
   });
 </script>

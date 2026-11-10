@@ -3,10 +3,24 @@ section: On the ground
 title: On the ground
 description: The venue, the rooms that matter, getting there, the booth rules, and what to do when something goes wrong.
 eyebrow: Paris Convention Centre · Pavilion 7.3
+section_alt: 現場
+title_alt: 現場
+description_alt: 會場、要去的幾個房間、怎麼到、攤位規定，以及出事時該怎麼做。
+eyebrow_alt: Paris Convention Centre · Pavilion 7.3
 ---
+
+<div data-l="en" markdown="1">
 
 Everything here is operational. The reasoning lives on [the four days](schedule.html) and
 [growth tracks](tracks.html); this page is what you need when you are standing in the hall.
+
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+這一頁只講實際操作。背後的理由寫在[四天行程](schedule.html)和[成長方向](tracks.html)；這一頁是你站在會場裡時需要的東西。
+
+</div>
+<div data-l="en" markdown="1">
 
 ## The venue
 
@@ -35,6 +49,35 @@ Allow fifteen minutes from the hotel door to the hall floor, not twelve.
 **Find Judging Room 3 and the plaza stage on Thursday at badge pickup.** Fifteen judging rooms run
 in parallel and the plazas are stages on the open floor, not rooms with doors.
 
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 會場 {#the-venue}
+
+**Paris Convention Centre，Pavilion 7，3 樓**——1 Place de la Porte de Versailles, 75015 Paris。
+Jamboree 在 11 月 13–16 日舉行，整個比賽都在 Pavilion 7.3：同一層樓裡有十五間評審室、九個舞台、十五個 village，和幾百個攤位。
+
+從 **boulevard Victor 和 boulevard Lefebvre 交叉口**的臨街正門進去。Pavilion 7 在裡面**大約 450 公尺、走路約 8 分鐘**，有一點上坡，有電動步道。從飯店門口到會場地面要抓十五分鐘，不是十二分鐘。
+
+### 我們真正要去的房間 {#rooms-we-actually-need}
+
+| 房間 | 在那裡做什麼 | 時間 |
+|---|---|---|
+| **Judging Room 3** | 我們的評審場次 | 週五 12:00–12:25 |
+| **Fabrication plaza stage** | 我們的團隊演講——*要再確認，見下方* | 週日 14:40–14:50 |
+| **Booth H-17**，Biomanufacturing Village | 我們的攤位，與一支 A 班的隊伍共用 | 週五、週六 |
+| **Main Stage** | 開幕、三場主題演講、四場重點座談、Final Day Show | 四天都有 |
+| **Nucleus** | Responsibility Conference——Chars 週末大部分時間在這裡 | 週五–週日 |
+| **Innovation** | BioInnovation Summit——Timmy 幾乎一直在這裡 | 週五–週日 |
+| **Technology** | iGEM Technology 座談和產業演講 | 週五–週日 |
+| **Community** | 工作坊，包括三人都會參加的 HS PI Roundtable | 週五–週日 |
+| **Plazas** | Environment、Advancements、Fabrication、Healthcare——village 和隊伍的演講 | 週五–週日 |
+
+**週四領識別證時，先找到 Judging Room 3 和 plaza 舞台。**十五間評審室同時進行，而 plaza 是開放樓面上的舞台，不是有門的房間。
+
+</div>
+<div data-l="en" markdown="1">
+
 ## Getting there
 
 - **Nearest stop:** Porte de Versailles – Parc des Expositions, **tram T3a**.
@@ -48,6 +91,21 @@ in parallel and the plazas are stages on the open floor, not rooms with doors.
 **Where we stay:** Courtyard by Marriott, 5 Rue Ernest Renan, Issy-les-Moulineaux — a 12-minute
 walk to Pavilion 7, which is the single best logistical fact of this trip. You can go back to the
 hotel between sessions, and on Monday morning you should.
+
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 怎麼到 {#getting-there}
+
+- **最近的站：**Porte de Versailles – Parc des Expositions，**電車 T3a**。
+- **從 CDG：**搭 RER B 往 Saint-Rémy-lès-Chevreuse 方向到 Cité Universitaire，再轉 T3a 往 Pont du Garigliano 方向。
+- **從 Orly：**搭地鐵 14 號線到 Maison Blanche，走 6 分鐘到 Porte d'Italie，再轉 T3a。
+- **車票：** **Navigo Easy** 卡在任何機場或車站都買得到，€2；單程票每張 €2.55，十張 €25.50。週票 **Navigo Semaine** 是 €32.40，從週一用到週日——我們 11 月 11 日週三抵達，所以只涵蓋部分停留時間。買十張單程票比較簡單。
+
+**住宿：**Courtyard by Marriott，5 Rue Ernest Renan，Issy-les-Moulineaux——走路 12 分鐘到 Pavilion 7，這是這趟行程後勤上最好的一件事。場次之間可以回飯店，週一早上也應該回去。
+
+</div>
+<div data-l="en" markdown="1">
 
 ## The booth
 
@@ -75,6 +133,26 @@ on [the four days](schedule.html); the short version is Gabriel on Friday aftern
 morning, Chars on Saturday afternoon, and Timmy opening the booth with group 1 on Saturday at 08:30.
 The full rota, with who walks past when, is on the [duty roster](duties.html#booth).
 
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 攤位 {#the-booth}
+
+攤位 **H-17**，Biomanufacturing Village，**iGEM B 班**。我們和一支 A 班的隊伍共用三角形攤位的同一面，所以旁邊緊鄰著另一支隊伍，在不同時段使用同一面。
+
+依照隊伍網站，我們的時段是**週五 14:00–18:00** 和**週六 09:00–18:00**。iGEM API 則說 B 班是週五 13:00–17:00、週六 08:00–17:00。**週四要把這件事確認清楚**——見[待解決的問題](schedule.html#open)。
+
+每個攤位的配備都一樣：一塊寫著兩支隊伍和 village 名稱的標準隊伍牌、一台 **55 吋壁掛螢幕（只有畫面、沒有聲音；HDMI 和 USB-C，附線）**、一張 75 × 60 cm 的高腳桌、三張高腳椅，以及三個 **Type C/E、230 V** 插座。
+
+**唯一的規定：牆上什麼都不能貼。**攤位牆上不能貼海報、裝飾、標示、貼紙或布條。螢幕是唯一的展示，在我們的時段內可以隨意使用。
+
+### 老師在攤位做什麼 {#what-an-instructor-does-at-the-booth}
+
+不是由老師來顧攤位。攤位由學生顧；三個大人站在高腳桌旁，就沒有人會走過來了。行程表在每個攤位時段安排**一位老師待命**——人在會場、手機開著、兩分鐘內能趕到——另外兩位可以去聽場次。輪值表在[四天行程](schedule.html)；簡單說，週五下午和週六上午是 Gabriel，週六下午是 Chars，週六 08:30 由 Timmy 和第 1 組一起開攤。完整輪值表，包括誰在什麼時候經過，在[值勤表](duties.html#booth)。
+
+</div>
+<div data-l="en" markdown="1">
+
 ## Photographs
 
 Posters and booths are fine, and teams are usually pleased to be asked. **Ask before photographing
@@ -85,6 +163,18 @@ which is what you came for.
 For each team shoot three frames: the poster wide, the one figure that matters, and something with
 the team name legible. Then the photos label themselves later.
 
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 拍照 {#photographs}
+
+海報和攤位可以拍，隊伍通常也很樂意被問。**拍人之前要先問，拍可能尚未發表的東西之前也要先問**——有些隊伍手上有還沒發表的論文。「可以拍這個嗎？」也是一個開場，能讓你問到機制，而機制正是你來的目的。
+
+每支隊伍拍三張：海報全景、最關鍵的那一張圖，以及一張看得清楚隊名的照片。這樣之後照片自己就有標籤了。
+
+</div>
+<div data-l="en" markdown="1">
+
 ## Practicalities
 
 - **Time:** Paris is **7 hours behind Taipei** in November. Message home before 16:00 Paris time if
@@ -94,6 +184,20 @@ the team name legible. Then the photos label themselves later.
 - **Money:** euro; cards taken almost everywhere.
 - **App:** the official **My iGEM App** holds the badge, the live schedule and — unlike the public
   API — the speaker names and the per-team expo groups. Install it before you fly.
+
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 生活實務 {#practicalities}
+
+- **時差：**11 月的巴黎比**台北慢 7 小時**。想讓家裡的人還醒著看到訊息，請在巴黎時間 16:00 前傳。
+- **天氣：**大約 5–12 °C，常常陰天下毛毛雨，日落約 17:10。
+- **電源：**Type C/E，230 V，50 Hz。
+- **貨幣：**歐元；幾乎到處都能刷卡。
+- **App：**官方的 **My iGEM App** 裡有識別證、即時行程，以及——公開 API 沒有的——講者姓名和各隊的展覽分組。出發前先安裝。
+
+</div>
+<div data-l="en" markdown="1">
 
 ## When something goes wrong
 
@@ -112,3 +216,20 @@ at the end of each day.
 
 The whole system for this — squads, numbers 1 to 30, the three evening checks, location sharing,
 the emergency cards and what to do when — is on the [duty roster](duties.html#q1).
+
+</div>
+<div data-l="zh" data-tr markdown="1">
+
+## 出事的時候 {#when-something-goes-wrong}
+
+**112**——歐洲緊急電話，任何手機都能免費撥打，沒有當地 SIM 卡也能用。**15** 醫療（SAMU）· **17** 警察 · **18** 消防。
+
+**先打給老師。**四位老師的電話號碼會隨隊伍 eSIM 一起開通；開通後放在[學生緊急聯絡頁](https://timmy97-tw.github.io/releaf-jamboree/)，那一頁是唯一的來源——這裡不另外維護一份。
+
+**來自台灣的協助：**駐法國台北代表處，僅限緊急情況，**+33 6 80 07 49 94**。另外也有一支全球免付費的旅外國人急難救助專線。
+
+跟著團體行動。學生不單獨行動，每天結束時，老師要知道每一位學生在哪裡。
+
+這整套制度——小隊、1 到 30 的編號、晚上的三次點名、位置分享、緊急聯絡卡，以及什麼情況該做什麼——都在[值勤表](duties.html#q1)。
+
+</div>

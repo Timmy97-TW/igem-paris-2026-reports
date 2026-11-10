@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+{% assign L0 = page.lang | default: "en" %}<html lang="{% if L0 == "zh" %}zh-Hant{% else %}en{% endif %}" data-orig="{{ L0 }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} · Paris 2026{% endif %}</title>
+<script>try{var _l=localStorage.getItem("paris2026.lang");if(_l==="zh"||_l==="en")document.documentElement.setAttribute("data-lang",_l)}catch(e){}</script>
+<meta name="title-alt" content="{% if page.url == '/' %}{{ site.title_alt | default: site.title }}{% else %}{{ page.title_alt | default: page.title }} · Paris 2026{% endif %}">
 <meta name="description" content="{{ page.description | default: site.description }}">
 <meta name="theme-color" content="#00061C">
 <meta property="og:type" content="website">
@@ -21,19 +23,20 @@
   <div class="nav-in">
     <a class="brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/img/logo.png' | relative_url }}" alt="">
-      <span class="bw"><b>Paris 2026</b><small>Instructors' hub</small></span>
+      <span class="bw"><b>Paris 2026</b><small><span data-l="en">Instructors' hub</span><span data-l="zh" data-tr>帶隊老師</span></small></span>
     </a>
     <button class="menu" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nlinks"><span></span><span></span></button>
     <ul class="nlinks" id="nlinks">
-      <li><a href="{{ '/schedule.html' | relative_url }}">The four days</a></li>
-      <li><a href="{{ '/duties.html' | relative_url }}">分工表</a></li>
-      <li><a href="{{ '/tracks.html' | relative_url }}">Tracks</a></li>
-      <li><a href="{{ '/before.html' | relative_url }}">Before</a></li>
-      <li><a href="{{ '/ground.html' | relative_url }}">On the ground</a></li>
-      <li><a href="{{ '/after.html' | relative_url }}">After</a></li>
-      <li><a href="{{ '/program.html' | relative_url }}">Programme</a></li>
-      <li><a href="{{ '/reports/' | relative_url }}">Reports</a></li>
+      <li><a href="{{ '/schedule.html' | relative_url }}"><span data-l="en">The four days</span><span data-l="zh" data-tr>四天行程</span></a></li>
+      <li><a href="{{ '/duties.html' | relative_url }}"><span data-l="zh">分工表</span><span data-l="en" data-tr>Duty roster</span></a></li>
+      <li><a href="{{ '/tracks.html' | relative_url }}"><span data-l="en">Tracks</span><span data-l="zh" data-tr>成長項目</span></a></li>
+      <li><a href="{{ '/before.html' | relative_url }}"><span data-l="en">Before</span><span data-l="zh" data-tr>出發前</span></a></li>
+      <li><a href="{{ '/ground.html' | relative_url }}"><span data-l="en">On the ground</span><span data-l="zh" data-tr>在巴黎</span></a></li>
+      <li><a href="{{ '/after.html' | relative_url }}"><span data-l="en">After</span><span data-l="zh" data-tr>回台後</span></a></li>
+      <li><a href="{{ '/program.html' | relative_url }}"><span data-l="en">Programme</span><span data-l="zh" data-tr>完整議程</span></a></li>
+      <li><a href="{{ '/reports/' | relative_url }}"><span data-l="en">Reports</span><span data-l="zh" data-tr>報告</span></a></li>
     </ul>
+    <button class="lang" id="lang" type="button" aria-label="切換語言 / Switch language"><span data-k="zh">中</span><span data-k="en">EN</span></button>
   </div>
   <div class="nprog" id="nprog"></div>
 </nav>
@@ -42,18 +45,18 @@
 
 <footer>
   <div class="wrap">
-    <div>GEMS&nbsp;Taiwan · Gabriel, Chars &amp; Timmy · iGEM Grand Jamboree, Paris</div>
+    <div>GEMS&nbsp;Taiwan · Gabriel, Chars &amp; Timmy · <span data-l="en">iGEM Grand Jamboree, Paris</span><span data-l="zh" data-tr>iGEM 巴黎總決賽</span></div>
     <div class="fl">
-      <a href="{{ '/brief.html' | relative_url }}">The brief</a>
-      <a href="{{ '/floor-plan.html' | relative_url }}">Floor plan</a>
-      <a href="{{ '/teams.html' | relative_url }}">452 teams</a>
-      <a href="{{ '/research/' | relative_url }}">Triage</a>
-      <a href="{{ '/notes/' | relative_url }}">Notes</a>
-      <a href="{{ '/research-log.html' | relative_url }}">研究紀錄</a>
-      <a href="{{ '/gaps.html' | relative_url }}">What we missed</a>
-      <a href="{{ '/followups.html' | relative_url }}">Follow-ups</a>
-      <a href="https://timmy97-tw.github.io/releaf-jamboree/">Students' site</a>
-      <a href="https://github.com/Timmy97-TW/igem-paris-2026-reports">Source</a>
+      <a href="{{ '/brief.html' | relative_url }}"><span data-l="en">The brief</span><span data-l="zh" data-tr>任務說明</span></a>
+      <a href="{{ '/floor-plan.html' | relative_url }}"><span data-l="en">Floor plan</span><span data-l="zh" data-tr>攤位地圖</span></a>
+      <a href="{{ '/teams.html' | relative_url }}"><span data-l="en">452 teams</span><span data-l="zh" data-tr>452 支隊伍</span></a>
+      <a href="{{ '/research/' | relative_url }}"><span data-l="en">Triage</span><span data-l="zh" data-tr>隊伍分析</span></a>
+      <a href="{{ '/notes/' | relative_url }}"><span data-l="en">Notes</span><span data-l="zh" data-tr>筆記</span></a>
+      <a href="{{ '/research-log.html' | relative_url }}"><span data-l="zh">研究紀錄</span><span data-l="en" data-tr>Research log</span></a>
+      <a href="{{ '/gaps.html' | relative_url }}"><span data-l="en">What we missed</span><span data-l="zh" data-tr>我們漏掉的</span></a>
+      <a href="{{ '/followups.html' | relative_url }}"><span data-l="en">Follow-ups</span><span data-l="zh" data-tr>後續聯繫</span></a>
+      <a href="https://timmy97-tw.github.io/releaf-jamboree/"><span data-l="en">Students' site</span><span data-l="zh" data-tr>學生網站</span></a>
+      <a href="https://github.com/Timmy97-TW/igem-paris-2026-reports"><span data-l="en">Source</span><span data-l="zh" data-tr>原始碼</span></a>
     </div>
   </div>
 </footer>

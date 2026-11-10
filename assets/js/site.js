@@ -1,3 +1,46 @@
+/* language switch (中 / EN). The choice lives in localStorage on this device only;
+   with nothing stored, each page shows the language it was written in. */
+(function () {
+  var root = document.documentElement, KEY = 'paris2026.lang', btn = document.getElementById('lang');
+  var orig = root.getAttribute('data-orig') || 'en';
+  var titles = { }, alt = document.querySelector('meta[name="title-alt"]');
+  titles[orig] = document.title; titles[orig === 'zh' ? 'en' : 'zh'] = alt ? alt.content : document.title;
+  window.siteLang = function () { return root.getAttribute('data-lang') || orig; };
+  var hidden = function (b) {
+    var L = root.getAttribute('data-lang');
+    return L ? b.getAttribute('data-l') !== L : b.hasAttribute('data-tr');
+  };
+  /* twin blocks repeat ids: only the showing copy keeps them, so anchors land */
+  var fixIds = function () {
+    [].slice.call(document.querySelectorAll('[data-l]')).forEach(function (b) {
+      var off = hidden(b);
+      [b].concat([].slice.call(b.querySelectorAll('[id],[data-id]'))).forEach(function (el) {
+        if (off && el.id) { el.dataset.id = el.id; el.removeAttribute('id'); }
+        else if (!off && el.dataset.id && !el.id) { el.id = el.dataset.id; }
+      });
+    });
+  };
+  var paint = function () {
+    var L = window.siteLang();
+    root.lang = L === 'zh' ? 'zh-Hant' : 'en';
+    document.title = titles[L];
+    if (btn) [].slice.call(btn.querySelectorAll('[data-k]')).forEach(function (s) {
+      s.classList.toggle('on', s.dataset.k === L);
+    });
+    fixIds();
+  };
+  var set = function (L) {
+    root.setAttribute('data-lang', L);
+    try { localStorage.setItem(KEY, L); } catch (e) {}
+    paint();
+    document.dispatchEvent(new CustomEvent('langchange', { detail: { lang: L } }));
+    if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+  };
+  if (btn) btn.addEventListener('click', function () { set(window.siteLang() === 'zh' ? 'en' : 'zh'); });
+  paint();
+  if (location.hash) { var t0 = document.getElementById(location.hash.slice(1)); if (t0) t0.scrollIntoView(); }
+})();
+
 /* nav: mobile menu + scroll progress */
 (function () {
   var menu = document.getElementById('menu'), links = document.getElementById('nlinks');
@@ -31,22 +74,33 @@
   var slug = function (s) {
     return s.toLowerCase().replace(/[^\w一-鿿]+/g, '-').replace(/^-+|-+$/g, '') || 'section';
   };
-  var heads = [].slice.call(prose.querySelectorAll('h2, h3')), seen = {}, made = [];
-  heads.forEach(function (h) {
-    if (!h.id) { var b = slug(h.textContent); seen[b] = (seen[b] || 0) + 1; h.id = seen[b] > 1 ? b + '-' + seen[b] : b; }
-    var a = document.createElement('a');
-    a.href = '#' + h.id; a.textContent = h.textContent;
-    if (h.tagName === 'H3') a.className = 'lv3';
-    toc.appendChild(a); made.push({ a: a, h: h });
+  var seen = {}, made = [];
+  [].slice.call(prose.querySelectorAll('h2, h3')).forEach(function (h) {
+    if (!h.id && !h.dataset.id) { var b = slug(h.textContent); seen[b] = (seen[b] || 0) + 1; h.id = seen[b] > 1 ? b + '-' + seen[b] : b; }
   });
-  if (!made.length) { toc.style.display = 'none'; return; }
-
+  /* rebuilt on every language switch: only headings that are showing */
+  var build = function () {
+    [].slice.call(toc.querySelectorAll('a')).forEach(function (a) { a.remove(); });
+    made = [];
+    [].slice.call(prose.querySelectorAll('h2, h3')).forEach(function (h) {
+      if (!h.id || !h.offsetParent) return;
+      var a = document.createElement('a');
+      a.href = '#' + h.id; a.textContent = h.textContent;
+      if (h.tagName === 'H3') a.className = 'lv3';
+      toc.appendChild(a); made.push({ a: a, h: h });
+    });
+    toc.style.display = made.length ? '' : 'none';
+    sync();
+  };
   var sync = function () {
+    if (!made.length) return;
     var y = window.scrollY + 110, cur = made[0];
     made.forEach(function (m) { if (m.h.offsetTop <= y) cur = m; });
     made.forEach(function (m) { m.a.classList.toggle('on', m === cur); });
   };
-  addEventListener('scroll', sync, { passive: true }); sync();
+  addEventListener('scroll', sync, { passive: true });
+  document.addEventListener('langchange', build);
+  build();
 })();
 
 /* shared: filterable list helper */
