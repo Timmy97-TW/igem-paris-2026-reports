@@ -14,31 +14,28 @@ description_alt: PI、乾實驗。我在巴黎想找什麼，以及我認為我�
 
 *PI, dry lab · GEMS-Taiwan · report to the adviser*
 
-> This is an argument, not a diary. Three of us walked the same Jamboree; the point of three
-> reports is three readings, not three itineraries. Cite the shared notes rather than repeating
-> them.
+> An argument, not a diary. Cite the shared notes rather than repeating them.
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
 *PI、乾實驗 · GEMS-Taiwan · 呈交指導老師的報告*
 
-> 這是一個論證，不是日記。我們三個人走的是同一場 Jamboree；寫三份報告的意義在於三種解讀，
-> 不是三份行程記錄。引用共用的筆記，不要重複筆記的內容。
+> 是論證，不是日記。引用共用的筆記，不要重複筆記的內容。
 
 </div>
 <div data-l="en" markdown="1">
 
 ## What I set out to look for
 
-<!-- Your slice of the floor and why it was yours. -->
+<!-- Your slice of the floor. -->
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
 ## 我出發時想找什麼 {#what-i-set-out-to-look-for}
 
-<!-- 你負責的那一塊會場，以及為什麼由你負責。 -->
+<!-- 你負責的那一塊會場。 -->
 
 </div>
 <div data-l="en" markdown="1">
@@ -65,14 +62,14 @@ description_alt: PI、乾實驗。我在巴黎想找什麼，以及我認為我�
 
 ## What I think we should do differently
 
-<!-- The part the adviser will actually read twice. Ranked, concrete, costed where possible. -->
+<!-- Ranked, concrete, costed where possible. -->
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
 ## 我認為我們該改變什麼 {#what-i-think-we-should-do-differently}
 
-<!-- 指導老師真正會讀兩遍的部分。依優先順序排列、具體，能估成本的就估成本。 -->
+<!-- 依優先順序排列、具體，能估成本的就估成本。 -->
 
 </div>
 <div data-l="en" markdown="1">

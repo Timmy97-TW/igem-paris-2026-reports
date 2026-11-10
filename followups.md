@@ -12,8 +12,7 @@ description_alt: 巴黎之後我們欠誰一封信，以及要問他們什麼。
 
 <div data-l="en" markdown="1">
 
-Who we owe an email, and what to ask. Keep the status current — an unanswered row here six months
-from now is a visit that produced nothing.
+Who we owe an email, and what to ask. Keep the status current.
 
 | Team | Who | What we want | Promised by | Owner | Status |
 |---|---|---|---|---|---|
@@ -22,7 +21,7 @@ from now is a visit that produced nothing.
 </div>
 <div data-l="zh" data-tr markdown="1">
 
-我們欠誰一封信，以及要問什麼。狀態要隨時更新——六個月後這裡還有一列沒有回音，就代表那次拜訪什麼也沒換來。
+我們欠誰一封信，以及要問什麼。狀態要隨時更新。
 
 | 隊伍 | 對象 | 我們想要什麼 | 承諾期限 | 負責人 | 狀態 |
 |---|---|---|---|---|---|

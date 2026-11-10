@@ -12,14 +12,13 @@ description_alt: 各隊怎麼選題，以及他們結合哪些領域，做出一
 
 <div data-l="en" markdown="1">
 
-*Synthesis across teams. Written after the trip, from the notes in `notes/`. Every claim here
-should point at a note; anything with no note behind it does not belong on this page.*
+*Synthesis across teams, written after the trip from the notes in `notes/`. Every claim points
+at a note; no note, no claim.*
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
-*跨隊伍的綜合分析。行程結束後根據 `notes/` 裡的筆記撰寫。這裡的每一個說法都應該指向一則筆記；
-沒有筆記支持的內容不屬於這一頁。*
+*跨隊伍的綜合分析，行程結束後根據 `notes/` 裡的筆記撰寫。每一個說法都指向一則筆記；沒有筆記，就不寫。*
 
 </div>
 <div data-l="en" markdown="1">
@@ -62,14 +61,14 @@ should point at a note; anything with no note behind it does not belong on this 
 
 ## What was crowded, and what nobody was doing
 
-<!-- The empty space on the floor is as informative as the full space. -->
+<!-- Record the empty space as well as the crowded. -->
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
 ## 哪裡擠滿了人，哪裡沒有人做 {#what-was-crowded-and-what-nobody-was-doing}
 
-<!-- 會場上的空白和擁擠一樣有資訊量。 -->
+<!-- 空白和擁擠都要記。 -->
 
 </div>
 <div data-l="en" markdown="1">

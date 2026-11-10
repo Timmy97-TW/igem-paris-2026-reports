@@ -3,7 +3,7 @@ team: <!-- exact team name, as on the poster -->
 team_id: <!-- teams.igem.org id, from data/teams_2026.md -->
 village: <!-- Agriculture, Diagnostics, ... -->
 country:
-author: <!-- Gabriel | Chars | Timmy -->
+author: <!-- Timmy | Chars | Gabriel -->
 when: <!-- 2026-__-__ , morning/afternoon -->
 where: <!-- poster board number, room, or "talk: <session>" -->
 themes: [] # any of C, H, M, S

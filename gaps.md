@@ -12,13 +12,12 @@ description_alt: 三個人面對 452 支隊伍，能涵蓋的範圍有其極限�
 
 <div data-l="en" markdown="1">
 
-463 teams registered. We will have seen a fraction of them. A report that implies otherwise is
-less credible than one that states the limits plainly.
+463 teams registered. We saw a fraction of them. These are the limits.
 
 </div>
 <div data-l="zh" data-tr markdown="1">
 
-共有 463 支隊伍報名。我們只會看到其中一小部分。一份暗示自己看遍全場的報告，比一份直接說明極限的報告更不可信。
+共有 463 支隊伍報名。我們只看到其中一小部分。以下是涵蓋範圍的極限。
 
 </div>
 <div data-l="en" markdown="1">

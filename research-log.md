@@ -3,17 +3,17 @@ layout: doc
 title: 每晚研究紀錄
 eyebrow: 11/12–11/15 · 每晚 22:15
 section: 研究紀錄
-description: 三位老師每晚 45 分鐘研究討論的具體進度，以及 2027 題目從 12 個收到 2 個的過程。Timmy 當晚寫進這一頁，睡前 push。
+description: 三位老師每晚 45 分鐘研究討論的具體進度，以及 2027 題目從 12 個收到 2 個。Timmy 當晚寫進這一頁，睡前 push。
 lang: zh
 title_alt: Nightly research log
 eyebrow_alt: 11/12–11/15 · every night 22:15
 section_alt: Research log
-description_alt: Concrete progress from the three instructors' nightly 45-minute research discussion, and how the 2027 topics narrow from 12 to 2. Timmy writes it into this page the same night and pushes before bed.
+description_alt: Concrete progress from the three instructors' nightly 45-minute research discussion, and the 2027 topics narrowed from 12 to 2. Timmy writes it into this page the same night and pushes before bed.
 ---
 
 <div data-l="zh" markdown="1">
 
-這一頁是[帶隊分工表](duties.html#research)裡「每晚研究討論」的紀錄本。主持輪流：N0 Chars、N1 Gabriel、
+[帶隊分工表](duties.html#research)裡「每晚研究討論」的紀錄本。主持輪流：N0 Chars、N1 Gabriel、
 N2 Chars、N3 Gabriel；2027 題目由 Chars、Gabriel 提出。記錄 Timmy。直接在 GitHub 網頁上編輯這個檔案（`research-log.md`），
 或在本機改完 push。
 
@@ -23,7 +23,7 @@ N2 Chars、N3 Gabriel；2027 題目由 Chars、Gabriel 提出。記錄 Timmy。�
 </div>
 <div data-l="en" data-tr markdown="1">
 
-This page is the notebook for the "nightly research discussion" in the [instructor duties table](duties.html#research). Hosts rotate: N0 Chars, N1 Gabriel,
+Notebook for the "nightly research discussion" in the [instructor duties table](duties.html#research). Hosts rotate: N0 Chars, N1 Gabriel,
 N2 Chars, N3 Gabriel; 2027 topics are proposed by Chars and Gabriel. Notes by Timmy. Edit this file (`research-log.md`) directly on the GitHub website,
 or edit it locally and push.
 
@@ -124,7 +124,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 
 **這一晚要做到：** 加上評審的問題和第一天的場次；每個題目至少一條正面或負面證據；最多 12 個。
 
-- 今天的量：筆記 __ 份（Gabriel __ / Chars __ / Timmy __），隊伍 __ 支，場次 __ 場
+- 今天的量：筆記 __ 份（Timmy __ / Chars __ / Gabriel __），隊伍 __ 支，場次 __ 場
 - 三個機制（每人一個，寫怎麼做，附筆記檔名）
   1. Timmy：
   2. Chars：
@@ -141,7 +141,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 
 **Goal for tonight:** add the judges' questions and the first day's sessions; at least one piece of evidence for or against each topic; 12 topics at most.
 
-- Today's count: __ notes (Gabriel __ / Chars __ / Timmy __), __ teams, __ sessions
+- Today's count: __ notes (Timmy __ / Chars __ / Gabriel __), __ teams, __ sessions
 - Three mechanisms (one each; write how it was done, add the note file name)
   1. Timmy:
   2. Chars:
@@ -159,7 +159,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 
 **這一晚要做到：** 加上攤位日看到的高中隊：哪些題目已經被做爛了、哪些沒有人做；刪到 6 個。
 
-- 今天的量：筆記 __ 份（Gabriel __ / Chars __ / Timmy __），隊伍 __ 支，場次 __ 場；高中隊 __ 支
+- 今天的量：筆記 __ 份（Timmy __ / Chars __ / Gabriel __），隊伍 __ 支，場次 __ 場；高中隊 __ 支
 - 三個機制
   1. Timmy：
   2. Chars：
@@ -177,7 +177,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 
 **Goal for tonight:** add the high-school teams seen on booth day: which topics have been done to death and which nobody is doing; cut to 6.
 
-- Today's count: __ notes (Gabriel __ / Chars __ / Timmy __), __ teams, __ sessions; __ high-school teams
+- Today's count: __ notes (Timmy __ / Chars __ / Gabriel __), __ teams, __ sessions; __ high-school teams
 - Three mechanisms
   1. Timmy:
   2. Chars:
@@ -197,7 +197,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 **這一晚要做到：** 加上學生反思的第 3、5 題；收到 3 個；每個寫一段話、第一個實驗、最大風險、
 回去要寄信問誰。最後決定 11/16 用哪個模式（進決賽 / 沒進）。
 
-- 今天的量：筆記 __ 份（Gabriel __ / Chars __ / Timmy __），隊伍 __ 支，場次 __ 場
+- 今天的量：筆記 __ 份（Timmy __ / Chars __ / Gabriel __），隊伍 __ 支，場次 __ 場
 - 三個機制
   1. Timmy：
   2. Chars：
@@ -236,7 +236,7 @@ containing the bacteria once released, validation on real plants, and measuremen
 **Goal for tonight:** add questions 3 and 5 of the student reflections; narrow to 3; for each, write one paragraph, the first experiment, the biggest risk,
 and whom to email once home. Finally, decide which mode to use on 11/16 (made the finals / did not).
 
-- Today's count: __ notes (Gabriel __ / Chars __ / Timmy __), __ teams, __ sessions
+- Today's count: __ notes (Timmy __ / Chars __ / Gabriel __), __ teams, __ sessions
 - Three mechanisms
   1. Timmy:
   2. Chars:
@@ -276,9 +276,9 @@ and whom to email once home. Finally, decide which mode to use on 11/16 (made th
 沒進決賽的話 11/16 上午寫，進決賽的話 11/17 在飛機上寫。
 
 - 選出的兩個題目與理由：
-- Gabriel 報告骨架（C 新概念與跨領域）：
-- Chars 報告骨架（S 科學為善）：
 - Timmy 報告骨架（H 硬體、M 計算、2027 要改什麼）：
+- Chars 報告骨架（S 科學為善）：
+- Gabriel 報告骨架（C 新概念與跨領域）：
 - 回台後第一週要寄的 follow-up 信（寫進 [Follow-ups](followups.html)）：
 
 </div>
@@ -289,9 +289,9 @@ and whom to email once home. Finally, decide which mode to use on 11/16 (made th
 If we do not make the finals, write this on the morning of 11/16; if we do, write it on the plane on 11/17.
 
 - The two chosen topics and why:
-- Gabriel's report skeleton (C novel concepts & interdisciplinary):
-- Chars's report skeleton (S science for good):
 - Timmy's report skeleton (H hardware, M computation, what changes for 2027):
+- Chars's report skeleton (S science for good):
+- Gabriel's report skeleton (C novel concepts & interdisciplinary):
 - Follow-up emails to send in the first week back in Taiwan (write them into [Follow-ups](followups.html)):
 
 </div>

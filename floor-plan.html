@@ -1,18 +1,18 @@
 ---
 layout: base
 title: Floor plan
-description: The assigned priority targets for Paris, split between Gabriel, Chars and Timmy.
+description: The assigned priority targets for Paris, split between Timmy, Chars and Gabriel.
 title_alt: 攤位分配
-description_alt: 巴黎的優先參觀目標，分給 Gabriel、Chars 和 Timmy。
+description_alt: 巴黎的優先參觀目標，分給 Timmy、Chars 和 Gabriel。
 ---
 <header class="dochead">
   <div class="wrap">
     <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; <span data-l="en">Floor plan</span><span data-l="zh" data-tr>攤位分配</span></div>
     <span class="eyebrow" data-l="en">Before we fly</span><span class="eyebrow" data-l="zh" data-tr>出發前</span>
     <h1 data-l="en">{{ site.data.targets | size }} posters worth our time</h1><h1 data-l="zh" data-tr>{{ site.data.targets | size }} 張值得花時間的海報</h1>
-    <p data-l="en">Pulled out of the four triage documents and split so nobody walks the same aisle twice.
-      Tick a team off once you have written its note — the ticks are saved on this device only.</p>
-    <p data-l="zh" data-tr>從四份篩選文件裡挑出來，再分配好，讓沒有人重複走同一條走道。寫完一隊的筆記就把它勾掉——勾選只存在這台裝置上。</p>
+    <p data-l="en">Split so nobody walks the same aisle twice. Tick a team off once you have written its
+      note; ticks are saved on this device only.</p>
+    <p data-l="zh" data-tr>分配好，沒有人重複走同一條走道。寫完一隊的筆記就勾掉；勾選只存在這台裝置。</p>
   </div>
 </header>
 
@@ -29,9 +29,9 @@ description_alt: 巴黎的優先參觀目標，分給 Gabriel、Chars 和 Timmy�
     </div>
     <div class="seg" id="seg" role="group" aria-label="Filter by person">
       <button type="button" data-f="all" class="on"><span data-l="en">Everyone</span><span data-l="zh" data-tr>所有人</span></button>
-      <button type="button" data-f="Gabriel">Gabriel</button>
-      <button type="button" data-f="Chars">Chars</button>
       <button type="button" data-f="Timmy">Timmy</button>
+      <button type="button" data-f="Chars">Chars</button>
+      <button type="button" data-f="Gabriel">Gabriel</button>
     </div>
     <span class="count" id="count"></span>
   </div>
@@ -54,10 +54,9 @@ description_alt: 巴黎的優先參觀目標，分給 Gabriel、Chars 和 Timmy�
   <p class="empty" id="empty" hidden><span data-l="en">Nothing matches that.</span><span data-l="zh" data-tr>沒有符合的項目。</span></p>
 
   <div class="note" style="margin:30px 0 0">
-    <p data-l="en"><b>This is a reading list, not a verdict.</b> Every line came from a team's own published
-      abstract, read before we saw any of the work. Use it to decide where to stand, then write what
-      you actually find in <a href="{{ '/notes/' | relative_url }}">the notes</a>.</p>
-    <p data-l="zh" data-tr><b>這是閱讀清單，不是評價。</b>每一行都來自隊伍自己公開的摘要，是在看到任何實際成果之前讀的。用它決定要站在哪裡，再把你實際看到的寫進<a href="{{ '/notes/' | relative_url }}">筆記</a>。</p>
+    <p data-l="en"><b>This is a reading list, not a verdict.</b> Every line comes from a team's published
+      abstract. Write what you actually find in <a href="{{ '/notes/' | relative_url }}">the notes</a>.</p>
+    <p data-l="zh" data-tr><b>這是閱讀清單，不是評價。</b>每一行都來自隊伍公開的摘要。把你實際看到的寫進<a href="{{ '/notes/' | relative_url }}">筆記</a>。</p>
   </div>
 </main>
 

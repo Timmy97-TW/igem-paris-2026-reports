@@ -1,9 +1,9 @@
 ---
 layout: base
 title: Growth tracks
-description: The eight capabilities GEMS is trying to accumulate, what we already have, what we need from Paris, and which official sessions feed each one.
+description: The eight capabilities GEMS is building, what we already have, what we need from Paris, and which official sessions feed each one.
 title_alt: 成長項目
-description_alt: GEMS 想累積的八項能力：我們已經有什麼、需要從巴黎帶回什麼，以及哪些官方場次對應每一項。
+description_alt: GEMS 要累積的八項能力：已經有什麼、需要從巴黎帶回什麼，以及每一項對應哪些官方場次。
 ---
 {% assign J = site.data.jamboree %}
 <header class="dochead">
@@ -11,33 +11,32 @@ description_alt: GEMS 想累積的八項能力：我們已經有什麼、需要�
     <div class="crumb"><a href="{{ '/' | relative_url }}">Paris 2026</a> &rsaquo; <span data-l="en">Growth tracks</span><span data-l="zh" data-tr>成長項目</span></div>
     <span class="eyebrow" data-l="en">Why we are going · the institutional case</span><span class="eyebrow" data-l="zh" data-tr>為什麼要去 · 對機構的意義</span>
     <h1 data-l="en">Eight capabilities, not four days</h1><h1 data-l="zh" data-tr>八項能力，不是四天行程</h1>
-    <p data-l="en">A Jamboree report that only describes this year's project is worth one year. These are the
-      eight things GEMS is trying to accumulate as a research institution — each with what we
-      already have, the specific thing we are missing, and the official sessions that answer it.</p>
-    <p data-l="zh" data-tr>一份只描述今年專題的 Jamboree 報告，只值一年。以下是 GEMS 作為研究機構想累積的八件事——每一項都寫出我們已經有什麼、具體缺什麼，以及哪些官方場次能回答它。</p>
+    <p data-l="en">The eight things GEMS is building as a research institution: what we already have, what we
+      are missing, and the official sessions that answer it.</p>
+    <p data-l="zh" data-tr>GEMS 作為研究機構要累積的八件事：已經有什麼、缺什麼，以及哪些官方場次能回答。</p>
   </div>
 </header>
 
 <main class="wrap" style="padding-top:34px">
 
   <div class="note" style="margin:0 0 30px">
-    <p data-l="en"><b>Read this as the brief behind the schedule.</b> Every official session we attend is tagged
-      with one of these eight. Where a track has only two or three sessions against it, that is the
-      honest picture: the programme has little to say about it, and the gap is itself a finding for
-      next year's plan.</p>
-    <p data-l="zh" data-tr><b>把這頁當成行程背後的任務說明來讀。</b>我們參加的每一場官方場次，都標上這八項之一。某一項只對到兩三場時，那就是實際情況：議程對它沒什麼可說，而這個缺口本身就是明年計畫的一項發現。</p>
+    <p data-l="en">Every official session we attend is tagged with one of these eight. A track with only two or
+      three sessions is a gap; record it for next year's plan.</p>
+    <p data-l="zh" data-tr>我們參加的每一場官方場次都標上這八項之一。只對到兩三場的項目就是缺口，記進明年的計畫。</p>
   </div>
 
   <div class="stats">
     <div class="stat"><b class="tw">8</b><span data-l="en">capability tracks</span><span data-l="zh" data-tr>項能力</span></div>
     <div class="stat"><b class="tw">{{ J.official_planned }}</b><span data-l="en">official sessions mapped onto them</span><span data-l="zh" data-tr>場官方場次對應到這些項目</span></div>
-    <div class="stat"><b class="tw">{{ J.official_dropped }}</b><span data-l="en">considered and given up</span><span data-l="zh" data-tr>場考慮過但放棄</span></div>
-    <div class="stat"><b class="tw">{{ J.official_total }}</b><span data-l="en">in the programme, all accounted for</span><span data-l="zh" data-tr>場是議程全部，每一場都有交代</span></div>
+    <div class="stat"><b class="tw">{{ J.official_dropped }}</b><span data-l="en">dropped</span><span data-l="zh" data-tr>場放棄</span></div>
+    <div class="stat"><b class="tw">{{ J.official_total }}</b><span data-l="en">in the programme</span><span data-l="zh" data-tr>場是議程全部</span></div>
   </div>
 
+  {% assign ORD = "All,Timmy,Chars,Gabriel" | split: "," %}
   {% for t in J.tracks %}
+  {% assign whos = "" %}{% for p in ORD %}{% if t.who contains p %}{% if whos != "" %}{% assign whos = whos | append: ", " %}{% endif %}{% assign whos = whos | append: p %}{% endif %}{% endfor %}
   <section class="s" id="{{ t.id }}" style="padding:40px 0 0;border-top:1px solid var(--line);margin-top:34px">
-    <span class="eyebrow" data-l="en">{{ t.id }} · {{ t.n }} session{% if t.n != 1 %}s{% endif %}{% if t.who.size > 0 %} · {{ t.who | join: ", " }}{% endif %}</span><span class="eyebrow" data-l="zh" data-tr>{{ t.id }} · {{ t.n }} 場{% if t.who.size > 0 %} · {{ t.who | join: ", " }}{% endif %}</span>
+    <span class="eyebrow" data-l="en">{{ t.id }} · {{ t.n }} session{% if t.n != 1 %}s{% endif %}{% if whos != "" %} · {{ whos }}{% endif %}</span><span class="eyebrow" data-l="zh" data-tr>{{ t.id }} · {{ t.n }} 場{% if whos != "" %} · {{ whos }}{% endif %}</span>
     <h2>{{ t.name }}</h2>
     <p class="sub">{{ t.line }}</p>
 
@@ -68,9 +67,9 @@ description_alt: GEMS 想累積的八項能力：我們已經有什麼、需要�
     </div>
     {% else %}
     <div class="note" style="margin-top:18px">
-      <p data-l="en">Nothing in the official programme feeds this track. That is the finding: if GEMS wants this
-        capability it comes from somewhere other than a Jamboree session.</p>
-      <p data-l="zh" data-tr>官方議程裡沒有任何場次對應這一項。這就是發現：GEMS 如果想要這項能力，得從 Jamboree 場次以外的地方取得。</p>
+      <p data-l="en">No official session feeds this track. GEMS has to get this capability outside the Jamboree
+        sessions.</p>
+      <p data-l="zh" data-tr>官方議程沒有任何場次對應這一項。GEMS 要從 Jamboree 場次以外取得這項能力。</p>
     </div>
     {% endif %}
   </section>
@@ -79,34 +78,31 @@ description_alt: GEMS 想累積的八項能力：我們已經有什麼、需要�
   <section class="s" style="padding:48px 0 20px;border-top:1px solid var(--line);margin-top:34px">
     <span class="eyebrow" data-l="en">How to use this after Paris</span><span class="eyebrow" data-l="zh" data-tr>回來之後怎麼用</span>
     <h2 data-l="en">Three questions per track, in each report.</h2><h2 data-l="zh" data-tr>每份報告，每一項回答三個問題。</h2>
-    <p class="sub" data-l="en">The point of the tracks is that three reports written from them combine into one
-      institutional document instead of three travelogues. For each track you covered, answer:</p>
-    <p class="sub" data-l="zh" data-tr>這些項目的用意是：照著它們寫出的三份報告，能合併成一份機構文件，而不是三篇遊記。你負責的每一項，都回答：</p>
+    <p class="sub" data-l="en">The three reports combine into one institutional document. For each track you
+      covered, answer:</p>
+    <p class="sub" data-l="zh" data-tr>三份報告會合併成一份機構文件。你負責的每一項，都回答：</p>
     <div class="grid g3" data-l="en">
       <div class="card"><span class="n">01</span><h3>What is the state of the art?</h3>
-        <p>Not who impressed you. What is the thing a well-funded group does here that we do not,
-          and what does it cost them.</p></div>
+        <p>What a well-funded group does here that we do not, and what it costs them.</p></div>
       <div class="card"><span class="n">02</span><h3>What is our actual gap?</h3>
-        <p>Named against our own numbers. "Our calibration is single-point" is a gap; "we should
-          improve measurement" is not.</p></div>
+        <p>Named against our own numbers: "our calibration is single-point", not "we should
+          improve measurement".</p></div>
       <div class="card"><span class="n">03</span><h3>What would close it in one cycle?</h3>
-        <p>One experiment, one tool, one change to how a student is taught. If it needs three
-          years, it belongs in a different document.</p></div>
+        <p>One experiment, one tool, or one change to how a student is taught. Three-year fixes go
+          in a different document.</p></div>
     </div>
     <div class="grid g3" data-l="zh" data-tr>
       <div class="card"><span class="n">01</span><h3>目前最好的做法是什麼？</h3>
-        <p>不是誰讓你印象深刻。而是資源充足的團隊在這一項做了什麼我們沒做的事，以及那要花他們多少成本。</p></div>
+        <p>資源充足的團隊在這一項做了什麼我們沒做的事，以及要花他們多少成本。</p></div>
       <div class="card"><span class="n">02</span><h3>我們實際的差距是什麼？</h3>
-        <p>用我們自己的數字講出來。「我們的校正只有單點」是差距；「我們應該改進量測」不是。</p></div>
+        <p>用我們自己的數字講：「我們的校正只有單點」，而不是「我們應該改進量測」。</p></div>
       <div class="card"><span class="n">03</span><h3>一個週期內怎麼補上？</h3>
-        <p>一個實驗、一個工具、一項教學生方式的改變。如果需要三年，那屬於另一份文件。</p></div>
+        <p>一個實驗、一個工具，或一項教學生方式的改變。需要三年的，寫進另一份文件。</p></div>
     </div>
     <div class="note" style="margin-top:26px">
-      <p data-l="en"><b>The tracks are a hypothesis, not a result.</b> They were written before the trip from what
-        GEMS already has on record. If Paris shows that a track is the wrong unit — too wide, too
-        narrow, or not the thing holding us back — say so in the report. A brief that survives
-        contact with four days of evidence unchanged was probably not specific enough.</p>
-      <p data-l="zh" data-tr><b>這些項目是假設，不是結果。</b>它們是出發前根據 GEMS 現有紀錄寫的。如果巴黎讓你看到某一項的切法不對——太寬、太窄，或根本不是卡住我們的東西——就在報告裡寫出來。一份經過四天實證還完全不用改的任務說明，大概寫得不夠具體。</p>
+      <p data-l="en"><b>The tracks are a hypothesis.</b> If Paris shows a track is the wrong unit — too wide,
+        too narrow, or not what holds us back — say so in the report.</p>
+      <p data-l="zh" data-tr><b>這些項目是假設。</b>如果巴黎讓你看到某一項切法不對——太寬、太窄，或不是卡住我們的東西——就在報告裡寫出來。</p>
     </div>
   </section>
 
